@@ -1,0 +1,193 @@
+{
+    "common": {
+        "menu": "Menu",
+        "close": "Đóng",
+        "back": "Quay lại",
+        "backToMenu": "Quay lại Menu",
+        "viewAll": "Xem tất cả",
+        "bookNow": "Đặt ngay"
+    },
+    "languages": {
+        "english": "Tiếng Anh",
+        "vietnamese": "Tiếng Việt",
+        "korean": "Tiếng Hàn"
+    },
+    "header": {
+        "navigation": {
+            "stay": "Lưu Trú",
+            "rewards": "Ưu Đãi",
+            "aboutUs": "Về Chúng Tôi"
+        },
+        "stay": {
+            "title": "Phòng & Suite",
+            "letsVipCollection": "Bộ Sưu Tập VIP",
+            "paizaCollection": "Bộ Sưu Tập Paiza",
+            "onlineExclusive": {
+                "title": "Độc Quyền Online",
+                "stayPackages": "Gói Lưu Trú"
+            },
+            "experiences": {
+                "title": "Trải Nghiệm",
+                "skypark": "Đài Quan Sát SkyPark",
+                "infinityPool": "Hồ Bơi Vô Cực SkyPark",
+                "guestPrivileges": "Đặc Quyền Khách Hàng"
+            }
+        },
+        "rewards": {
+            "sandsLifestyle": "Sands LifeStyle",
+            "membershipTiers": "Cấp Độ Thành Viên",
+            "memberPerks": "Ưu Đãi Thành Viên",
+            "alliancePrivileges": "Đặc Quyền Liên Minh Sands",
+            "viewAllOutlets": "Xem Tất Cả Cơ Sở"
+        }
+    },
+    "home": {
+        "hero": {
+            "title": "TRẢI NGHIỆM CASINO LET'S WIN CLUB"
+        },
+        "hoTram": {
+            "title": "PHÒNG VIP TẠI CASINO HỒ TRÀM",
+            "description": "Tọa lạc tại một trong những sòng bạc lớn nhất và nổi tiếng nhất Việt Nam, Let's Win VIP Lounge tại Hồ Tràm mang đến trải nghiệm độc quyền, dành riêng cho các thành viên danh giá.",
+            "features": {
+                "environment": "Môi trường riêng tư và cao cấp, được thiết kế với nội thất sang trọng và tiện nghi đẳng cấp.",
+                "services": "Dịch vụ cá nhân hóa, bao gồm quản gia riêng, thực đơn ẩm thực độc quyền và hỗ trợ 24/7.",
+                "privacy": "Bảo mật và riêng tư tối đa, đảm bảo sự thoải mái và yên tâm cho khách VIP."
+            }
+        },
+        "daNang": {
+            "title": "CÂU LẠC BỘ POKER TẠI ĐÀ NẴNG",
+            "description": "Là điểm đến hoàn hảo cho những người yêu thích poker, Let's Win Club tại Đà Nẵng tổ chức các giải đấu poker chuyên nghiệp trong không gian sang trọng và đẳng cấp.",
+            "features": {
+                "rooms": {
+                    "title": "Phòng Poker riêng tư",
+                    "description": ", với lối chơi đẳng cấp thế giới và cược giá trị cao."
+                },
+                "services": {
+                    "title": "Dịch vụ VIP",
+                    "description": " được thiết kế riêng cho khách hàng cao cấp, đảm bảo trải nghiệm tối ưu."
+                },
+                "lounge": {
+                    "title": "Khu vực lounge sang trọng",
+                    "description": ", phục vụ cocktail cao cấp và rượu thượng hạng, tạo không gian tinh tế và thư giãn cho người chơi."
+                }
+            }
+        },
+        "hoiana": {
+            "title": "PHÒNG VIP TẠI HOIANA CASINO",
+            "description": "Tọa lạc trong khu nghỉ dưỡng đẳng cấp quốc tế, Let's Win VIP tại Hoiana mang đến không gian đẳng cấp, kết hợp giữa giải trí xa hoa và sự tinh tế của giới thượng lưu.",
+            "features": {
+                "rooms": {
+                    "title": "Phòng VIP độc quyền",
+                    "description": ", được thiết kế với phong cách sang trọng và đẳng cấp."
+                },
+                "services": {
+                    "title": "Dịch vụ VIP cao cấp",
+                    "description": ", bao gồm đưa đón bằng xe limousine, hỗ trợ cá nhân và lưu trú 5 sao."
+                },
+                "rewards": {
+                    "title": "Ưu đãi độc quyền",
+                    "description": " dành cho thành viên Let's Win, với quà tặng cao cấp và chương trình khách hàng thân thiết hấp dẫn."
+                }
+            }
+        },
+        "rewardsClub": {
+            "title": "Đặc Quyền Độc Quyền Với Câu Lạc Bộ Thưởng Let's VIP",
+            "subtitle": "Đăng ký để tích điểm khi chơi",
+            "description": "Là thành viên Sands Rewards Club, bạn tích lũy Điểm Sands và Đô-la Sands khi chơi tại Casino. Bạn có thể đăng ký tại bất kỳ quầy Sands Rewards Club nào đặt tại:",
+            "locations": {
+                "b2m": "B2M",
+                "level1": "Tầng 1",
+                "level2Ruby": "Tầng 2 Lối vào Bàn chơi Ruby",
+                "level2RubySlots": "Tầng 2 Lối vào Máy đánh bạc Ruby",
+                "level2Apex": "Tầng 2 Lối vào Apex Grand"
+            }
+        },
+        "vipClub": {
+            "title": "GIỚI THIỆU LET'S WIN VIP CLUB",
+            "description": "Let's Win VIP Club là hệ thống phòng VIP độc quyền, mang đến trải nghiệm chơi game sang trọng dành riêng cho giới tinh hoa. Với không gian riêng tư tinh tế và dịch vụ độc quyền, Let's Win VIP Club khẳng định vị thế là điểm đến hàng đầu cho những ai tìm kiếm trải nghiệm đẳng cấp tại các sòng bạc danh tiếng nhất Việt Nam."
+        },
+        "buttons": {
+            "contact": "Liên hệ ngay",
+            "book": "Đặt ngay",
+            "viewDetails": "Xem chi tiết"
+        }
+    },
+    "footer": {
+        "getToKnow": {
+            "title": "Tìm hiểu về chúng tôi",
+            "companyInfo": "Thông tin công ty",
+            "careers": "Cơ hội nghề nghiệp",
+            "faq": "Câu hỏi thường gặp",
+            "contactUs": "Liên hệ",
+            "awards": "Giải thưởng & Thành tựu"
+        },
+        "usefulInfo": {
+            "title": "Thông tin hữu ích",
+            "travelGuide": "Hướng dẫn du lịch",
+            "planVisit": "Lên kế hoạch thăm quan",
+            "gettingHere": "Cách đến đây",
+            "services": "Dịch vụ & tiện ích",
+            "packages": "Gói khách sạn & chuyến bay"
+        },
+        "downloadApp": {
+            "title": "Tải ứng dụng của chúng tôi"
+        },
+        "social": {
+            "title": "Kết nối với chúng tôi"
+        },
+        "getInspired": {
+            "title": "Khám phá ngay",
+            "subtitle": "Đặt chỗ & Liên hệ nhanh",
+            "bookNow": "Đặt ngay"
+        },
+        "copyright": "© 2025 Let's Win Club. Bảo lưu mọi quyền."
+    },
+    "about": {
+        "title": "Lời giới thiệu",
+        "subtitle": "Giới thiệu về Let's Win VIP Club",
+        "introduction": "Chào mừng bạn đến với Let's Win VIP Club – điểm đến dành riêng cho những ai tìm kiếm trải nghiệm giải trí đỉnh cao và dịch vụ thượng lưu. Với không gian sang trọng, dịch vụ chuyên nghiệp và các trò chơi đẳng cấp, chúng tôi cam kết mang lại những khoảnh khắc khó quên cho từng vị khách.",
+        "experience": {
+            "title": "Tại Let's Win VIP Club, bạn sẽ được tận hưởng:",
+            "hoTram": {
+                "title": "• Sảnh VIP tại Hồ Tràm Casino: ",
+                "description": "Không gian riêng tư với các trò chơi dành riêng cho khách VIP, mang lại sự thoải mái và đẳng cấp."
+            },
+            "hoiana": {
+                "title": "• Khu VIP tại Hoiana: ",
+                "description": "Thiết kế tinh tế cùng dịch vụ cá nhân hóa, mang đến trải nghiệm độc đáo và sang trọng."
+            },
+            "danang": {
+                "title": "• Club Poker tại khách sạn Danaciti: ",
+                "description": "Điểm hẹn lý tưởng cho những người yêu thích Poker, với các giải đấu chuyên nghiệp và bàn chơi cao cấp."
+            }
+        },
+        "service": "Đặc biệt, chúng tôi cung cấp dịch vụ chăm sóc khách hàng 24/7 qua hotline trực tiếp, sẵn sàng hỗ trợ và đáp ứng mọi nhu cầu của bạn.",
+        "invitation": "Hãy gia nhập cộng đồng thượng lưu tại Let's Win VIP Club – nơi hội tụ của những trải nghiệm đỉnh cao và những khoảnh khắc chiến thắng!",
+        "whyChoose": {
+            "title": "TẠI SAO CHỌN LET'S WIN VIP CLUB?",
+            "features": {
+                "spaces": "✔ Không gian VIP độc quyền với nội thất sang trọng, đảm bảo sự thoải mái tuyệt đối.",
+                "services": "✔ Dịch vụ cá nhân hóa, với đội ngũ chuyên nghiệp hỗ trợ 24/7.",
+                "rewards": "✔ Ưu đãi độc quyền & quà tặng cao cấp, dành riêng cho thành viên Let's Win VIP.",
+                "privacy": "✔ Bảo mật và riêng tư hàng đầu, đảm bảo trải nghiệm giải trí an toàn và sang trọng."
+            }
+        },
+        "join": "Tham gia Let's Win VIP Club ngay hôm nay và trải nghiệm đẳng cấp xa hoa không giới hạn!",
+        "contact": "📞 Hotline Chăm sóc Khách hàng VIP (24/7): [Số điện thoại]"
+    },
+    "contact": {
+        "title": "Đặt chỗ & Liên hệ nhanh",
+        "stage1": {
+            "title": "TRẢI NGHIỆM ĐẲNG CẤP",
+            "description": "Hãy là người đầu tiên khám phá những ưu đãi độc quyền, sự kiện sắp tới và những trải nghiệm tuyệt vời nhất tại Let's Win Club.",
+            "fullName": "Họ và tên",
+            "phoneNumber": "Số điện thoại",
+            "submit": "Gửi"
+        },
+        "stage2": {
+            "title": "Cảm ơn bạn đã đăng ký nhận bản tin.",
+            "description": "Hãy chờ đón những nội dung được tuyển chọn kỹ lưỡng, thể hiện tình yêu của chúng tôi dành cho những điều phi thường.",
+            "backToHome": "Quay lại trang chủ"
+        }
+    }
+}

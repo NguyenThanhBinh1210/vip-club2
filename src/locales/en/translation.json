@@ -1,0 +1,194 @@
+{
+  "common": {
+    "menu": "Menu",
+    "close": "Close",
+    "back": "Back",
+    "backToMenu": "Back to Menu",
+    "viewAll": "View All",
+    "bookNow": "Book Now"
+  },
+  "languages": {
+    "english": "English",
+    "vietnamese": "Vietnamese",
+    "korean": "Korean"
+  },
+  "header": {
+    "navigation": {
+      "stay": "Stay",
+      "rewards": "Rewards",
+      "aboutUs": "About Us"
+    },
+    "stay": {
+      "title": "Rooms & Suites",
+      "letsVipCollection": "Let's Vip Collection",
+      "paizaCollection": "The Paiza Collection",
+      "onlineExclusive": {
+        "title": "Online Exclusive",
+        "stayPackages": "Stay Packages"
+      },
+      "experiences": {
+        "title": "Experiences",
+        "skypark": "SkyPark Observation Deck",
+        "infinityPool": "SkyPark Infinity Pool",
+        "guestPrivileges": "Guest Privileges"
+      }
+    },
+    "rewards": {
+      "sandsLifestyle": "Sands LifeStyle",
+      "membershipTiers": "Membership Tiers",
+      "memberPerks": "Member Perks",
+      "alliancePrivileges": "Sands Alliance Privileges",
+      "viewAllOutlets": "View all Sands Outlets"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "EXPERIENCE THE LET'S WIN CLUB CASINO"
+    },
+    "hoTram": {
+      "title": "VIP LOUNGE AT HO TRAM CASINO",
+      "description": "Located in one of Vietnam's largest and most renowned casinos, Let's Win VIP Lounge at Ho Tram delivers an exclusive experience, reserved only for our distinguished members.",
+      "features": {
+        "environment": "Private and elite environment, designed with luxurious interiors and top-tier amenities.",
+        "services": "Personalized services, including dedicated butlers, exclusive dining menus, and 24/7 assistance.",
+        "privacy": "Ultimate privacy and security, ensuring maximum comfort and peace of mind for VIP guests."
+      }
+    },
+    "daNang": {
+      "title": "POKER CLUB IN DA NANG",
+      "description": "A perfect destination for poker enthusiasts, Let's Win Club in Da Nang hosts professional poker tournaments in a prestigious and high-class setting.",
+      "features": {
+        "rooms": {
+          "title": "Private Poker rooms",
+          "description": ", featuring world-class gameplay with high-stakes betting."
+        },
+        "services": {
+          "title": "VIP services",
+          "description": " tailored for esteemed guests, ensuring an optimal experience."
+        },
+        "lounge": {
+          "title": "Luxurious lounge area",
+          "description": ", serving premium cocktails and fine liquor, creating a refined and relaxing environment for players."
+        }
+      }
+    },
+    "hoiana": {
+      "title": "VIP LOUNGE AT HOIANA CASINO",
+      "description": "Situated in an internationally renowned resort, Let's Win VIP at Hoiana offers an exceptional atmosphere, combining luxurious entertainment with elite-class sophistication.",
+      "features": {
+        "rooms": {
+          "title": "Exclusive VIP rooms",
+          "description": ", designed with a lavish and opulent touch."
+        },
+        "services": {
+          "title": "Premium VIP services",
+          "description": ", including limousine transfers, personalized assistance, and five-star accommodations."
+        },
+        "rewards": {
+          "title": "Exclusive rewards",
+          "description": " for Let's Win members, featuring luxury gifts and an attractive loyalty program."
+        }
+      }
+    },
+    "rewardsClub": {
+      "title": "Exclusive Benefits With Let's Vip Rewards Club",
+      "subtitle": "Sign up to earn as you play",
+      "description": "As a Sands Rewards Club member, you earn Sands Points and Sands Dollars on your Casino play. You may sign up at any Sands Rewards Club Counter located at:",
+      "locations": {
+        "b2m": "B2M",
+        "level1": "Level 1",
+        "level2Ruby": "Level 2 Ruby Table Games Entrance",
+        "level2RubySlots": "Level 2 Ruby Slots Entrance",
+        "level2Apex": "Level 2 Apex Grand Entrance"
+      }
+    },
+    "vipClub": {
+      "title": "INTRODUCING LET'S WIN VIP CLUB",
+      "description": "Let's Win VIP Club is an exclusive system of VIP rooms, offering a luxurious gaming experience tailored for the elite. With sophisticated, private spaces and exclusive services, Let's Win VIP Club asserts itself as the premier destination for those seeking a high-end experience at Vietnam's most prestigious casinos."
+    },
+    
+    "buttons": {
+      "contact": "Contact us",
+      "book": "Book now",
+      "viewDetails": "View details"
+    }
+  },
+  "footer": {
+    "getToKnow": {
+      "title": "Get to know us",
+      "companyInfo": "Company information",
+      "careers": "Careers",
+      "faq": "FAQ",
+      "contactUs": "Contact us",
+      "awards": "Awards & Accolades"
+    },
+    "usefulInfo": {
+      "title": "Useful information",
+      "travelGuide": "Travel guide",
+      "planVisit": "Plan your visit",
+      "gettingHere": "Getting here",
+      "services": "Services & amenities",
+      "packages": "Hotel & flight packages"
+    },
+    "downloadApp": {
+      "title": "Download our app"
+    },
+    "social": {
+      "title": "Connect with us"
+    },
+    "getInspired": {
+      "title": "Get inspired",
+      "subtitle": "Quick Booking & Contact",
+      "bookNow": "Book Now"
+    },
+    "copyright": "© 2025 Let's Win Club. All Rights Reserved."
+  },
+  "about": {
+    "title": "Introduction",
+    "subtitle": "About Let's Win VIP Club",
+    "introduction": "Welcome to Let's Win VIP Club – an exclusive destination for those seeking premium entertainment and luxury services. With elegant spaces, professional services, and world-class games, we are committed to delivering unforgettable moments for every guest.",
+    "experience": {
+      "title": "At Let's Win VIP Club, you will enjoy:",
+      "hoTram": {
+        "title": "• VIP Lounge at Ho Tram Casino: ",
+        "description": "Private space with exclusive games for VIP guests, providing comfort and class."
+      },
+      "hoiana": {
+        "title": "• VIP Area at Hoiana: ",
+        "description": "Sophisticated design with personalized service, delivering unique and luxurious experiences."
+      },
+      "danang": {
+        "title": "• Poker Club at Danaciti Hotel: ",
+        "description": "The ideal destination for poker enthusiasts, featuring professional tournaments and premium tables."
+      }
+    },
+    "service": "Notably, we provide 24/7 customer service via direct hotline, ready to support and meet all your needs.",
+    "invitation": "Join the elite community at Let's Win VIP Club – where premium experiences and winning moments come together!",
+    "whyChoose": {
+      "title": "WHY CHOOSE LET'S WIN VIP CLUB?",
+      "features": {
+        "spaces": "✔ Exclusive VIP spaces with lavish interiors, ensuring absolute comfort.",
+        "services": "✔ Personalized services, with a dedicated professional team providing 24/7 support.",
+        "rewards": "✔ Exclusive rewards & luxury gifts, reserved for Let's Win VIP members.",
+        "privacy": "✔ Top-tier privacy and security, guaranteeing a safe and luxurious entertainment experience."
+      }
+    },
+    "join": "Join Let's Win VIP Club today and indulge in an unmatched luxury experience!",
+    "contact": "📞 VIP Customer Service Hotline (24/7): [Phone Number]"
+  },
+  "contact": {
+    "title": "Quick Booking & Contact",
+    "stage1": {
+      "title": "ENTER ABOVE BEYOND",
+      "description": "Be the first to discover a curation of exclusive offers, upcoming events and indulgences at its finest at Let's Win Club.",
+      "fullName": "Full Name",
+      "phoneNumber": "Phone Number",
+      "submit": "Submit"
+    },
+    "stage2": {
+      "title": "Thank you for subscribing to our newsletter.",
+      "description": "Look forward to a thoughtful curation of content that showcases our love for everything extraordinary.",
+      "backToHome": "Back to home page"
+    }
+  }
+}
