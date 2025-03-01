@@ -2,8 +2,10 @@ import bannerPC from '~/assets/restaurants-landing-masthead-desktop-1920x823.avi
 import bannerMobile from '~/assets/restaurants-landing-masthead-mobile-1080x1440.webp'
 import { Slider } from '../Stay/SkyparkObservationDeck'
 import bannerLandingModule1 from '~/assets/casino-landing-module-1-1920x1080.avif'
+import { useTranslation } from 'react-i18next'
 
 const FineDining = () => {
+  const { t } = useTranslation()
   const dataSlide2 = [1, 2, 3, 4, 5]
   const dataSlide4 = [1, 2, 3, 4, 5]
   return (
@@ -24,11 +26,10 @@ const FineDining = () => {
       </div>
       <div className='pt-[160px] pb-10'>
         <div className='max-w-[888px] mx-auto px-[33px] lg:px-0'>
-          <h1 className='uppercase text-[40px] text-center mb-10'>Fine Dining Restaurants</h1>
+          <h1 className='uppercase text-[40px] text-center mb-10'>{t('fineDining.title')}</h1>
 
           <p className='text-center text-[16px] mb-4'>
-            Discover the culinary arts at these fine dining restaurants in Singapore, Let’s Win Club. Unravel layers
-            of exquisite flavors from the finest ingredients, brought to life by exceptional expertise.
+            {t('fineDining.description')}
           </p>
         </div>
       </div>
@@ -37,31 +38,29 @@ const FineDining = () => {
         tag={true}
         button2={true}
         dataSlide={dataSlide2}
-        title='Romantic Restaurants'
-        description='Transform any evening into a memorable occasion with the intimate ambience at these romantic restaurants. Perfect for celebrating anniversaries, engagements or simply savouring a special date night. '
-        buttonTitle='View restaurants'
+        title={t('fineDining.romanticRestaurants.title')}
+        description={t('fineDining.romanticRestaurants.description')}
+        buttonTitle={t('fineDining.viewRestaurants')}
       ></Slider>
 
       <Slider
         tag={true}
         button2={true}
         dataSlide={dataSlide4}
-        title='Special Occasions'
-        description='Commemorate lifes most precious moments and add a dash of elegance to any occasion at these immaculate restaurants. Elevate your birthday bash to new heights with refined culinary creations.'
-        buttonTitle='View restaurants'
+        title={t('fineDining.specialOccasions.title')}
+        description={t('fineDining.specialOccasions.description')}
+        buttonTitle={t('fineDining.viewRestaurants')}
       ></Slider>
       <div className='py-20'>
         <div className='pl-4 2xl:pl-[180px] lg:pl-[110px] lg:grid grid-cols-7 lg:gap-10'>
           <div className='lg:col-span-2'>
-            <h2 className='text-[25px] uppercase lg:text-[32px]'>Discover the Shoppes</h2>
+            <h2 className='text-[25px] uppercase lg:text-[32px]'>{t('fineDining.shoppes.title')}</h2>
             <div className='hidden lg:block'>
               <p className='text-[15px] mt-4 mb-8 text-[#333333]'>
-                With an impressive selection of over 170 designer labels and luxury boutiques, your search for the finer things ends here. Spoil yourself with a captivating accessory to add some sparkle to your day, or find the perfect gift for that special someone.
-
-
+                {t('fineDining.shoppes.description')}
               </p>
-              <button className='uppercase text-[15px]  pt-3 pb-2.5 px-4  absolute hover:opacity-60  group transition-all duration-300'>
-                View shops
+              <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
+                {t('fineDining.viewShops')}
                 <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
               </button>
             </div>

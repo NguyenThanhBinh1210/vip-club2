@@ -2,8 +2,11 @@ import bannerPC from '~/assets/packages-landing-d.avif'
 import bannerMobile from '~/assets/packages-landing-m.avif'
 import sandsPremierRoom1 from '~/assets/sands-premier-room-1.avif'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 const Packages = () => {
+  const { t } = useTranslation()
+
   return (
     <div>
       <div>
@@ -22,10 +25,12 @@ const Packages = () => {
       </div>
       <div className='pt-[160px] pb-10'>
         <div className='max-w-[888px] mx-auto px-[33px] lg:px-0'>
-          <h1 className='uppercase text-[40px] text-center mb-10'>A Paradise That’s Tailored to You</h1>
+          <h1 className='uppercase text-[40px] text-center mb-10'>
+            {t('packages.title')}
+          </h1>
 
           <p className='text-center text-[16px] mb-4'>
-            Explore stay packages curated for families, couples and individuals with discerning taste, curious minds and an appetite for adventure
+            {t('packages.description')}
           </p>
 
 
@@ -39,25 +44,26 @@ const Packages = () => {
                 <img src={sandsPremierRoom1} alt='sandsPremierRoom1' />
               </div>
               <Link to='/' className='text-[20px] uppercase '>
-                Sands Premier Room
+                {t('packages.room.title')}
               </Link>
               <div className='mb-5 flex items-center mt-2'>
                 <p className='uppercase text-[16px] leading-4 border-r border-black pr-3 mr-3'>
-                  Gardens by the Bay View
+                  {t('packages.room.view.gardens')}
                 </p>
-                <p className='uppercase text-[16px] leading-4 text-[#c5c6bc] cursor-pointer'>City View</p>
+                <p className='uppercase text-[16px] leading-4 text-[#c5c6bc] cursor-pointer'>
+                  {t('packages.room.view.city')}
+                </p>
               </div>
               <p className='mb-5  text-[#333333]'>
-                Unwind in your elegant room and savour the generous curation of treasures in the bespoke Armoire. Expect
-                beautifully appointed in-room amenities and two-person bathtub, along with separate vanities.
+                {t('packages.room.description')}
               </p>
               <ul className='flex flex-col  list-disc text-[#333333] pl-6 mb-20'>
-                <li>45 sqm on average</li>
-                <li>Up to 3 guests</li>
-                <li>1 king or 2 queen beds</li>
+                <li>{t('packages.room.details.area')}</li>
+                <li>{t('packages.room.details.guests')}</li>
+                <li>{t('packages.room.details.beds')}</li>
               </ul>
               <button className='uppercase text-[15px]  pt-3 pb-2.5 px-4  absolute hover:opacity-60  group transition-all duration-300'>
-                View details
+                {t('packages.room.viewDetails')}
                 <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
               </button>
             </div>

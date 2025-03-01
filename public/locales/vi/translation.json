@@ -1,0 +1,47 @@
+{
+  "paiza": {
+    "title": "BỘ SƯU TẬP PAIZA",
+    "bannerAlt": "Banner Bộ Sưu Tập Paiza",
+    "bannerMobileAlt": "Banner Di Động Bộ Sưu Tập Paiza",
+    "intro": "Dành cho những vị khách sành điệu nhất, Bộ sưu tập Paiza là hiện thân của ngôi nhà thứ hai tuyệt vời, với sự sang trọng vô song, chi tiết tinh tế và nghệ thuật vô tận ở mọi góc cạnh.",
+    "description1": "Từ lối vào kín đáo đến các tiện nghi phòng suite sang trọng, mọi khía cạnh của bộ sưu tập suite cao cấp nhất của chúng tôi đều được thiết kế để đảm bảo sự riêng tư và thoải mái. Tổ chức những bữa tiệc sang trọng trong phòng ăn lộng lẫy, tùy chỉnh suite của bạn với các lựa chọn giải trí đa dạng và đắm mình trong tầm nhìn ngoạn mục ra thành phố Singapore và biển lấp lánh. Gỗ bạch đàn êm dịu, đá cẩm thạch Palisandro Blue của Ý, đồ sứ thủ công và các điểm nhấn bạc cùng với những chiếc giường Savoir cao cấp làm bằng tay mời gọi sự chạm vào và đảm bảo sự thoải mái vô song.",
+    "description2": "Tận hưởng quyền truy cập đặc biệt vào Paiza Sky Residence, phòng khách câu lạc bộ riêng nằm trên đỉnh khách sạn biểu tượng của chúng tôi. Khám phá thế giới của những trải nghiệm độc đáo như golf, thưởng thức rượu vang và du thuyền.",
+    "description3": "Trong suốt thời gian lưu trú, đội ngũ quản gia phục vụ 24/7 luôn sẵn sàng đáp ứng mọi mong muốn của bạn, với quyết tâm biến mọi điều thành có thể.",
+    "description4": "Chào mừng đến với Bộ sưu tập Paiza, một kỳ nghỉ thực sự đặc biệt.",
+    "experienceTitle": "TRẢI NGHIỆM PHI THƯỜNG",
+    "experienceImageAlt": "Hình Ảnh Trải Nghiệm",
+    "experiences": {
+      "0": {
+        "title": "Đón Tiếp VIP Paiza",
+        "description": "Được chào đón nồng nhiệt bởi đội ngũ nhân viên tận tâm của chúng tôi. Đến phòng chờ VIP mới thông qua lối đi riêng và sảnh chỉ dành cho khách Paiza."
+      },
+      "1": {
+        "title": "Dịch Vụ Quản Gia Độc Quyền",
+        "description": "Trải nghiệm dịch vụ quản gia cá nhân 24/7, đảm bảo mọi nhu cầu của bạn được đáp ứng với sự chăm sóc tận tình nhất."
+      },
+      "2": {
+        "title": "Phòng Khách Sky Lounge Riêng",
+        "description": "Truy cập Paiza Sky Residence độc quyền, mang đến tầm nhìn toàn cảnh và dịch vụ cao cấp."
+      },
+      "3": {
+        "title": "Trải Nghiệm Được Tuyển Chọn",
+        "description": "Tận hưởng những trải nghiệm độc đáo từ ẩm thực riêng tư đến phiêu lưu trên du thuyền, được điều chỉnh theo sở thích của bạn."
+      }
+    },
+    "paizaExperience": {
+      "title": "Trải Nghiệm Paiza",
+      "description": "Đắm mình trong đỉnh cao của cuộc sống tinh tế tại Bộ sưu tập Paiza mới. Khám phá thế giới phi thường của Paiza và tận hưởng những đặc quyền bên trong."
+    },
+    "aboveExpectation": {
+      "title": "VƯỢT TRÊN MỌI KỲ VỌNG",
+      "description1": "Tọa lạc trên những tầng cao nhất của tòa nhà biểu tượng, Bộ sưu tập Paiza khoe trọn vẻ đẹp nội thất hoành tráng yet thanh bình với trần nhà cao, nội thất sang trọng và các vật liệu cao cấp nhất, tác phẩm nghệ thuật quyến rũ và tầm nhìn tuyệt đẹp.",
+      "description2": "Một loạt các tác phẩm nghệ thuật tuyệt đẹp được đồng sáng tạo với các nghệ nhân quốc tế hàng đầu — như giấy dán tường lụa vẽ tay của Fromental, bình đồng như đồ trang sức của Zanetto và đồ sứ hoa sen của Legle Asia — mê hoặc ánh nhìn ở mọi góc cạnh, bao quanh bạn bằng vẻ đẹp.",
+      "description3": "Từ những buổi tiệc tối thanh lịch đến nghỉ ngơi sâu lắng, ngay cả những chi tiết nhỏ nhất cũng được chăm chút tỉ mỉ để mang đến sự thoải mái và niềm vui cho bạn."
+    }
+  },
+  "common": {
+    "reserveNow": "Đặt ngay",
+    "viewDetails": "Xem chi tiết",
+    "discoverMore": "Khám phá thêm"
+  }
+} 

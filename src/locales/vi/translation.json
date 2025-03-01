@@ -5,7 +5,14 @@
         "back": "Quay lại",
         "backToMenu": "Quay lại Menu",
         "viewAll": "Xem tất cả",
-        "bookNow": "Đặt ngay"
+        "bookNow": "Đặt ngay",
+        "reserveNow": "Đặt ngay",
+        "viewDetails": "Xem chi tiết",
+        "discoverMore": "Khám phá thêm",
+        "signUp": "Đăng ký",
+        "signIn": "Đăng nhập",
+        "alreadyMember": "Đã là thành viên?",
+        "tourist": "Bạn có phải là du khách không? Khám phá quyền lợi độc quyền của bạn."
     },
     "languages": {
         "english": "Tiếng Anh",
@@ -140,7 +147,7 @@
             "subtitle": "Đặt chỗ & Liên hệ nhanh",
             "bookNow": "Đặt ngay"
         },
-        "copyright": "© 2025 Let's Win Club. Bảo lưu mọi quyền."
+        "copyright": "© {{year}} Sands LifeStyle. Đã đăng ký bản quyền."
     },
     "about": {
         "title": "Lời giới thiệu",
@@ -188,6 +195,414 @@
             "title": "Cảm ơn bạn đã đăng ký nhận bản tin.",
             "description": "Hãy chờ đón những nội dung được tuyển chọn kỹ lưỡng, thể hiện tình yêu của chúng tôi dành cho những điều phi thường.",
             "backToHome": "Quay lại trang chủ"
+        }
+    },
+    "fineDining": {
+        "title": "Nhà Hàng Cao Cấp",
+        "description": "Khám phá nghệ thuật ẩm thực tại các nhà hàng cao cấp ở Singapore, Let's Win Club. Trải nghiệm những hương vị tinh tế từ những nguyên liệu thượng hạng, được chế biến bởi các đầu bếp tài năng.",
+        "romanticRestaurants": {
+            "title": "Nhà Hàng Lãng Mạn",
+            "description": "Biến mọi buổi tối thành kỷ niệm đáng nhớ với không gian lãng mạn tại các nhà hàng. Hoàn hảo cho việc kỷ niệm ngày cưới, đính hôn hoặc đơn giản là tận hưởng một buổi hẹn hò đặc biệt."
+        },
+        "specialOccasions": {
+            "title": "Dịp Đặc Biệt",
+            "description": "Tôn vinh những khoảnh khắc quý giá của cuộc sống và thêm phần sang trọng cho mọi dịp tại những nhà hàng tinh tế này. Nâng tầm bữa tiệc sinh nhật của bạn với những món ăn độc đáo và tinh tế."
+        },
+        "shoppes": {
+            "title": "Khám Phá Khu Mua Sắm",
+            "description": "Với bộ sưu tập ấn tượng từ hơn 170 thương hiệu thiết kế và cửa hàng sang trọng, hành trình tìm kiếm những món đồ cao cấp của bạn sẽ kết thúc tại đây. Hãy tự thưởng cho mình một phụ kiện quyến rũ để làm đẹp thêm ngày của bạn, hoặc tìm món quà hoàn hảo cho người đặc biệt."
+        },
+        "viewRestaurants": "Xem nhà hàng",
+        "viewShops": "Xem cửa hàng",
+        "viewDetails": "Xem chi tiết"
+    },
+    "signup": {
+        "title": "Đăng ký thành viên Sands LifeStyle miễn phí",
+        "banner": "Banner Đặt phòng",
+        "already_have_account": "Bạn đã có tài khoản?",
+        "login_here": "Đăng nhập tại đây.",
+        "particulars": "Thông tin cá nhân",
+        "digital_account": "Tài khoản số",
+        "complete": "Hoàn thành",
+        "last_name": "Họ",
+        "first_name": "Tên",
+        "passport_note": "(Như in trên hộ chiếu)",
+        "date_of_birth": "Ngày sinh",
+        "age_requirement": "(Bạn cần từ 18 tuổi trở lên để tham gia.)",
+        "mobile_number": "Số điện thoại",
+        "mobile_note": "Số điện thoại phải có 8 chữ số",
+        "email": "Địa chỉ email",
+        "email_note": "Vui lòng nhập địa chỉ email hợp lệ",
+        "referral_code": "Mã giới thiệu",
+        "optional": "(Tùy chọn)",
+        "next": "TIẾP TỤC",
+        "create_pin": "TẠO MÃ PIN THÀNH VIÊN",
+        "create_4digit_pin": "Tạo mã PIN 4 chữ số",
+        "pin_description": "Mã PIN 4 chữ số của bạn sẽ được sử dụng cho các giao dịch Sands Rewards tại Marina Bay Sands.",
+        "create_pin_label": "Tạo PIN",
+        "confirm_pin": "Xác nhận PIN",
+        "create_digital_account": "TẠO TÀI KHOẢN SỐ",
+        "digital_accounts": "Tài khoản số",
+        "digital_account_description": "Tài khoản số này (tên đăng nhập và mật khẩu) sẽ được sử dụng để đăng nhập vào các nền tảng số của chúng tôi. ID thành viên và PIN hiện tại của bạn vẫn sẽ được yêu cầu cho các giao dịch Sands Rewards tại Marina Bay Sands.",
+        "username": "Tên đăng nhập",
+        "password": "Mật khẩu",
+        "confirm_password": "Xác nhận mật khẩu",
+        "create": "Tạo",
+        "steps": {
+            "particulars": "Thông tin",
+            "digitalAccount": "Tài khoản số",
+            "complete": "Hoàn tất"
+        },
+        "form": {
+            "lastName": "Họ",
+            "firstName": "Tên",
+            "asPassport": "(Như in trên hộ chiếu)",
+            "dob": "Ngày sinh",
+            "dobNote": "(Bạn phải từ 18 tuổi trở lên để đăng ký.)",
+            "dd": "Ngày",
+            "mmm": "Tháng",
+            "yyyy": "Năm",
+            "months": {
+                "jan": "Tháng 1",
+                "feb": "Tháng 2",
+                "mar": "Tháng 3",
+                "apr": "Tháng 4",
+                "may": "Tháng 5",
+                "jun": "Tháng 6",
+                "jul": "Tháng 7",
+                "aug": "Tháng 8",
+                "sep": "Tháng 9",
+                "oct": "Tháng 10",
+                "nov": "Tháng 11",
+                "dec": "Tháng 12"
+            },
+            "mobileNumber": "Số điện thoại",
+            "mobileNote": "Số điện thoại phải có 8 chữ số",
+            "email": "Địa chỉ Email",
+            "emailNote": "Vui lòng nhập địa chỉ email hợp lệ",
+            "referralCode": "Mã giới thiệu",
+            "optional": "(Không bắt buộc)"
+        }
+     
+    },
+    "signupSuccessful": {
+        "welcome": "CHÀO MỪNG, ASDASD",
+        "digitalAccount": {
+            "title": "Tài Khoản Số",
+            "description": "Truy cập tài khoản Sands LifeStyle của bạn với Tên đăng nhập và Mật khẩu mới tạo."
+        },
+        "membershipCard": {
+            "title": "Thẻ Thành Viên",
+            "description": "ID thành viên và mã PIN của bạn sẽ được yêu cầu cho các giao dịch Sands Rewards tại Marina Bay Sands."
+        },
+        "username": "Tên đăng nhập",
+        "membershipId": "ID Thành viên",
+        "loginNow": "Đăng nhập ngay"
+    },
+    "otpVerification": {
+        "title": "Xác Thực OTP",
+        "stage1": {
+            "description": "Vui lòng chọn phương thức ưa thích để nhận mã xác thực OTP."
+        },
+        "stage2": {
+            "description": "Vui lòng nhập mã xác thực OTP đã được gửi đến địa chỉ email của bạn."
+        },
+        "emailOtp": "Email OTP",
+        "enterOtp": "Nhập OTP",
+        "resendOtp": "Không nhận được mã? Gửi lại OTP",
+        "proceed": "Tiếp tục",
+        "verify": "Xác thực",
+        "back": "Quay lại"
+    },
+    "notFound": {
+        "title": "Trang này không tồn tại",
+        "description": "Trang bạn đang tìm kiếm không thể được tìm thấy."
+    },
+    "more": {
+        "title": "TRẢI NGHIỆM THÊM",
+        "viewDetails": "Xem chi tiết",
+        "casinoLevy": {
+            "title": "Phí Vào Casino",
+            "description": "Tìm hiểu thông tin về quy định chung và điều kiện vào casino."
+        },
+        "rewardsClub": {
+            "title": "Đặc Quyền Độc Quyền Với Câu Lạc Bộ Let's Vip",
+            "subtitle": "Đăng ký để tích điểm khi chơi",
+            "description": "Là thành viên Sands Rewards Club, bạn tích lũy Điểm Sands và Đô-la Sands khi chơi tại Casino. Bạn có thể đăng ký tại bất kỳ quầy Sands Rewards Club nào đặt tại:",
+            "locations": [
+                "B2M",
+                "Tầng 1",
+                "Tầng 2 Lối vào Ruby Table Games",
+                "Tầng 2 Lối vào Ruby Slots",
+                "Tầng 2 Lối vào Apex Grand"
+            ]
+        },
+        "responsibleGambling": {
+            "title": "CHƠI CÓ TRÁCH NHIỆM",
+            "subtitle": "Cam Kết Với Khách Hàng",
+            "description": "Cam kết tạo nên những trải nghiệm đáng nhớ của chúng tôi mở rộng đến mọi khía cạnh của khu nghỉ dưỡng – từ sàn casino."
+        }
+    },
+    "login": {
+        "title": "Đăng Nhập",
+        "username": "Tên đăng nhập",
+        "emailPlaceholder": "Email",
+        "password": "Mật khẩu",
+        "passwordPlaceholder": "Mật khẩu",
+        "loginButton": "Đăng nhập",
+        "noAccount": "Chưa có tài khoản?",
+        "registerNow": "Đăng ký ngay"
+    },
+    "paiza": {
+        "title": "BỘ SƯU TẬP PAIZA",
+        "bannerAlt": "Banner Đài Quan Sát Skypark",
+        "bannerMobileAlt": "Banner Di Động Đài Quan Sát Skypark",
+        "intro": "Dành cho những vị khách sành điệu nhất, Bộ sưu tập Paiza là hiện thân của ngôi nhà thứ hai tuyệt vời, với sự sang trọng vô song, chi tiết tinh tế và nghệ thuật vô tận ở mọi góc cạnh.",
+        "description1": "Từ lối vào kín đáo đến các tiện nghi phòng suite sang trọng, mọi khía cạnh của bộ sưu tập suite cao cấp nhất của chúng tôi đều được thiết kế để đảm bảo sự riêng tư và thoải mái. Tổ chức những bữa tiệc sang trọng trong phòng ăn lộng lẫy, tùy chỉnh suite của bạn với các lựa chọn giải trí đa dạng và đắm mình trong tầm nhìn ngoạn mục ra thành phố Singapore và biển lấp lánh. Gỗ bạch đàn êm dịu, đá cẩm thạch Palisandro Blue của Ý, đồ sứ thủ công và các điểm nhấn bạc cùng với những chiếc giường Savoir cao cấp làm bằng tay mời gọi sự chạm vào và đảm bảo sự thoải mái vô song.",
+        "description2": "Tận hưởng quyền truy cập đặc biệt vào Paiza Sky Residence, phòng khách câu lạc bộ riêng nằm trên đỉnh khách sạn biểu tượng của chúng tôi. Khám phá thế giới của những trải nghiệm độc đáo như golf, thưởng thức rượu vang và du thuyền.",
+        "description3": "Trong suốt thời gian lưu trú, đội ngũ quản gia phục vụ 24/7 luôn sẵn sàng đáp ứng mọi mong muốn của bạn, với quyết tâm biến mọi điều thành có thể.",
+        "description4": "Chào mừng đến với Bộ sưu tập Paiza, một kỳ nghỉ thực sự đặc biệt.",
+        "experienceTitle": "TRẢI NGHIỆM PHI THƯỜNG",
+        "experienceImageAlt": "Hình Ảnh Trải Nghiệm",
+        "experiences": {
+            "0": {
+                "title": "Đón Tiếp VIP Paiza",
+                "description": "Được chào đón nồng nhiệt bởi đội ngũ nhân viên tận tâm của chúng tôi. Đến phòng chờ VIP mới thông qua lối đi riêng và sảnh chỉ dành cho khách Paiza."
+            },
+            "1": {
+                "title": "Dịch Vụ Quản Gia Độc Quyền",
+                "description": "Trải nghiệm dịch vụ quản gia cá nhân 24/7, đảm bảo mọi nhu cầu của bạn được đáp ứng với sự chăm sóc tận tình nhất."
+            },
+            "2": {
+                "title": "Phòng Khách Sky Lounge Riêng",
+                "description": "Truy cập Paiza Sky Residence độc quyền, mang đến tầm nhìn toàn cảnh và dịch vụ cao cấp."
+            },
+            "3": {
+                "title": "Trải Nghiệm Được Tuyển Chọn",
+                "description": "Tận hưởng những trải nghiệm độc đáo từ ẩm thực riêng tư đến phiêu lưu trên du thuyền, được điều chỉnh theo sở thích của bạn."
+            }
+        },
+     
+        "aboveExpectation": {
+            "title": "VƯỢT TRÊN MỌI KỲ VỌNG",
+            "imageAlt": "Hình ảnh Ốc đảo Riêng tư",
+            "description1": "Tọa lạc trên những tầng cao nhất của tòa nhà biểu tượng, Bộ sưu tập Paiza khoe trọn vẻ đẹp nội thất hoành tráng yet thanh bình với trần nhà cao, nội thất sang trọng và các vật liệu cao cấp nhất, tác phẩm nghệ thuật quyến rũ và tầm nhìn tuyệt đẹp.",
+            "description2": "Một loạt các tác phẩm nghệ thuật tuyệt đẹp được đồng sáng tạo với các nghệ nhân quốc tế hàng đầu — như giấy dán tường lụa vẽ tay của Fromental, bình đồng như đồ trang sức của Zanetto và đồ sứ hoa sen của Legle Asia — mê hoặc ánh nhìn ở mọi góc cạnh, bao quanh bạn bằng vẻ đẹp.",
+            "description3": "Từ những buổi tiệc tối thanh lịch đến nghỉ ngơi sâu lắng, ngay cả những chi tiết nhỏ nhất cũng được chăm chút tỉ mỉ để mang đến sự thoải mái và niềm vui cho bạn."
+        },
+        "rooms": {
+            "premierRoom": {
+                "imageAlt": "Hình ảnh Phòng Premier Sands",
+                "title": "Phòng Premier Sands",
+                "gardenView": "Hướng nhìn Gardens by the Bay",
+                "cityView": "Hướng nhìn Thành phố",
+                "description": "Thư giãn trong căn phòng sang trọng của bạn và thưởng thức bộ sưu tập kho báu phong phú trong tủ Armoire độc đáo. Trải nghiệm tiện nghi trong phòng được bố trí đẹp mắt và bồn tắm đôi, cùng với khu vực phòng tắm riêng biệt.",
+                "features": {
+                    "size": "Trung bình 45 mét vuông",
+                    "guests": "Tối đa 3 khách",
+                    "beds": "1 giường king hoặc 2 giường queen"
+                }
+            }
+        },
+        "paizaExperience": {
+            "imageAlt": "Hình ảnh Phong cách sống Sands",
+            "title": "Trải nghiệm Paiza",
+            "description": "Đắm mình trong đỉnh cao của cuộc sống tinh tế tại Bộ sưu tập Paiza mới. Khám phá thế giới phi thường của Paiza và tận hưởng những đặc quyền bên trong."
+        },
+        "discover": {
+            "title": "KHÁM PHÁ PAIZA",
+            "slides": {
+                "imageAlt": "Hình ảnh Infinity Masthead Mobile",
+                "title": "Kỳ Nghỉ Ngày Thường",
+                "description": "Trải nghiệm phòng Premier Sands mới được phục hồi, được trang bị phong cách với bồn tắm ngâm sâu và tủ quần áo walk-in. Bắt đầu mỗi ngày với bữa sáng buffet thịnh soạn và đắm mình trong hồ bơi vô cực SkyPark nổi tiếng thế giới của chúng tôi."
+            }
+        }
+    },
+    "packages": {
+        "banner": {
+            "desktopAlt": "Banner Gói Dịch Vụ Desktop",
+            "mobileAlt": "Banner Gói Dịch Vụ Mobile"
+        },
+        "title": "Thiên Đường Được Tạo Riêng Cho Bạn",
+        "description": "Khám phá các gói lưu trú được thiết kế dành cho gia đình, cặp đôi và những cá nhân có gu thẩm mỹ tinh tế, tâm hồn tò mò và khao khát khám phá",
+        "room": {
+            "title": "Phòng Premier Sands",
+            "view": {
+                "gardens": "Hướng Nhìn Vườn Gardens by the Bay",
+                "city": "Hướng Nhìn Thành Phố"
+            },
+            "description": "Thư giãn trong căn phòng sang trọng và tận hưởng bộ sưu tập đồ dùng cao cấp trong tủ Armoire thiết kế riêng. Phòng được trang bị nội thất tinh tế cùng bồn tắm đôi và khu vực phòng tắm riêng biệt.",
+            "details": {
+                "area": "Diện tích trung bình 45m²",
+                "guests": "Tối đa 3 khách",
+                "beds": "1 giường king hoặc 2 giường queen"
+            },
+            "viewDetails": "Xem chi tiết"
+        }
+    },
+    "skypark": {
+        "banner_alt": "Banner Đài Quan Sát Skypark",
+        "banner_mobile_alt": "Banner Di Động Đài Quan Sát Skypark",
+        "paradise_title": "Thiên Đường Được Tạo Riêng Cho Bạn",
+        "discover_text": "Từ ngày 17/1, khám phá quá khứ, hiện tại và tương lai của Let's Win Club tại Skyline Singapore: Câu chuyện Từ Trên Cao, một triển lãm mới tại Đài Quan Sát SkyPark.",
+        "explore_text": "Khám phá thành phố từ góc nhìn mới ở độ cao 56 tầng, nơi có tầm nhìn độc đáo ra khung cảnh đô thị đẳng cấp thế giới của Singapore. Chiêm ngưỡng khu vườn Gardens by the Bay xanh tươi và các công trình biểu tượng của thành phố, như mái vòm hình sầu riêng của Esplanade.",
+        "evening_view": "Vào buổi tối, đài quan sát còn mang đến tầm nhìn ngoạn mục ra màn trình diễn Spectra.",
+        "sunset_experience": "Để có trải nghiệm ngắm cảnh riêng tư hơn, hãy lựa chọn Sunset in the Sky, một chương trình độc quyền với quyền ưu tiên ra vào qua lối vào riêng, khu vực ghế ngồi dành riêng và thực đơn ẩm thực cao cấp.",
+        "book_tickets": "Đặt Vé",
+        
+        "notice_title": "Thông Báo",
+        "notice_text": "Đài Quan Sát SkyPark sẽ đóng cửa vào các ngày sau lúc 21:00 cho Tiệc Silent Disco Full Moon (Vào cửa cuối cùng lúc 20:00)",
+        
+        "details_title": "Chi Tiết",
+        "location_title": "Vị Trí",
+        "location_text1": "Tháp Khách sạn 3, Tầng 56",
+        "location_text2": "Lối vào Đài Quan Sát SkyPark được tiếp cận qua đường dẫn Tháp Khách sạn 3.",
+        "hours_title": "Giờ Mở Cửa",
+        "hours_nonpeak": "Giờ thấp điểm: 10:00 –16:30 (Vào cửa cuối cùng lúc 16:00)",
+        "hours_peak": "Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30)",
+        
+        "prices_title": "Giá Vé",
+        
+        "whats_on": "SỰ KIỆN",
+        "you_may_like": "BẠN CÓ THỂ THÍCH",
+        
+        "faq_title": "CÂU HỎI THƯỜNG GẶP",
+        "faq": {
+          "rain": {
+            "question": "Điều gì xảy ra nếu trời mưa?",
+            "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
+            "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+          },
+          "souvenir": {
+            "question": "Có cửa hàng quà lưu niệm không?",
+            "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
+            "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+          },
+          "prohibited": {
+            "question": "Có vật phẩm nào bị cấm trên Đài Quan Sát SkyPark không?",
+            "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
+            "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+          },
+          "other_areas": {
+            "question": "Tôi có thể thăm các khu vực khác của Sands SkyPark với vé Đài Quan Sát SkyPark không?",
+            "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
+            "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+          },
+          "conditions": {
+            "question": "Có điều kiện vào cửa nào khác cho Đài Quan Sát SkyPark không?",
+            "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
+            "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+          },
+          "opening_hours": {
+            "question": "Giờ mở cửa của Sands SkyPark là gì?",
+            "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
+            "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+          }
+        },
+        "slider": {
+            "weekday_escapade": {
+                "image_alt": "Hình ảnh Kỳ Nghỉ Ngày Thường",
+                "title": "Kỳ Nghỉ Ngày Thường",
+                "tag": "Ngày Thường | Kỳ Nghỉ",
+                "description": "Trải nghiệm phòng Sands Premier mới được phục hồi, được trang bị phong cách với bồn tắm ngâm sâu và tủ quần áo walk-in. Bắt đầu mỗi ngày với bữa sáng buffet thịnh soạn và đắm mình trong hồ bơi vô cực SkyPark nổi tiếng thế giới của chúng tôi."
+            }
+        }
+    },
+    "infinityPool": {
+        "banner": {
+            "desktopAlt": "Banner Hồ Bơi Vô Cực Desktop",
+            "mobileAlt": "Banner Hồ Bơi Vô Cực Mobile"
+        },
+        "title": "HỒ BƠI VÔ CỰC SKYPARK",
+        "renowned": "Nổi tiếng vì một lý do.",
+        "description": "Có được góc nhìn hoàn toàn mới tại hồ bơi vô cực trên sân thượng lớn nhất thế giới. Thả mình giữa những đám mây, tắm nắng hoặc thư giãn dưới những tán cọ đung đưa tại điểm đến biểu tượng của chúng tôi, 57 tầng trên thành phố lấp lánh.",
+        "details": {
+            "title": "Chi Tiết",
+            "location": {
+                "title": "Vị Trí",
+                "text1": "Tháp Khách sạn 3, Tầng 56",
+                "text2": "Lối vào Đài Quan Sát SkyPark được tiếp cận qua đường dẫn Tháp Khách sạn 3."
+            },
+            "hours": {
+                "title": "Giờ Mở Cửa",
+                "nonPeak": "Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00)",
+                "peak": "Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30)"
+            }
+        },
+        "operatingHours": {
+            "title": "Giờ Hoạt Động",
+            "location": {
+                "title": "Vị Trí",
+                "text1": "Tháp Khách sạn 3, Tầng 56",
+                "text2": "Lối vào Đài Quan Sát SkyPark được tiếp cận qua đường dẫn Tháp Khách sạn 3."
+            },
+            "hours": {
+                "title": "Giờ Mở Cửa",
+                "nonPeak": "Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00)",
+                "peak": "Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30)"
+            }
+        },
+        "faq": {
+            "title": "CÂU HỎI THƯỜNG GẶP",
+            "openingHours": {
+                "question": "Giờ mở cửa của Sands SkyPark là gì?",
+                "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
+                "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+            }
+        },
+        "recommendations": {
+            "title": "CHÚNG TÔI NGHĨ BẠN CŨNG SẼ THÍCH"
+        }
+    },
+    "lifestyle": {
+        "banner": {
+            "desktopAlt": "Banner Bộ Sưu Tập Sands",
+            "mobileAlt": "Banner Di Động Bộ Sưu Tập Sands"
+        },
+        "title": "Let's Vip LifeStyle",
+        "description": "Mở khóa thế giới phần thưởng và đặc quyền độc quyền với tư cách thành viên Sands LifeStyle miễn phí của bạn, chương trình ưu đãi hào phóng nhất Singapore.",
+        "alreadyMember": "Đã là thành viên?",
+        "tourist": "Bạn là du khách? Khám phá đặc quyền độc quyền của bạn.",
+        "membershipTiers": "CẤP BẬC THÀNH VIÊN",
+        "membership": {
+            "imageAlt": "Hình Ảnh Cấp Bậc Thành Viên",
+            "lifestyle": {
+                "title": "Lifestyle",
+                "benefits": {
+                    "free": "Miễn phí tham gia",
+                    "tickets": "Giảm 30% vé tham quan và triển lãm Bảo tàng ArtScience",
+                    "parking": "Nhận 20% Resort Dollars cho phí đỗ xe công cộng"
+                }
+            },
+            "prestige": {
+                "title": "Prestige",
+                "benefits": {
+                    "upgrade": "Nâng cấp với S$5,000",
+                    "tickets": "Vé miễn phí tham quan và vé 1-đổi-1 cho triển lãm Bảo tàng ArtScience",
+                    "room": "Tiết kiệm 10% giá phòng khách sạn",
+                    "parking": "Đặc quyền đỗ xe có thể đổi với 4$ Resort Dollars khi chi tiêu cùng ngày"
+                }
+            },
+            "elite": {
+                "title": "Elite",
+                "benefits": {
+                    "upgrade": "Nâng cấp với S$50,000",
+                    "tickets": "Vé miễn phí tham quan và triển lãm Bảo tàng ArtScience",
+                    "room": "Tiết kiệm 15% giá phòng khách sạn & nhận phòng độc quyền tại Sands Lounge",
+                    "parking": "Đỗ xe miễn phí với chi tiêu cùng ngày",
+                    "events": "Lời mời độc quyền đến các sự kiện của người nổi tiếng"
+                }
+            },
+            "paiza": {
+                "title": "PAIZA",
+                "benefits": {
+                    "upgrade": "Nâng cấp với S$500,000",
+                    "tickets": "Vé miễn phí tham quan và triển lãm Bảo tàng ArtScience",
+                    "room": "Tiết kiệm 20% giá phòng khách sạn & nhận phòng độc quyền tại Sands Lounge",
+                    "parking": "Đỗ xe tự phục vụ và có người phục vụ miễn phí",
+                    "access": "Truy cập Paiza Concierge và lời mời độc quyền đến các sự kiện của người nổi tiếng, mua sắm, ẩm thực và giải trí"
+                }
+            }
         }
     }
 }
