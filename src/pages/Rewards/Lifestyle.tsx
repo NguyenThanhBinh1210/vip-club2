@@ -4,8 +4,10 @@ import { useState } from 'react'
 import useScreenSize from '~/hooks/useScreenSize'
 import bannerPC from '~/assets/the-sands-collection-masthead-desktop.avif'
 import bannerMobile from '~/assets/the-sands-collection-masthead-mobile.avif'
-import weekdayVacationTile from '~/assets/weekday-vacation-tile-1920x1080.avif'
-
+import xanh1 from '~/assets/xanh.webp'
+import do1 from '~/assets/do.webp'
+import vang1 from '~/assets/vang.webp'
+import trang1 from '~/assets/trang.webp'
 const Lifestyle = () => {
   const { t } = useTranslation()
   const screenSize = useScreenSize()
@@ -13,7 +15,7 @@ const Lifestyle = () => {
 
   const dataMembership = [
     {
-      img: weekdayVacationTile,
+      img: xanh1,
       title: t('lifestyle.membership.lifestyle.title'),
       content: (
         <>
@@ -24,7 +26,7 @@ const Lifestyle = () => {
       )
     },
     {
-      img: weekdayVacationTile,
+      img: do1,
       title: t('lifestyle.membership.prestige.title'),
       content: (
         <>
@@ -36,7 +38,7 @@ const Lifestyle = () => {
       )
     },
     {
-      img: weekdayVacationTile,
+      img: vang1,
       title: t('lifestyle.membership.elite.title'),
       content: (
         <>
@@ -49,7 +51,7 @@ const Lifestyle = () => {
       )
     },
     {
-      img: weekdayVacationTile,
+      img: trang1,
       title: t('lifestyle.membership.paiza.title'),
       content: (
         <>
@@ -100,7 +102,7 @@ const Lifestyle = () => {
       </div>
       <div className='py-20 overflow-hidden'>
         <h2 className='text-center uppercase text-2xl mb-20 lg:text-[32px]'>{t('lifestyle.membershipTiers')}</h2>
-        <div className='lg:w-[59pc] 2xl:w-[978pt] mx-auto flex px-4 lg:px-0 relative'>
+        <div className='lg:w-[59pc] 2xl:w-[978pt] mx-auto flex px-4 lg:px-0 relative overflow-x-scroll md:overflow-x-hidden'>
           <button
             onClick={() => {
               if (screenSize === 'md' || screenSize === 'lg' || screenSize === 'xl' || screenSize === '2xl') {
@@ -115,7 +117,7 @@ const Lifestyle = () => {
               }
             }}
             className={`${screenSize === 'md' || screenSize === 'lg' || screenSize === 'xl' || screenSize === '2xl' ? currentIndex === dataMembership.length - 3 ? 'opacity-0 pointer-events-none' : 'opacity-100' : currentIndex === dataMembership.length - 1 ? 'opacity-0 pointer-events-none' : 'opacity-100'
-              } absolute hover:bg-gray-200 transition-all duration-300 z-10 right-5 top-1/2 -translate-y-1/2 bg-gray-300 cursor-pointer rounded-full p-2`}
+              } absolute hidden md:block hover:bg-gray-200 transition-all duration-300 z-10 right-5 top-1/2 -translate-y-1/2 bg-gray-300 cursor-pointer rounded-full p-2`}
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -139,7 +141,7 @@ const Lifestyle = () => {
               }
             }}
             className={`${currentIndex === 0 ? 'opacity-0 pointer-events-none' : 'opacity-100'
-              } absolute hover:bg-gray-200 transition-all duration-300 z-10 left-5 top-1/2 -translate-y-1/2 bg-gray-300 cursor-pointer rounded-full p-2`}
+              } absolute hidden md:block hover:bg-gray-200 transition-all duration-300 z-10 left-5 top-1/2 -translate-y-1/2 bg-gray-300 cursor-pointer rounded-full p-2`}
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'

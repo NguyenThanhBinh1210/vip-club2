@@ -41,11 +41,11 @@
       }
     },
     "rewards": {
-      "sandsLifestyle": "Sands LifeStyle",
+      "sandsLifestyle": "Let's VipLifeStyle",
       "membershipTiers": "Membership Tiers",
       "memberPerks": "Member Perks",
-      "alliancePrivileges": "Sands Alliance Privileges",
-      "viewAllOutlets": "View all Sands Outlets"
+      "alliancePrivileges": "Let's VipAlliance Privileges",
+      "viewAllOutlets": "View all Let's VipOutlets"
     }
   },
   "home": {
@@ -100,7 +100,7 @@
     "rewardsClub": {
       "title": "Exclusive Benefits With Let's Vip Rewards Club",
       "subtitle": "Sign up to earn as you play",
-      "description": "As a Sands Rewards Club member, you earn Sands Points and Sands Dollars on your Casino play. You may sign up at any Sands Rewards Club Counter located at:",
+      "description": "As a Let's VipRewards Club member, you earn Let's VipPoints and Let's VipDollars on your Casino play. You may sign up at any Let's VipRewards Club Counter located at:",
       "locations": {
         "b2m": "B2M",
         "level1": "Level 1",
@@ -113,7 +113,7 @@
       "title": "INTRODUCING LET'S WIN VIP CLUB",
       "description": "Let's Win VIP Club is an exclusive system of VIP rooms, offering a luxurious gaming experience tailored for the elite. With sophisticated, private spaces and exclusive services, Let's Win VIP Club asserts itself as the premier destination for those seeking a high-end experience at Vietnam's most prestigious casinos."
     },
-    
+
     "buttons": {
       "contact": "Contact us",
       "book": "Book now",
@@ -148,7 +148,7 @@
       "subtitle": "Quick Booking & Contact",
       "bookNow": "Book Now"
     },
-    "copyright": "© {{year}} Sands LifeStyle. All Rights Reserved."
+    "copyright": "© {{year}} Let's VipLifeStyle. All Rights Reserved."
   },
   "about": {
     "title": "Introduction",
@@ -221,11 +221,11 @@
     "welcome": "WELCOME, ASDASD",
     "digitalAccount": {
       "title": "Digital Account",
-      "description": "Access your Sands LifeStyle account with your newly created Username and Password."
+      "description": "Access your Let's VipLifeStyle account with your newly created Username and Password."
     },
     "membershipCard": {
       "title": "Membership Card",
-      "description": "Your membership ID and PIN will be required for Sands Rewards transactions at Marina Bay Sands."
+      "description": "Your membership ID and PIN will be required for Let's VipRewards transactions at Marina Bay Sands."
     },
     "username": "Username",
     "membershipId": "Membership ID",
@@ -247,7 +247,7 @@
     "back": "Back"
   },
   "signup": {
-    "title": "Sign up for your free Sands LifeStyle membership",
+    "title": "Sign up for your free Let's VipLifeStyle membership",
     "banner": "Booking Banner",
     "already_have_account": "Already have an account?",
     "login_here": "Login here.",
@@ -268,12 +268,12 @@
     "next": "NEXT",
     "create_pin": "CREATE MEMBERSHIP PIN",
     "create_4digit_pin": "Create Your 4-digit Card PIN",
-    "pin_description": "Your 4-digit PIN will be used for Sands Rewards transactions at Marina Bay Sands.",
+    "pin_description": "Your 4-digit PIN will be used for Let's VipRewards transactions at Marina Bay Sands.",
     "create_pin_label": "Create PIN",
     "confirm_pin": "Confirm PIN",
     "create_digital_account": "CREATE DIGITAL ACCOUNT",
     "digital_accounts": "Digital Account(s)",
-    "digital_account_description": "This digital account (username and password) will be used to login into our digital platforms. Your existing membership ID and PIN will still be required for Sands Rewards transactions at Marina Bay Sands.",
+    "digital_account_description": "This digital account (username and password) will be used to login into our digital platforms. Your existing membership ID and PIN will still be required for Let's VipRewards transactions at Marina Bay Sands.",
     "username": "Username",
     "password": "Password",
     "confirm_password": "Confirm Password",
@@ -328,7 +328,7 @@
     "rewardsClub": {
       "title": "Exclusive Benefits With Let's Vip Rewards Club",
       "subtitle": "Sign up to earn as you play",
-      "description": "As a Sands Rewards Club member, you earn Sands Points and Sands Dollars on your Casino play. You may sign up at any Sands Rewards Club Counter located at:",
+      "description": "As a Let's VipRewards Club member, you earn Let's VipPoints and Let's VipDollars on your Casino play. You may sign up at any Let's VipRewards Club Counter located at:",
       "locations": [
         "B2M",
         "Level 1",
@@ -391,8 +391,8 @@
     },
     "rooms": {
       "premierRoom": {
-        "imageAlt": "Sands Premier Room Image",
-        "title": "Sands Premier Room",
+        "imageAlt": "Let's VipPremier Room Image",
+        "title": "Let's VipPremier Room",
         "gardenView": "Gardens by the Bay View",
         "cityView": "City View",
         "description": "Unwind in your elegant room and savour the generous curation of treasures in the bespoke Armoire. Expect beautifully appointed in-room amenities and two-person bathtub, along with separate vanities.",
@@ -404,7 +404,7 @@
       }
     },
     "paizaExperience": {
-      "imageAlt": "Sands Lifestyle Image",
+      "imageAlt": "Let's VipLifestyle Image",
       "title": "The Paiza Experience",
       "description": "Revel in the pinnacle of sophisticated living at the new Paiza Collection. Discover the extraordinary world of Paiza and enjoy a taste of the privileges within."
     }
@@ -417,7 +417,7 @@
     "title": "A Paradise That's Tailored to You",
     "description": "Explore stay packages curated for families, couples and individuals with discerning taste, curious minds and an appetite for adventure",
     "room": {
-      "title": "Sands Premier Room",
+      "title": "Let's VipPremier Room",
       "view": {
         "gardens": "Gardens by the Bay View",
         "city": "City View"
@@ -440,10 +440,10 @@
     "evening_view": "In the evening, the observation deck also offers a spectacular view of Spectra.",
     "sunset_experience": "For a more intimate viewing experience, opt for Sunset in the Sky, an exclusive programme complete with priority access via a private entry point, dedicated seating areas and premium dining menu.",
     "book_tickets": "Book Tickets",
-    
+
     "notice_title": "Notice",
     "notice_text": "SkyPark Observation Deck will close on the following dates at 9pm for Silent Disco Full Moon Parties (Last entry at 8pm)",
-    
+
     "details_title": "Details",
     "location_title": "Location",
     "location_text1": "Hotel Tower 3, Level 56",
@@ -451,16 +451,16 @@
     "hours_title": "Opening Hours",
     "hours_nonpeak": "Non-peak: 10am – 4.30pm (Last entry at 4pm)",
     "hours_peak": "Peak: 5pm – 10pm (Last entry at 9.30pm)",
-    
+
     "prices_title": "Ticket Prices",
-    
+
     "whats_on": "WHAT'S ON",
     "you_may_like": "WE THINK YOU'D ALSO LIKE",
-    
+
     "faq_title": "FREQUENTLY ASKED QUESTIONS",
     "faq": {
       "opening_hours": {
-        "question": "What are the opening hours for Sands SkyPark?",
+        "question": "What are the opening hours for Let's VipSkyPark?",
         "answer1": "Let's Vip SkyPark — including the Observation Deck — is open from 10am to 10pm. Non Peak Hours: 10am – 4.30pm (Last entry 4pm), Peak Hours: 5pm – 10pm (Last entry 9.30pm).",
         "answer2": "The Observation Deck may be closed for private events or commercial commitments at certain times. Please call ahead at +65 6688 8826 to check if the Observation Deck will be open on the day you wish to visit."
       },
@@ -480,7 +480,7 @@
         "answer2": "The Observation Deck may be closed for private events or commercial commitments at certain times. Please call ahead at +65 6688 8826 to check if the Observation Deck will be open on the day you wish to visit."
       },
       "other_areas": {
-        "question": "Can I visit other areas of Sands SkyPark with my SkyPark Observation Deck Ticket?",
+        "question": "Can I visit other areas of Let's VipSkyPark with my SkyPark Observation Deck Ticket?",
         "answer1": "Let's Vip SkyPark — including the Observation Deck — is open from 10am to 10pm. Non Peak Hours: 10am – 4.30pm (Last entry 4pm), Peak Hours: 5pm – 10pm (Last entry 9.30pm).",
         "answer2": "The Observation Deck may be closed for private events or commercial commitments at certain times. Please call ahead at +65 6688 8826 to check if the Observation Deck will be open on the day you wish to visit."
       },
@@ -495,7 +495,7 @@
         "image_alt": "Weekday Vacation Image",
         "title": "Weekday Escapade",
         "tag": "Weekday | Escapade",
-        "description": "Experience the newly restored Sands Premier Room, stylishly fitted with a deep soaking bathtub and walk-in wardrobe. Begin each day with a sumptuous breakfast buffet, and take a dip in our world-famous SkyPark Infinity Pool."
+        "description": "Experience the newly restored Let's VipPremier Room, stylishly fitted with a deep soaking bathtub and walk-in wardrobe. Begin each day with a sumptuous breakfast buffet, and take a dip in our world-famous SkyPark Infinity Pool."
       }
     }
   },
@@ -536,7 +536,7 @@
     "faq": {
       "title": "FREQUENTLY ASKED QUESTIONS",
       "openingHours": {
-        "question": "What are the opening hours for Sands SkyPark?",
+        "question": "What are the opening hours for Let's VipSkyPark?",
         "answer1": "Let's Vip SkyPark — including the Observation Deck — is open from 10am to 10pm. Non Peak Hours: 10am – 4.30pm (Last entry 4pm), Peak Hours: 5pm – 10pm (Last entry 9.30pm).",
         "answer2": "The Observation Deck may be closed for private events or commercial commitments at certain times. Please call ahead at +65 6688 8826 to check if the Observation Deck will be open on the day you wish to visit."
       }
@@ -547,11 +547,11 @@
   },
   "lifestyle": {
     "banner": {
-      "desktopAlt": "The Sands Collection Banner",
-      "mobileAlt": "The Sands Collection Mobile Banner"
+      "desktopAlt": "Let's Vip Collection Banner",
+      "mobileAlt": "Let's Vip Collection Mobile Banner"
     },
     "title": "Let's Vip LifeStyle",
-    "description": "Unlock a world of exclusive rewards and perks with your complimentary Sands LifeStyle membership, Singapore's most generous rewards programme.",
+    "description": "Unlock a world of exclusive rewards and perks with your complimentary Let's VipLifeStyle membership, Singapore's most generous rewards programme.",
     "alreadyMember": "Already a member?",
     "tourist": "Are you a tourist? Discover your exclusive privileges.",
     "membershipTiers": "MEMBERSHIP TIERS",
@@ -579,7 +579,7 @@
         "benefits": {
           "upgrade": "S$50,000 to upgrade",
           "tickets": "Complimentary tickets to attractions and ArtScience Museum exhibitions",
-          "room": "15% savings on hotel room rate & exclusive check-in at Sands Lounge",
+          "room": "15% savings on hotel room rate & exclusive check-in at Let's VipLounge",
           "parking": "Complimentary self-parking with same-day spend",
           "events": "Exclusive invitations to celebrity events"
         }
@@ -589,7 +589,7 @@
         "benefits": {
           "upgrade": "S$500,000 to upgrade",
           "tickets": "Complimentary tickets to attractions and ArtScience Museum exhibitions",
-          "room": "20% savings on hotel room rate & exclusive check-in at Sands Lounge",
+          "room": "20% savings on hotel room rate & exclusive check-in at Let's VipLounge",
           "parking": "Complimentary self-parking and valet parking",
           "access": "Access to Paiza Concierge and exclusive invitations to celebrity events, shopping, dining and entertainment experiences"
         }

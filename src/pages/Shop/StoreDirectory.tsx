@@ -168,7 +168,7 @@ const StoreDirectory = () => {
             </div>
           </Accordion>
           <Accordion
-            title='Sands LifeStyle Privileges'
+            title="Let's Vip LifeStyle Privileges"
             size='sm'
             isOpen={openAccordionIndex === 1}
             onToggle={() => handleAccordionToggle(1)}
@@ -267,7 +267,7 @@ const StoreDirectory = () => {
             <ButtonOutline title='Clear all' />
           </div>
         </div>
-      </div>
+      </div >
     </>
   )
 }

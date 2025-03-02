@@ -22,7 +22,7 @@ const MembersPrivileges = () => {
           <h1 className='uppercase text-[40px] text-center mb-10'>EXCLUSIVE MEMBER PRIVILEGES
           </h1>
           <p className='text-center text-[16px] mb-4'>
-            Make the most of your visit and be rewarded with a lifestyle of indulgences as you earn and redeem at over 250 Sands Outlets
+            Make the most of your visit and be rewarded with a lifestyle of indulgences as you earn and redeem at over 250 Let's VipOutlets
           </p>
           <p className='text-center text-[16px] mb-4'>
             Your Resort Dollars are as good as cash that can be spent in Marina Bay Sands. Upgrade your membership tier to unlock greater benefits.

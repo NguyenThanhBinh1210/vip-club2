@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 declare global {
   interface Window {
@@ -63,7 +64,10 @@ const CSKH = () => {
   }
   return (
     <>
-      <button className=' p-1.5 rounded-full border border-black fixed bottom-8 right-10' onClick={addLiveChatScript}>
+      <button
+        className=' p-1.5 rounded-full border border-black fixed bottom-8 right-10 z-50'
+        onClick={addLiveChatScript}
+      >
         <svg
           xmlns='http://www.w3.org/2000/svg'
           fill='none'

@@ -44,7 +44,7 @@
       "sandsLifestyle": "샌드 라이프 스타일",
       "membershipTiers": "회원 계층",
       "memberPerks": "회원 특전",
-      "alliancePrivileges": "Sands Alliance 특권",
+      "alliancePrivileges": "Let's VipAlliance 특권",
       "viewAllOutlets": "모든 샌드 아울렛을보십시오"
     }
   },
@@ -100,7 +100,7 @@
     "rewardsClub": {
       "title": "Let 's VIP Rewards Club의 독점적 인 혜택",
       "subtitle": "플레이 할 때 이익을 얻으려면 가입하십시오",
-      "description": "Sands Rewards Club 회원으로서 카지노 놀이에서 Sands Points와 Sands Dollars를 얻습니다. ",
+      "description": "Let's VipRewards Club 회원으로서 카지노 놀이에서 Let's VipPoints와 Let's VipDollars를 얻습니다. ",
       "locations": {
         "b2m": "B2M",
         "level1": "레벨 1",
@@ -220,7 +220,7 @@
     "welcome": "환영합니다, Asdasd",
     "digitalAccount": {
       "title": "디지털 계정",
-      "description": "새로 만든 사용자 이름과 비밀번호로 Sands 라이프 스타일 계정에 액세스하십시오."
+      "description": "새로 만든 사용자 이름과 비밀번호로 Let's Vip라이프 스타일 계정에 액세스하십시오."
     },
     "membershipCard": {
       "title": "회원 카드",
@@ -267,7 +267,7 @@
     "next": "다음",
     "create_pin": "멤버십 핀을 만듭니다",
     "create_4digit_pin": "4 자리 카드 핀을 만듭니다",
-    "pin_description": "4 자리 핀은 Marina Bay Sands의 Sands Rewards 거래에 사용됩니다.",
+    "pin_description": "4 자리 핀은 Marina Bay Sands의 Let's VipRewards 거래에 사용됩니다.",
     "create_pin_label": "핀을 만듭니다",
     "confirm_pin": "핀 확인",
     "create_digital_account": "디지털 계정을 만듭니다",
@@ -327,7 +327,7 @@
     "rewardsClub": {
       "title": "Let 's VIP Rewards Club의 독점적 인 혜택",
       "subtitle": "플레이 할 때 이익을 얻으려면 가입하십시오",
-      "description": "Sands Rewards Club 회원으로서 카지노 놀이에서 Sands Points와 Sands Dollars를 얻습니다. ",
+      "description": "Let's VipRewards Club 회원으로서 카지노 놀이에서 Let's VipPoints와 Let's VipDollars를 얻습니다. ",
       "locations": [
         "B2M",
         "레벨 1",
@@ -453,7 +453,7 @@
     "faq_title": "자주 묻는 질문",
     "faq": {
       "opening_hours": {
-        "question": "Sands Skypark의 영업 시간은 얼마입니까?",
+        "question": "Let's VipSkypark의 영업 시간은 얼마입니까?",
         "answer1": "전망대를 포함한 VIP Skypark는 오전 10 시부 터 오후 10 시까 지 열려 있습니다. ",
         "answer2": "전망대는 특정 시간에 개인 행사 또는 상업적 약속을 위해 폐쇄 될 수 있습니다. "
       },
@@ -473,7 +473,7 @@
         "answer2": "전망대는 특정 시간에 개인 행사 또는 상업적 약속을 위해 폐쇄 될 수 있습니다. "
       },
       "other_areas": {
-        "question": "Skypark Observation Deck 티켓으로 Sands Skypark의 다른 지역을 방문 할 수 있습니까?",
+        "question": "Skypark Observation Deck 티켓으로 Let's VipSkypark의 다른 지역을 방문 할 수 있습니까?",
         "answer1": "전망대를 포함한 VIP Skypark는 오전 10 시부 터 오후 10 시까 지 열려 있습니다. ",
         "answer2": "전망대는 특정 시간에 개인 행사 또는 상업적 약속을 위해 폐쇄 될 수 있습니다. "
       },
@@ -488,7 +488,7 @@
         "image_alt": "평일 휴가 이미지",
         "title": "평일 탈출",
         "tag": "평일 | ",
-        "description": "새로 복원 된 Sands Premier Room은 깊은 몸을 담그는 욕조와 워크 인 옷장으로 세련되게 장착되었습니다. "
+        "description": "새로 복원 된 Let's VipPremier Room은 깊은 몸을 담그는 욕조와 워크 인 옷장으로 세련되게 장착되었습니다. "
       }
     }
   },
@@ -529,7 +529,7 @@
     "faq": {
       "title": "자주 묻는 질문",
       "openingHours": {
-        "question": "Sands Skypark의 영업 시간은 얼마입니까?",
+        "question": "Let's VipSkypark의 영업 시간은 얼마입니까?",
         "answer1": "전망대를 포함한 VIP Skypark는 오전 10 시부 터 오후 10 시까 지 열려 있습니다. ",
         "answer2": "전망대는 특정 시간에 개인 행사 또는 상업적 약속을 위해 폐쇄 될 수 있습니다. "
       }
@@ -540,11 +540,11 @@
   },
   "lifestyle": {
     "banner": {
-      "desktopAlt": "Sands Collection 배너",
-      "mobileAlt": "Sands Collection 모바일 배너"
+      "desktopAlt": "Let's VipCollection 배너",
+      "mobileAlt": "Let's VipCollection 모바일 배너"
     },
     "title": "VIP 라이프 스타일을합시다",
-    "description": "싱가포르의 가장 관대 한 보상 프로그램 인 무료 Sands 라이프 스타일 멤버십을 통해 독점적 인 보상과 특전의 세계를 잠금 해제하십시오.",
+    "description": "싱가포르의 가장 관대 한 보상 프로그램 인 무료 Let's Vip라이프 스타일 멤버십을 통해 독점적 인 보상과 특전의 세계를 잠금 해제하십시오.",
     "alreadyMember": "이미 회원?",
     "tourist": "당신은 관광객입니까? ",
     "membershipTiers": "회원 계층",
@@ -572,7 +572,7 @@
         "benefits": {
           "upgrade": "S $ 50,000 업그레이드",
           "tickets": "명소 및 예술 박물관 전시회에 대한 무료 티켓",
-          "room": "Sands Lounge에서 호텔 객실 요금 및 독점 체크인에 대한 15% 절약",
+          "room": "Let's VipLounge에서 호텔 객실 요금 및 독점 체크인에 대한 15% 절약",
           "parking": "당일 지출로 무료 자체 자격",
           "events": "유명인 행사에 대한 독점 초대"
         }
@@ -582,7 +582,7 @@
         "benefits": {
           "upgrade": "S $ 500,000 업그레이드",
           "tickets": "명소 및 예술 박물관 전시회에 대한 무료 티켓",
-          "room": "Sands Lounge에서 호텔 객실 요금 및 독점 체크인에 대한 20% 절약",
+          "room": "Let's VipLounge에서 호텔 객실 요금 및 독점 체크인에 대한 20% 절약",
           "parking": "무료 셀프 파킹 및 발레 주차",
           "access": "유명인 이벤트, 쇼핑, 식당 및 엔터테인먼트 경험을위한 Paiza Concierge 및 독점 초대에 대한 접근"
         }

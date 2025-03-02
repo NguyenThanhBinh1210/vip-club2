@@ -49,8 +49,8 @@ const Booking = () => {
       value: 'All Hotel Collections'
     },
     {
-      name: 'The Sands Collection',
-      value: 'The Sands Collection'
+      name: "Let's Vip Collection",
+      value: "Let's Vip Collection"
     },
     {
       name: 'The Paiza Collection',
@@ -588,7 +588,7 @@ const ItemRoom = ({ index, setStage }: { index: number; setStage: (stage: number
             <img src={Bokingbanner3} alt='Bokingbanner3' className='w-full' />
           </div>
           <div className='space-y-3'>
-            <p className='uppercase text-xl'>Sands Premier Room - Gardens by the Bay View</p>
+            <p className='uppercase text-xl'>Let's VipPremier Room - Gardens by the Bay View</p>
             <p className='text-xs '>174 rooms booked in the last 24 hours</p>
             <p className='text-sm '>Up to 3 guests</p>
             <div className='flex items-center gap-2 text-sm'>

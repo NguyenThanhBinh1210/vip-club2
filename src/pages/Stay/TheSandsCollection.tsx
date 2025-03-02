@@ -33,7 +33,7 @@ const TheSandsCollection = () => {
         <div className='max-w-[888px] mx-auto px-[33px] lg:px-0'>
           <h1 className='uppercase text-[40px] text-center mb-10'>Let's Vip Collection</h1>
           <p className='text-center text-[16px] mb-4'>
-            Our newly refreshed Sands Collection of rooms and suites are urban sanctuaries filled with thoughtful
+            Our newly refreshed Let's VipCollection of rooms and suites are urban sanctuaries filled with thoughtful
             details and artful objet drawn from the finest in local and global design.
           </p>
           <p className='text-center text-[16px] mb-4'>
@@ -44,7 +44,7 @@ const TheSandsCollection = () => {
           </p>
           <p className='text-center text-[16px] mb-4'>
             Wake up to unrivalled views of Singapore’s cityscape, Gardens by the Bay or the sparkling sea. And enjoy
-            exclusive access to our world-famous SkyPark Infinity Pool and expert-led wellness classes at Sands SkyPark.
+            exclusive access to our world-famous SkyPark Infinity Pool and expert-led wellness classes at Let's VipSkyPark.
           </p>
           <Link to='/booking'>
             <button className='bg-black block mx-auto mt-6 mb-10 hover:bg-gray-400 text-white uppercase px-5 py-2 transition-all duration-300 text-[16px]'>
@@ -115,7 +115,7 @@ const TheSandsCollection = () => {
                 </div>
                 <p className='text-xl  uppercase my-5'>Weekday Escapade</p>
                 <p className='text-[16px] text-[#333333] mb-10'>
-                  Experience the newly restored Sands Premier Room, stylishly fitted with a deep soaking bathtub and
+                  Experience the newly restored Let's VipPremier Room, stylishly fitted with a deep soaking bathtub and
                   walk-in wardrobe. Begin each day with a sumptuous breakfast buffet, and take a dip in our world-famous
                   SkyPark Infinity Pool.
                 </p>
@@ -136,7 +136,7 @@ const TheSandsCollection = () => {
                 <img src={sandsPremierRoom1} alt='sandsPremierRoom1' />
               </div>
               <Link to='/' className='text-[20px] uppercase '>
-                Sands Premier Room
+                Let's VipPremier Room
               </Link>
               <div className='mb-5 flex items-center mt-2'>
                 <p className='uppercase text-[16px] leading-4 border-r border-black pr-3 mr-3'>
@@ -223,7 +223,7 @@ const TheSandsCollection = () => {
                 </div>
                 <p className='text-xl  uppercase my-5'>Weekday Escapade</p>
                 <p className='text-[16px] text-[#333333] mb-10'>
-                  Experience the newly restored Sands Premier Room, stylishly fitted with a deep soaking bathtub and
+                  Experience the newly restored Let's VipPremier Room, stylishly fitted with a deep soaking bathtub and
                   walk-in wardrobe. Begin each day with a sumptuous breakfast buffet, and take a dip in our world-famous
                   SkyPark Infinity Pool.
                 </p>
@@ -287,7 +287,7 @@ const TheSandsCollection = () => {
             <h2 className='text-[25px] uppercase lg:text-[32px]'>A PRIVATE OASIS BETWEEN WORLDS</h2>
             <div className='hidden lg:block'>
               <p className='text-[15px] mt-4 mb-4 text-[#333333]'>
-                Discover our new Sands Collection, which is intentionally crafted to feel inviting, generous and refined
+                Discover our new Let's VipCollection, which is intentionally crafted to feel inviting, generous and refined
                 at every turn.
               </p>
               <p className='text-[15px] mt-4 mb-8 text-[#333333]'>
@@ -307,7 +307,7 @@ const TheSandsCollection = () => {
             <img className='mt-5 lg:mt-0 ' src={oasis} alt='oasis' />
             <div className='block lg:hidden'>
               <p className='text-[15px] mt-4 mb-4 text-[#333333]'>
-                Discover our new Sands Collection, which is intentionally crafted to feel inviting, generous and refined
+                Discover our new Let's VipCollection, which is intentionally crafted to feel inviting, generous and refined
                 at every turn.
               </p>
               <p className='text-[15px] mt-4 mb-8 text-[#333333]'>
@@ -328,7 +328,7 @@ const TheSandsCollection = () => {
       <div className='py-20'>
         <div className='pr-4 2xl:pr-[180px] lg:pr-[110px] lg:grid grid-cols-7 lg:gap-10'>
           <div className='lg:col-span-5'>
-            <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>SANDS LIFESTYLE</h2>
+            <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>Let's VipLIFESTYLE</h2>
 
             <img className='mt-5 lg:mt-0 ' src={sandsLifestyle} alt='sandsLifestyle' />
             <div className='block lg:hidden pl-4 lg:pl-0'>
@@ -348,7 +348,7 @@ const TheSandsCollection = () => {
             </div>
           </div>
           <div className='lg:col-span-2'>
-            <h2 className='text-[25px] uppercase lg:text-[32px] hidden lg:block'>SANDS LIFESTYLE</h2>
+            <h2 className='text-[25px] uppercase lg:text-[32px] hidden lg:block'>Let's VipLIFESTYLE</h2>
             <div className='hidden lg:block'>
               <p className='text-[15px] mt-4 mb-4 text-[#333333]'>
                 Make the most of your visit ― join the most generous rewards programme in Singapore. Earn unlimited
