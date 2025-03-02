@@ -234,7 +234,7 @@ const Home = () => {
             <div className='lg:col-span-5'>
               <img className='mt-5 lg:mt-0' src={bannerLandingModule3} alt='bannerLandingModule3' />
               <div className='block lg:hidden'>
-                {/* <p className='uppercase text-[15px] my-4 font-medium text-[#333333]'>{t('home.vipClub.subtitle')}</p> */}
+                <p className='uppercase text-[15px] my-4 font-medium text-[#333333]'>{t('about.subtitle')}</p>
                 <p className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>{t('home.vipClub.description')}</p>
                 <Link to='/contact-now'>
                   <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
