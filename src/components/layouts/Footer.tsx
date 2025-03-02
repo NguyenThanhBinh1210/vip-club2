@@ -56,8 +56,8 @@ const Footer = () => {
   const { t } = useTranslation()
 
   return (
-    <footer className='bg-[#c5c6bc] pt-5 pb-10'>
-      <div className='px-4 lg:px-20 2xl:mx-[180px] 2xl:px-0'>
+    <footer className='bg-[#c5c6bc] pt-5 pb-10 flex justify-center'>
+      <div className='px-4 lg:px-20 2xl:mx-[180px] 2xl:px-0 lg:w-[59pc]  xl:w-[79pc] 2xl:w-[82pc] mx-auto'>
         <img src={footerLogo} alt='footerLogo' className='mx-auto size-[100px] lg:my-10' />
         <div className='grid md:grid-cols-4 gap-x-10 gap-y-8 mb-20'>
           <div>

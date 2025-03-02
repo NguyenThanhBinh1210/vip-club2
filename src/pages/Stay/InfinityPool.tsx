@@ -6,14 +6,14 @@ import { Accordion, Slider } from './SkyparkObservationDeck'
 const InfinityPool = () => {
   const { t } = useTranslation()
   const dataSlide2 = [1, 2, 3, 4, 5]
-  
+
   return (
     <div>
       <div>
         <img
           src={bannerPC}
           alt={t('infinityPool.banner.desktopAlt')}
-          className='h-auto object-cover hidden md:block'
+          className='h-auto object-cover hidden md:block w-full'
           style={{ aspectRatio: '21/9' }}
         />
         <img
@@ -23,7 +23,7 @@ const InfinityPool = () => {
           style={{ aspectRatio: '3/4' }}
         />
       </div>
-      
+
       <div className='pt-20 pb-10'>
         <div className='max-w-[888px] mx-auto px-[33px] lg:px-0'>
           <h1 className='uppercase text-[40px] text-center mb-10'>{t('infinityPool.title')}</h1>
@@ -49,7 +49,7 @@ const InfinityPool = () => {
               <li>{t('infinityPool.details.hours.peak')}</li>
             </ul>
           </Accordion>
-          
+
           <Accordion title={t('infinityPool.operatingHours.title')}>
             <p className='uppercase mb-5'>{t('infinityPool.operatingHours.location.title')}</p>
             <p>{t('infinityPool.operatingHours.location.text1')}</p>
@@ -79,8 +79,8 @@ const InfinityPool = () => {
         </div>
       </div>
 
-      <Slider 
-        dataSlide={dataSlide2} 
+      <Slider
+        dataSlide={dataSlide2}
         title={t('infinityPool.recommendations.title')}
         buttonTitle={t('common.discoverMore')}
       />

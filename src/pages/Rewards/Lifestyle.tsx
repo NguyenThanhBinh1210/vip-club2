@@ -71,7 +71,7 @@ const Lifestyle = () => {
         <img
           src={bannerPC}
           alt={t('lifestyle.banner.desktopAlt')}
-          className='h-auto object-cover hidden md:block'
+          className='h-auto object-cover hidden md:block w-full'
           style={{ aspectRatio: '21/9' }}
         />
         <img

@@ -20,8 +20,8 @@ const Home = () => {
         <img
           src={hotrambanner}
           alt='bannerPC'
-          className='h-auto object-cover hidden md:block w-full'
-          // style={{ aspectRatio: '21/9' }}
+          className='h-auto object-cover hidden md:block w-full w-full'
+        // style={{ aspectRatio: '21/9' }}
         />
         <img
           src={hotrambanner}
@@ -37,7 +37,7 @@ const Home = () => {
           </h1>
         </div>
         <div className='py-20'>
-          <div className='pl-4 2xl:pl-[180px] lg:pl-[110px] lg:grid grid-cols-7 lg:gap-10'>
+          <div className='pl-4 2xl:pl-[180px] lg:pl-[110px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
             <div className='lg:col-span-2'>
               <h2 className='text-[25px] uppercase lg:text-[32px]'>{t('home.hoTram.title')}</h2>
               <div className='hidden lg:block'>
@@ -107,7 +107,7 @@ const Home = () => {
                 className='lg:pt-[15pc] mt-[2pc] lg:mt-0 object-cover aspect-[7/9] lg:aspect-[4.5/9]'
                 src={hoian2}
                 alt='hoian2'
-                // style={{ aspectRatio: '4.5/9' }}
+              // style={{ aspectRatio: '4.5/9' }}
               />
             </div>
             <div>
@@ -140,7 +140,7 @@ const Home = () => {
         </div>
 
         <div className='py-20'>
-          <div className='pr-4 2xl:pr-[180px] lg:pr-[110px] lg:grid grid-cols-7 lg:gap-10'>
+          <div className='pr-4 2xl:pr-[180px] lg:pr-[110px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
             <div className='lg:col-span-5'>
               <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>{t('home.hoiana.title')}</h2>
 
@@ -197,28 +197,31 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='bg-[#f0f1eb] py-16'>
-          <h3 className='uppercase text-[25px] mb-4 pl-4 lg:hidden'>{t('home.rewardsClub.title')}</h3>
-          <div className='gap-x-10 lg:grid-cols-3 grid 2xl:grid-cols-5'>
-            <div className='lg:col-span-2 2xl:col-span-3'>
-              <img src={rewardsClub} alt='rewardsClub' className='h-max w-max' />
-            </div>
-            <div className='lg:col-span-1 2xl:col-span-2 2xl:pr-[180px] pl-4 pr-[34px] lg:p-0'>
-              <h3 className='uppercase text-[32px] hidden lg:block'>{t('home.rewardsClub.title')}</h3>
-              <p className='py-4 uppercase'>{t('home.rewardsClub.subtitle')}</p>
-              <p className='text-[#333333] mb-4'>{t('home.rewardsClub.description')}</p>
-              <ul className='list-disc pl-5 text-[#333333] mb-5'>
-                <li>{t('home.rewardsClub.locations.b2m')}</li>
-                <li>{t('home.rewardsClub.locations.level1')}</li>
-                <li>{t('home.rewardsClub.locations.level2Ruby')}</li>
-                <li>{t('home.rewardsClub.locations.level2RubySlots')}</li>
-                <li>{t('home.rewardsClub.locations.level2Apex')}</li>
-              </ul>
+        <div className='bg-[#f0f1eb] py-16 '>
+          <div className='lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+
+            <h3 className='uppercase text-[25px] mb-4 pl-4 lg:hidden'>{t('home.rewardsClub.title')}</h3>
+            <div className='gap-x-10 lg:grid-cols-3 grid 2xl:grid-cols-5'>
+              <div className='lg:col-span-2 2xl:col-span-3'>
+                <img src={rewardsClub} alt='rewardsClub' className='h-max w-max' />
+              </div>
+              <div className='lg:col-span-1 2xl:col-span-2 2xl:pr-[180px] pl-4 pr-[34px] lg:p-0'>
+                <h3 className='uppercase text-[32px] hidden lg:block'>{t('home.rewardsClub.title')}</h3>
+                <p className='py-4 uppercase'>{t('home.rewardsClub.subtitle')}</p>
+                <p className='text-[#333333] mb-4'>{t('home.rewardsClub.description')}</p>
+                <ul className='list-disc pl-5 text-[#333333] mb-5'>
+                  <li>{t('home.rewardsClub.locations.b2m')}</li>
+                  <li>{t('home.rewardsClub.locations.level1')}</li>
+                  <li>{t('home.rewardsClub.locations.level2Ruby')}</li>
+                  <li>{t('home.rewardsClub.locations.level2RubySlots')}</li>
+                  <li>{t('home.rewardsClub.locations.level2Apex')}</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
         <div className='py-20'>
-          <div className='pl-4 2xl:pl-[180px] lg:pl-[110px] lg:grid grid-cols-7 lg:gap-10'>
+          <div className='pl-4 2xl:pl-[180px] lg:pl-[110px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
             <div className='lg:col-span-2'>
               <h2 className='text-[25px] uppercase lg:text-[32px]'>{t('home.vipClub.title')}</h2>
               <div className='hidden lg:block'>

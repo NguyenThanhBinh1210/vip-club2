@@ -13,7 +13,7 @@ const Packages = () => {
         <img
           src={bannerPC}
           alt='bannerPC'
-          className='h-auto object-cover hidden md:block'
+          className='h-auto object-cover hidden md:block w-full'
           style={{ aspectRatio: '21/9' }}
         />
         <img

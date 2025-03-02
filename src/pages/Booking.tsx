@@ -120,8 +120,8 @@ const Booking = () => {
   return (
     <div className='px-4 lg:px-0 lg:w-[59pc] 2xl:w-[978pt] mx-auto pt-[60px]'>
       <div className='py-20'>
-        <img src={Bokingbanner2} alt='Bokingbanner2' className='hidden md:block' />
-        <img src={Bokingbanner} alt='Bokingbanner' className=' md:hidden w-full ' />
+        <img src={Bokingbanner2} alt='Bokingbanner2' className='hidden md:block w-full object-cover' />
+        <img src={Bokingbanner} alt='Bokingbanner' className=' md:hidden w-full object-cover' />
       </div>
       <h1 className='text-center text-4xl pb-20 uppercase'>BOOK YOUR STAY</h1>
       <div className='bg-[#f0f1eb] p-5  flex items-center flex-wrap gap-4 mb-10'>

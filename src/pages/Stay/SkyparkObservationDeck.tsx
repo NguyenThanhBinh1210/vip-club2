@@ -16,7 +16,7 @@ const SkyparkObservationDeck = () => {
         <img
           src={bannerPC}
           alt={t('skypark.banner_alt')}
-          className='h-auto object-cover hidden md:block'
+          className='h-auto object-cover hidden md:block w-full'
           style={{ aspectRatio: '21/9' }}
         />
         <img

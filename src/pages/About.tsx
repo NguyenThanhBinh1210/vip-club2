@@ -11,13 +11,13 @@ const About = () => {
         <img
           src={bannerPC}
           alt='bannerPC'
-          className='h-auto object-cover hidden md:block'
+          className='h-auto object-cover hidden md:block w-full w-full'
           style={{ aspectRatio: '21/9' }}
         />
         <img
           src={bannerMobile}
           alt='bannerMobile'
-          className='h-auto object-cover block md:hidden'
+          className='h-auto object-cover block md:hidden w-full'
           style={{ aspectRatio: '3/4' }}
         />
       </div>

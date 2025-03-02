@@ -12,8 +12,8 @@ const ContactNow = () => {
   return (
     <div className="px-4 lg:px-0 lg:w-[59pc] 2xl:w-[978pt] mx-auto pt-[60px]">
       <div className='py-20'>
-        <img src={Bokingbanner2} alt='Bokingbanner2' className='hidden md:block' />
-        <img src={Bokingbanner} alt='Bokingbanner' className=' md:hidden w-full ' />
+        <img src={Bokingbanner2} alt='Bokingbanner2' className='hidden md:block w-full object-cover' />
+        <img src={Bokingbanner} alt='Bokingbanner' className=' md:hidden w-full object-cover' />
       </div>
       <h1 className='text-center text-4xl pb-20 uppercase'>{t('contact.title')}</h1>
       <div className='mb-10'>
@@ -23,15 +23,15 @@ const ContactNow = () => {
             {t('contact.stage1.description')}
           </h2>
           <div className='bg-[#f0f1eb] border border-[#c5c6bc] md:grid grid-cols-2  mt-10 space-y-3 md:space-y-0 p-5 max-w-[700px] mx-auto gap-4 mb-10'>
-            <input 
-              type='text' 
-              placeholder={t('contact.stage1.fullName')} 
-              className='w-full p-2 border-b border-[#c5c6bc] ' 
+            <input
+              type='text'
+              placeholder={t('contact.stage1.fullName')}
+              className='w-full p-2 border-b border-[#c5c6bc] '
             />
-            <input 
-              type='text' 
-              placeholder={t('contact.stage1.phoneNumber')} 
-              className='w-full p-2 border-b border-[#c5c6bc] ' 
+            <input
+              type='text'
+              placeholder={t('contact.stage1.phoneNumber')}
+              className='w-full p-2 border-b border-[#c5c6bc] '
             />
           </div>
           <ButtonBlack onClick={() => setStage(2)} title={t('contact.stage1.submit')} />
