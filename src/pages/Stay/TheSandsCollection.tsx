@@ -328,7 +328,7 @@ const TheSandsCollection = () => {
       <div className='py-20'>
         <div className='pr-4 2xl:pr-[180px] lg:pr-[110px] lg:grid grid-cols-7 lg:gap-10'>
           <div className='lg:col-span-5'>
-            <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>Let's VipLIFESTYLE</h2>
+            <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>Let's Vip LifeStyle</h2>
 
             <img className='mt-5 lg:mt-0 ' src={sandsLifestyle} alt='sandsLifestyle' />
             <div className='block lg:hidden pl-4 lg:pl-0'>
@@ -348,7 +348,7 @@ const TheSandsCollection = () => {
             </div>
           </div>
           <div className='lg:col-span-2'>
-            <h2 className='text-[25px] uppercase lg:text-[32px] hidden lg:block'>Let's VipLIFESTYLE</h2>
+            <h2 className='text-[25px] uppercase lg:text-[32px] hidden lg:block'>Let's Vip LifeStyle</h2>
             <div className='hidden lg:block'>
               <p className='text-[15px] mt-4 mb-4 text-[#333333]'>
                 Make the most of your visit ― join the most generous rewards programme in Singapore. Earn unlimited

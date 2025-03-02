@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export const Select = ({
   initialView,
@@ -16,13 +17,21 @@ export const Select = ({
   }
 }) => {
   const [isOpen, setIsOpen] = useState(false)
+  const { t } = useTranslation()
+
   return (
     <div className='relative w-max'>
       <div
         className={`  py-1.5  uppercase  w-[120px]  text-sm flex justify-between items-center cursor-pointer ${classNames?.header}`}
         onClick={() => setIsOpen(!isOpen)}
       >
-        {selected}
+        {selected === 'en'
+          ? t('languages.english')
+          : selected === 'vi'
+            ? t('languages.vietnamese')
+            : selected === 'ko'
+              ? t('languages.korean')
+              : t('languages.vietnamese')}
         <svg
           xmlns='http://www.w3.org/2000/svg'
           fill='none'

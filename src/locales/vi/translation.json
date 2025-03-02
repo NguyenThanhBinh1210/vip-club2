@@ -41,7 +41,7 @@
       }
     },
     "rewards": {
-      "sandsLifestyle": "Let's VipLifeStyle",
+      "sandsLifestyle": "Let's Vip LifeStyle",
       "membershipTiers": "Cấp Độ Thành Viên",
       "memberPerks": "Ưu Đãi Thành Viên",
       "alliancePrivileges": "Đặc Quyền Liên Minh Sands",
@@ -147,7 +147,7 @@
       "subtitle": "Đặt chỗ & Liên hệ nhanh",
       "bookNow": "Đặt ngay"
     },
-    "copyright": "© {{year}} Let's VipLifeStyle. Đã đăng ký bản quyền."
+    "copyright": "© 2025 Let's Vip LifeStyle. Đã đăng ký bản quyền."
   },
   "about": {
     "title": "Lời giới thiệu",
@@ -217,7 +217,7 @@
     "viewDetails": "Xem chi tiết"
   },
   "signup": {
-    "title": "Đăng ký thành viên Let's VipLifeStyle miễn phí",
+    "title": "Đăng ký thành viên Let's Vip LifeStyle miễn phí",
     "banner": "Banner Đặt phòng",
     "already_have_account": "Bạn đã có tài khoản?",
     "login_here": "Đăng nhập tại đây.",
@@ -288,7 +288,7 @@
     "welcome": "CHÀO MỪNG, ASDASD",
     "digitalAccount": {
       "title": "Tài Khoản Số",
-      "description": "Truy cập tài khoản Let's VipLifeStyle của bạn với Tên đăng nhập và Mật khẩu mới tạo."
+      "description": "Truy cập tài khoản Let's Vip LifeStyle của bạn với Tên đăng nhập và Mật khẩu mới tạo."
     },
     "membershipCard": {
       "title": "Thẻ Thành Viên",
@@ -559,7 +559,7 @@
       "mobileAlt": "Banner Di Động Bộ Sưu Tập Sands"
     },
     "title": "Let's Vip LifeStyle",
-    "description": "Mở khóa thế giới phần thưởng và đặc quyền độc quyền với tư cách thành viên Let's VipLifeStyle miễn phí của bạn, chương trình ưu đãi hào phóng nhất Singapore.",
+    "description": "Mở khóa thế giới phần thưởng và đặc quyền độc quyền với tư cách thành viên Let's Vip LifeStyle miễn phí của bạn, chương trình ưu đãi hào phóng nhất Singapore.",
     "alreadyMember": "Đã là thành viên?",
     "tourist": "Bạn là du khách? Khám phá đặc quyền độc quyền của bạn.",
     "membershipTiers": "CẤP BẬC THÀNH VIÊN",

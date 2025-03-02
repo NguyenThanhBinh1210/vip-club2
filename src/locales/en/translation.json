@@ -41,7 +41,7 @@
       }
     },
     "rewards": {
-      "sandsLifestyle": "Let's VipLifeStyle",
+      "sandsLifestyle": "Let's Vip LifeStyle",
       "membershipTiers": "Membership Tiers",
       "memberPerks": "Member Perks",
       "alliancePrivileges": "Let's VipAlliance Privileges",
@@ -148,7 +148,7 @@
       "subtitle": "Quick Booking & Contact",
       "bookNow": "Book Now"
     },
-    "copyright": "© {{year}} Let's VipLifeStyle. All Rights Reserved."
+    "copyright": "© 2025 Let's Vip LifeStyle. All Rights Reserved."
   },
   "about": {
     "title": "Introduction",
@@ -221,7 +221,7 @@
     "welcome": "WELCOME, ASDASD",
     "digitalAccount": {
       "title": "Digital Account",
-      "description": "Access your Let's VipLifeStyle account with your newly created Username and Password."
+      "description": "Access your Let's Vip LifeStyle account with your newly created Username and Password."
     },
     "membershipCard": {
       "title": "Membership Card",
@@ -247,7 +247,7 @@
     "back": "Back"
   },
   "signup": {
-    "title": "Sign up for your free Let's VipLifeStyle membership",
+    "title": "Sign up for your free Let's Vip LifeStyle membership",
     "banner": "Booking Banner",
     "already_have_account": "Already have an account?",
     "login_here": "Login here.",
@@ -404,7 +404,7 @@
       }
     },
     "paizaExperience": {
-      "imageAlt": "Let's VipLifestyle Image",
+      "imageAlt": "Let's Vip LifeStyle Image",
       "title": "The Paiza Experience",
       "description": "Revel in the pinnacle of sophisticated living at the new Paiza Collection. Discover the extraordinary world of Paiza and enjoy a taste of the privileges within."
     }
@@ -551,7 +551,7 @@
       "mobileAlt": "Let's Vip Collection Mobile Banner"
     },
     "title": "Let's Vip LifeStyle",
-    "description": "Unlock a world of exclusive rewards and perks with your complimentary Let's VipLifeStyle membership, Singapore's most generous rewards programme.",
+    "description": "Unlock a world of exclusive rewards and perks with your complimentary Let's Vip LifeStyle membership, Singapore's most generous rewards programme.",
     "alreadyMember": "Already a member?",
     "tourist": "Are you a tourist? Discover your exclusive privileges.",
     "membershipTiers": "MEMBERSHIP TIERS",
