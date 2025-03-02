@@ -1,0 +1,592 @@
+{
+  "common": {
+    "menu": "메뉴",
+    "close": "닫다",
+    "back": "뒤쪽에",
+    "backToMenu": "메뉴로 돌아갑니다",
+    "viewAll": "모두보기",
+    "bookNow": "지금 예약하십시오",
+    "reserveNow": "지금 예약하십시오",
+    "viewDetails": "자세한 내용을보십시오",
+    "discoverMore": "더 많이 발견하십시오",
+    "signUp": "가입하십시오",
+    "signIn": "로그인",
+    "alreadyMember": "이미 회원?",
+    "tourist": "당신은 관광객입니까? "
+  },
+  "languages": {
+    "english": "영어",
+    "vietnamese": "베트남 사람",
+    "korean": "한국인"
+  },
+  "header": {
+    "navigation": {
+      "stay": "머무르다",
+      "rewards": "보상",
+      "aboutUs": "우리에 대해"
+    },
+    "stay": {
+      "title": "객실과 스위트",
+      "letsVipCollection": "VIP 컬렉션을합시다",
+      "paizaCollection": "Paiza 컬렉션",
+      "onlineExclusive": {
+        "title": "온라인 독점",
+        "stayPackages": "패키지를 유지하십시오"
+      },
+      "experiences": {
+        "title": "경험담",
+        "skypark": "Skypark 전망대",
+        "infinityPool": "Skypark Infinity Pool",
+        "guestPrivileges": "게스트 특권"
+      }
+    },
+    "rewards": {
+      "sandsLifestyle": "샌드 라이프 스타일",
+      "membershipTiers": "회원 계층",
+      "memberPerks": "회원 특전",
+      "alliancePrivileges": "Sands Alliance 특권",
+      "viewAllOutlets": "모든 샌드 아울렛을보십시오"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Let 's Win Club 카지노를 경험하십시오"
+    },
+    "hoTram": {
+      "title": "호 트램 카지노의 VIP 라운지",
+      "description": "베트남에서 가장 크고 유명한 카지노 중 하나에 위치한 Ho Tram의 VIP Lounge Let 's Win VIP Lounge는 독점적 인 경험을 제공하며, 저명한 회원들에게만 예약되어 있습니다.",
+      "features": {
+        "environment": "고급스러운 인테리어와 최상위 편의 시설로 설계된 개인 및 엘리트 환경.",
+        "services": "전용 버틀러, 독점 식당 메뉴 및 24/7 지원을 포함한 개인화 된 서비스.",
+        "privacy": "최고의 개인 정보 보호 및 보안, VIP 손님을위한 최대의 안락함과 마음의 평화를 보장합니다."
+      }
+    },
+    "daNang": {
+      "title": "Da Nang의 포커 클럽",
+      "description": "포커 애호가를위한 완벽한 목적지 인 Da Nang의 Let 's Win Club은 유명하고 고급 고급 환경에서 프로 포커 토너먼트를 주최합니다.",
+      "features": {
+        "rooms": {
+          "title": "개인 포커 룸",
+          "description": ", 높은 스테이크 베팅으로 세계적 수준의 게임 플레이를 특징으로합니다."
+        },
+        "services": {
+          "title": "VIP 서비스",
+          "description": " 존경받는 손님을 위해 맞춤화되어 최적의 경험을 보장합니다."
+        },
+        "lounge": {
+          "title": "고급 라운지 공간",
+          "description": ", 프리미엄 칵테일과 고급 주류를 제공하여 플레이어를위한 세련되고 편안한 환경을 만듭니다."
+        }
+      }
+    },
+    "hoiana": {
+      "title": "Hoiana Casino의 VIP 라운지",
+      "description": "국제적으로 유명한 리조트에 위치한 Hoiana에서 VIP를 획득하자는 고급스러운 엔터테인먼트와 엘리트 급 정교함을 결합한 탁월한 분위기를 제공합니다.",
+      "features": {
+        "rooms": {
+          "title": "독점 VIP 룸",
+          "description": ", 호화로운 터치로 디자인되었습니다."
+        },
+        "services": {
+          "title": "프리미엄 VIP 서비스",
+          "description": "리무진 전송, 맞춤형 지원 및 5 성급 숙박 시설을 포함하여."
+        },
+        "rewards": {
+          "title": "독점적 인 보상",
+          "description": " Let 's Win 회원, 럭셔리 선물과 매력적인 충성도 프로그램을 특징으로합니다."
+        }
+      }
+    },
+    "rewardsClub": {
+      "title": "Let 's VIP Rewards Club의 독점적 인 혜택",
+      "subtitle": "플레이 할 때 이익을 얻으려면 가입하십시오",
+      "description": "Sands Rewards Club 회원으로서 카지노 놀이에서 Sands Points와 Sands Dollars를 얻습니다. ",
+      "locations": {
+        "b2m": "B2M",
+        "level1": "레벨 1",
+        "level2Ruby": "레벨 2 루비 테이블 게임 입구",
+        "level2RubySlots": "레벨 2 루비 슬롯 입구",
+        "level2Apex": "레벨 2 에이펙스 그랜드 입구"
+      }
+    },
+    "vipClub": {
+      "title": "Let 's Win VIP Club 소개",
+      "description": "Let 's Win VIP Club은 VIP 룸 독점 시스템으로 엘리트를위한 고급스러운 게임 경험을 제공합니다. "
+    },
+    "buttons": {
+      "contact": "저희에게 연락하십시오",
+      "book": "지금 예약하십시오",
+      "viewDetails": "자세한 내용을보십시오"
+    }
+  },
+  "footer": {
+    "getToKnow": {
+      "title": "우리를 알아 가라",
+      "companyInfo": "회사 정보",
+      "careers": "경력",
+      "faq": "FAQ",
+      "contactUs": "저희에게 연락하십시오",
+      "awards": "상과 찬사"
+    },
+    "usefulInfo": {
+      "title": "유용한 정보",
+      "travelGuide": "여행 가이드",
+      "planVisit": "방문을 계획하십시오",
+      "gettingHere": "여기에 도착합니다",
+      "services": "서비스 및 편의 시설",
+      "packages": "호텔 및 비행 패키지"
+    },
+    "downloadApp": {
+      "title": "우리 앱을 다운로드하십시오"
+    },
+    "social": {
+      "title": "우리와 연결하십시오"
+    },
+    "getInspired": {
+      "title": "영감을 얻으십시오",
+      "subtitle": "빠른 예약 및 연락처",
+      "bookNow": "지금 예약하십시오"
+    },
+    "copyright": "© {{year}} 샌드 라이프 스타일. "
+  },
+  "about": {
+    "title": "소개",
+    "subtitle": "Let 's Win VIP Club에 대해",
+    "introduction": "프리미엄 엔터테인먼트 및 럭셔리 서비스를 원하는 사람들을위한 독점적 인 목적지 인 Let 's Win VIP Club에 오신 것을 환영합니다. ",
+    "experience": {
+      "title": "Let 's Win VIP Club에서는 다음을 즐길 수 있습니다.",
+      "hoTram": {
+        "title": "• Ho Tram Casino의 VIP 라운지 : ",
+        "description": "VIP 손님을위한 독점 게임이있는 개인 공간으로 편안함과 수업을 제공합니다."
+      },
+      "hoiana": {
+        "title": "• Hoiana의 VIP 지역 : ",
+        "description": "개인화 된 서비스를 갖춘 정교한 디자인으로 독특하고 고급스러운 경험을 제공합니다."
+      },
+      "danang": {
+        "title": "• Danaciti Hotel의 포커 클럽 : ",
+        "description": "전문 토너먼트와 프리미엄 테이블이있는 포커 애호가에게 이상적인 목적지."
+      }
+    },
+    "service": "특히, 우리는 직접 핫라인을 통해 24/7 고객 서비스를 제공하며 모든 요구를 지원하고 충족 할 수 있습니다.",
+    "invitation": "Let 's Win VIP Club에서 엘리트 커뮤니티에 가입하십시오. 프리미엄 경험과 우승 순간이 모여 있습니다!",
+    "whyChoose": {
+      "title": "Let 's Win VIP Club을 선택하는 이유는 무엇입니까?",
+      "features": {
+        "spaces": "✔ 호화로운 인테리어가있는 독점적 인 VIP 공간으로 절대적인 안락함을 보장합니다.",
+        "services": "24/7 지원을 제공하는 전용 전문 팀과 함께 개인화 된 서비스.",
+        "rewards": "✔ 독점 보상 및 고급 선물, Let 's Win VIP 회원을 위해 예약.",
+        "privacy": "Safe Tire Privice and Security, 안전하고 고급스러운 엔터테인먼트 경험을 보장합니다."
+      }
+    },
+    "join": "Let 's Win VIP Club에 가입하고 타의 추종을 불허하는 럭셔리 경험에 빠지십시오!",
+    "contact": "VIP 고객 서비스 핫라인 (24/7) : [전화 번호]"
+  },
+  "contact": {
+    "title": "빠른 예약 및 연락처",
+    "stage1": {
+      "title": "위에 입력하십시오",
+      "description": "Let 's Win Club에서 가장 훌륭한 제안, 다가오는 행사 및 방종의 큐 레이션을 처음으로 발견하십시오.",
+      "fullName": "전체 이름",
+      "phoneNumber": "전화 번호",
+      "submit": "제출하다"
+    },
+    "stage2": {
+      "title": "뉴스 레터를 구독 해 주셔서 감사합니다.",
+      "description": "모든 것에 대한 우리의 사랑을 보여주는 신중한 콘텐츠 큐 레이션을 기대하십시오.",
+      "backToHome": "홈페이지로 돌아갑니다"
+    }
+  },
+  "fineDining": {
+    "title": "고급 식당 레스토랑",
+    "description": "싱가포르 의이 고급 식당에서 요리 예술을 발견하십시오. ",
+    "romanticRestaurants": {
+      "title": "낭만적 인 레스토랑",
+      "description": "이 낭만적 인 레스토랑의 친밀한 분위기로 저녁을 기억에 남는 행사로 바꾸십시오. "
+    },
+    "specialOccasions": {
+      "title": "특별한 경우",
+      "description": "인생에서 가장 소중한 순간을 기념 하고이 뽀뽀 한 레스토랑의 어떤 경우에도 우아함을 더합니다. "
+    },
+    "shoppes": {
+      "title": "상점을 발견하십시오",
+      "description": "170 개가 넘는 디자이너 라벨과 럭셔리 부티크를 인상적으로 선택하면 더 좋은 것들을 찾는 것이 여기에서 끝납니다. "
+    },
+    "viewRestaurants": "레스토랑보기",
+    "viewShops": "상점을 봅니다",
+    "viewDetails": "자세한 내용을보십시오"
+  },
+  "signupSuccessful": {
+    "welcome": "환영합니다, Asdasd",
+    "digitalAccount": {
+      "title": "디지털 계정",
+      "description": "새로 만든 사용자 이름과 비밀번호로 Sands 라이프 스타일 계정에 액세스하십시오."
+    },
+    "membershipCard": {
+      "title": "회원 카드",
+      "description": "마리나 베이 샌드 (Marina Bay Sands)의 샌드 보상 거래에는 회원 ID와 핀이 필요합니다."
+    },
+    "username": "사용자 이름",
+    "membershipId": "멤버십 ID",
+    "loginNow": "지금 로그인하십시오"
+  },
+  "otpVerification": {
+    "title": "OTP 검증",
+    "stage1": {
+      "description": "검증 프로세스의 일부로 일회성 비밀번호 (OTP)를받을 채널을 선택하십시오."
+    },
+    "stage2": {
+      "description": "일회성 비밀번호 (OTP)가 포함 된 이메일이 이메일 주소로 전송되었습니다."
+    },
+    "emailOtp": "이메일 OTP",
+    "enterOtp": "OTP를 입력하십시오",
+    "resendOtp": "01:16에 새로운 OTP를 재현하십시오",
+    "proceed": "진행하다",
+    "verify": "확인하다",
+    "back": "뒤쪽에"
+  },
+  "signup": {
+    "title": "무료 샌드 라이프 스타일 멤버십에 가입하십시오",
+    "banner": "예약 배너",
+    "already_have_account": "이미 계정이 있습니까?",
+    "login_here": "여기에 로그인하십시오.",
+    "particulars": "상세",
+    "digital_account": "디지털 계정",
+    "complete": "완벽한",
+    "last_name": "성",
+    "first_name": "이름",
+    "passport_note": "(여권에 인쇄 된대로)",
+    "date_of_birth": "생일",
+    "age_requirement": "(가입하려면 18 세 이상이어야합니다.)",
+    "mobile_number": "휴대폰 번호",
+    "mobile_note": "숫자는 8 자리 여야합니다",
+    "email": "이메일 주소",
+    "email_note": "유효한 이메일 주소를 입력하십시오",
+    "referral_code": "추천 코드",
+    "optional": "(선택 과목)",
+    "next": "다음",
+    "create_pin": "멤버십 핀을 만듭니다",
+    "create_4digit_pin": "4 자리 카드 핀을 만듭니다",
+    "pin_description": "4 자리 핀은 Marina Bay Sands의 Sands Rewards 거래에 사용됩니다.",
+    "create_pin_label": "핀을 만듭니다",
+    "confirm_pin": "핀 확인",
+    "create_digital_account": "디지털 계정을 만듭니다",
+    "digital_accounts": "디지털 계정",
+    "digital_account_description": "이 디지털 계정 (사용자 이름 및 비밀번호)은 디지털 플랫폼에 로그인하는 데 사용됩니다. ",
+    "username": "사용자 이름",
+    "password": "비밀번호",
+    "confirm_password": "비밀번호를 확인하십시오",
+    "create": "만들다",
+    "steps": {
+      "particulars": "상세",
+      "digitalAccount": "디지털 계정",
+      "complete": "완벽한"
+    },
+    "form": {
+      "lastName": "성",
+      "firstName": "이름",
+      "asPassport": "(여권에 인쇄 된대로)",
+      "dob": "생일",
+      "dobNote": "(가입하려면 18 세 이상이어야합니다.)",
+      "dd": "DD",
+      "mmm": "음",
+      "yyyy": "Yyyy",
+      "months": {
+        "jan": "1 월",
+        "feb": "2 월",
+        "mar": "3 월",
+        "apr": "4 월",
+        "may": "5월",
+        "jun": "6 월",
+        "jul": "7 월",
+        "aug": "8 월",
+        "sep": "9 월",
+        "oct": "10 월",
+        "nov": "11 월",
+        "dec": "12 월"
+      },
+      "mobileNumber": "휴대폰 번호",
+      "mobileNote": "숫자는 8 자리 여야합니다",
+      "email": "이메일 주소",
+      "emailNote": "유효한 이메일 주소를 입력하십시오",
+      "referralCode": "추천 코드",
+      "optional": "(선택 과목)"
+    }
+  },
+  "notFound": {
+    "title": "이 페이지는 존재하지 않습니다",
+    "description": "당신이 찾고있는 페이지는 찾을 수 없습니다."
+  },
+  "more": {
+    "title": "더 많은 경험",
+    "viewDetails": "자세한 내용을보십시오",
+    "casinoLevy": {
+      "title": "카지노 입력 부과",
+      "description": "일반 카지노 규칙 및 진입 조건에 대한 정보를 얻으십시오."
+    },
+    "rewardsClub": {
+      "title": "Let 's VIP Rewards Club의 독점적 인 혜택",
+      "subtitle": "플레이 할 때 이익을 얻으려면 가입하십시오",
+      "description": "Sands Rewards Club 회원으로서 카지노 놀이에서 Sands Points와 Sands Dollars를 얻습니다. ",
+      "locations": [
+        "B2M",
+        "레벨 1",
+        "레벨 2 루비 테이블 게임 입구",
+        "레벨 2 루비 슬롯 입구",
+        "레벨 2 에이펙스 그랜드 입구"
+      ]
+    },
+    "responsibleGambling": {
+      "title": "책임있는 도박",
+      "subtitle": "우리 후원자에 대한 헌신",
+      "description": "잊을 수없는 경험을 창출하려는 우리의 헌신은 카지노 바로 바로 우리 리조트의 모든 측면으로 확대됩니다."
+    }
+  },
+  "login": {
+    "title": "로그인",
+    "username": "사용자 이름",
+    "emailPlaceholder": "이메일",
+    "password": "비밀번호",
+    "passwordPlaceholder": "비밀번호",
+    "loginButton": "로그인",
+    "noAccount": "계정이 없습니까?",
+    "registerNow": "지금 등록하십시오"
+  },
+  "paiza": {
+    "title": "Paiza 컬렉션",
+    "bannerAlt": "Paiza 컬렉션 배너",
+    "bannerMobileAlt": "Paiza Collection 모바일 배너",
+    "intro": "가장 분별력이 가장 좋은 Paiza Collection은 매 턴마다 타의 추종을 불허하고 사려 깊은 디테일 및 무한한 예술성으로 집에서 멀리 떨어진 최고의 집을 구현합니다.",
+    "description1": "신중한 입구부터 호화로운 앙와이트 시설에 이르기까지 최고의 스위트 컬렉션의 모든 측면은 프라이버시와 편안함을 위해 설계되었습니다. ",
+    "description2": "우리의 랜드 마크 호텔 위에 자리 잡은 개인 클럽 라운지 인 Paiza Sky Residence에 대한 특권 접근을 즐기십시오. ",
+    "description3": "머무는 동안 24 시간 버틀러 팀은 모든 것을 가능하게하기위한 결심으로 모든 소원을 기대하고 있습니다.",
+    "description4": "Paiza Collection의 집에 오신 것을 환영합니다.",
+    "experienceTitle": "특별한 경험을 경험하십시오",
+    "experienceImageAlt": "이미지를 경험하십시오",
+    "experiences": {
+      "0": {
+        "title": "Paiza VIP 도착",
+        "description": "우리의 헌신적 인 인사말과 함께 따뜻한 환영을 받으십시오. "
+      },
+      "1": {
+        "title": "독점적 인 집사 서비스",
+        "description": "개인화 된 24 시간 버틀러 서비스를 경험하여 모든 요구가 최대한의 관심과 관리로 충족되도록합니다."
+      },
+      "2": {
+        "title": "개인 스카이 라운지",
+        "description": "파노라마 전망과 프리미엄 서비스를 제공하는 독점적 인 Paiza Sky Residence에 액세스하십시오."
+      },
+      "3": {
+        "title": "선별 된 경험",
+        "description": "개인 식당에서 요트 모험에 이르기까지 맞춤형 경험을 즐기십시오."
+      }
+    },
+    "aboveExpectation": {
+      "title": "무엇보다도 기대",
+      "description1": "우리의 상징적 인 건물의 가장 높은 층에 자리 잡은 Paiza Collection은 고상한 천장, 고급스러운 플러시 가구 및 최고의 재료, 매혹적인 작품 및 훌륭한 전망을 갖춘 숨막히지 만 웅장하지만 고요한 인테리어를 보여줍니다.",
+      "description2": "Fromental의 놀라운 손으로 그린 ​​실크 월경, Zanetto의 보석 같은 황동 선박 및 레그 아시아의 Lotus-Adorned Porcelaware와 같은 최고의 국제 장인들과 공동으로 만들어진 멋진 오브 제트 배열.",
+      "description3": "우아한 비화에서 깊은 휴식에 이르기까지 가장 작은 세부 사항조차도 편안함과 즐거움을 위해 신중하게 기절했습니다."
+    },
+    "rooms": {
+      "premierRoom": {
+        "imageAlt": "샌드 프리미어 룸 이미지",
+        "title": "샌드 프리미어 룸",
+        "gardenView": "베이 뷰의 정원",
+        "cityView": "도시보기",
+        "description": "우아한 방에서 긴장을 풀고 맞춤형 armoire에서 보물의 관대 한 큐 레이션을 맛보십시오. ",
+        "features": {
+          "size": "평균 45 평방 미터",
+          "guests": "최대 3 명의 손님",
+          "beds": "왕 1 명 또는 퀸 침대 2 개"
+        }
+      }
+    },
+    "paizaExperience": {
+      "imageAlt": "샌즈 라이프 스타일 이미지",
+      "title": "Paiza 경험",
+      "description": "New Paiza 컬렉션에서 정교한 생활의 정교함에 대한 계시. "
+    }
+  },
+  "packages": {
+    "banner": {
+      "desktopAlt": "배너 데스크탑 패키지",
+      "mobileAlt": "패키지 배너 모바일"
+    },
+    "title": "당신에게 맞춤형 낙원",
+    "description": "분별력있는 맛, 호기심 많은 마음 및 모험을위한 식욕을 가진 가족, 커플 및 개인을 위해 선별 된 숙박 패키지 탐색",
+    "room": {
+      "title": "샌드 프리미어 룸",
+      "view": {
+        "gardens": "베이 뷰의 정원",
+        "city": "도시보기"
+      },
+      "description": "우아한 방에서 긴장을 풀고 맞춤형 armoire에서 보물의 관대 한 큐 레이션을 맛보십시오. ",
+      "details": {
+        "area": "평균 45 평방 미터",
+        "guests": "최대 3 명의 손님",
+        "beds": "왕 1 명 또는 퀸 침대 2 개"
+      },
+      "viewDetails": "자세한 내용을보십시오"
+    }
+  },
+  "skypark": {
+    "banner_alt": "Skypark Observation Deck 배너",
+    "banner_mobile_alt": "Skypark Observation Deck 모바일 배너",
+    "paradise_title": "당신에게 맞춤형 낙원",
+    "discover_text": "1 월 17 일부터 Skyline Singapore : Skypark Observation Deck의 새로운 쇼케이스 인 Skyline Singapore에서 Let 's Win Club의 과거, 현재 및 미래를 발견했습니다.",
+    "explore_text": "56 층 높이의 새로운 유리한 지점에서 도시를 탐험하십시오. 싱가포르의 세계적 수준의 도시 스케이프의 경치 좋은 전망은 독특하게 숨이 막혔습니다. ",
+    "evening_view": "저녁에 관측 데크는 스펙트럼의 멋진 전망을 제공합니다.",
+    "sunset_experience": "보다 친밀한 시청 경험을 위해 개인 입국 지점, 전용 좌석 공간 및 프리미엄 식당 메뉴를 통해 우선 순위 액세스 권한이있는 독점 프로그램 인 Sky in the Sky를 선택하십시오.",
+    "book_tickets": "예약 티켓",
+    "notice_title": "알아채다",
+    "notice_text": "Skypark Observation Deck은 Silent Disco Cull Moon 파티를 위해 오후 9시에 다음 날짜에 문을 닫습니다 (오후 8시)",
+    "details_title": "세부",
+    "location_title": "위치",
+    "location_text1": "호텔 타워 3, 레벨 56",
+    "location_text2": "Skypark 전망대 입구는 Hotel Tower 3 차도를 통해 접근 할 수 있습니다.",
+    "hours_title": "영업 시간",
+    "hours_nonpeak": "비-피크 : 오전 10시-오후 4시 30 분 (오후 4시 마지막 항목)",
+    "hours_peak": "피크 : 오후 5시 - 오후 10시 (오후 9시 30 분에 마지막 항목)",
+    "prices_title": "티켓 가격",
+    "whats_on": "무슨 일이야",
+    "you_may_like": "우리는 당신도 좋아할 것이라고 생각합니다",
+    "faq_title": "자주 묻는 질문",
+    "faq": {
+      "opening_hours": {
+        "question": "Sands Skypark의 영업 시간은 얼마입니까?",
+        "answer1": "전망대를 포함한 VIP Skypark는 오전 10 시부 터 오후 10 시까 지 열려 있습니다. ",
+        "answer2": "전망대는 특정 시간에 개인 행사 또는 상업적 약속을 위해 폐쇄 될 수 있습니다. "
+      },
+      "rain": {
+        "question": "비가 오면 어떻게됩니까?",
+        "answer1": "전망대를 포함한 VIP Skypark는 오전 10 시부 터 오후 10 시까 지 열려 있습니다. ",
+        "answer2": "전망대는 특정 시간에 개인 행사 또는 상업적 약속을 위해 폐쇄 될 수 있습니다. "
+      },
+      "souvenir": {
+        "question": "기념품 가게 있어요?",
+        "answer1": "전망대를 포함한 VIP Skypark는 오전 10 시부 터 오후 10 시까 지 열려 있습니다. ",
+        "answer2": "전망대는 특정 시간에 개인 행사 또는 상업적 약속을 위해 폐쇄 될 수 있습니다. "
+      },
+      "prohibited": {
+        "question": "Skypark 관측 데크에서 어떤 항목이 금지되어 있습니까?",
+        "answer1": "전망대를 포함한 VIP Skypark는 오전 10 시부 터 오후 10 시까 지 열려 있습니다. ",
+        "answer2": "전망대는 특정 시간에 개인 행사 또는 상업적 약속을 위해 폐쇄 될 수 있습니다. "
+      },
+      "other_areas": {
+        "question": "Skypark Observation Deck 티켓으로 Sands Skypark의 다른 지역을 방문 할 수 있습니까?",
+        "answer1": "전망대를 포함한 VIP Skypark는 오전 10 시부 터 오후 10 시까 지 열려 있습니다. ",
+        "answer2": "전망대는 특정 시간에 개인 행사 또는 상업적 약속을 위해 폐쇄 될 수 있습니다. "
+      },
+      "conditions": {
+        "question": "Skypark Observation Deck에 다른 진입 조건이 있습니까?",
+        "answer1": "전망대를 포함한 VIP Skypark는 오전 10 시부 터 오후 10 시까 지 열려 있습니다. ",
+        "answer2": "전망대는 특정 시간에 개인 행사 또는 상업적 약속을 위해 폐쇄 될 수 있습니다. "
+      }
+    },
+    "slider": {
+      "weekday_escapade": {
+        "image_alt": "평일 휴가 이미지",
+        "title": "평일 탈출",
+        "tag": "평일 | ",
+        "description": "새로 복원 된 Sands Premier Room은 깊은 몸을 담그는 욕조와 워크 인 옷장으로 세련되게 장착되었습니다. "
+      }
+    }
+  },
+  "infinityPool": {
+    "banner": {
+      "desktopAlt": "인피니티 풀 배너 데스크탑",
+      "mobileAlt": "인피니티 풀 배너 모바일"
+    },
+    "title": "Skypark Infinity Pool",
+    "renowned": "이유 때문에 유명합니다.",
+    "description": "세계에서 가장 큰 옥상 인피니티 풀에서 완전히 새로운 관점을 얻으십시오. ",
+    "details": {
+      "title": "세부",
+      "location": {
+        "title": "위치",
+        "text1": "호텔 타워 3, 레벨 56",
+        "text2": "Skypark 전망대 입구는 Hotel Tower 3 차도를 통해 접근 할 수 있습니다."
+      },
+      "hours": {
+        "title": "영업 시간",
+        "nonPeak": "비-피크 : 오전 10시-오후 4시 30 분 (오후 4시 마지막 항목)",
+        "peak": "피크 : 오후 5시 - 오후 10시 (오후 9시 30 분에 마지막 항목)"
+      }
+    },
+    "operatingHours": {
+      "title": "운영 시간",
+      "location": {
+        "title": "위치",
+        "text1": "호텔 타워 3, 레벨 56",
+        "text2": "Skypark 전망대 입구는 Hotel Tower 3 차도를 통해 접근 할 수 있습니다."
+      },
+      "hours": {
+        "title": "영업 시간",
+        "nonPeak": "비-피크 : 오전 10시-오후 4시 30 분 (오후 4시 마지막 항목)",
+        "peak": "피크 : 오후 5시 - 오후 10시 (오후 9시 30 분에 마지막 항목)"
+      }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "openingHours": {
+        "question": "Sands Skypark의 영업 시간은 얼마입니까?",
+        "answer1": "전망대를 포함한 VIP Skypark는 오전 10 시부 터 오후 10 시까 지 열려 있습니다. ",
+        "answer2": "전망대는 특정 시간에 개인 행사 또는 상업적 약속을 위해 폐쇄 될 수 있습니다. "
+      }
+    },
+    "recommendations": {
+      "title": "우리는 당신도 좋아할 것이라고 생각합니다"
+    }
+  },
+  "lifestyle": {
+    "banner": {
+      "desktopAlt": "Sands Collection 배너",
+      "mobileAlt": "Sands Collection 모바일 배너"
+    },
+    "title": "VIP 라이프 스타일을합시다",
+    "description": "싱가포르의 가장 관대 한 보상 프로그램 인 무료 Sands 라이프 스타일 멤버십을 통해 독점적 인 보상과 특전의 세계를 잠금 해제하십시오.",
+    "alreadyMember": "이미 회원?",
+    "tourist": "당신은 관광객입니까? ",
+    "membershipTiers": "회원 계층",
+    "membership": {
+      "imageAlt": "멤버십 계층 ​​이미지",
+      "lifestyle": {
+        "title": "라이프 스타일",
+        "benefits": {
+          "free": "무료로 가입 할 수 있습니다",
+          "tickets": "관광 명소 및 예술 박물관 전시회 티켓 30% 할인",
+          "parking": "공공 자조 수수료로 20% 리조트 달러를 벌 수 있습니다"
+        }
+      },
+      "prestige": {
+        "title": "명성",
+        "benefits": {
+          "upgrade": "업그레이드하는 데 $ 5,000",
+          "tickets": "Artscience Museum 전시회에 대한 명소 및 1 대 1 티켓에 대한 무료 티켓",
+          "room": "호텔 객실 요금에 대한 10% 절약",
+          "parking": "당일 지출로 $ 4 리조트 달러로 상환 할 수있는 자조 특권"
+        }
+      },
+      "elite": {
+        "title": "엘리트",
+        "benefits": {
+          "upgrade": "S $ 50,000 업그레이드",
+          "tickets": "명소 및 예술 박물관 전시회에 대한 무료 티켓",
+          "room": "Sands Lounge에서 호텔 객실 요금 및 독점 체크인에 대한 15% 절약",
+          "parking": "당일 지출로 무료 자체 자격",
+          "events": "유명인 행사에 대한 독점 초대"
+        }
+      },
+      "paiza": {
+        "title": "파이자",
+        "benefits": {
+          "upgrade": "S $ 500,000 업그레이드",
+          "tickets": "명소 및 예술 박물관 전시회에 대한 무료 티켓",
+          "room": "Sands Lounge에서 호텔 객실 요금 및 독점 체크인에 대한 20% 절약",
+          "parking": "무료 셀프 파킹 및 발레 주차",
+          "access": "유명인 이벤트, 쇼핑, 식당 및 엔터테인먼트 경험을위한 Paiza Concierge 및 독점 초대에 대한 접근"
+        }
+      }
+    }
+  }
+}

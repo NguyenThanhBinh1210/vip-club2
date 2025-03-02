@@ -83,23 +83,23 @@ const Signup = () => {
                   <p className='text-xs'>{t('signup.age_requirement')}</p>
                 </div>
                 <div className='flex-1 grid grid-cols-3 gap-x-5'>
-                  <input className=' border-b border-[#c5c6bc] p-1 w-full' placeholder={t('signup.day')} />
+                  <input className=' border-b border-[#c5c6bc] p-1 w-full' placeholder={t('signup.form.dd')} />
                   <select className='border-b border-[#c5c6bc] p-1 w-full '>
-                    <option value='13'>{t('signup.month')}</option>
-                    <option value='1'>{t('signup.january')}</option>
-                    <option value='2'>{t('signup.february')}</option>
-                    <option value='3'>{t('signup.march')}</option>
-                    <option value='4'>{t('signup.april')}</option>
-                    <option value='5'>{t('signup.may')}</option>
-                    <option value='6'>{t('signup.june')}</option>
-                    <option value='7'>{t('signup.july')}</option>
-                    <option value='8'>{t('signup.august')}</option>
-                    <option value='9'>{t('signup.september')}</option>
-                    <option value='10'>{t('signup.october')}</option>
-                    <option value='11'>{t('signup.november')}</option>
-                    <option value='12'>{t('signup.december')}</option>
+                    <option value=''>{t('signup.form.mmm')}</option>
+                    <option value='1'>{t('signup.form.months.jan')}</option>
+                    <option value='2'>{t('signup.form.months.feb')}</option>
+                    <option value='3'>{t('signup.form.months.mar')}</option>
+                    <option value='4'>{t('signup.form.months.apr')}</option>
+                    <option value='5'>{t('signup.form.months.may')}</option>
+                    <option value='6'>{t('signup.form.months.jun')}</option>
+                    <option value='7'>{t('signup.form.months.jul')}</option>
+                    <option value='8'>{t('signup.form.months.aug')}</option>
+                    <option value='9'>{t('signup.form.months.sep')}</option>
+                    <option value='10'>{t('signup.form.months.oct')}</option>
+                    <option value='11'>{t('signup.form.months.nov')}</option>
+                    <option value='12'>{t('signup.form.months.dec')}</option>
                   </select>
-                  <input className='border-b border-[#c5c6bc] p-1 w-full ' placeholder={t('signup.year')} />
+                  <input className='border-b border-[#c5c6bc] p-1 w-full ' placeholder={t('signup.form.yyyy')} />
                 </div>
               </div>
               <div className='flex flex-col   gap-x-10'>

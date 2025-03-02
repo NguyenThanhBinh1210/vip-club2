@@ -62,7 +62,10 @@ const Home = () => {
                   <p className='mb-2'>
                     {t('home.hoTram.description')}
                   </p>
-                  <li className='mb-2'>
+                  <li className='mb-2'>{t('home.hoTram.features.environment')}</li>
+                  <li className='mb-2'>{t('home.hoTram.features.services')}</li>
+                  <li className='mb-2'>{t('home.hoTram.features.privacy')}</li>
+                  {/* <li className='mb-2'>
                     <strong>{t('home.hoTram.features.environment.title')}</strong>
                     {t('home.hoTram.features.environment.description')}
                   </li>
@@ -73,7 +76,7 @@ const Home = () => {
                   <li className='mb-2'>
                     <strong>{t('home.hoTram.features.privacy.title')}</strong>
                     {t('home.hoTram.features.privacy.description')}
-                  </li>
+                  </li> */}
                 </div>
 
                 <a href='tel:0909090909'>
