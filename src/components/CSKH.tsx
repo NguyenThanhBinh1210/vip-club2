@@ -65,7 +65,7 @@ const CSKH = () => {
   return (
     <>
       <button
-        className=' p-1.5 rounded-full border border-black fixed bottom-8 right-10 z-50'
+        className=' p-2.5 rounded-full border bg-blue-600 text-white animate-none fixed bottom-8 right-10 z-50'
         onClick={addLiveChatScript}
       >
         <svg
