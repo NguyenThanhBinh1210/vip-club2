@@ -24,6 +24,9 @@ import SignUpOTPVerification from '~/pages/SignUpOTPVerification'
 import SignupSuccessful from '~/pages/SignupSuccessful'
 import Login from '~/pages/Login'
 import LoginLayout from '~/layouts/LoginLayout'
+import VIPMembershipOffers from '~/pages/VIPMembershipOffers'
+import PremiumPerks from '~/pages/PremiumPerks'
+import EventTournamentPromotions from '~/pages/EventTournamentPromotions'
 
 const useRouteElements = () => {
   const routeElements = useRoutes([
@@ -75,6 +78,30 @@ const useRouteElements = () => {
         <LoginLayout>
           <SignUpOTPVerification />
         </LoginLayout>
+      )
+    },
+    {
+      path: '/vip-membership-offers',
+      element: (
+        <HomeLayout>
+          <VIPMembershipOffers />
+        </HomeLayout>
+      )
+    },
+    {
+      path: '/premium-perks',
+      element: (
+        <HomeLayout>
+          <PremiumPerks />
+        </HomeLayout>
+      )
+    },
+    {
+      path: '/event-tournament-promotions',
+      element: (
+        <HomeLayout>
+          <EventTournamentPromotions />
+        </HomeLayout>
       )
     },
     {

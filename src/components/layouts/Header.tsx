@@ -196,7 +196,7 @@ const Header = () => {
               </svg>
             </button>
 
-            {/* <button onClick={() => setIsNavOpen('Rewards')} className={` flex items-center gap-4 uppercase group `}>
+            <button onClick={() => setIsNavOpen('Rewards')} className={` flex items-center gap-4 uppercase group `}>
               {t('header.navigation.rewards')}
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -213,13 +213,13 @@ const Header = () => {
                 <path d='M18 8L22 12L18 16' />
                 <path d='M2 12H22' />
               </svg>
-            </button> */}
+            </button>
             <Link onClick={toggleMenu} to={'/about-us'} className={` flex items-center gap-4 uppercase group `}>
               {t('header.navigation.aboutUs')}
             </Link>
-            <Link onClick={toggleMenu} to={'/lifestyle'} className={` flex items-center gap-4 uppercase group `}>
+            {/* <Link onClick={toggleMenu} to={'/lifestyle'} className={` flex items-center gap-4 uppercase group `}>
               {t('header.navigation.rewards')}
-            </Link>
+            </Link> */}
             <Select initialView={initialData} selected={selectedLanguage} setSelected={handleLanguageChange} />
           </div>
         </div>
@@ -279,7 +279,7 @@ const Header = () => {
       </div>
 
 
-      {/* <div
+      <div
         className={`fixed  top-0 bg-[#e1e2d6] w-full lg:w-[360px] h-full pt-[60px] z-40 transition-all duration-700 ${isNavOpen === 'Rewards' ? 'opacity-100 visible lg:left-[360px]' : 'opacity-0 invisible left-0'
           }`}
       >
@@ -291,22 +291,20 @@ const Header = () => {
               <Link onClick={toggleMenu} to={'/lifestyle'} className='hover:opacity-65'>
                 {t('header.rewards.sandsLifestyle')}
               </Link>
-              <Link onClick={toggleMenu} to={'/members-privileges'} className='hover:opacity-65'>
-                {t('header.rewards.membershipTiers')}
+              <Link onClick={toggleMenu} to={'/vip-membership-offers'} className='hover:opacity-65'>
+                VIP Membership Offers
               </Link>
-              <Link onClick={toggleMenu} to={'/'} className='hover:opacity-65'>
-                {t('header.rewards.memberPerks')}
+              <Link onClick={toggleMenu} to={'/premium-perks'} className='hover:opacity-65'>
+                Premium perks
               </Link>
-              <Link onClick={toggleMenu} to={'/'} className='hover:opacity-65'>
-                {t('header.rewards.alliancePrivileges')}
+              <Link onClick={toggleMenu} to={'/event-tournament-promotions'} className='hover:opacity-65'>
+                Event & Tournament Promotions
               </Link>
-              <Link onClick={toggleMenu} to={'/'} className='hover:opacity-65'>
-                {t('header.rewards.viewAllOutlets')}
-              </Link>
+
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </>
   )
 }

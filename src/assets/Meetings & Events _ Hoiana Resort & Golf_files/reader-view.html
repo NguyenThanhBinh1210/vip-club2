@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/reader-view.html -->
+<html lang="en" style="--tts-highlight-color: #ffff0066; --tts-underline-color: #ff4000fe;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/contentStyle.css"><link rel="stylesheet" href="chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/reader-view.css"><style>.tippy-box[data-animation=fade][data-state=hidden]{opacity:0}[data-tippy-root]{max-width:calc(100vw - 10px)}.tippy-box{position:relative;background-color:#333;color:#fff;border-radius:4px;font-size:14px;line-height:1.4;white-space:normal;outline:0;transition-property:transform,visibility,opacity}.tippy-box[data-placement^=top]>.tippy-arrow{bottom:0}.tippy-box[data-placement^=top]>.tippy-arrow:before{bottom:-7px;left:0;border-width:8px 8px 0;border-top-color:initial;transform-origin:center top}.tippy-box[data-placement^=bottom]>.tippy-arrow{top:0}.tippy-box[data-placement^=bottom]>.tippy-arrow:before{top:-7px;left:0;border-width:0 8px 8px;border-bottom-color:initial;transform-origin:center bottom}.tippy-box[data-placement^=left]>.tippy-arrow{right:0}.tippy-box[data-placement^=left]>.tippy-arrow:before{border-width:8px 0 8px 8px;border-left-color:initial;right:-7px;transform-origin:center left}.tippy-box[data-placement^=right]>.tippy-arrow{left:0}.tippy-box[data-placement^=right]>.tippy-arrow:before{left:-7px;border-width:8px 8px 8px 0;border-right-color:initial;transform-origin:center right}.tippy-box[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}.tippy-arrow{width:16px;height:16px;color:#333}.tippy-arrow:before{content:"";position:absolute;border-color:transparent;border-style:solid}.tippy-content{position:relative;padding:5px 9px;z-index:1}</style><style>
+
+  /* OpenDyslexic */
+  @font-face {
+    format("opentype");
+    font-family: OpenDyslexic;
+    font-weight: normal;
+    font-style: normal;
+    src: url("chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/assets/fonts/OpenDyslexic/OpenDyslexic-Regular.otf")
+  }
+  @font-face {
+    format("opentype");
+    font-family: OpenDyslexic;
+    font-weight: normal;
+    font-style: italic;
+    src: url("chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/assets/fonts/OpenDyslexic/OpenDyslexic-Italic.otf")
+  }
+  @font-face {
+    format("opentype");
+    font-family: OpenDyslexic;
+    font-weight: bold;
+    font-style: normal;
+    src: url("chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/assets/fonts/OpenDyslexic/OpenDyslexic-Bold.otf")
+  }
+  @font-face {
+    format("opentype");
+    font-family: OpenDyslexic;
+    font-weight: bold;
+    font-style: italic;
+    src: url("chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/assets/fonts/OpenDyslexic/OpenDyslexic-BoldItalic.otf")
+  }
+  
+  /* Tahoma */
+  @font-face {
+    format("truetype");
+    font-family: Tahoma;
+    font-weight: normal;
+    font-style: normal;
+    src: url("chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/assets/fonts/Tahoma/Tahoma-Regular.ttf")
+  }
+  @font-face {
+    format("truetype");
+    font-family: Tahoma;
+    font-weight: bold;
+    font-style: normal;
+    src: url("chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/assets/fonts/Tahoma/Tahoma-Bold.ttf")
+  }
+
+  /* CenturyGothic */
+  @font-face {
+    format("truetype");
+    font-family: CenturyGothic;
+    font-weight: normal;
+    font-style: normal;
+    src: url("chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/assets/fonts/CenturyGothic/CenturyGothic-Regular.ttf")
+  }
+  @font-face {
+    format("truetype");
+    font-family: CenturyGothic;
+    font-weight: bold;
+    font-style: normal;
+    src: url("chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/assets/fonts/CenturyGothic/CenturyGothic-Bold.ttf")
+  }
+  
+  /* Calibri */
+  @font-face {
+    format("truetype");
+    font-family: Calibri;
+    font-weight: normal;
+    font-style: normal;
+    src: url("chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/assets/fonts/Calibri/Calibri-Regular.ttf")
+  }
+  @font-face {
+    format("truetype");
+    font-family: Calibri;
+    font-weight: bold;
+    font-style: normal;
+    src: url("chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/assets/fonts/Calibri/Calibri-Bold.ttf")
+  }
+
+  /* OpenSans */
+  @font-face {
+    format("woff");
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: 100%;
+    src: url("chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/assets/fonts/OpenSans/OpenSans-Regular.woff")
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+  }
+
+  
+        [data-font="Arial"] {
+          font-family: "Arial" !important;
+        }
+      
+
+        [data-font="Calibri"] {
+          font-family: "Calibri" !important;
+        }
+      
+
+        [data-font="Courier"] {
+          font-family: "Courier" !important;
+        }
+      
+
+        [data-font="CenturyGothic"] {
+          font-family: "CenturyGothic" !important;
+        }
+      
+
+        [data-font="Comic Sans MS"] {
+          font-family: "Comic Sans MS" !important;
+        }
+      
+
+        [data-font="Helvetica"] {
+          font-family: "Helvetica" !important;
+        }
+      
+
+        [data-font="Open Sans"] {
+          font-family: "Open Sans" !important;
+        }
+      
+
+        [data-font="Tahoma"] {
+          font-family: "Tahoma" !important;
+        }
+      
+
+        [data-font="OpenDyslexic"] {
+          font-family: "OpenDyslexic" !important;
+        }
+      
+
+        [data-font="Verdana"] {
+          font-family: "Verdana" !important;
+        }
+      
+</style><style title="oihhpemnlfdlkdhbiajjjkbbojdojchj"></style></head><body data-window-focused-at="1741006073514" data-pixie-theme2="false" class="tts-highlight-status"><h2 id="title">-</h2><div id="content">Nothing here</div><script src="chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/contentScript.js"></script><script src="chrome-extension://oihhpemnlfdlkdhbiajjjkbbojdojchj/reader-view.js"></script>
+    <div id="tooltip-tag-p0A65q95"></div>
+  
+    <div id="widget-p0A65q95">
+      <div class="tts-previous tts-btn widget-icon"></div>
+      <div class="tts-play tts-btn widget-icon"></div>
+      <div class="tts-pause tts-btn widget-icon"></div>
+      <div class="tts-stop tts-btn widget-icon"></div>
+      <div class="tts-next tts-btn widget-icon"></div>
+    </div>
+  <div class="pixie-highlight-toolbar" style="display: none;"><div class="color-options-container" style="display: inline-block;"><div class="color-option" data-color-value="#fff176" data-color-name="yellow" aria-label="yellow" style="background-color: rgb(255, 241, 118);"></div><div class="color-option" data-color-value="#81c784" data-color-name="green" aria-label="green" style="background-color: rgb(129, 199, 132);"></div><div class="color-option" data-color-value="#64b5f6" data-color-name="blue" aria-label="blue" style="background-color: rgb(100, 181, 246);"></div><div class="color-option" data-color-value="#e57373" data-color-name="red" aria-label="red" style="background-color: rgb(229, 115, 115);"></div><div class="color-option" data-color-value="#ba68c8" data-color-name="purple" aria-label="purple" style="background-color: rgb(186, 104, 200);"></div><div class="color-option" data-color-value="#4db6ac" data-color-name="teal" aria-label="teal" style="background-color: rgb(77, 182, 172);"></div><div class="color-option" data-color-value="#ffb74d" data-color-name="orange" aria-label="orange" style="background-color: rgb(255, 183, 77);"></div><div class="color-option" data-color-value="#f06292" data-color-name="pink" aria-label="pink" style="background-color: rgb(240, 98, 146);"></div><div class="color-option" data-color-value="#9575cd" data-color-name="lavender" aria-label="lavender" style="background-color: rgb(149, 117, 205);"></div><div class="color-option" data-color-value="#a1887f" data-color-name="brown" aria-label="brown" style="background-color: rgb(161, 136, 127);"></div></div><div class="highlight-delete-button" aria-label="delete" style="display: none;">×</div></div></body></html>
