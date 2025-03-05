@@ -2,12 +2,11 @@ import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import useScreenSize from '~/hooks/useScreenSize'
-import bannerPC from '~/assets/the-sands-collection-masthead-desktop.avif'
-import bannerMobile from '~/assets/the-sands-collection-masthead-mobile.avif'
-import xanh1 from '~/assets/xanh.webp'
-import do1 from '~/assets/do.webp'
-import vang1 from '~/assets/vang.webp'
-import trang1 from '~/assets/trang.webp'
+import bannerPC from '~/assets/card-tb-01.png'
+import xanh1 from '~/assets/card-tb-02.png'
+import do1 from '~/assets/card-tb-03.png'
+import vang1 from '~/assets/card-tb-04.png'
+import trang1 from '~/assets/card-tb-05.png'
 const Lifestyle = () => {
   const { t } = useTranslation()
   const screenSize = useScreenSize()
@@ -33,7 +32,6 @@ const Lifestyle = () => {
           <li>{t('lifestyle.membership.prestige.benefits.upgrade')}</li>
           <li>{t('lifestyle.membership.prestige.benefits.tickets')}</li>
           <li>{t('lifestyle.membership.prestige.benefits.room')}</li>
-          <li>{t('lifestyle.membership.prestige.benefits.parking')}</li>
         </>
       )
     },
@@ -59,10 +57,9 @@ const Lifestyle = () => {
           <li>{t('lifestyle.membership.paiza.benefits.tickets')}</li>
           <li>{t('lifestyle.membership.paiza.benefits.room')}</li>
           <li>{t('lifestyle.membership.paiza.benefits.parking')}</li>
-          <li>{t('lifestyle.membership.paiza.benefits.access')}</li>
         </>
       )
-    },
+    }
   ]
 
   return (
@@ -71,17 +68,12 @@ const Lifestyle = () => {
         <img
           src={bannerPC}
           alt={t('lifestyle.banner.desktopAlt')}
-          className='h-auto object-cover hidden md:block w-full'
+          className='h-auto object-cover hidden md:block w-full scale-75'
           style={{ aspectRatio: '21/9' }}
         />
-        <img
-          src={bannerMobile}
-          alt={t('lifestyle.banner.mobileAlt')}
-          className='h-auto object-cover block md:hidden'
-          style={{ aspectRatio: '3/4' }}
-        />
+        <img src={bannerPC} alt={t('lifestyle.banner.mobileAlt')} className='h-auto object-cover block md:hidden' />
       </div>
-      <div className='pt-[160px] pb-10'>
+      <div className='xl:pt-[100px] pb-10'>
         <div className='max-w-[888px] mx-auto px-[33px] lg:px-0'>
           <h1 className='uppercase text-[40px] text-center mb-10'>{t('lifestyle.title')}</h1>
           <p className='text-center text-[16px] mb-4'>{t('lifestyle.description')}</p>
@@ -116,7 +108,13 @@ const Lifestyle = () => {
                 }
               }
             }}
-            className={`${screenSize === 'md' || screenSize === 'lg' || screenSize === 'xl' || screenSize === '2xl' ? currentIndex === dataMembership.length - 3 ? 'opacity-0 pointer-events-none' : 'opacity-100' : currentIndex === dataMembership.length - 1 ? 'opacity-0 pointer-events-none' : 'opacity-100'
+            className={`${screenSize === 'md' || screenSize === 'lg' || screenSize === 'xl' || screenSize === '2xl'
+              ? currentIndex === dataMembership.length - 3
+                ? 'opacity-0 pointer-events-none'
+                : 'opacity-100'
+              : currentIndex === dataMembership.length - 1
+                ? 'opacity-0 pointer-events-none'
+                : 'opacity-100'
               } absolute hidden md:block hover:bg-gray-200 transition-all duration-300 z-10 right-5 top-1/2 -translate-y-1/2 bg-gray-300 cursor-pointer rounded-full p-2`}
           >
             <svg
@@ -168,9 +166,7 @@ const Lifestyle = () => {
                   <img src={item.img} alt={t('lifestyle.membership.imageAlt')} />
                 </div>
                 <p className='text-xl uppercase my-5'>{item.title}</p>
-                <div className='text-[#333333] space-y-1'>
-                  {item.content}
-                </div>
+                <div className='text-[#333333] space-y-1'>{item.content}</div>
               </div>
             ))}
           </div>
