@@ -89,7 +89,15 @@ const Header = () => {
     {
       name: t('languages.korean'),
       value: 'ko'
-    }
+    },
+    {
+      name: 'Tiếng Trung',
+      value: 'zh'
+    },
+    {
+      name: 'Tiếng Nhật',
+      value: 'ja'
+    },
   ]
   return (
     <>

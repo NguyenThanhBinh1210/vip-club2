@@ -22,7 +22,7 @@ export const Select = ({
   return (
     <div className='relative w-max'>
       <div
-        className={`  py-1.5  uppercase  w-[120px]  text-sm flex justify-between items-center cursor-pointer ${classNames?.header}`}
+        className={`  py-1.5  uppercase  w-[140px]  text-sm flex justify-between items-center cursor-pointer ${classNames?.header}`}
         onClick={() => setIsOpen(!isOpen)}
       >
         {selected === 'en'
@@ -31,7 +31,11 @@ export const Select = ({
             ? t('languages.vietnamese')
             : selected === 'ko'
               ? t('languages.korean')
-              : t('languages.vietnamese')}
+              : selected === 'zh'
+                ? 'Tiếng Trung'
+                : selected === 'ja'
+                  ? 'Tiếng Nhật'
+                  : t('languages.vietnamese')}
         <svg
           xmlns='http://www.w3.org/2000/svg'
           fill='none'
