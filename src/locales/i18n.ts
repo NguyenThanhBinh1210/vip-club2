@@ -4,6 +4,8 @@ import enTransition from './en/translation.json'
 import koTransition from './ko/translation.json'
 
 import viTransition from './vi/translation.json'
+import jaTransition from './ja/translation.json'
+import zhTransition from './zh/translation.json'
 
 const i18nOptions = {
     resources: {
@@ -15,6 +17,12 @@ const i18nOptions = {
         },
         ko: {
             translations: koTransition
+        },
+        ja: {
+            translations: jaTransition
+        },
+        zh: {
+            translations: zhTransition
         },
 
     },

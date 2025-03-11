@@ -16,8 +16,10 @@
   },
   "languages": {
     "english": "English",
-    "vietnamese": "Vietnamese",
-    "korean": "Korean"
+    "vietnamese": "Vietnamese", 
+    "korean": "Korean",
+    "chinese": "Chinese",
+    "japanese": "Japanese"
   },
   "header": {
     "navigation": {
@@ -550,49 +552,47 @@
       "desktopAlt": "Let's Vip Collection Banner",
       "mobileAlt": "Let's Vip Collection Mobile Banner"
     },
+    
     "title": "Let's Vip LifeStyle",
     "description": "Unlock a world of exclusive rewards and perks with your complimentary Let's Vip LifeStyle membership, Singapore's most generous rewards programme.",
     "alreadyMember": "Already a member?",
     "tourist": "Are you a tourist? Discover your exclusive privileges.",
     "membershipTiers": "MEMBERSHIP TIERS",
     "membership": {
+      "description": "For loyal players, featuring various privileges and rewards. Our VIP system includes four tiers: Green, Red, Gold, and Infinite, each with specific requirements and benefits.",
+
       "imageAlt": "Membership Tier Image",
       "lifestyle": {
         "title": "Lifestyle",
-        "benefits": {
-          "free": "Free to join",
-          "tickets": "30% off tickets to attractions and ArtScience Museum exhibitions",
-          "parking": "Earn 20% Resort Dollars on public self-parking fees"
-        }
+        "content": [
+          "Automatically granted upon registration, no points required.",
+          "Earn 1 point per $10 wagered. 1,000 points = $25.",
+          "5% discount at restaurants and bars."
+        ]
       },
       "prestige": {
         "title": "Prestige",
-        "benefits": {
-          "upgrade": "S$5,000 to upgrade",
-          "tickets": "Complimentary tickets to attractions and 1-for-1 tickets to ArtScience Museum exhibitions",
-          "room": "10% savings on hotel room rate",
-          "parking": "Self-parking privilege redeemable  Resort Dollars with same-day spend"
-        }
+        "content": [
+          "Requires 5,000 – 19,999 points or a minimum total wager of $50,000 within 6 months. Members must maintain at least 5,000 points per year to keep this tier.",
+          "Earn 1 point per $7.5 wagered. 1,000 points = $37.5.",
+          "10% discount at restaurants and bars, priority reservations at the casino."
+        ]
       },
       "elite": {
         "title": "Elite",
-        "benefits": {
-          "upgrade": "S$50,000 to upgrade",
-          "tickets": "Complimentary tickets to attractions and ArtScience Museum exhibitions",
-          "room": "15% savings on hotel room rate & exclusive check-in at Let's Vip Lounge",
-          "parking": "Complimentary self-parking with same-day spend",
-          "events": "Exclusive invitations to celebrity events"
-        }
+        "content": [
+          "Requires 20,000 – 49,999 points or a minimum total wager of $100,000 within 6 months. Members must maintain at least 20,000 points per year to keep this tier.",
+          "Earn 1 point per $5 wagered. 1,000 points = $50.",
+          "15% discount at restaurants and bars, VIP lounge access, complimentary shuttle service within a designated area."
+        ]
       },
       "paiza": {
         "title": "PAIZA",
-        "benefits": {
-          "upgrade": "S$500,000 to upgrade",
-          "tickets": "Complimentary tickets to attractions and ArtScience Museum exhibitions",
-          "room": "20% savings on hotel room rate & exclusive check-in at Let's Vip Lounge",
-          "parking": "Complimentary self-parking and valet parking",
-          "access": "Access to Paiza Concierge and exclusive invitations to celebrity events, shopping, dining and entertainment experiences"
-        }
+        "content": [
+          "Requires 50,000+ points or a minimum total wager of $250,000 within 6 months. This tier is invitation-only for VIP members. To maintain this status, members must wager at least $500,000 per year.",
+          "Earn 1 point per $2.5 wagered. 1,000 points = $100.",
+          "20% discount at restaurants and bars, access to the highest-tier VIP lounge, 24/7 personal VIP assistance, complimentary luxury transportation (including high-end vehicles or private jets), exclusive poker tournaments, and elite events."
+        ]
       }
     }
   }

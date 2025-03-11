@@ -18,9 +18,9 @@ const Lifestyle = () => {
       title: t('lifestyle.membership.lifestyle.title'),
       content: (
         <>
-          <li>Automatically granted upon registration, no points required.          </li>
-          <li>Earn 1 point per $10 wagered. 1,000 points = $25.</li>
-          <li>5% discount at restaurants and bars.</li>
+          {(t('lifestyle.membership.lifestyle.content', { returnObjects: true }) as string[]).map((item: string, index: number) => (
+            <li key={index}>{item}</li>
+          ))}
         </>
       )
     },
@@ -29,9 +29,9 @@ const Lifestyle = () => {
       title: t('lifestyle.membership.prestige.title'),
       content: (
         <>
-          <li>Requires 5,000 – 19,999 points or a minimum total wager of $50,000 within 6 months. Members must maintain at least 5,000 points per year to keep this tier.</li>
-          <li>Earn 1 point per $7.5 wagered. 1,000 points = $37.5.</li>
-          <li>10% discount at restaurants and bars, priority reservations at the casino.</li>
+          {(t('lifestyle.membership.prestige.content', { returnObjects: true }) as string[]).map((item: string, index: number) => (
+            <li key={index}>{item}</li>
+          ))}
         </>
       )
     },
@@ -40,10 +40,9 @@ const Lifestyle = () => {
       title: t('lifestyle.membership.elite.title'),
       content: (
         <>
-          <li>Requires 20,000 – 49,999 points or a minimum total wager of $100,000 within 6 months. Members must maintain at least 20,000 points per year to keep this tier.</li>
-          <li>Earn 1 point per $5 wagered. 1,000 points = $50.</li>
-          <li>15% discount at restaurants and bars, VIP lounge access, complimentary shuttle service within a designated area.</li>
-
+          {(t('lifestyle.membership.elite.content', { returnObjects: true }) as string[]).map((item: string, index: number) => (
+            <li key={index}>{item}</li>
+          ))}
         </>
       )
     },
@@ -52,9 +51,9 @@ const Lifestyle = () => {
       title: t('lifestyle.membership.paiza.title'),
       content: (
         <>
-          <li> Requires 50,000+ points or a minimum total wager of $250,000 within 6 months. This tier is invitation-only for VIP members. To maintain this status, members must wager at least $500,000 per year.</li>
-          <li>Earn 1 point per $2.5 wagered. 1,000 points = $100.</li>
-          <li>20% discount at restaurants and bars, access to the highest-tier VIP lounge, 24/7 personal VIP assistance, complimentary luxury transportation (including high-end vehicles or private jets), exclusive poker tournaments, and elite events.</li>
+          {(t('lifestyle.membership.paiza.content', { returnObjects: true }) as string[]).map((item: string, index: number) => (
+            <li key={index}>{item}</li>
+          ))}
         </>
       )
     }
@@ -74,7 +73,7 @@ const Lifestyle = () => {
       <div className='xl:pt-[100px] pb-10'>
         <div className='max-w-[888px] mx-auto px-[33px] lg:px-0'>
           <h1 className='uppercase text-[40px] text-center mb-10'>{t('lifestyle.title')}</h1>
-          <p className='text-center text-[16px] mb-4'>For loyal players, featuring various privileges and rewards. Our VIP system includes four tiers: Green, Red, Gold, and Infinite, each with specific requirements and benefits.</p>
+          <p className='text-center text-[16px] mb-4'>{t('lifestyle.membership.description')}</p>
 
           <Link to='/signup'>
             <button className='bg-black block mx-auto mt-6 mb-10 hover:bg-gray-400 text-white uppercase px-5 py-2 transition-all duration-300 text-[16px]'>
@@ -87,8 +86,8 @@ const Lifestyle = () => {
               {t('common.signIn')}
             </Link>
           </p>
-          <p className='text-center text-[16px] mb-4'>Benefits and policies are subject to change. Join now to enjoy the exclusive VIP experience at Let’s Win!
-
+          <p className='text-center text-[16px] mb-4'>
+            {t('lifestyle.description')}
           </p>
         </div>
       </div>

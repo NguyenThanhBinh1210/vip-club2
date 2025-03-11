@@ -17,7 +17,9 @@
   "languages": {
     "english": "Tiếng Anh",
     "vietnamese": "Tiếng Việt",
-    "korean": "Tiếng Hàn"
+    "korean": "Tiếng Hàn",
+    "chinese": "Tiếng Trung",
+    "japanese": "Tiếng Nhật"
   },
   "header": {
     "navigation": {
@@ -555,52 +557,48 @@
   },
   "lifestyle": {
     "banner": {
-      "desktopAlt": "Banner Bộ Sưu Tập Sands",
-      "mobileAlt": "Banner Di Động Bộ Sưu Tập Sands"
+      "desktopAlt": "Banner Bộ Sưu Tập Let's Vip",
+      "mobileAlt": "Banner Di Động Bộ Sưu Tập Let's Vip"
     },
-    "title": "Let's Vip LifeStyle",
-    "description": "Mở khóa thế giới phần thưởng và đặc quyền độc quyền với tư cách thành viên Let's Vip LifeStyle miễn phí của bạn, chương trình ưu đãi hào phóng nhất Singapore.",
+    "title": "Đặc Quyền Let's Vip",
     "alreadyMember": "Đã là thành viên?",
-    "tourist": "Bạn là du khách? Khám phá đặc quyền độc quyền của bạn.",
-    "membershipTiers": "CẤP BẬC THÀNH VIÊN",
+    "membershipTiers": "CÁC HẠNG THÀNH VIÊN",
+      "description": "Dành cho người chơi trung thành, với nhiều đặc quyền và phần thưởng. Hệ thống VIP của chúng tôi bao gồm bốn cấp độ: Xanh, Đỏ, Vàng và Vô hạn, mỗi cấp có những yêu cầu và lợi ích riêng.",
     "membership": {
-      "imageAlt": "Hình Ảnh Cấp Bậc Thành Viên",
+      "description": "Dành cho người chơi trung thành, với nhiều đặc quyền và phần thưởng. Hệ thống VIP của chúng tôi bao gồm bốn cấp: Xanh, Đỏ, Vàng và Vô hạn, mỗi cấp có những yêu cầu và quyền lợi riêng.",
+
+      "imageAlt": "Hình Ảnh Hạng Thành Viên",
       "lifestyle": {
-        "title": "Essential",
-        "benefits": {
-          "free": "Miễn phí tham gia",
-          "tickets": "Giảm 30% vé tham quan và triển lãm Bảo tàng ArtScience",
-          "parking": "Nhận 20% Resort Dollars cho phí đỗ xe công cộng"
-        }
+        "title": "Lifestyle",
+        "content": [
+          "Được cấp tự động khi đăng ký, không yêu cầu điểm.",
+          "Nhận 1 điểm cho mỗi 10$ cược. 1.000 điểm = 25$.",
+          "Giảm 5% tại nhà hàng và quầy bar."
+        ]
       },
       "prestige": {
         "title": "Prestige",
-        "benefits": {
-          "upgrade": "Nâng cấp với S$5,000",
-          "tickets": "Vé miễn phí tham quan và vé 1-đổi-1 cho triển lãm Bảo tàng ArtScience",
-          "room": "Tiết kiệm 10% giá phòng khách sạn",
-          "parking": "Đặc quyền đỗ xe có thể đổi với 4$ Resort Dollars khi chi tiêu cùng ngày"
-        }
+        "content": [
+          "Yêu cầu 5.000 – 19.999 điểm hoặc tổng cược tối thiểu 50.000$ trong 6 tháng. Thành viên phải duy trì ít nhất 5.000 điểm mỗi năm để giữ hạng.",
+          "Nhận 1 điểm cho mỗi 7,5$ cược. 1.000 điểm = 37,5$.",
+          "Giảm 10% tại nhà hàng và quầy bar, ưu tiên đặt chỗ tại sòng bạc."
+        ]
       },
       "elite": {
         "title": "Elite",
-        "benefits": {
-          "upgrade": "Nâng cấp với S$50,000",
-          "tickets": "Vé miễn phí tham quan và triển lãm Bảo tàng ArtScience",
-          "room": "Tiết kiệm 15% giá phòng khách sạn & nhận phòng độc quyền tại Let's Vip Lounge",
-          "parking": "Đỗ xe miễn phí với chi tiêu cùng ngày",
-          "events": "Lời mời độc quyền đến các sự kiện của người nổi tiếng"
-        }
+        "content": [
+          "Yêu cầu 20.000 – 49.999 điểm hoặc tổng cược tối thiểu 100.000$ trong 6 tháng. Thành viên phải duy trì ít nhất 20.000 điểm mỗi năm để giữ hạng.",
+          "Nhận 1 điểm cho mỗi 5$ cược. 1.000 điểm = 50$.",
+          "Giảm 15% tại nhà hàng và quầy bar, quyền truy cập phòng chờ VIP, dịch vụ đưa đón miễn phí trong khu vực chỉ định."
+        ]
       },
       "paiza": {
-        "title": "Infinite",
-        "benefits": {
-          "upgrade": "Nâng cấp với S$500,000",
-          "tickets": "Vé miễn phí tham quan và triển lãm Bảo tàng ArtScience",
-          "room": "Tiết kiệm 20% giá phòng khách sạn & nhận phòng độc quyền tại Let's Vip Lounge",
-          "parking": "Đỗ xe tự phục vụ và có người phục vụ miễn phí",
-          "access": "Truy cập Paiza Concierge và lời mời độc quyền đến các sự kiện của người nổi tiếng, mua sắm, ẩm thực và giải trí"
-        }
+        "title": "PAIZA",
+        "content": [
+          "Yêu cầu 50.000+ điểm hoặc tổng cược tối thiểu 250.000$ trong 6 tháng. Hạng này chỉ dành cho thành viên VIP được mời. Để duy trì trạng thái này, thành viên phải cược ít nhất 500.000$ mỗi năm.",
+          "Nhận 1 điểm cho mỗi 2,5$ cược. 1.000 điểm = 100$.",
+          "Giảm 20% tại nhà hàng và quầy bar, quyền truy cập phòng chờ VIP cao cấp nhất, hỗ trợ VIP cá nhân 24/7, dịch vụ vận chuyển hạng sang miễn phí (bao gồm xe hơi cao cấp hoặc máy bay riêng), các giải đấu poker độc quyền và sự kiện elite."
+        ]
       }
     }
   }

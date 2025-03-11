@@ -32,9 +32,9 @@ export const Select = ({
             : selected === 'ko'
               ? t('languages.korean')
               : selected === 'zh'
-                ? 'Tiếng Trung'
+                ? t('languages.chinese')
                 : selected === 'ja'
-                  ? 'Tiếng Nhật'
+                  ? t('languages.japanese')
                   : t('languages.vietnamese')}
         <svg
           xmlns='http://www.w3.org/2000/svg'

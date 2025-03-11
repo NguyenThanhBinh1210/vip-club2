@@ -43,5 +43,10 @@
     "reserveNow": "Đặt ngay",
     "viewDetails": "Xem chi tiết",
     "discoverMore": "Khám phá thêm"
+  },
+  "lifestyle": {
+    "membership": {
+      "description": "Dành cho người chơi trung thành, với nhiều đặc quyền và phần thưởng. Hệ thống VIP của chúng tôi bao gồm bốn cấp: Xanh, Đỏ, Vàng và Vô hạn, mỗi cấp có những yêu cầu và quyền lợi riêng."
+    }
   }
 } 

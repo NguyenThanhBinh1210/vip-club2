@@ -91,11 +91,11 @@ const Header = () => {
       value: 'ko'
     },
     {
-      name: 'Tiếng Trung',
+      name:  t('languages.chinese'),
       value: 'zh'
     },
     {
-      name: 'Tiếng Nhật',
+      name:  t('languages.japanese'),
       value: 'ja'
     },
   ]
