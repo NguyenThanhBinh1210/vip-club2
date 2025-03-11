@@ -47,7 +47,10 @@
       "membershipTiers": "Cấp Độ Thành Viên",
       "memberPerks": "Ưu Đãi Thành Viên",
       "alliancePrivileges": "Đặc Quyền Liên Minh Sands",
-      "viewAllOutlets": "Xem Tất Cả Cơ Sở"
+      "viewAllOutlets": "Xem Tất Cả Cơ Sở",
+      "vipMembership": "Ưu đãi Thành viên VIP",
+      "premiumPerks": "Đặc quyền Cao cấp",
+      "eventPromotions": "Khuyến mãi Sự kiện & Giải đấu"
     }
   },
   "home": {

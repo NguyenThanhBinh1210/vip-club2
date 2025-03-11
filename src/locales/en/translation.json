@@ -27,6 +27,7 @@
       "rewards": "Rewards",
       "aboutUs": "About Us"
     },
+    
     "stay": {
       "title": "Rooms & Suites",
       "letsVipCollection": "Let's Vip Collection",
@@ -47,7 +48,10 @@
       "membershipTiers": "Membership Tiers",
       "memberPerks": "Member Perks",
       "alliancePrivileges": "Let's VipAlliance Privileges",
-      "viewAllOutlets": "View all Let's VipOutlets"
+      "viewAllOutlets": "View all Let's VipOutlets",
+      "vipMembership": "VIP Membership Offers",
+      "premiumPerks": "Premium Perks",
+      "eventPromotions": "Event & Tournament Promotions"
     }
   },
   "home": {

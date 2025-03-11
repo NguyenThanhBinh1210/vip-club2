@@ -49,7 +49,11 @@
       "membershipTiers": "회원 계층",
       "memberPerks": "회원 특전",
       "alliancePrivileges": "Let's VipAlliance 특권",
-      "viewAllOutlets": "모든 샌드 아울렛을보십시오"
+      "viewAllOutlets": "모든 샌드 아울렛을보십시오",
+      "vipMembership": "VIP 회원 혜택",
+      "premiumPerks": "프리미엄 특전",
+      "eventPromotions": "이벤트 & 토너먼트 프로모션"
+    
     }
   },
   "home": {

@@ -1,591 +1,593 @@
 {
-    "common": {
-      "menu": "メニュー",
-      "close": "近い",
-      "back": "戻る",
-      "backToMenu": "メニューに戻ります",
-      "viewAll": "すべてを表示します",
-      "bookNow": "今すぐ予約してください",
-      "reserveNow": "今すぐ予約してください",
-      "viewDetails": "詳細を表示します",
-      "discoverMore": "もっと発見してください",
-      "signUp": "サインアップ",
-      "signIn": "サインイン",
-      "alreadyMember": "すでにメンバー？",
-      "tourist": "あなたは観光客ですか？"
-    },
-    "languages": {
+  "common": {
+    "menu": "メニュー",
+    "close": "近い",
+    "back": "戻る",
+    "backToMenu": "メニューに戻ります",
+    "viewAll": "すべてを表示します",
+    "bookNow": "今すぐ予約してください",
+    "reserveNow": "今すぐ予約してください",
+    "viewDetails": "詳細を表示します",
+    "discoverMore": "もっと発見してください",
+    "signUp": "サインアップ",
+    "signIn": "サインイン",
+    "alreadyMember": "すでにメンバー？",
+    "tourist": "あなたは観光客ですか？"
+  },
+  "languages": {
     "english": "英語",
     "vietnamese": "ベトナム語",
-    "korean": "韓国語", 
+    "korean": "韓国語",
     "chinese": "中国語",
     "japanese": "日本語"
   },
-    "header": {
-      "navigation": {
-        "stay": "滞在する",
-        "rewards": "報酬",
-        "aboutUs": "私たちについて"
+  "header": {
+    "navigation": {
+      "stay": "滞在する",
+      "rewards": "報酬",
+      "aboutUs": "私たちについて"
+    },
+    "stay": {
+      "title": "客室とスイート",
+      "letsVipCollection": "VIPコレクションをしましょう",
+      "paizaCollection": "パイザコレクション",
+      "onlineExclusive": {
+        "title": "オンライン排他的",
+        "stayPackages": "パッケージを滞在します"
       },
-      "stay": {
-        "title": "客室とスイート",
-        "letsVipCollection": "VIPコレクションをしましょう",
-        "paizaCollection": "パイザコレクション",
-        "onlineExclusive": {
-          "title": "オンライン排他的",
-          "stayPackages": "パッケージを滞在します"
-        },
-        "experiences": {
-          "title": "経験",
-          "skypark": "Skypark展望台",
-          "infinityPool": "Skyparkインフィニティプール",
-          "guestPrivileges": "ゲスト特権"
-        }
-      },
-      "rewards": {
-        "sandsLifestyle": "ライフスタイルをVIPしましょう",
-        "membershipTiers": "メンバーシップ層",
-        "memberPerks": "メンバーの特典",
-        "alliancePrivileges": "vipalliance特権",
-        "viewAllOutlets": "すべてを表示してくださいVipoutlets"
+      "experiences": {
+        "title": "経験",
+        "skypark": "Skypark展望台",
+        "infinityPool": "Skyparkインフィニティプール",
+        "guestPrivileges": "ゲスト特権"
       }
     },
-    "home": {
-      "hero": {
-        "title": "Let's Win Win Clubカジノを体験してください"
-      },
+    "rewards": {
+      "sandsLifestyle": "ライフスタイルをVIPしましょう",
+      "membershipTiers": "メンバーシップ層",
+      "memberPerks": "メンバーの特典",
+      "alliancePrivileges": "vipalliance特権",
+      "viewAllOutlets": "すべてを表示してくださいVipoutlets",
+      "vipMembership": "VIP会員特典",
+      "premiumPerks": "プレミアム特典",
+      "eventPromotions": "イベント＆トーナメント プロモーション"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Let's Win Win Clubカジノを体験してください"
+    },
+    "hoTram": {
+      "title": "Ho TramカジノのVIPラウンジ",
+      "description": "ベトナムで最大かつ最も有名なカジノの1つに位置し、Ho TramでVIPラウンジを獲得しましょう。",
+      "features": {
+        "environment": "豪華なインテリアと最高級のアメニティで設計されたプライベートおよびエリート環境。",
+        "services": "専用の執事、排他的なダイニングメニュー、24時間年中無休の支援を含むパーソナライズされたサービス。",
+        "privacy": "究極のプライバシーとセキュリティ、VIPゲストの最大の快適さと安心を確保します。"
+      }
+    },
+    "daNang": {
+      "title": "ダナンのポーカークラブ",
+      "description": "ポーカー愛好家にとって完璧な目的地であるダナンのクラブを獲得しましょう。",
+      "features": {
+        "rooms": {
+          "title": "プライベートポーカールーム",
+          "description": "、ハイステークスベッティングを備えた世界クラスのゲームプレイを備えています。"
+        },
+        "services": {
+          "title": "VIPサービス",
+          "description": " 尊敬されるゲストに合わせて調整され、最適なエクスペリエンスを確保します。"
+        },
+        "lounge": {
+          "title": "豪華なラウンジエリア",
+          "description": "、プレミアムカクテルと高級酒を提供し、プレイヤーに洗練されたリラックスした環境を作り出します。"
+        }
+      }
+    },
+    "hoiana": {
+      "title": "Hoiana CasinoのVIPラウンジ",
+      "description": "国際的に有名なリゾートに位置し、HoianaでVIPを獲得しましょう。豪華なエンターテイメントとエリートクラスの洗練を組み合わせて、並外れた雰囲気を提供します。",
+      "features": {
+        "rooms": {
+          "title": "排他的なVIPルーム",
+          "description": "、豪華で豪華なタッチで設計されています。"
+        },
+        "services": {
+          "title": "プレミアムVIPサービス",
+          "description": "、リムジンの移転、パーソナライズされた支援、5つ星の宿泊施設を含む。"
+        },
+        "rewards": {
+          "title": "排他的な報酬",
+          "description": " 豪華なギフトと魅力的なロイヤルティプログラムをフィーチャーしたメンバーを獲得しましょう。"
+        }
+      }
+    },
+    "rewardsClub": {
+      "title": "Let's VIP Rewards Clubの排他的なメリット",
+      "subtitle": "あなたが遊ぶときに稼ぐためにサインアップしてください",
+      "description": "Viprewards ClubのメンバーであるRet's Vippointsを獲得し、カジノプレイでVipdollarsを獲得します。",
+      "locations": {
+        "b2m": "B2M",
+        "level1": "レベル1",
+        "level2Ruby": "レベル2ルビーテーブルゲームの入り口",
+        "level2RubySlots": "レベル2ルビースロットの入り口",
+        "level2Apex": "レベル2アペックスグランドエントランス"
+      }
+    },
+    "vipClub": {
+      "title": "VIPクラブを獲得しましょう",
+      "description": "Let's Win VIP ClubはVIPルームの独占システムであり、エリートのために調整された豪華なゲーム体験を提供します。"
+    },
+    "buttons": {
+      "contact": "お問い合わせ",
+      "book": "今すぐ予約してください",
+      "viewDetails": "詳細を表示します"
+    }
+  },
+  "footer": {
+    "getToKnow": {
+      "title": "私たちを知ってください",
+      "companyInfo": "会社の情報",
+      "careers": "キャリア",
+      "faq": "よくある質問",
+      "contactUs": "お問い合わせ",
+      "awards": "賞と称賛"
+    },
+    "usefulInfo": {
+      "title": "有用な情報",
+      "travelGuide": "旅行ガイド",
+      "planVisit": "訪問を計画してください",
+      "gettingHere": "ここに行く",
+      "services": "サービスとアメニティ",
+      "packages": "ホテルとフライトパッケージ"
+    },
+    "downloadApp": {
+      "title": "アプリをダウンロードしてください"
+    },
+    "social": {
+      "title": "私たちとつながります"
+    },
+    "getInspired": {
+      "title": "インスピレーションを得てください",
+      "subtitle": "クイック予約と連絡先",
+      "bookNow": "今すぐ予約してください"
+    },
+    "copyright": "©2025 VIP Lifestyle。"
+  },
+  "about": {
+    "title": "導入",
+    "subtitle": "VIPクラブに勝ちましょう",
+    "introduction": "Welcome To Let's Win Win VIP Club  - プレミアムエンターテイメントと高級サービスを求めている人々のための排他的な目的地です。",
+    "experience": {
+      "title": "VIPクラブに勝つと、お楽しみいただけます。",
       "hoTram": {
-        "title": "Ho TramカジノのVIPラウンジ",
-        "description": "ベトナムで最大かつ最も有名なカジノの1つに位置し、Ho TramでVIPラウンジを獲得しましょう。",
-        "features": {
-          "environment": "豪華なインテリアと最高級のアメニティで設計されたプライベートおよびエリート環境。",
-          "services": "専用の執事、排他的なダイニングメニュー、24時間年中無休の支援を含むパーソナライズされたサービス。",
-          "privacy": "究極のプライバシーとセキュリティ、VIPゲストの最大の快適さと安心を確保します。"
-        }
-      },
-      "daNang": {
-        "title": "ダナンのポーカークラブ",
-        "description": "ポーカー愛好家にとって完璧な目的地であるダナンのクラブを獲得しましょう。",
-        "features": {
-          "rooms": {
-            "title": "プライベートポーカールーム",
-            "description": "、ハイステークスベッティングを備えた世界クラスのゲームプレイを備えています。"
-          },
-          "services": {
-            "title": "VIPサービス",
-            "description": " 尊敬されるゲストに合わせて調整され、最適なエクスペリエンスを確保します。"
-          },
-          "lounge": {
-            "title": "豪華なラウンジエリア",
-            "description": "、プレミアムカクテルと高級酒を提供し、プレイヤーに洗練されたリラックスした環境を作り出します。"
-          }
-        }
+        "title": "•Ho TramカジノのVIPラウンジ： ",
+        "description": "VIPゲスト向けの専用ゲームを備えたプライベートスペース、快適さとクラスを提供します。"
       },
       "hoiana": {
-        "title": "Hoiana CasinoのVIPラウンジ",
-        "description": "国際的に有名なリゾートに位置し、HoianaでVIPを獲得しましょう。豪華なエンターテイメントとエリートクラスの洗練を組み合わせて、並外れた雰囲気を提供します。",
-        "features": {
-          "rooms": {
-            "title": "排他的なVIPルーム",
-            "description": "、豪華で豪華なタッチで設計されています。"
-          },
-          "services": {
-            "title": "プレミアムVIPサービス",
-            "description": "、リムジンの移転、パーソナライズされた支援、5つ星の宿泊施設を含む。"
-          },
-          "rewards": {
-            "title": "排他的な報酬",
-            "description": " 豪華なギフトと魅力的なロイヤルティプログラムをフィーチャーしたメンバーを獲得しましょう。"
-          }
-        }
+        "title": "•HoianaのVIPエリア： ",
+        "description": "パーソナライズされたサービスを備えた洗練されたデザイン、ユニークで豪華な体験を提供します。"
       },
-      "rewardsClub": {
-        "title": "Let's VIP Rewards Clubの排他的なメリット",
-        "subtitle": "あなたが遊ぶときに稼ぐためにサインアップしてください",
-        "description": "Viprewards ClubのメンバーであるRet's Vippointsを獲得し、カジノプレイでVipdollarsを獲得します。",
-        "locations": {
-          "b2m": "B2M",
-          "level1": "レベル1",
-          "level2Ruby": "レベル2ルビーテーブルゲームの入り口",
-          "level2RubySlots": "レベル2ルビースロットの入り口",
-          "level2Apex": "レベル2アペックスグランドエントランス"
-        }
-      },
-      "vipClub": {
-        "title": "VIPクラブを獲得しましょう",
-        "description": "Let's Win VIP ClubはVIPルームの独占システムであり、エリートのために調整された豪華なゲーム体験を提供します。"
-      },
-      "buttons": {
-        "contact": "お問い合わせ",
-        "book": "今すぐ予約してください",
-        "viewDetails": "詳細を表示します"
+      "danang": {
+        "title": "•ダナシティホテルのポーカークラブ： ",
+        "description": "プロのトーナメントとプレミアムテーブルをフィーチャーしたポーカー愛好家にとって理想的な目的地。"
       }
     },
-    "footer": {
-      "getToKnow": {
-        "title": "私たちを知ってください",
-        "companyInfo": "会社の情報",
-        "careers": "キャリア",
-        "faq": "よくある質問",
-        "contactUs": "お問い合わせ",
-        "awards": "賞と称賛"
-      },
-      "usefulInfo": {
-        "title": "有用な情報",
-        "travelGuide": "旅行ガイド",
-        "planVisit": "訪問を計画してください",
-        "gettingHere": "ここに行く",
-        "services": "サービスとアメニティ",
-        "packages": "ホテルとフライトパッケージ"
-      },
-      "downloadApp": {
-        "title": "アプリをダウンロードしてください"
-      },
-      "social": {
-        "title": "私たちとつながります"
-      },
-      "getInspired": {
-        "title": "インスピレーションを得てください",
-        "subtitle": "クイック予約と連絡先",
-        "bookNow": "今すぐ予約してください"
-      },
-      "copyright": "©2025 VIP Lifestyle。"
-    },
-    "about": {
-      "title": "導入",
-      "subtitle": "VIPクラブに勝ちましょう",
-      "introduction": "Welcome To Let's Win Win VIP Club  - プレミアムエンターテイメントと高級サービスを求めている人々のための排他的な目的地です。",
-      "experience": {
-        "title": "VIPクラブに勝つと、お楽しみいただけます。",
-        "hoTram": {
-          "title": "•Ho TramカジノのVIPラウンジ： ",
-          "description": "VIPゲスト向けの専用ゲームを備えたプライベートスペース、快適さとクラスを提供します。"
-        },
-        "hoiana": {
-          "title": "•HoianaのVIPエリア： ",
-          "description": "パーソナライズされたサービスを備えた洗練されたデザイン、ユニークで豪華な体験を提供します。"
-        },
-        "danang": {
-          "title": "•ダナシティホテルのポーカークラブ： ",
-          "description": "プロのトーナメントとプレミアムテーブルをフィーチャーしたポーカー愛好家にとって理想的な目的地。"
-        }
-      },
-      "service": "特に、直接ホットラインを介して24時間年中無休のカスタマーサービスを提供し、すべてのニーズをサポートおよび満たす準備ができています。",
-      "invitation": "プレミアムエクスペリエンスと勝利の瞬間が集まるVIP ClubでのLet's Win Win VIPクラブでエリートコミュニティに参加してください！",
-      "whyChoose": {
-        "title": "なぜVIPクラブに勝つことを選ぶのですか？",
-        "features": {
-          "spaces": "dovic贅沢なインテリアを備えた排他的なVIPスペース、絶対的な快適さを確保します。",
-          "services": "corssonedパーソナライズされたサービス、専用の専門チームが24時間年中無休でサポートを提供します。",
-          "rewards": "✔VIPメンバーを獲得するために予約されている排他的な報酬と豪華なギフト。",
-          "privacy": "captier最高のプライバシーとセキュリティ、安全で豪華なエンターテイメント体験を保証します。"
-        }
-      },
-      "join": "今日、VIPクラブに勝ち、比類のない豪華な体験を楽しんでください！",
-      "contact": "📞VIPカスタマーサービスホットライン（24/7）：[電話番号]"
-    },
-    "contact": {
-      "title": "クイック予約と連絡先",
-      "stage1": {
-        "title": "上に入力してください",
-        "description": "排他的なオファーのキュレーション、今後のイベント、Let's Win Clubの最高のdulのキュレーションを発見する最初の人になりましょう。",
-        "fullName": "フルネーム",
-        "phoneNumber": "電話番号",
-        "submit": "提出する"
-      },
-      "stage2": {
-        "title": "ニュースレターを購読していただきありがとうございます。",
-        "description": "並外れたすべてへの私たちの愛を示すコンテンツの思慮深いキュレーションを楽しみにしています。",
-        "backToHome": "ホームページに戻ります"
+    "service": "特に、直接ホットラインを介して24時間年中無休のカスタマーサービスを提供し、すべてのニーズをサポートおよび満たす準備ができています。",
+    "invitation": "プレミアムエクスペリエンスと勝利の瞬間が集まるVIP ClubでのLet's Win Win VIPクラブでエリートコミュニティに参加してください！",
+    "whyChoose": {
+      "title": "なぜVIPクラブに勝つことを選ぶのですか？",
+      "features": {
+        "spaces": "dovic贅沢なインテリアを備えた排他的なVIPスペース、絶対的な快適さを確保します。",
+        "services": "corssonedパーソナライズされたサービス、専用の専門チームが24時間年中無休でサポートを提供します。",
+        "rewards": "✔VIPメンバーを獲得するために予約されている排他的な報酬と豪華なギフト。",
+        "privacy": "captier最高のプライバシーとセキュリティ、安全で豪華なエンターテイメント体験を保証します。"
       }
     },
-    "fineDining": {
-      "title": "高級レストラン",
-      "description": "シンガポールのこれらの高級レストランで料理の芸術を発見しましょう。",
-      "romanticRestaurants": {
-        "title": "ロマンチックなレストラン",
-        "description": "これらのロマンチックなレストランでの親密な雰囲気のある思い出に残る機会に夜を変えてください。"
-      },
-      "specialOccasions": {
-        "title": "特別な機会",
-        "description": "人生を記念して、最も貴重な瞬間を記念し、これらの無原罪のレストランであらゆる機会にエレガンスを少し加えます。"
-      },
-      "shoppes": {
-        "title": "買い物を発見してください",
-        "description": "170を超えるデザイナーのラベルと豪華なブティックの印象的なセレクションにより、より細かいものの検索はここで終わります。"
-      },
-      "viewRestaurants": "レストランを見る",
-      "viewShops": "ショップを見る",
-      "viewDetails": "詳細を表示します"
+    "join": "今日、VIPクラブに勝ち、比類のない豪華な体験を楽しんでください！",
+    "contact": "📞VIPカスタマーサービスホットライン（24/7）：[電話番号]"
+  },
+  "contact": {
+    "title": "クイック予約と連絡先",
+    "stage1": {
+      "title": "上に入力してください",
+      "description": "排他的なオファーのキュレーション、今後のイベント、Let's Win Clubの最高のdulのキュレーションを発見する最初の人になりましょう。",
+      "fullName": "フルネーム",
+      "phoneNumber": "電話番号",
+      "submit": "提出する"
     },
-    "signupSuccessful": {
-      "welcome": "ようこそ、ASDASD",
-      "digitalAccount": {
-        "title": "デジタルアカウント",
-        "description": "新しく作成されたユーザー名とパスワードを使用して、VIPライフスタイルアカウントにアクセスします。"
-      },
-      "membershipCard": {
-        "title": "メンバーシップカード",
-        "description": "Marina Bay SandsでのViprewardsトランザクションのために、メンバーシップIDとPINが必要になります。"
-      },
-      "username": "ユーザー名",
-      "membershipId": "メンバーシップID",
-      "loginNow": "今すぐログインします"
+    "stage2": {
+      "title": "ニュースレターを購読していただきありがとうございます。",
+      "description": "並外れたすべてへの私たちの愛を示すコンテンツの思慮深いキュレーションを楽しみにしています。",
+      "backToHome": "ホームページに戻ります"
+    }
+  },
+  "fineDining": {
+    "title": "高級レストラン",
+    "description": "シンガポールのこれらの高級レストランで料理の芸術を発見しましょう。",
+    "romanticRestaurants": {
+      "title": "ロマンチックなレストラン",
+      "description": "これらのロマンチックなレストランでの親密な雰囲気のある思い出に残る機会に夜を変えてください。"
     },
-    "otpVerification": {
-      "title": "OTP検証",
-      "stage1": {
-        "description": "検証プロセスの一部として、1回限りのパスワード（OTP）を受信するチャネルを選択してください。"
-      },
-      "stage2": {
-        "description": "1回限りのパスワード（OTP）を含むメールがメールアドレスに送信されました。"
-      },
-      "emailOtp": "電子メールotp",
-      "enterOtp": "OTPを入力します",
-      "resendOtp": "01:16に新しいOTPを再送信します",
-      "proceed": "進む",
-      "verify": "確認する",
-      "back": "戻る"
+    "specialOccasions": {
+      "title": "特別な機会",
+      "description": "人生を記念して、最も貴重な瞬間を記念し、これらの無原罪のレストランであらゆる機会にエレガンスを少し加えます。"
     },
-    "signup": {
-      "title": "無料のVIPライフスタイルメンバーシップにサインアップしてください",
-      "banner": "予約バナー",
-      "already_have_account": "すでにアカウントを持っていますか？",
-      "login_here": "ここでログインします。",
+    "shoppes": {
+      "title": "買い物を発見してください",
+      "description": "170を超えるデザイナーのラベルと豪華なブティックの印象的なセレクションにより、より細かいものの検索はここで終わります。"
+    },
+    "viewRestaurants": "レストランを見る",
+    "viewShops": "ショップを見る",
+    "viewDetails": "詳細を表示します"
+  },
+  "signupSuccessful": {
+    "welcome": "ようこそ、ASDASD",
+    "digitalAccount": {
+      "title": "デジタルアカウント",
+      "description": "新しく作成されたユーザー名とパスワードを使用して、VIPライフスタイルアカウントにアクセスします。"
+    },
+    "membershipCard": {
+      "title": "メンバーシップカード",
+      "description": "Marina Bay SandsでのViprewardsトランザクションのために、メンバーシップIDとPINが必要になります。"
+    },
+    "username": "ユーザー名",
+    "membershipId": "メンバーシップID",
+    "loginNow": "今すぐログインします"
+  },
+  "otpVerification": {
+    "title": "OTP検証",
+    "stage1": {
+      "description": "検証プロセスの一部として、1回限りのパスワード（OTP）を受信するチャネルを選択してください。"
+    },
+    "stage2": {
+      "description": "1回限りのパスワード（OTP）を含むメールがメールアドレスに送信されました。"
+    },
+    "emailOtp": "電子メールotp",
+    "enterOtp": "OTPを入力します",
+    "resendOtp": "01:16に新しいOTPを再送信します",
+    "proceed": "進む",
+    "verify": "確認する",
+    "back": "戻る"
+  },
+  "signup": {
+    "title": "無料のVIPライフスタイルメンバーシップにサインアップしてください",
+    "banner": "予約バナー",
+    "already_have_account": "すでにアカウントを持っていますか？",
+    "login_here": "ここでログインします。",
+    "particulars": "詳細",
+    "digital_account": "デジタルアカウント",
+    "complete": "完了",
+    "last_name": "苗字",
+    "first_name": "ファーストネーム",
+    "passport_note": "（パスポートに印刷されています）",
+    "date_of_birth": "生年月日",
+    "age_requirement": "（参加するには少なくとも18歳である必要があります。）",
+    "mobile_number": "携帯電話番号",
+    "mobile_note": "数字は8桁でなければなりません",
+    "email": "電子メールアドレス",
+    "email_note": "有効なメールアドレスを入力してください",
+    "referral_code": "紹介コード",
+    "optional": "（オプション）",
+    "next": "次",
+    "create_pin": "メンバーシップピンを作成します",
+    "create_4digit_pin": "4桁のカードピンを作成します",
+    "pin_description": "4桁のピンは、Marina Bay SandsでのViprewardsトランザクションに使用されます。",
+    "create_pin_label": "ピンを作成します",
+    "confirm_pin": "ピンを確認します",
+    "create_digital_account": "デジタルアカウントを作成します",
+    "digital_accounts": "デジタルアカウント",
+    "digital_account_description": "このデジタルアカウント（ユーザー名とパスワード）は、デジタルプラットフォームへのログインに使用されます。 ",
+    "username": "ユーザー名",
+    "password": "パスワード",
+    "confirm_password": "パスワードを認証する",
+    "create": "作成する",
+    "steps": {
       "particulars": "詳細",
-      "digital_account": "デジタルアカウント",
-      "complete": "完了",
-      "last_name": "苗字",
-      "first_name": "ファーストネーム",
-      "passport_note": "（パスポートに印刷されています）",
-      "date_of_birth": "生年月日",
-      "age_requirement": "（参加するには少なくとも18歳である必要があります。）",
-      "mobile_number": "携帯電話番号",
-      "mobile_note": "数字は8桁でなければなりません",
+      "digitalAccount": "デジタルアカウント",
+      "complete": "完了"
+    },
+    "form": {
+      "lastName": "苗字",
+      "firstName": "ファーストネーム",
+      "asPassport": "（パスポートに印刷されています）",
+      "dob": "生年月日",
+      "dobNote": "（参加するには少なくとも18歳である必要があります。）",
+      "dd": "DD",
+      "mmm": "うーん",
+      "yyyy": "ええ",
+      "months": {
+        "jan": "1月",
+        "feb": "2月",
+        "mar": "3月",
+        "apr": "4月",
+        "may": "5月",
+        "jun": "6月",
+        "jul": "7月",
+        "aug": "8月",
+        "sep": "9月",
+        "oct": "10月",
+        "nov": "11月",
+        "dec": "12月"
+      },
+      "mobileNumber": "携帯電話番号",
+      "mobileNote": "数字は8桁でなければなりません",
       "email": "電子メールアドレス",
-      "email_note": "有効なメールアドレスを入力してください",
-      "referral_code": "紹介コード",
-      "optional": "（オプション）",
-      "next": "次",
-      "create_pin": "メンバーシップピンを作成します",
-      "create_4digit_pin": "4桁のカードピンを作成します",
-      "pin_description": "4桁のピンは、Marina Bay SandsでのViprewardsトランザクションに使用されます。",
-      "create_pin_label": "ピンを作成します",
-      "confirm_pin": "ピンを確認します",
-      "create_digital_account": "デジタルアカウントを作成します",
-      "digital_accounts": "デジタルアカウント",
-      "digital_account_description": "このデジタルアカウント（ユーザー名とパスワード）は、デジタルプラットフォームへのログインに使用されます。 ",
-      "username": "ユーザー名",
-      "password": "パスワード",
-      "confirm_password": "パスワードを認証する",
-      "create": "作成する",
-      "steps": {
-        "particulars": "詳細",
-        "digitalAccount": "デジタルアカウント",
-        "complete": "完了"
+      "emailNote": "有効なメールアドレスを入力してください",
+      "referralCode": "紹介コード",
+      "optional": "（オプション）"
+    }
+  },
+  "notFound": {
+    "title": "このページは存在しません",
+    "description": "探しているページは見つかりませんでした。"
+  },
+  "more": {
+    "title": "より多くの経験",
+    "viewDetails": "詳細を表示します",
+    "casinoLevy": {
+      "title": "カジノエントリレビー",
+      "description": "一般的なカジノのルールとエントリ条件に関する情報を取得します。"
+    },
+    "rewardsClub": {
+      "title": "Let's VIP Rewards Clubの排他的なメリット",
+      "subtitle": "あなたが遊ぶときに稼ぐためにサインアップしてください",
+      "description": "Viprewards ClubのメンバーであるRet's Vippointsを獲得し、カジノプレイでVipdollarsを獲得します。",
+      "locations": [
+        "B2M",
+        "レベル1",
+        "レベル2ルビーテーブルゲームの入り口",
+        "レベル2ルビースロットの入り口",
+        "レベル2アペックスグランドエントランス"
+      ]
+    },
+    "responsibleGambling": {
+      "title": "責任あるギャンブル",
+      "subtitle": "私たちの利用者へのコミットメント",
+      "description": "忘れられない体験を作成するという私たちのコミットメントは、私たちのリゾートのあらゆる側面、つまりカジノの床にまで及びます。"
+    }
+  },
+  "login": {
+    "title": "ログイン",
+    "username": "ユーザー名",
+    "emailPlaceholder": "メール",
+    "password": "パスワード",
+    "passwordPlaceholder": "パスワード",
+    "loginButton": "ログイン",
+    "noAccount": "アカウントを持っていませんか？",
+    "registerNow": "今すぐ登録してください"
+  },
+  "paiza": {
+    "title": "パイザコレクション",
+    "bannerAlt": "Paizaコレクションバナー",
+    "bannerMobileAlt": "Paiza Collectionモバイルバナー",
+    "intro": "最も目の肥えたもののために予約されているパイザコレクションは、家から離れた究極の家を具体化し、あらゆるターンで豪華で思慮深い細部と無限の芸術性を備えています。",
+    "description1": "控えめな入り口から豪華な専用施設まで、私たちの最高のスイートコレクションのあらゆる側面は、プライバシーと快適さのために設計されています。",
+    "description2": "ランドマークホテルの上にあるプライベートクラブラウンジであるPaiza Sky Residenceへの特権アクセスをお楽しみください。",
+    "description3": "滞在中、私たちの24時間の執事チームは、あらゆる願いを期待して、何かを可能にする決意を得るために手元にあります。",
+    "description4": "Paizaコレクションへようこそ、本当に例外的な滞在です。",
+    "experienceTitle": "並外れたものを体験してください",
+    "experienceImageAlt": "画像を体験してください",
+    "experiences": {
+      "0": {
+        "title": "Paiza VIP到着",
+        "description": "私たちの献身的な挨拶者と一緒に温かい歓迎をしてください。 "
       },
-      "form": {
-        "lastName": "苗字",
-        "firstName": "ファーストネーム",
-        "asPassport": "（パスポートに印刷されています）",
-        "dob": "生年月日",
-        "dobNote": "（参加するには少なくとも18歳である必要があります。）",
-        "dd": "DD",
-        "mmm": "うーん",
-        "yyyy": "ええ",
-        "months": {
-          "jan": "1月",
-          "feb": "2月",
-          "mar": "3月",
-          "apr": "4月",
-          "may": "5月",
-          "jun": "6月",
-          "jul": "7月",
-          "aug": "8月",
-          "sep": "9月",
-          "oct": "10月",
-          "nov": "11月",
-          "dec": "12月"
-        },
-        "mobileNumber": "携帯電話番号",
-        "mobileNote": "数字は8桁でなければなりません",
-        "email": "電子メールアドレス",
-        "emailNote": "有効なメールアドレスを入力してください",
-        "referralCode": "紹介コード",
-        "optional": "（オプション）"
+      "1": {
+        "title": "排他的な執事サービス",
+        "description": "パーソナライズされた24時間の執事サービスを体験して、あらゆるニーズが最大限の注意と注意を払って満たすようにします。"
+      },
+      "2": {
+        "title": "プライベートスカイラウンジ",
+        "description": "パノラマビューとプレミアムサービスを提供する専用のPaiza Sky Residenceにアクセスしてください。"
+      },
+      "3": {
+        "title": "キュレーションされた体験",
+        "description": "プライベートダイニングからヨットアドベンチャーまで、あなたの好みに合わせてオーダーメイドの体験をお楽しみください。"
       }
     },
-    "notFound": {
-      "title": "このページは存在しません",
-      "description": "探しているページは見つかりませんでした。"
+    "aboveExpectation": {
+      "title": "何よりも期待",
+      "description1": "私たちの象徴的な建物の最高の床にあるパイザコレクションは、息をのむように壮大でありながら穏やかなインテリアを紹介しています。",
+      "description2": "fromentalの見事な手描きのシルクの壁画、ザネットの宝石のような真鍮製の容器、レグレアジアのロータス装飾された磁器の磁器など、トップの国際的な職人と共同で作成された見事なオブジェットの配列が、目を絞め、美しさを囲みます。",
+      "description3": "エレガントなソワイアから深い休息まで、最も小さな詳細でさえ、あなたの快適さと喜びのために慎重に巧みにされています。"
     },
-    "more": {
-      "title": "より多くの経験",
-      "viewDetails": "詳細を表示します",
-      "casinoLevy": {
-        "title": "カジノエントリレビー",
-        "description": "一般的なカジノのルールとエントリ条件に関する情報を取得します。"
-      },
-      "rewardsClub": {
-        "title": "Let's VIP Rewards Clubの排他的なメリット",
-        "subtitle": "あなたが遊ぶときに稼ぐためにサインアップしてください",
-        "description": "Viprewards ClubのメンバーであるRet's Vippointsを獲得し、カジノプレイでVipdollarsを獲得します。",
-        "locations": [
-          "B2M",
-          "レベル1",
-          "レベル2ルビーテーブルゲームの入り口",
-          "レベル2ルビースロットの入り口",
-          "レベル2アペックスグランドエントランス"
-        ]
-      },
-      "responsibleGambling": {
-        "title": "責任あるギャンブル",
-        "subtitle": "私たちの利用者へのコミットメント",
-        "description": "忘れられない体験を作成するという私たちのコミットメントは、私たちのリゾートのあらゆる側面、つまりカジノの床にまで及びます。"
-      }
-    },
-    "login": {
-      "title": "ログイン",
-      "username": "ユーザー名",
-      "emailPlaceholder": "メール",
-      "password": "パスワード",
-      "passwordPlaceholder": "パスワード",
-      "loginButton": "ログイン",
-      "noAccount": "アカウントを持っていませんか？",
-      "registerNow": "今すぐ登録してください"
-    },
-    "paiza": {
-      "title": "パイザコレクション",
-      "bannerAlt": "Paizaコレクションバナー",
-      "bannerMobileAlt": "Paiza Collectionモバイルバナー",
-      "intro": "最も目の肥えたもののために予約されているパイザコレクションは、家から離れた究極の家を具体化し、あらゆるターンで豪華で思慮深い細部と無限の芸術性を備えています。",
-      "description1": "控えめな入り口から豪華な専用施設まで、私たちの最高のスイートコレクションのあらゆる側面は、プライバシーと快適さのために設計されています。",
-      "description2": "ランドマークホテルの上にあるプライベートクラブラウンジであるPaiza Sky Residenceへの特権アクセスをお楽しみください。",
-      "description3": "滞在中、私たちの24時間の執事チームは、あらゆる願いを期待して、何かを可能にする決意を得るために手元にあります。",
-      "description4": "Paizaコレクションへようこそ、本当に例外的な滞在です。",
-      "experienceTitle": "並外れたものを体験してください",
-      "experienceImageAlt": "画像を体験してください",
-      "experiences": {
-        "0": {
-          "title": "Paiza VIP到着",
-          "description": "私たちの献身的な挨拶者と一緒に温かい歓迎をしてください。 "
-        },
-        "1": {
-          "title": "排他的な執事サービス",
-          "description": "パーソナライズされた24時間の執事サービスを体験して、あらゆるニーズが最大限の注意と注意を払って満たすようにします。"
-        },
-        "2": {
-          "title": "プライベートスカイラウンジ",
-          "description": "パノラマビューとプレミアムサービスを提供する専用のPaiza Sky Residenceにアクセスしてください。"
-        },
-        "3": {
-          "title": "キュレーションされた体験",
-          "description": "プライベートダイニングからヨットアドベンチャーまで、あなたの好みに合わせてオーダーメイドの体験をお楽しみください。"
-        }
-      },
-      "aboveExpectation": {
-        "title": "何よりも期待",
-        "description1": "私たちの象徴的な建物の最高の床にあるパイザコレクションは、息をのむように壮大でありながら穏やかなインテリアを紹介しています。",
-        "description2": "fromentalの見事な手描きのシルクの壁画、ザネットの宝石のような真鍮製の容器、レグレアジアのロータス装飾された磁器の磁器など、トップの国際的な職人と共同で作成された見事なオブジェットの配列が、目を絞め、美しさを囲みます。",
-        "description3": "エレガントなソワイアから深い休息まで、最も小さな詳細でさえ、あなたの快適さと喜びのために慎重に巧みにされています。"
-      },
-      "rooms": {
-        "premierRoom": {
-          "imageAlt": "Vippremierの部屋の画像を見てみましょう",
-          "title": "Vippremierルームを見てみましょう",
-          "gardenView": "ベイビューによる庭園",
-          "cityView": "都市ビュー",
-          "description": "あなたのエレガントな部屋でくつろいで、オーダーメイドの武器で宝物の寛大なキュレーションを味わいます。",
-          "features": {
-            "size": "平均して45平方メートル",
-            "guests": "最大3人のゲスト",
-            "beds": "キング1または2つのクイーンベッド"
-          }
-        }
-      },
-      "paizaExperience": {
-        "imageAlt": "ライフスタイルのイメージをVIPしましょう",
-        "title": "パイザ体験",
-        "description": "新しいパイザコレクションで洗練された生活の頂点を楽しんでください。"
-      }
-    },
-    "packages": {
-      "banner": {
-        "desktopAlt": "パッケージバナーデスクトップ",
-        "mobileAlt": "パッケージバナーモバイル"
-      },
-      "title": "あなたに合わせた楽園",
-      "description": "目の肥えた味、不思議な心、冒険への食欲を持つ家族、カップル、個人のためにキュレーションされた滞在パッケージを探索する",
-      "room": {
+    "rooms": {
+      "premierRoom": {
+        "imageAlt": "Vippremierの部屋の画像を見てみましょう",
         "title": "Vippremierルームを見てみましょう",
-        "view": {
-          "gardens": "ベイビューによる庭園",
-          "city": "都市ビュー"
-        },
+        "gardenView": "ベイビューによる庭園",
+        "cityView": "都市ビュー",
         "description": "あなたのエレガントな部屋でくつろいで、オーダーメイドの武器で宝物の寛大なキュレーションを味わいます。",
-        "details": {
-          "area": "平均して45平方メートル",
+        "features": {
+          "size": "平均して45平方メートル",
           "guests": "最大3人のゲスト",
           "beds": "キング1または2つのクイーンベッド"
-        },
-        "viewDetails": "詳細を表示します"
-      }
-    },
-    "skypark": {
-      "banner_alt": "Skypark観察デッキバナー",
-      "banner_mobile_alt": "Skypark展望デッキモバイルバナー",
-      "paradise_title": "あなたに合わせた楽園",
-      "discover_text": "1月17日から、スカイラインシンガポールのLet's Win Win Clubの過去、現在、未来を発見：Stories from Abover、Skypark展望台での新しいショーケース。",
-      "explore_text": "シンガポールの世界クラスの街並みの風光明媚な景色は、息をのむような56階建ての新しい見晴らしの良い場所から街を探索してください。",
-      "evening_view": "夕方には、展望台はスペクトルの壮大な景色も提供します。",
-      "sunset_experience": "より親密な視聴体験のために、プライベートエントリポイント、専用の座席エリア、プレミアムダイニングメニューを介した優先アクセスを備えた排他的なプログラムであるSunset in the Skyを選択してください。",
-      "book_tickets": "ブックチケット",
-      "notice_title": "知らせ",
-      "notice_text": "Skypark展望台は、サイレントディスコフルムーンパーティーのために、午後9時に次の日付で閉鎖されます（午後8時の最後のエントリ）",
-      "details_title": "詳細",
-      "location_title": "位置",
-      "location_text1": "ホテルタワー3、レベル56",
-      "location_text2": "Skypark展望台への入り口は、ホテルタワー3の私道からアクセスできます。",
-      "hours_title": "営業時間",
-      "hours_nonpeak": "ノンピーク：午前10時 - 午後4時30分（午後4時の最後のエントリ）",
-      "hours_peak": "ピーク：午後5時〜午後10時（午後9時30分の最後のエントリ）",
-      "prices_title": "チケットの価格",
-      "whats_on": "何が起こっているのか",
-      "you_may_like": "あなたも望んでいると思います",
-      "faq_title": "よくある質問",
-      "faq": {
-        "opening_hours": {
-          "question": "Let's Vipskyparkの営業時間は何ですか？",
-          "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
-          "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
-        },
-        "rain": {
-          "question": "雨が降るとどうなりますか？",
-          "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
-          "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
-        },
-        "souvenir": {
-          "question": "お土産店はありますか？",
-          "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
-          "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
-        },
-        "prohibited": {
-          "question": "Skypark展望台では、アイテムは禁止されていますか？",
-          "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
-          "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
-        },
-        "other_areas": {
-          "question": "Skypark展望デッキチケットでLet's Vipskyparkの他のエリアにアクセスできますか？",
-          "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
-          "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
-        },
-        "conditions": {
-          "question": "Skypark展望台への他の条件はありますか？",
-          "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
-          "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
-        }
-      },
-      "slider": {
-        "weekday_escapade": {
-          "image_alt": "平日の休暇の画像",
-          "title": "平日のエスケープ",
-          "tag": "平日|",
-          "description": "新しく復元されたレッツヴィップレミエルームを体験してください。深い浸す浴槽とウォークインワードローブをスタイリッシュに装備してください。"
         }
       }
     },
-    "infinityPool": {
-      "banner": {
-        "desktopAlt": "Infinity Pool Bannerデスクトップ",
-        "mobileAlt": "Infinity Pool Bannerモバイル"
+    "paizaExperience": {
+      "imageAlt": "ライフスタイルのイメージをVIPしましょう",
+      "title": "パイザ体験",
+      "description": "新しいパイザコレクションで洗練された生活の頂点を楽しんでください。"
+    }
+  },
+  "packages": {
+    "banner": {
+      "desktopAlt": "パッケージバナーデスクトップ",
+      "mobileAlt": "パッケージバナーモバイル"
+    },
+    "title": "あなたに合わせた楽園",
+    "description": "目の肥えた味、不思議な心、冒険への食欲を持つ家族、カップル、個人のためにキュレーションされた滞在パッケージを探索する",
+    "room": {
+      "title": "Vippremierルームを見てみましょう",
+      "view": {
+        "gardens": "ベイビューによる庭園",
+        "city": "都市ビュー"
       },
-      "title": "Skyparkインフィニティプール",
-      "renowned": "理由は有名です。",
-      "description": "世界最大の屋上インフィニティプールでまったく新しい視点を獲得してください。",
+      "description": "あなたのエレガントな部屋でくつろいで、オーダーメイドの武器で宝物の寛大なキュレーションを味わいます。",
       "details": {
-        "title": "詳細",
-        "location": {
-          "title": "位置",
-          "text1": "ホテルタワー3、レベル56",
-          "text2": "Skypark展望台への入り口は、ホテルタワー3の私道からアクセスできます。"
-        },
-        "hours": {
-          "title": "営業時間",
-          "nonPeak": "ノンピーク：午前10時 - 午後4時30分（午後4時の最後のエントリ）",
-          "peak": "ピーク：午後5時〜午後10時（午後9時30分の最後のエントリ）"
-        }
+        "area": "平均して45平方メートル",
+        "guests": "最大3人のゲスト",
+        "beds": "キング1または2つのクイーンベッド"
       },
-      "operatingHours": {
-        "title": "営業時間",
-        "location": {
-          "title": "位置",
-          "text1": "ホテルタワー3、レベル56",
-          "text2": "Skypark展望台への入り口は、ホテルタワー3の私道からアクセスできます。"
-        },
-        "hours": {
-          "title": "営業時間",
-          "nonPeak": "ノンピーク：午前10時 - 午後4時30分（午後4時の最後のエントリ）",
-          "peak": "ピーク：午後5時〜午後10時（午後9時30分の最後のエントリ）"
-        }
+      "viewDetails": "詳細を表示します"
+    }
+  },
+  "skypark": {
+    "banner_alt": "Skypark観察デッキバナー",
+    "banner_mobile_alt": "Skypark展望デッキモバイルバナー",
+    "paradise_title": "あなたに合わせた楽園",
+    "discover_text": "1月17日から、スカイラインシンガポールのLet's Win Win Clubの過去、現在、未来を発見：Stories from Abover、Skypark展望台での新しいショーケース。",
+    "explore_text": "シンガポールの世界クラスの街並みの風光明媚な景色は、息をのむような56階建ての新しい見晴らしの良い場所から街を探索してください。",
+    "evening_view": "夕方には、展望台はスペクトルの壮大な景色も提供します。",
+    "sunset_experience": "より親密な視聴体験のために、プライベートエントリポイント、専用の座席エリア、プレミアムダイニングメニューを介した優先アクセスを備えた排他的なプログラムであるSunset in the Skyを選択してください。",
+    "book_tickets": "ブックチケット",
+    "notice_title": "知らせ",
+    "notice_text": "Skypark展望台は、サイレントディスコフルムーンパーティーのために、午後9時に次の日付で閉鎖されます（午後8時の最後のエントリ）",
+    "details_title": "詳細",
+    "location_title": "位置",
+    "location_text1": "ホテルタワー3、レベル56",
+    "location_text2": "Skypark展望台への入り口は、ホテルタワー3の私道からアクセスできます。",
+    "hours_title": "営業時間",
+    "hours_nonpeak": "ノンピーク：午前10時 - 午後4時30分（午後4時の最後のエントリ）",
+    "hours_peak": "ピーク：午後5時〜午後10時（午後9時30分の最後のエントリ）",
+    "prices_title": "チケットの価格",
+    "whats_on": "何が起こっているのか",
+    "you_may_like": "あなたも望んでいると思います",
+    "faq_title": "よくある質問",
+    "faq": {
+      "opening_hours": {
+        "question": "Let's Vipskyparkの営業時間は何ですか？",
+        "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
+        "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
       },
-      "faq": {
-        "title": "よくある質問",
-        "openingHours": {
-          "question": "Let's Vipskyparkの営業時間は何ですか？",
-          "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
-          "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
-        }
+      "rain": {
+        "question": "雨が降るとどうなりますか？",
+        "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
+        "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
       },
-      "recommendations": {
-        "title": "あなたも望んでいると思います"
+      "souvenir": {
+        "question": "お土産店はありますか？",
+        "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
+        "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
+      },
+      "prohibited": {
+        "question": "Skypark展望台では、アイテムは禁止されていますか？",
+        "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
+        "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
+      },
+      "other_areas": {
+        "question": "Skypark展望デッキチケットでLet's Vipskyparkの他のエリアにアクセスできますか？",
+        "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
+        "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
+      },
+      "conditions": {
+        "question": "Skypark展望台への他の条件はありますか？",
+        "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
+        "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
       }
     },
-    "lifestyle": {
-      "banner": {
-        "desktopAlt": "VIPコレクションバナー",
-        "mobileAlt": "VIPコレクションモバイルバナー"
+    "slider": {
+      "weekday_escapade": {
+        "image_alt": "平日の休暇の画像",
+        "title": "平日のエスケープ",
+        "tag": "平日|",
+        "description": "新しく復元されたレッツヴィップレミエルームを体験してください。深い浸す浴槽とウォークインワードローブをスタイリッシュに装備してください。"
+      }
+    }
+  },
+  "infinityPool": {
+    "banner": {
+      "desktopAlt": "Infinity Pool Bannerデスクトップ",
+      "mobileAlt": "Infinity Pool Bannerモバイル"
+    },
+    "title": "Skyparkインフィニティプール",
+    "renowned": "理由は有名です。",
+    "description": "世界最大の屋上インフィニティプールでまったく新しい視点を獲得してください。",
+    "details": {
+      "title": "詳細",
+      "location": {
+        "title": "位置",
+        "text1": "ホテルタワー3、レベル56",
+        "text2": "Skypark展望台への入り口は、ホテルタワー3の私道からアクセスできます。"
       },
-      "title": "ライフスタイルをVIPしましょう",
-      "description": "シンガポールで最も寛大な報酬プログラムである無料のVIPライフスタイルメンバーシップで、排他的な報酬と特典の世界を解き放ちます。",
-      "alreadyMember": "すでにメンバー？",
-      "tourist": "あなたは観光客ですか？",
-      "membershipTiers": "メンバーシップ層",
-      "membership": {
-        "imageAlt": "メンバーシップティア画像",
-        "description": "ロイヤルプレイヤー向けの様々な特典と報酬をご用意しています。当VIPシステムはグリーン、レッド、ゴールド、インフィニットの4つのステージで構成され、各ステージには特定の要件と特典があります。",
-
-        "lifestyle": {
-          "title": "ライフスタイル",
-          "content": [
-            "登録時に自動的に付与されたため、ポイントは必要ありません。",
-            "賭けた$ 10ごとに1ポイントを獲得します。 ",
-            "レストランやバーで5％割引。"
-          ]
-        },
-        "prestige": {
-          "title": "威信",
-          "content": [
-            "6か月以内に5,000〜19999ポイントまたは最低総賭けが50,000ドルを必要とします。",
-            "$ 7.5につき1ポイント賭けて獲得します。 ",
-            "レストランやバーで10％割引、カジノでの優先予約。"
-          ]
-        },
-        "elite": {
-          "title": "エリート",
-          "content": [
-            "6か月以内に20,000〜49,999ポイントまたは最低総賭けが100,000ドルです。",
-            "5ドルにつき1ポイント賭けて1ポイントを獲得します。 ",
-            "レストランやバーでの15％の割引、VIPラウンジアクセス、指定されたエリア内の無料シャトルサービス。"
-          ]
-        },
-        "paiza": {
-          "title": "パイザ",
-          "content": [
-            "6か月以内に50,000以上のポイントまたは最低総額250,000ドルが必要です。",
-            "$ 2.5に合わせて1ポイントを獲得します。 ",
-            "レストランやバーで20％割引、最高層のVIPラウンジへのアクセス、24時間年中無休の個人VIP支援、無料の高級輸送（ハイエンド車両またはプライベートジェットを含む）、排他的なポーカートーナメント、エリートイベント。"
-          ]
-        }
+      "hours": {
+        "title": "営業時間",
+        "nonPeak": "ノンピーク：午前10時 - 午後4時30分（午後4時の最後のエントリ）",
+        "peak": "ピーク：午後5時〜午後10時（午後9時30分の最後のエントリ）"
+      }
+    },
+    "operatingHours": {
+      "title": "営業時間",
+      "location": {
+        "title": "位置",
+        "text1": "ホテルタワー3、レベル56",
+        "text2": "Skypark展望台への入り口は、ホテルタワー3の私道からアクセスできます。"
+      },
+      "hours": {
+        "title": "営業時間",
+        "nonPeak": "ノンピーク：午前10時 - 午後4時30分（午後4時の最後のエントリ）",
+        "peak": "ピーク：午後5時〜午後10時（午後9時30分の最後のエントリ）"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "openingHours": {
+        "question": "Let's Vipskyparkの営業時間は何ですか？",
+        "answer1": "VIP Skypark（観察デッキを含む）は、午前10時から午後10時まで営業しています。",
+        "answer2": "展望台は、特定の時間にプライベートイベントや商業的コミットメントのために閉鎖される場合があります。 "
+      }
+    },
+    "recommendations": {
+      "title": "あなたも望んでいると思います"
+    }
+  },
+  "lifestyle": {
+    "banner": {
+      "desktopAlt": "VIPコレクションバナー",
+      "mobileAlt": "VIPコレクションモバイルバナー"
+    },
+    "title": "ライフスタイルをVIPしましょう",
+    "description": "シンガポールで最も寛大な報酬プログラムである無料のVIPライフスタイルメンバーシップで、排他的な報酬と特典の世界を解き放ちます。",
+    "alreadyMember": "すでにメンバー？",
+    "tourist": "あなたは観光客ですか？",
+    "membershipTiers": "メンバーシップ層",
+    "membership": {
+      "imageAlt": "メンバーシップティア画像",
+      "description": "ロイヤルプレイヤー向けの様々な特典と報酬をご用意しています。当VIPシステムはグリーン、レッド、ゴールド、インフィニットの4つのステージで構成され、各ステージには特定の要件と特典があります。",
+      "lifestyle": {
+        "title": "ライフスタイル",
+        "content": [
+          "登録時に自動的に付与されたため、ポイントは必要ありません。",
+          "賭けた$ 10ごとに1ポイントを獲得します。 ",
+          "レストランやバーで5％割引。"
+        ]
+      },
+      "prestige": {
+        "title": "威信",
+        "content": [
+          "6か月以内に5,000〜19999ポイントまたは最低総賭けが50,000ドルを必要とします。",
+          "$ 7.5につき1ポイント賭けて獲得します。 ",
+          "レストランやバーで10％割引、カジノでの優先予約。"
+        ]
+      },
+      "elite": {
+        "title": "エリート",
+        "content": [
+          "6か月以内に20,000〜49,999ポイントまたは最低総賭けが100,000ドルです。",
+          "5ドルにつき1ポイント賭けて1ポイントを獲得します。 ",
+          "レストランやバーでの15％の割引、VIPラウンジアクセス、指定されたエリア内の無料シャトルサービス。"
+        ]
+      },
+      "paiza": {
+        "title": "パイザ",
+        "content": [
+          "6か月以内に50,000以上のポイントまたは最低総額250,000ドルが必要です。",
+          "$ 2.5に合わせて1ポイントを獲得します。 ",
+          "レストランやバーで20％割引、最高層のVIPラウンジへのアクセス、24時間年中無休の個人VIP支援、無料の高級輸送（ハイエンド車両またはプライベートジェットを含む）、排他的なポーカートーナメント、エリートイベント。"
+        ]
       }
     }
   }
+}

@@ -5,5 +5,12 @@
     "korean": "Korean",
     "chinese": "Chinese",
     "japanese": "Japanese"
+  },
+  "header": {
+    "rewards": {
+      "vipMembership": "VIP Membership Offers",
+      "premiumPerks": "Premium Perks",
+      "eventPromotions": "Event & Tournament Promotions"
+    }
   }
 } 

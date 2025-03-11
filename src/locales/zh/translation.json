@@ -49,7 +49,10 @@
         "membershipTiers": "会员层",
         "memberPerks": "会员津贴",
         "alliancePrivileges": "让我们vipalliance特权",
-        "viewAllOutlets": "查看所有让我们的vipoutlets"
+        "viewAllOutlets": "查看所有让我们的vipoutlets",
+        "vipMembership": "VIP会员优惠",
+      "premiumPerks": "尊享特权",
+      "eventPromotions": "活动与赛事优惠"
       }
     },
     "home": {

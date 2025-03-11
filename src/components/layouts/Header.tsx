@@ -300,13 +300,13 @@ const Header = () => {
                 {t('header.rewards.sandsLifestyle')}
               </Link>
               <Link onClick={toggleMenu} to={'/vip-membership-offers'} className='hover:opacity-65'>
-                VIP Membership Offers
+                {t('header.rewards.vipMembership')}
               </Link>
               <Link onClick={toggleMenu} to={'/premium-perks'} className='hover:opacity-65'>
-                Premium perks
+                {t('header.rewards.premiumPerks')}
               </Link>
               <Link onClick={toggleMenu} to={'/event-tournament-promotions'} className='hover:opacity-65'>
-                Event & Tournament Promotions
+                {t('header.rewards.eventPromotions')}
               </Link>
 
             </div>
