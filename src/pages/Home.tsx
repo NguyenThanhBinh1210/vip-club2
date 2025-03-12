@@ -6,10 +6,10 @@ import hoian from '~/assets/GHI0408-HDR-scaled.webp'
 import hoian2 from '~/assets/hoian2.webp'
 import hoian3 from '~/assets/hoian3.webp'
 import hotrambanner from '~/assets/hotrambannerpc.png'
-import rewardsClub from '~/assets/rewards-club.avif'
 import { ButtonBlack } from './Shop/Shopping'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { Level } from './Rewards/Lifestyle'
 
 const Home = () => {
   const { t } = useTranslation()
@@ -198,27 +198,52 @@ const Home = () => {
           </div>
         </div>
         <div className='bg-[#f0f1eb] py-16 '>
-          <div className='lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+          <h3 className='uppercase text-[25px] mb-6 text-center'>{t('home.rewardsClub.title')}</h3>
+          <p className='text-center text-[16px] mb-10 max-w-[800px] mx-auto px-4'>{t('lifestyle.membership.description')}</p>
+
+          {/* <div className='lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
 
             <h3 className='uppercase text-[25px] mb-4 pl-4 lg:hidden'>{t('home.rewardsClub.title')}</h3>
-            <div className='gap-x-10 lg:grid-cols-3 grid 2xl:grid-cols-5'>
-              <div className='lg:col-span-2 2xl:col-span-3'>
-                <img src={rewardsClub} alt='rewardsClub' className='h-max w-max' />
-              </div>
-              <div className='lg:col-span-1 2xl:col-span-2 2xl:pr-[180px] pl-4 pr-[34px] lg:p-0'>
+            <div className='gap-x-10 '>
+
+              <div className=''>
                 <h3 className='uppercase text-[32px] hidden lg:block'>{t('home.rewardsClub.title')}</h3>
-                <p className='py-4 uppercase'>{t('home.rewardsClub.subtitle')}</p>
-                <p className='text-[#333333] mb-4'>{t('home.rewardsClub.description')}</p>
+                <p className='py-4 '>For loyal players, featuring various privileges and rewards. Our VIP system includes four tiers: Green, Red, Gold, and Infinite, each with specific requirements and benefits.
+                </p>
+                <p className='text-[#333333] mb-4 font-semibold'>1. VIP TIERS & UPGRADE REQUIREMENTS</p>
                 <ul className='list-disc pl-5 text-[#333333] mb-5'>
-                  <li>{t('home.rewardsClub.locations.b2m')}</li>
-                  <li>{t('home.rewardsClub.locations.level1')}</li>
-                  <li>{t('home.rewardsClub.locations.level2Ruby')}</li>
-                  <li>{t('home.rewardsClub.locations.level2RubySlots')}</li>
-                  <li>{t('home.rewardsClub.locations.level2Apex')}</li>
+                  <li>Green Card (Basic Tier): Automatically granted upon registration, no points required.</li>
+                  <li>Red Card (Intermediate Tier): Requires 5,000 – 19,999 points or a minimum total wager of $50,000 within 6 months. Members must maintain at least 5,000 points per year to keep this tier.</li>
+                  <li>Gold Card (High Tier): Requires 20,000 – 49,999 points or a minimum total wager of $100,000 within 6 months. Members must maintain at least 20,000 points per year to keep this tier.</li>
+                  <li> Infinite Card (Elite Tier): Requires 50,000+ points or a minimum total wager of $250,000 within 6 months. This tier is invitation-only for VIP members. To maintain this status, members must wager at least $500,000 per year.</li>
+                </ul>
+                <p className='text-[#333333] mb-4 font-semibold'>2. POINT ACCUMULATION & REDEMPTION</p>
+                <ul className='list-disc pl-5 text-[#333333] mb-5'>
+                  <li>Green Card (Basic Tier): Automatically granted upon registration, no points required.</li>
+                  <li>Red Card (Intermediate Tier): Requires 5,000 – 19,999 points or a minimum total wager of $50,000 within 6 months. Members must maintain at least 5,000 points per year to keep this tier.</li>
+                  <li>Gold Card (High Tier): Requires 20,000 – 49,999 points or a minimum total wager of $100,000 within 6 months. Members must maintain at least 20,000 points per year to keep this tier.</li>
+                  <li> Infinite Card (Elite Tier): Requires 50,000+ points or a minimum total wager of $250,000 within 6 months. This tier is invitation-only for VIP members. To maintain this status, members must wager at least $500,000 per year.</li>
+                </ul>
+                <p className='text-[#333333] mb-4 font-semibold'>2. POINT ACCUMULATION & REDEMPTION</p>
+                <ul className='list-disc pl-5 text-[#333333] mb-5'>
+                  <li>Green Card (Basic Tier): Automatically granted upon registration, no points required.</li>
+                  <li>Red Card (Intermediate Tier): Requires 5,000 – 19,999 points or a minimum total wager of $50,000 within 6 months. Members must maintain at least 5,000 points per year to keep this tier.</li>
+                  <li>Gold Card (High Tier): Requires 20,000 – 49,999 points or a minimum total wager of $100,000 within 6 months. Members must maintain at least 20,000 points per year to keep this tier.</li>
+                  <li> Infinite Card (Elite Tier): Requires 50,000+ points or a minimum total wager of $250,000 within 6 months. This tier is invitation-only for VIP members. To maintain this status, members must wager at least $500,000 per year.</li>
+                </ul>
+                <p className='text-[#333333] mb-4 font-semibold'>2. POINT ACCUMULATION & REDEMPTION</p>
+                <ul className='list-disc pl-5 text-[#333333] mb-5'>
+                  <li>Green Card (Basic Tier): Automatically granted upon registration, no points required.</li>
+                  <li>Red Card (Intermediate Tier): Requires 5,000 – 19,999 points or a minimum total wager of $50,000 within 6 months. Members must maintain at least 5,000 points per year to keep this tier.</li>
+                  <li>Gold Card (High Tier): Requires 20,000 – 49,999 points or a minimum total wager of $100,000 within 6 months. Members must maintain at least 20,000 points per year to keep this tier.</li>
+                  <li> Infinite Card (Elite Tier): Requires 50,000+ points or a minimum total wager of $250,000 within 6 months. This tier is invitation-only for VIP members. To maintain this status, members must wager at least $500,000 per year.</li>
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
+
+          <Level></Level>
+
         </div>
         <div className='py-20'>
           <div className='pl-4 2xl:pl-[180px] lg:pl-[110px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
