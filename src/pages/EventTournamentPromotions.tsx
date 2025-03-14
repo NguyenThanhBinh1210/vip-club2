@@ -1,6 +1,6 @@
 import hotrambanner from '~/assets/B1127232-1.webp'
 import hotrambanner2 from '~/assets/B1127232-1.webp'
-import hotrambanner3 from '~/assets/GHI0300-HDR-scaled.webp'
+import hotrambanner3 from '~/assets/oker1.jpg'
 import hotrambanner4 from '~/assets/Meetings & Events _ Hoiana Resort & Golf_files/MICE-Hero-Slider-2.jpg'
 import hotrambanner5 from '~/assets/Theres-always-more.webp'
 const EventTournamentPromotions = () => {

@@ -3,8 +3,8 @@ import bannerLandingModule3 from '~/assets/casino-landing-module-3-1920x1080.web
 import hotram1 from '~/assets/Gaming-Salon-2048x1366.jpg'
 import hotram2 from '~/assets/Casino-Slot-Angle-1-2_S.jpg'
 import hoian from '~/assets/GHI0408-HDR-scaled.webp'
-import hoian2 from '~/assets/hoian2.webp'
-import hoian3 from '~/assets/hoian3.webp'
+import hoian2 from '~/assets/oker1.jpg'
+import hoian3 from '~/assets/oker2.jpg'
 import hotrambanner from '~/assets/hotrambannerpc.png'
 import { ButtonBlack } from './Shop/Shopping'
 import { Link } from 'react-router-dom'
@@ -101,7 +101,7 @@ const Home = () => {
           <div className='pl-4'>
             <h2 className='text-[25px] uppercase block lg:hidden'>POKER CLUB IN DA NANG</h2>
           </div>
-          <div className='grid grid-cols-2 lg:grid-cols-3 gap-x-10 lg:w-[59pc] xl:w-[79pc] 2xl:w-[82pc] mx-auto'>
+          <div className='grid grid-cols-2 lg:grid-cols-3 gap-x-5 lg:gap-x-10 lg:w-[59pc] xl:w-[79pc] 2xl:w-[82pc] mx-auto'>
             <div>
               <img
                 className='lg:pt-[15pc] mt-[2pc] lg:mt-0 object-cover aspect-[7/9] lg:aspect-[4.5/9]'
