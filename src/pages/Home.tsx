@@ -7,7 +7,6 @@ import hoian2 from '~/assets/oker1.jpg'
 import hoian3 from '~/assets/oker2.jpg'
 import hotrambanner from '~/assets/hotrambannerpc.png'
 import { ButtonBlack } from './Shop/Shopping'
-import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Level } from './Rewards/Lifestyle'
 
@@ -47,7 +46,7 @@ const Home = () => {
                   <li className='mb-2'>{t('home.hoTram.features.services')}</li>
                   <li className='mb-2'>{t('home.hoTram.features.privacy')}</li>
                 </div>
-                <a href='tel:0909090909'>
+                <a href='tel:+84766798268'>
                   <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                     {t('home.buttons.contact')}
                     <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -79,7 +78,7 @@ const Home = () => {
                   </li> */}
                 </div>
 
-                <a href='tel:0909090909'>
+                <a href='tel:+84766798268'>
                   <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                     {t('home.buttons.contact')}
                     <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -131,7 +130,7 @@ const Home = () => {
                   <strong>{t('home.daNang.features.lounge.title')}</strong>
                   {t('home.daNang.features.lounge.description')}
                 </li>
-                <a href='tel:0909090909'>
+                <a href='tel:+84766798268'>
                   <ButtonBlack className='ml-0 mt-10' title={t('home.buttons.contact')} />
                 </a>
               </div>
@@ -161,7 +160,7 @@ const Home = () => {
                     {t('home.hoiana.features.rewards.description')}
                   </li>
                 </div>
-                <a href='tel:0909090909'>
+                <a href='tel:+84766798268'>
                   <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                     {t('home.buttons.contact')}
                     <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -187,7 +186,7 @@ const Home = () => {
                     {t('home.hoiana.features.rewards.description')}
                   </li>
                 </div>
-                <a href='tel:0909090909'>
+                <a href='tel:+84766798268'>
                   <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                     {t('home.buttons.contact')}
                     <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -251,12 +250,12 @@ const Home = () => {
               <h2 className='text-[25px] uppercase lg:text-[32px]'>{t('home.vipClub.title')}</h2>
               <div className='hidden lg:block'>
                 <p className='text-[15px] mt-4 mb-8 text-[#333333]'>{t('home.vipClub.description')}</p>
-                <Link to='/contact-now'>
+                <a href='tel:+84766798268'>
                   <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                     {t('home.buttons.book')}
                     <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
                   </button>
-                </Link>
+                </a>
               </div>
             </div>
             <div className='lg:col-span-5'>
@@ -264,12 +263,12 @@ const Home = () => {
               <div className='block lg:hidden'>
                 <p className='uppercase text-[15px] my-4 font-medium text-[#333333]'>{t('about.subtitle')}</p>
                 <p className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>{t('home.vipClub.description')}</p>
-                <Link to='/contact-now'>
+                <a href='tel:+84766798268'>
                   <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                     {t('home.buttons.book')}
                     <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
                   </button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

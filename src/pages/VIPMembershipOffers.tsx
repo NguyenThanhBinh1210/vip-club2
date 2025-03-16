@@ -36,7 +36,7 @@ const VIPMembershipOffers = () => {
 
 
               </div>
-              <a href='tel:0909090909'>
+              <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                   Liên hệ ngay
                   <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -52,7 +52,7 @@ const VIPMembershipOffers = () => {
 
               </div>
 
-              <a href='tel:0909090909'>
+              <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                   Liên hệ ngay
                   <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -74,7 +74,7 @@ const VIPMembershipOffers = () => {
 
 
               </div>
-              <a href='tel:0909090909'>
+              <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                   Liên hệ ngay
                   <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -88,7 +88,7 @@ const VIPMembershipOffers = () => {
               <div className='text-[15px] mt-4 mb-4 text-[#333333]'>
                 Thưởng thức những bữa ăn ngon tại nhà hàng cao cấp, thư giãn tại spa hoặc tận hưởng không gian sang trọng của khách sạn, tất cả đều trở nên dễ dàng hơn với các ưu đãi giảm giá từ chương trình tích điểm. Bạn sẽ cảm thấy thật sự hài lòng khi mỗi điểm thưởng bạn tích lũy đều mang lại giá trị thiết thực trong trải nghiệm của mình.
               </div>
-              <a href='tel:0909090909'>
+              <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                   Liên hệ ngay
                   <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -110,7 +110,7 @@ const VIPMembershipOffers = () => {
 
 
               </div>
-              <a href='tel:0909090909'>
+              <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                   Liên hệ ngay
                   <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -127,7 +127,7 @@ const VIPMembershipOffers = () => {
 
               </div>
 
-              <a href='tel:0909090909'>
+              <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                   Liên hệ ngay
                   <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>

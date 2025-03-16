@@ -566,7 +566,7 @@
     "title": "Đặc Quyền Let's Vip",
     "alreadyMember": "Đã là thành viên?",
     "membershipTiers": "CÁC HẠNG THÀNH VIÊN",
-      "description": "Dành cho người chơi trung thành, với nhiều đặc quyền và phần thưởng. Hệ thống VIP của chúng tôi bao gồm bốn cấp độ: Xanh, Đỏ, Vàng và Vô hạn, mỗi cấp có những yêu cầu và lợi ích riêng.",
+    "description": "Dành cho người chơi trung thành, với nhiều đặc quyền và phần thưởng. Hệ thống VIP của chúng tôi bao gồm bốn cấp độ: Xanh, Đỏ, Vàng và Vô hạn, mỗi cấp có những yêu cầu và lợi ích riêng.",
     "membership": {
       "description": "Dành cho người chơi trung thành, với nhiều đặc quyền và phần thưởng. Hệ thống VIP của chúng tôi bao gồm bốn cấp: Xanh, Đỏ, Vàng và Vô hạn, mỗi cấp có những yêu cầu và quyền lợi riêng.",
 
@@ -575,31 +575,31 @@
         "title": "Lifestyle",
         "content": [
           "Được cấp tự động khi đăng ký, không yêu cầu điểm.",
-          "Nhận 1 điểm cho mỗi 10$ cược. 1.000 điểm = 25$.",
+          "Nhận 1 điểm cho mỗi $10 cược. 1.000 điểm = $25.",
           "Giảm 5% tại nhà hàng và quầy bar."
         ]
       },
       "prestige": {
         "title": "Prestige",
         "content": [
-          "Yêu cầu 5.000 – 19.999 điểm hoặc tổng cược tối thiểu 50.000$ trong 6 tháng. Thành viên phải duy trì ít nhất 5.000 điểm mỗi năm để giữ hạng.",
-          "Nhận 1 điểm cho mỗi 7,5$ cược. 1.000 điểm = 37,5$.",
+          "Yêu cầu 5.000 – 19.999 điểm hoặc tổng cược tối thiểu $50.000 trong 6 tháng. Thành viên phải duy trì ít nhất 5.000 điểm mỗi năm để giữ hạng.",
+          "Nhận 1 điểm cho mỗi $7,5 cược. 1.000 điểm = $37,5.",
           "Giảm 10% tại nhà hàng và quầy bar, ưu tiên đặt chỗ tại sòng bạc."
         ]
       },
       "elite": {
         "title": "Elite",
         "content": [
-          "Yêu cầu 20.000 – 49.999 điểm hoặc tổng cược tối thiểu 100.000$ trong 6 tháng. Thành viên phải duy trì ít nhất 20.000 điểm mỗi năm để giữ hạng.",
-          "Nhận 1 điểm cho mỗi 5$ cược. 1.000 điểm = 50$.",
+          "Yêu cầu 20.000 – 49.999 điểm hoặc tổng cược tối thiểu $100.000 trong 6 tháng. Thành viên phải duy trì ít nhất 20.000 điểm mỗi năm để giữ hạng.",
+          "Nhận 1 điểm cho mỗi $5 cược. 1.000 điểm = $50.",
           "Giảm 15% tại nhà hàng và quầy bar, quyền truy cập phòng chờ VIP, dịch vụ đưa đón miễn phí trong khu vực chỉ định."
         ]
       },
       "paiza": {
         "title": "PAIZA",
         "content": [
-          "Yêu cầu 50.000+ điểm hoặc tổng cược tối thiểu 250.000$ trong 6 tháng. Hạng này chỉ dành cho thành viên VIP được mời. Để duy trì trạng thái này, thành viên phải cược ít nhất 500.000$ mỗi năm.",
-          "Nhận 1 điểm cho mỗi 2,5$ cược. 1.000 điểm = 100$.",
+          "Yêu cầu 50.000+ điểm hoặc tổng cược tối thiểu $250.000 trong 6 tháng. Hạng này chỉ dành cho thành viên VIP được mời. Để duy trì trạng thái này, thành viên phải cược ít nhất 500.000$ mỗi năm.",
+          "Nhận 1 điểm cho mỗi $2,5 cược. 1.000 điểm = $100.",
           "Giảm 20% tại nhà hàng và quầy bar, quyền truy cập phòng chờ VIP cao cấp nhất, hỗ trợ VIP cá nhân 24/7, dịch vụ vận chuyển hạng sang miễn phí (bao gồm xe hơi cao cấp hoặc máy bay riêng), các giải đấu poker độc quyền và sự kiện elite."
         ]
       }

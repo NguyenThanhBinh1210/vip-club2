@@ -37,7 +37,7 @@ const EventTournamentPromotions = () => {
                 còn là cơ hội để bạn giành những giải thưởng hấp dẫn và chứng minh bản lĩnh của mình trước cộng đồng
                 VIP.
               </div>
-              <a href='tel:0909090909'>
+              <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                   Liên hệ ngay
                   <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -55,7 +55,7 @@ const EventTournamentPromotions = () => {
                 VIP.
               </div>
 
-              <a href='tel:0909090909'>
+              <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                   Liên hệ ngay
                   <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -77,7 +77,7 @@ const EventTournamentPromotions = () => {
                 chức tại các địa điểm sang trọng. Đây là cơ hội tuyệt vời để kết nối, gặp gỡ những người bạn cùng đẳng
                 cấp và tận hưởng không khí lễ hội sôi động, được chăm sóc tận tình với những dịch vụ đỉnh cao.
               </div>
-              <a href='tel:0909090909'>
+              <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                   Liên hệ ngay
                   <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -95,7 +95,7 @@ const EventTournamentPromotions = () => {
                 chức tại các địa điểm sang trọng. Đây là cơ hội tuyệt vời để kết nối, gặp gỡ những người bạn cùng đẳng
                 cấp và tận hưởng không khí lễ hội sôi động, được chăm sóc tận tình với những dịch vụ đỉnh cao.
               </div>
-              <a href='tel:0909090909'>
+              <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                   Liên hệ ngay
                   <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -117,7 +117,7 @@ const EventTournamentPromotions = () => {
                 lớn. Hãy chuẩn bị tinh thần để tham gia vào các hoạt động, trò chơi và sự kiện, nơi bạn có thể nhận được
                 những phần thưởng giá trị, từ chuyến du lịch đến những món quà xa xỉ.
               </div>
-              <a href='tel:0909090909'>
+              <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                   Liên hệ ngay
                   <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
@@ -134,7 +134,7 @@ const EventTournamentPromotions = () => {
                 những phần thưởng giá trị, từ chuyến du lịch đến những món quà xa xỉ.
               </div>
 
-              <a href='tel:0909090909'>
+              <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
                   Liên hệ ngay
                   <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
