@@ -1,9 +1,9 @@
 import bannerLandingModule3 from '~/assets/casino-landing-module-3-1920x1080.webp'
 
 import hotram1 from '~/assets/Gaming-Salon-2048x1366.jpg'
-import hotram2 from '~/assets/Casino-Slot-Angle-1-2_S.jpg'
+import poket2 from '~/assets/poket1.jpg'
+import poket1 from '~/assets/poker2.jpg'
 import hoian from '~/assets/GHI0408-HDR-scaled.webp'
-import hoian2 from '~/assets/oker1.jpg'
 import hoian3 from '~/assets/oker2.jpg'
 import hotrambanner from '~/assets/hotrambannerpc.png'
 import { ButtonBlack } from './Shop/Shopping'
@@ -92,8 +92,8 @@ const Home = () => {
           <img
             // style={{ aspectRatio: '16/9' }}
             className='object-cover h-auto w-full'
-            src={hotram2}
-            alt='hotram2'
+            src={poket1}
+            alt='poket1'
           />
         </div>
         <div className='pt-40 pb-20'>
@@ -104,8 +104,8 @@ const Home = () => {
             <div>
               <img
                 className='lg:pt-[15pc] mt-[2pc] lg:mt-0 object-cover aspect-[7/9] lg:aspect-[4.5/9]'
-                src={hoian2}
-                alt='hoian2'
+                src={poket2}
+                alt='poket2'
               // style={{ aspectRatio: '4.5/9' }}
               />
             </div>
