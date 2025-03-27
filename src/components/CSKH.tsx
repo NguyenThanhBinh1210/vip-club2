@@ -1,72 +1,59 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import { useEffect } from 'react'
 
 declare global {
   interface Window {
-    __lc: any
-    LiveChatWidget: any
+    Tawk_API: any
+    Tawk_LoadStart: Date
   }
 }
+
 const CSKH = () => {
-  const addLiveChatScript = () => {
-    window.__lc = window.__lc || {}
-    window.__lc.license = 19059244
-      ; (function (n: any, t: Document) {
-        function i(args: any[]) {
-          return e._h ? e._h.apply(null, args) : e._q.push(args)
-        }
-
-        interface LiveChatWidgetType {
-          _q: any[]
-          _h: any
-          _v: string
-          on: (...args: any[]) => void
-          once: (...args: any[]) => void
-          off: (...args: any[]) => void
-          get: (...args: any[]) => void
-          call: (...args: any[]) => void
-          init: () => void
-        }
-
-        const e: LiveChatWidgetType = {
-          _q: [],
-          _h: null,
-          _v: '2.0',
-          on: function (...args: any[]) {
-            i(['on', args])
-          },
-          once: function (...args: any[]) {
-            i(['once', args])
-          },
-          off: function (...args: any[]) {
-            i(['off', args])
-          },
-          get: function (...args: any[]) {
-            if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load.")
-            return i(['get', args])
-          },
-          call: function (...args: any[]) {
-            i(['call', args])
-          },
-          init: function () {
-            const script = t.createElement('script')
-            script.async = true
-            script.type = 'text/javascript'
-            script.src = 'https://cdn.livechatinc.com/tracking.js'
-            t.head.appendChild(script)
-          }
-        }
-
-        if (!n.__lc.asyncInit) e.init()
-        n.LiveChatWidget = n.LiveChatWidget || e
-      })(window, document)
-
-    window.LiveChatWidget.call('maximize')
+  const loadTawkTo = () => {
+    // Tạo script element
+    const s1 = document.createElement('script')
+    const s0 = document.getElementsByTagName('script')[0]
+    
+    // Thiết lập thuộc tính cho script
+    s1.async = true
+    s1.src = 'https://embed.tawk.to/67d918df7bb0a8190c17a283/1imk0ib8f'
+    s1.charset = 'UTF-8'
+    s1.setAttribute('crossorigin', '*')
+    
+    // Chèn script vào DOM
+    if (s0 && s0.parentNode) {
+      s0.parentNode.insertBefore(s1, s0)
+    } else {
+      document.head.appendChild(s1)
+    }
+    
+    // Khởi tạo biến toàn cục cho Tawk
+    window.Tawk_API = window.Tawk_API || {}
+    window.Tawk_LoadStart = new Date()
   }
+
+  // Xử lý khi người dùng nhấn nút chat
+  const handleChatButtonClick = () => {
+    // Nếu script đã được tải, hiển thị widget
+    if (window.Tawk_API) {
+      window.Tawk_API.maximize()
+    } else {
+      // Nếu chưa tải, tải script và hiển thị widget
+      loadTawkTo()
+    }
+  }
+
+  // Tùy chọn: Tự động tải script khi component mount
+  useEffect(() => {
+    // Bỏ comment dòng dưới nếu bạn muốn tự động tải script khi trang web tải
+    loadTawkTo()
+  }, [])
+
   return (
     <>
       <button
-        className=' p-2.5 rounded-full border bg-blue-600 text-white animate-none fixed bottom-8 right-10 z-50'
-        onClick={addLiveChatScript}
+        className='p-2.5 rounded-full border bg-blue-600 text-white animate-none fixed bottom-8 right-10 z-50'
+        onClick={handleChatButtonClick}
       >
         <svg
           xmlns='http://www.w3.org/2000/svg'

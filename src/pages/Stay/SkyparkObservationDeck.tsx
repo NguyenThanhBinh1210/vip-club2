@@ -5,22 +5,42 @@ import bannerMobile from '~/assets/skypark-obs-deck-masthead-mobile-1080x1440.jp
 import weekdayVacationTile from '~/assets/weekday-vacation-tile-1920x1080.avif'
 import { ButtonBlack } from '../Shop/Shopping'
 import { Link } from 'react-router-dom'
+import { useQuery } from 'react-query'
+import { imageApi } from '~/apis/image.api'
 
 const SkyparkObservationDeck = () => {
   const { t } = useTranslation()
+  
+  // Query for skypark images
+  const { data: imageData } = useQuery({
+    queryKey: ['images', 'skypark-observation-deck'],
+    queryFn: () => imageApi.getImages({ pageSlug: 'skypark-observation-deck' })
+  })
+
+  // Helper function to get image URL by filename
+  const getImageUrl = (filename: string, fallbackImage: string) => {
+    if (!imageData?.data?.data) return fallbackImage;
+    
+    const foundImage = imageData.data.data.find(
+      (img) => img.filename === filename
+    );
+    
+    return foundImage?.url || fallbackImage;
+  };
+
   const dataSlide1 = [1, 2, 3]
   const dataSlide2 = [1, 2, 3, 4, 5]
   return (
     <div>
       <div>
         <img
-          src={bannerPC}
+          src={getImageUrl('skypark-obs-deck-masthead-desktop-1920x823', bannerPC)}
           alt={t('skypark.banner_alt')}
           className='h-auto object-cover hidden md:block w-full'
           style={{ aspectRatio: '21/9' }}
         />
         <img
-          src={bannerMobile}
+          src={getImageUrl('skypark-obs-deck-masthead-mobile-1080x1440', bannerMobile)}
           alt={t('skypark.banner_mobile_alt')}
           className='h-auto object-cover block md:hidden'
           style={{ aspectRatio: '3/4' }}
@@ -183,11 +203,25 @@ export const Slider = ({
 }) => {
   const { t } = useTranslation()
   const [currentIndex, setCurrentIndex] = useState(0)
+  
+  const { data: imageData } = useQuery({
+    queryKey: ['images', 'skypark-observation-deck'],
+    queryFn: () => imageApi.getImages({ pageSlug: 'skypark-observation-deck' })
+  })
+
+  const getImageUrl = (filename: string, fallbackImage: string) => {
+    if (!imageData?.data?.data) return fallbackImage;
+    const foundImage = imageData.data.data.find(
+      (img) => img.filename === filename
+    );
+    return foundImage?.url || fallbackImage;
+  };
+
   return (
     <div className={`py-20 overflow-hidden ${background}`}>
       <h2 className={`text-center uppercase text-2xl  lg:text-[32px] ${description ? 'mb-4' : 'mb-20'}`}>{title}</h2>
       {description && <p className='text-center text-[16px] max-w-[888px] mx-auto mb-20'>{description}</p>}
-      <div className='lg:w-[59pc] 2xl:w-[978pt] mx-auto flex px-4 lg:px-0 relative '>
+      <div className='lg:w-[59pc] 2xl:w-[978pt] mx-auto flex px-4 lg:px-0 relative'>
         <button
           onClick={() => {
             if (currentIndex < dataSlide.length - 3) {
@@ -243,7 +277,10 @@ export const Slider = ({
           {dataSlide.map((_, index) => (
             <div key={index} className='w-[calc(79pc/3-30px)] lg:w-[calc(59pc/3-30px)] 2xl:w-[calc(978pt/3-30px)]'>
               <div>
-                <img src={weekdayVacationTile} alt={t('skypark.slider.weekday_escapade.image_alt')} />
+                <img 
+                  src={getImageUrl('weekday-vacation-tile-1920x1080', weekdayVacationTile)} 
+                  alt={t('skypark.slider.weekday_escapade.image_alt')} 
+                />
               </div>
               <p className='text-xl uppercase my-5'>
                 {t('skypark.slider.weekday_escapade.title')}

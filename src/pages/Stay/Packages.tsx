@@ -3,21 +3,37 @@ import bannerMobile from '~/assets/packages-landing-m.avif'
 import sandsPremierRoom1 from '~/assets/sands-premier-room-1.avif'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { useQuery } from 'react-query'
+import { imageApi } from '~/apis/image.api'
 
 const Packages = () => {
   const { t } = useTranslation()
+  const { data: imageData } = useQuery({
+    queryKey: ['images', 'packages'],
+    queryFn: () => imageApi.getImages({ pageSlug: 'packages' })
+  })
 
+  // Helper function to get image URL by filename
+  const getImageUrl = (filename: string, fallbackImage: string) => {
+    if (!imageData?.data?.data) return fallbackImage;
+
+    const foundImage = imageData.data.data.find(
+      (img) => img.filename === filename
+    );
+
+    return foundImage?.url || fallbackImage;
+  };
   return (
     <div>
       <div>
         <img
-          src={bannerPC}
+          src={getImageUrl('packages-landing-d', bannerPC)}
           alt='bannerPC'
           className='h-auto object-cover hidden md:block w-full'
           style={{ aspectRatio: '21/9' }}
         />
         <img
-          src={bannerMobile}
+          src={getImageUrl('packages-landing-m', bannerMobile)}
           alt='bannerMobile'
           className='h-auto object-cover block md:hidden'
           style={{ aspectRatio: '3/4' }}
@@ -41,7 +57,10 @@ const Packages = () => {
           {[1, 2, 3, 4].map((_, index) => (
             <div key={index}>
               <div className='mb-5'>
-                <img src={sandsPremierRoom1} alt='sandsPremierRoom1' />
+                <img 
+                  src={getImageUrl('sands-premier-room-1', sandsPremierRoom1)} 
+                  alt='sandsPremierRoom1' 
+                />
               </div>
               <Link to='/' className='text-[20px] uppercase '>
                 {t('packages.room.title')}

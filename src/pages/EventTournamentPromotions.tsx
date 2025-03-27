@@ -3,18 +3,37 @@ import hotrambanner2 from '~/assets/B1127232-1.webp'
 import hotrambanner3 from '~/assets/oker1.jpg'
 import hotrambanner4 from '~/assets/Meetings & Events _ Hoiana Resort & Golf_files/MICE-Hero-Slider-2.jpg'
 import hotrambanner5 from '~/assets/Theres-always-more.webp'
+import { useQuery } from 'react-query'
+import { imageApi } from '~/apis/image.api'
+
 const EventTournamentPromotions = () => {
+  const { data: imageData } = useQuery({
+    queryKey: ['images', 'event-tournament-promotions'],
+    queryFn: () => imageApi.getImages({ pageSlug: 'event-tournament-promotions' })
+  })
+
+  // Helper function to get image URL by filename
+  const getImageUrl = (filename: string, fallbackImage: string) => {
+    if (!imageData?.data?.data) return fallbackImage;
+    
+    const foundImage = imageData.data.data.find(
+      (img) => img.filename === filename
+    );
+    
+    return foundImage?.url || fallbackImage;
+  };
+
   return (
     <div>
       <div>
         <img
-          src={hotrambanner}
+          src={getImageUrl('B1127232-1', hotrambanner)}
           alt='bannerPC'
-          className='h-auto object-cover hidden md:block w-full '
+          className='h-auto object-cover hidden md:block w-full'
           style={{ aspectRatio: '21/9' }}
         />
         <img
-          src={hotrambanner2}
+          src={getImageUrl('B1127232-1', hotrambanner2)}
           alt='hotrambanner2'
           className='h-auto object-cover block md:hidden'
           style={{ aspectRatio: '3/4' }}
@@ -23,7 +42,6 @@ const EventTournamentPromotions = () => {
       <div className='pt-[160px] px-[33px]'>
         <h1 className='mb-10 text-center text-[28px] md:text-[40px] max-w-[980px] md:mx-auto uppercase'>
           Ưu đãi sự kiện & giải đấu
-
         </h1>
       </div>
       <div className='py-20'>
@@ -46,7 +64,11 @@ const EventTournamentPromotions = () => {
             </div>
           </div>
           <div className='lg:col-span-5'>
-            <img className='mt-5 lg:mt-0 aspect-[9/6] object-cover' src={hotrambanner3} alt='hotrambanner3' />
+            <img 
+              className='mt-5 lg:mt-0 aspect-[9/6] object-cover' 
+              src={getImageUrl('oker1', hotrambanner3)} 
+              alt='hotrambanner3' 
+            />
             <div className='block lg:hidden'>
               <div className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>
                 Là thành viên VIP, bạn sẽ có cơ hội tham gia các giải đấu độc quyền, nơi bạn có thể thể hiện kỹ năng,
@@ -70,7 +92,11 @@ const EventTournamentPromotions = () => {
           <div className='lg:col-span-5'>
             <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>Tiệc & sự kiện VIP miễn phí định kỳ</h2>
 
-            <img className='mt-5 lg:mt-0 aspect-[9/6]' src={hotrambanner4} alt='hoian' />
+            <img 
+              className='mt-5 lg:mt-0 aspect-[9/6]' 
+              src={getImageUrl('MICE-Hero-Slider-2', hotrambanner4)} 
+              alt='hoian' 
+            />
             <div className='block lg:hidden pl-4 lg:pl-0'>
               <div className='text-[15px] mt-4 mb-8 text-[#333333]'>
                 Với tư cách là thành viên VIP, bạn sẽ được mời tham dự tiệc và sự kiện VIP miễn phí định kỳ, được tổ
@@ -126,7 +152,11 @@ const EventTournamentPromotions = () => {
             </div>
           </div>
           <div className='lg:col-span-5'>
-            <img className='mt-5 lg:mt-0 aspect-[9/6] object-cover' src={hotrambanner5} alt='hotrambanner5' />
+            <img 
+              className='mt-5 lg:mt-0 aspect-[9/6] object-cover' 
+              src={getImageUrl('Theres-always-more', hotrambanner5)} 
+              alt='hotrambanner5' 
+            />
             <div className='block lg:hidden'>
               <div className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>
                 Các chương trình đặc biệt dành riêng cho thành viên VIP sẽ mang đến cho bạn những cơ hội trúng thưởng

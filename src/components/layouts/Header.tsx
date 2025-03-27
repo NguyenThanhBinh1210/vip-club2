@@ -4,6 +4,8 @@ import { Link, useLocation } from 'react-router-dom'
 import logo from '~/assets/logo-01.png'
 import { Select } from '../Select'
 import { useTranslation } from 'react-i18next'
+import { useQuery } from 'react-query'
+import { imageApi } from '~/apis/image.api'
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(true)
@@ -66,6 +68,21 @@ const Header = () => {
   }, [])
   const [selectedLanguage, setSelectedLanguage] = useState(localStorage.getItem('lang') || 'vn')
   const { t, i18n } = useTranslation()
+  const { data: imageData } = useQuery({
+    queryKey: ['images', 'home'],
+    queryFn: () => imageApi.getImages({ pageSlug: 'logo' })
+  })
+
+  // Helper function to get image URL by filename
+  const getImageUrl = (filename: string, fallbackImage: string) => {
+    if (!imageData?.data?.data) return fallbackImage;
+
+    const foundImage = imageData.data.data.find(
+      (img) => img.filename === filename
+    );
+
+    return foundImage?.url || fallbackImage;
+  };
   useEffect(() => {
     const savedLanguage = localStorage.getItem('lang')
     if (savedLanguage) {
@@ -159,7 +176,7 @@ const Header = () => {
         </div>
         <div className='flex justify-center items-center'>
           <Link to={'/'}>
-            <img className='size-20 rounded-full' src={logo} alt='logo' />
+            <img className='size-20 rounded-full' src={getImageUrl('logo-01', logo)} alt='logo' />
           </Link>
         </div>
         <div className='flex items-center gap-2 justify-end'>

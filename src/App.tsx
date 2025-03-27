@@ -1,8 +1,7 @@
 import { useEffect } from 'react'
-import ScrollToTop from './components/scrollTop/scrollTop'
+// import ScrollToTop from './components/scrollTop/scrollTop'
 import useRouteElements from './routes/useRouteElements'
-import CSKH from './components/CSKH'
-import Hotline from './components/Hotline'
+import ChatButtons from './components/ChatButtons'
 
 const App = () => {
   useEffect(() => {
@@ -18,9 +17,8 @@ const App = () => {
   const routeElements = useRouteElements()
   return (
     <>
-      <Hotline />
-      <ScrollToTop />
-      <CSKH />
+      
+      <ChatButtons />
       {routeElements}
     </>
   )

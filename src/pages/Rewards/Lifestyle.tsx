@@ -8,15 +8,32 @@ import xanh1 from '~/assets/card-tb-02.png'
 import do1 from '~/assets/card-tb-03.png'
 import vang1 from '~/assets/card-tb-04.png'
 import trang1 from '~/assets/card-tb-05.png'
+import { useQuery } from 'react-query'
+import { imageApi } from '~/apis/image.api'
+
 const Lifestyle = () => {
   const { t } = useTranslation()
+  const { data: imageData } = useQuery({
+    queryKey: ['images', 'lifestyle'],
+    queryFn: () => imageApi.getImages({ pageSlug: 'lifestyle' })
+  })
 
+  // Helper function to get image URL by filename
+  const getImageUrl = (filename: string, fallbackImage: string) => {
+    if (!imageData?.data?.data) return fallbackImage;
+    
+    const foundImage = imageData.data.data.find(
+      (img) => img.filename === filename
+    );
+    
+    return foundImage?.url || fallbackImage;
+  };
 
   return (
     <div>
       <div>
         <img
-          src={bannerPC}
+          src={getImageUrl('card-tb-01', bannerPC)}
           alt={t('lifestyle.banner.desktopAlt')}
           className='h-auto object-cover hidden md:block w-full scale-75'
           style={{ aspectRatio: '21/9' }}
@@ -51,13 +68,29 @@ const Lifestyle = () => {
     </div>
   )
 }
+
 export const Level = () => {
   const { t } = useTranslation()
+  const { data: imageData } = useQuery({
+    queryKey: ['images', 'home'],
+    queryFn: () => imageApi.getImages({ pageSlug: 'home' })
+  })
+
+  // Helper function to get image URL by filename
+  const getImageUrl = (filename: string, fallbackImage: string) => {
+    if (!imageData?.data?.data) return fallbackImage;
+    
+    const foundImage = imageData.data.data.find(
+      (img) => img.filename === filename
+    );
+    
+    return foundImage?.url || fallbackImage;
+  };
   const screenSize = useScreenSize()
   const [currentIndex, setCurrentIndex] = useState(0)
   const dataMembership = [
     {
-      img: xanh1,
+      img: getImageUrl('card-tb-02', xanh1),
       title: t('lifestyle.membership.lifestyle.title'),
       content: (
         <>
@@ -68,7 +101,7 @@ export const Level = () => {
       )
     },
     {
-      img: do1,
+      img: getImageUrl('card-tb-03', do1),
       title: t('lifestyle.membership.prestige.title'),
       content: (
         <>
@@ -79,7 +112,7 @@ export const Level = () => {
       )
     },
     {
-      img: vang1,
+      img: getImageUrl('card-tb-04', vang1),
       title: t('lifestyle.membership.elite.title'),
       content: (
         <>
@@ -90,7 +123,7 @@ export const Level = () => {
       )
     },
     {
-      img: trang1,
+      img: getImageUrl('card-tb-05', trang1),
       title: t('lifestyle.membership.paiza.title'),
       content: (
         <>
@@ -182,4 +215,5 @@ export const Level = () => {
     </div>
   )
 }
+
 export default Lifestyle

@@ -31,7 +31,7 @@ const ScrollToTop = () => {
   return (
     <>
       {showButton && (
-        <button onClick={scrollToTop} className=' p-2.5 rounded-full border border-white bg-yellow-700 text-white fixed bottom-40 right-10'>
+        <button onClick={scrollToTop} className=' p-2.5 rounded-full border border-white bg-yellow-700 text-white fixed bottom-6 '>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             width='24'

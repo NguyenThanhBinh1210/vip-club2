@@ -8,22 +8,42 @@ import sandsLifestyle from '~/assets/sands-lifestyle.avif'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useQuery } from 'react-query'
+import { imageApi } from '~/apis/image.api'
 
 const ThePaizaCollection = () => {
   const { t } = useTranslation()
+  
+  // Query for paiza collection images
+  const { data: imageData } = useQuery({
+    queryKey: ['images', 'the-paiza-collection'],
+    queryFn: () => imageApi.getImages({ pageSlug: 'the-paiza-collection' })
+  })
+
+  // Helper function to get image URL by filename
+  const getImageUrl = (filename: string, fallbackImage: string) => {
+    if (!imageData?.data?.data) return fallbackImage;
+    
+    const foundImage = imageData.data.data.find(
+      (img) => img.filename === filename
+    );
+    
+    return foundImage?.url || fallbackImage;
+  };
+
   const dataSlide = [1, 2, 3]
   const [currentIndex, setCurrentIndex] = useState(0)
   return (
     <div>
       <div>
         <img
-          src={bannerPC}
+          src={getImageUrl('paiza-collection-masthead-mobile', bannerPC)}
           alt={t('paiza.bannerAlt')}
           className='h-auto object-cover hidden md:block w-full'
           style={{ aspectRatio: '21/9' }}
         />
         <img
-          src={bannerMobile}
+          src={getImageUrl('paiza-collection-masthead-mobile', bannerMobile)}
           alt={t('paiza.bannerMobileAlt')}
           className='h-auto object-cover block md:hidden'
           style={{ aspectRatio: '3/4' }}
@@ -51,7 +71,10 @@ const ThePaizaCollection = () => {
         <div className='px-4 lg:px-0 grid lg:grid-cols-4 gap-x-10 gap-y-10 lg:w-[59pc] 2xl:w-[978pt] mx-auto'>
           {[1, 2, 3, 4].map((_, index) => (
             <div className='' key={index}>
-              <img src={weekdayVacationTile} alt={t('paiza.experienceImageAlt')} />
+              <img 
+                src={getImageUrl('weekday-vacation-tile-1920x1080', weekdayVacationTile)} 
+                alt={t('paiza.experienceImageAlt')} 
+              />
               <div>
                 <p className='uppercase text-[16px] text-[#333333] py-4'>
                   {t(`paiza.experiences.${index}.title`)}
@@ -105,7 +128,11 @@ const ThePaizaCollection = () => {
             <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>
               {t('paiza.paizaExperience.title')}
             </h2>
-            <img className='mt-5 lg:mt-0' src={sandsLifestyle} alt={t('paiza.paizaExperience.imageAlt')} />
+            <img 
+              className='mt-5 lg:mt-0' 
+              src={getImageUrl('sands-lifestyle', sandsLifestyle)} 
+              alt={t('paiza.paizaExperience.imageAlt')} 
+            />
             <div className='block lg:hidden pl-4 lg:pl-0'>
               <p className='text-[15px] mt-4 mb-4 text-[#333333]'>
                 {t('paiza.paizaExperience.description')}
@@ -227,7 +254,11 @@ const ThePaizaCollection = () => {
             </div>
           </div>
           <div className='lg:col-span-5'>
-            <img className='mt-5 lg:mt-0' src={oasis} alt={t('paiza.aboveExpectation.imageAlt')} />
+            <img 
+              className='mt-5 lg:mt-0' 
+              src={getImageUrl('A-PRIVATE-OASIS', oasis)} 
+              alt={t('paiza.aboveExpectation.imageAlt')} 
+            />
             <div className='block lg:hidden'>
               <p className='text-[15px] mt-4 mb-8 text-[#333333]'>
                 {t('paiza.aboveExpectation.description2')}

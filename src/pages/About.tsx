@@ -1,21 +1,38 @@
 import { useTranslation } from 'react-i18next'
+import { useQuery } from 'react-query'
+import { imageApi } from '~/apis/image.api'
 import bannerPC from '~/assets/generic-masthead-desktop-1920x823.jpg'
 import bannerMobile from '~/assets/generic-masthead-mobile-1080x1440.jpg'
 
 const About = () => {
   const { t } = useTranslation()
+  const { data: imageData } = useQuery({
+    queryKey: ['images', 'about-us'],
+    queryFn: () => imageApi.getImages({ pageSlug: 'about-us' })
+  })
+
+  // Helper function to get image URL by filename
+  const getImageUrl = (filename: string, fallbackImage: string) => {
+    if (!imageData?.data?.data) return fallbackImage;
+    
+    const foundImage = imageData.data.data.find(
+      (img) => img.filename === filename
+    );
+    
+    return foundImage?.url || fallbackImage;
+  };
 
   return (
     <div>
       <div>
         <img
-          src={bannerPC}
+          src={getImageUrl('generic-masthead-desktop-1920x823', bannerPC)}
           alt='bannerPC'
-          className='h-auto object-cover hidden md:block w-full w-full'
+          className='h-auto object-cover hidden md:block w-full'
           style={{ aspectRatio: '21/9' }}
         />
         <img
-          src={bannerMobile}
+          src={getImageUrl('generic-masthead-mobile-1080x1440', bannerMobile)}
           alt='bannerMobile'
           className='h-auto object-cover block md:hidden w-full'
           style={{ aspectRatio: '3/4' }}

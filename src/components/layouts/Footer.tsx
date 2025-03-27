@@ -8,10 +8,13 @@ import mbsYoutube from '~/assets/youtube.svg'
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useQuery } from 'react-query'
+import { imageApi } from '~/apis/image.api'
 
 const Accordion = ({ title, children }: { title: string; children: React.ReactNode }) => {
   const [isOpen, setIsOpen] = useState(false)
   const [isMdScreen, setIsMdScreen] = useState(window.innerWidth >= 768) // Kiểm tra kích thước màn hình
+
 
   useEffect(() => {
     const handleResize = () => {
@@ -54,11 +57,26 @@ const Accordion = ({ title, children }: { title: string; children: React.ReactNo
 
 const Footer = () => {
   const { t } = useTranslation()
+  const { data: imageData } = useQuery({
+    queryKey: ['images', 'home'],
+    queryFn: () => imageApi.getImages({ pageSlug: 'logo' })
+  })
 
+  // Helper function to get image URL by filename
+  const getImageUrl = (filename: string, fallbackImage: string) => {
+    if (!imageData?.data?.data) return fallbackImage;
+
+    const foundImage = imageData.data.data.find(
+      (img) => img.filename === filename
+    );
+
+    return foundImage?.url || fallbackImage;
+  };
   return (
     <footer className='bg-[#c5c6bc] pt-5 pb-10 flex justify-center'>
       <div className='px-4 lg:px-20 2xl:mx-[180px] 2xl:px-0 lg:w-[59pc]  xl:w-[79pc] 2xl:w-[82pc] mx-auto'>
-        <img src={footerLogo} alt='footerLogo' className='mx-auto size-[100px] lg:my-10' />
+        <img src={getImageUrl('logo-01', footerLogo)}
+          alt='footerLogo' className='mx-auto size-[100px] lg:my-10' />
         <div className='grid md:grid-cols-4 gap-x-10 gap-y-8 mb-20'>
           <div>
             <Accordion title={t('footer.getToKnow.title')}>

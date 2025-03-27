@@ -3,18 +3,37 @@ import hotrambanner2 from '~/assets/NWHBR.webp'
 import hotrambanner3 from '~/assets/NWHON1.webp'
 import hotrambanner4 from '~/assets/Web-Gallery-Slide_2000x1250_Inter-resort-Free-Shuttle.webp'
 import hotrambanner5 from '~/assets/IMG_8527-768x512.webp'
+import { useQuery } from 'react-query'
+import { imageApi } from '~/apis/image.api'
+
 const PremiumPerks = () => {
+  const { data: imageData } = useQuery({
+    queryKey: ['images', 'premium-perks'],
+    queryFn: () => imageApi.getImages({ pageSlug: 'premium-perks' })
+  })
+
+  // Helper function to get image URL by filename
+  const getImageUrl = (filename: string, fallbackImage: string) => {
+    if (!imageData?.data?.data) return fallbackImage;
+    
+    const foundImage = imageData.data.data.find(
+      (img) => img.filename === filename
+    );
+    
+    return foundImage?.url || fallbackImage;
+  };
+
   return (
     <div>
       <div>
         <img
-          src={hotrambanner}
+          src={getImageUrl('NWHBR', hotrambanner)}
           alt='bannerPC'
-          className='h-auto object-cover hidden md:block w-full '
+          className='h-auto object-cover hidden md:block w-full'
           style={{ aspectRatio: '21/9' }}
         />
         <img
-          src={hotrambanner2}
+          src={getImageUrl('NWHBR', hotrambanner2)}
           alt='hotrambanner2'
           className='h-auto object-cover block md:hidden'
           style={{ aspectRatio: '3/4' }}
@@ -43,7 +62,11 @@ const PremiumPerks = () => {
             </div>
           </div>
           <div className='lg:col-span-5'>
-            <img className='mt-5 lg:mt-0 aspect-[9/6]' src={hotrambanner3} alt='hotrambanner3' />
+            <img 
+              className='mt-5 lg:mt-0 aspect-[9/6]' 
+              src={getImageUrl('NWHON1', hotrambanner3)} 
+              alt='hotrambanner3' 
+            />
             <div className='block lg:hidden'>
               <div className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>
                 Khi trở thành thành viên VIP, bạn sẽ được tận hưởng những ưu đãi đặc biệt, trong đó có phòng khách sạn miễn phí. Đây là cơ hội tuyệt vời để bạn trải nghiệm không gian nghỉ dưỡng sang trọng mà không phải lo lắng về chi phí. Hãy tận dụng những tiện ích đẳng cấp, từ giường ngủ thoải mái đến các dịch vụ cao cấp ngay tại phòng của bạn.
@@ -65,7 +88,11 @@ const PremiumPerks = () => {
           <div className='lg:col-span-5'>
             <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>Xe đưa đón riêng khi đạt hạng VIP cao nhất</h2>
 
-            <img className='mt-5 lg:mt-0 aspect-[9/6]' src={hotrambanner4} alt='hoian' />
+            <img 
+              className='mt-5 lg:mt-0 aspect-[9/6]' 
+              src={getImageUrl('Web-Gallery-Slide_2000x1250_Inter-resort-Free-Shuttle', hotrambanner4)} 
+              alt='hoian' 
+            />
             <div className='block lg:hidden pl-4 lg:pl-0'>
               <div className='text-[15px] mt-4 mb-8 text-[#333333]'>
                 Với hạng VIP cao nhất, bạn sẽ được hưởng dịch vụ xe đưa đón riêng miễn phí, giúp bạn di chuyển một cách thuận tiện và thoải mái nhất. Không còn phải lo lắng về phương tiện di chuyển, xe riêng sẽ đón bạn từ điểm đến và đưa bạn tới mọi nơi trong khu nghỉ dưỡng, đảm bảo trải nghiệm hoàn hảo và tiện nghi.
@@ -119,7 +146,11 @@ const PremiumPerks = () => {
             </div>
           </div>
           <div className='lg:col-span-5'>
-            <img className='mt-5 lg:mt-0 aspect-[9/6]' src={hotrambanner5} alt='hotrambanner5' />
+            <img 
+              className='mt-5 lg:mt-0 aspect-[9/6]' 
+              src={getImageUrl('IMG_8527-768x512', hotrambanner5)} 
+              alt='hotrambanner5' 
+            />
             <div className='block lg:hidden'>
               <div className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>
 

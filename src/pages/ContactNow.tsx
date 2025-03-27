@@ -4,17 +4,44 @@ import { Link } from 'react-router-dom'
 import Bokingbanner from '~/assets/banner-desktop (1).jpg'
 import Bokingbanner2 from '~/assets/banner-desktop.jpg'
 import { ButtonBlack } from './Shop/Shopping'
+import { useQuery } from 'react-query'
+import { imageApi } from '~/apis/image.api'
 
 const ContactNow = () => {
   const [stage, setStage] = useState(1)
   const { t } = useTranslation()
+  
+  const { data: imageData } = useQuery({
+    queryKey: ['images', 'contact-now'],
+    queryFn: () => imageApi.getImages({ pageSlug: 'contact-now' })
+  })
+
+  // Helper function to get image URL by filename
+  const getImageUrl = (filename: string, fallbackImage: string) => {
+    if (!imageData?.data?.data) return fallbackImage;
+    
+    const foundImage = imageData.data.data.find(
+      (img) => img.filename === filename
+    );
+    
+    return foundImage?.url || fallbackImage;
+  };
 
   return (
     <div className='px-4 lg:px-0 lg:w-[59pc] 2xl:w-[978pt] mx-auto pt-[60px]'>
       <div className='py-20'>
-        <img src={Bokingbanner2} alt='Bokingbanner2' className='hidden md:block w-full object-cover' />
-        <img src={Bokingbanner} alt='Bokingbanner' className=' md:hidden w-full object-cover' />
+        <img 
+          src={getImageUrl('banner-desktop', Bokingbanner2)} 
+          alt='Bokingbanner2' 
+          className='hidden md:block w-full object-cover' 
+        />
+        <img 
+          src={getImageUrl('banner-desktop', Bokingbanner)} 
+          alt='Bokingbanner' 
+          className='md:hidden w-full object-cover' 
+        />
       </div>
+
       <h1 className='text-center text-4xl pb-20 uppercase'>{t('contact.title')}</h1>
       <div className='mb-10'>
         {stage === 1 && (
