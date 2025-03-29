@@ -64,7 +64,7 @@ const ServiceLayout = () => {
     return (
         <div>
             <div className="pt-[160px] px-[33px] bg-gray-50 pb-12">
-                <h1 className="gradient-text mb-10 text-center text-[28px] md:text-[50px] max-w-[980px] md:mx-auto uppercase">
+                <h1 className="gradient-text mb-10 text-center text-[40px] md:text-[50px] max-w-[980px] md:mx-auto uppercase">
                     Dịch vụ
 
                 </h1>

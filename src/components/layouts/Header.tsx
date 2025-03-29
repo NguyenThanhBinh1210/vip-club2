@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useEffect, useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import logo from '~/assets/logo-01.png'
 import { Select } from '../Select'
 import { useTranslation } from 'react-i18next'
@@ -8,64 +8,9 @@ import { useQuery } from 'react-query'
 import { imageApi } from '~/apis/image.api'
 
 const Header = () => {
-  const [isVisible, setIsVisible] = useState(true)
-  const location = useLocation().pathname
-  const [bgColor, setBgColor] = useState('transparent')
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isNavOpen, setIsNavOpen] = useState('')
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-    setIsNavOpen('')
-    if (location !== '/booking') {
-      setBgColor(
-        !isMenuOpen ? 'linear-gradient(180deg,#ffffff,#ffffff)' : 'linear-gradient(180deg,rgba(0,0,0,.6),transparent)'
-      )
-    }
-    if (!isMenuOpen) {
-      document.body.style.overflow = 'hidden'
-    } else {
-      document.body.style.overflow = 'auto'
-    }
-  }
 
-  useEffect(() => {
-    if (location === '/booking') {
-      setBgColor('linear-gradient(180deg,#ffffff,#ffffff)')
-    } else {
-      let lastScrollY = window.scrollY
-      setBgColor('linear-gradient(180deg,rgba(0,0,0,.6),transparent)')
 
-      const handleScroll = () => {
-        const currentScrollY = window.scrollY
 
-        if (currentScrollY > lastScrollY) {
-          // Nếu cuộn xuống
-          if (isMenuOpen) {
-            setIsVisible(false)
-          } else {
-            setIsVisible(true)
-          }
-          setBgColor('linear-gradient(180deg,#ffffff,#ffffff)')
-        } else {
-          // Nếu cuộn lên
-          setIsVisible(true)
-          if (currentScrollY < 600) {
-            setBgColor('linear-gradient(180deg,rgba(0,0,0,.6),transparent)')
-          } else {
-            setBgColor('linear-gradient(180deg,#ffffff,#ffffff)')
-          }
-        }
-
-        lastScrollY = currentScrollY
-      }
-
-      window.addEventListener('scroll', handleScroll)
-
-      return () => {
-        window.removeEventListener('scroll', handleScroll)
-      }
-    }
-  }, [])
   const [selectedLanguage, setSelectedLanguage] = useState(localStorage.getItem('lang') || 'vn')
   const { t, i18n } = useTranslation()
   const { data: imageData } = useQuery({
@@ -75,14 +20,12 @@ const Header = () => {
 
   // Helper function to get image URL by filename
   const getImageUrl = (filename: string, fallbackImage: string) => {
-    if (!imageData?.data?.data) return fallbackImage;
+    if (!imageData?.data?.data) return fallbackImage
 
-    const foundImage = imageData.data.data.find(
-      (img) => img.filename === filename
-    );
+    const foundImage = imageData.data.data.find((img) => img.filename === filename)
 
-    return foundImage?.url || fallbackImage;
-  };
+    return foundImage?.url || fallbackImage
+  }
   useEffect(() => {
     const savedLanguage = localStorage.getItem('lang')
     if (savedLanguage) {
@@ -114,84 +57,120 @@ const Header = () => {
     {
       name: t('languages.japanese'),
       value: 'ja'
-    },
+    }
   ]
   return (
     <>
       <header
-        className={`fixed top-0 z-50 w-full  px-[30px] grid grid-cols-3 transition-all ease-in-out duration-500 ${isVisible ? 'translate-y-0' : 'translate-y-[-100%]'
-          }`}
+        className={`fixed top-0 z-50 w-full bg-white  px-4 lg:px-[30px] flex items-center gap-x-3 lg:gap-x-10 transition-all ease-in-out duration-500`}
         style={{
-          backgroundImage: bgColor,
-          boxShadow: bgColor === 'linear-gradient(180deg,#ffffff,#ffffff)' ? '0 4px 8px 0 rgba(0,0,0,.16)' : 'none'
+          boxShadow: '0 4px 8px 0 rgba(0,0,0,.16)'
         }}
       >
-        <div className='flex items-center gap-2 '>
-          <button
-            onClick={toggleMenu}
-            style={{
-              color: bgColor === 'linear-gradient(180deg,#ffffff,#ffffff)' ? '#000' : '#fff'
-            }}
-            className='flex items-center gap-2 uppercase hover:opacity-65 transition-all duration-300'
-          >
-            {isMenuOpen ? (
-              <>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
-                  className='lucide lucide-x'
-                >
-                  <path d='M18 6 6 18' />
-                  <path d='m6 6 12 12' />
-                </svg>
-                {t('common.close')}
-              </>
-            ) : (
-              <>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
-                  className='lucide lucide-menu size-5 rotate-90'
-                >
-                  <line x1='4' x2='20' y1='12' y2='12' />
-                  <line x1='4' x2='20' y1='6' y2='6' />
-                  <line x1='4' x2='20' y1='18' y2='18' />
-                </svg>
-                {t('common.menu')}
-              </>
-            )}
-          </button>
-        </div>
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center flex-shrink-0'>
           <Link to={'/'}>
             <img className='size-20 rounded-full' src={getImageUrl('logo-01', logo)} alt='logo' />
           </Link>
         </div>
-        <div className='flex items-center gap-2 justify-end'>
-          <Link to={'/contact-now'} className='uppercase'>
-            <button
-              className={`uppercase hover:opacity-65 text-sm md:text-base transition-all duration-300 border  px-4 py-2 ${bgColor === 'linear-gradient(180deg,#ffffff,#ffffff)' ? 'border-black' : 'border-white text-white'
-                }`}
-            >
-              {t('common.bookNow')}
-            </button>
+        <div className='flex items-center gap-5 maw-w-[calc(100vw-0px)] md:max-w-max overflow-x-auto md:overflow-visible'>
+          <Link
+            to={'/about-us'}
+            className={`  gap-4 font-medium group hover:font-bold tranition-all duration-300 flex-shrink-0  `}
+          >
+            Giới thiệu
           </Link>
+          <Link
+            to={'/service/support'}
+            className={`  gap-4 font-medium group hover:font-bold transition-all duration-300 flex-shrink-0 `}
+          >
+            Dịch vụ
+          </Link>
+          <Link
+            to={'/poker-club'}
+            className={`  gap-4 font-medium group hover:font-bold tranition-all duration-300 flex-shrink-0  `}
+          >
+            Poker Club
+          </Link>
+          <Link
+            to={'/casino-vip'}
+            className={`  gap-4 font-medium group hover:font-bold transition-all duration-300 flex-shrink-0 `}
+          >
+            Casino VIP
+          </Link>
+
+          <button className={` flex items-center flex-shrink-0  gap-2 font-medium group hover:font-bold transition-all relative`}>
+            Ưu đãi
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              fill='none'
+              viewBox='0 0 24 24'
+              strokeWidth={1.5}
+              stroke='currentColor'
+              className='size-4'
+            >
+              <path strokeLinecap='round' strokeLinejoin='round' d='m19.5 8.25-7.5 7.5-7.5-7.5' />
+            </svg>
+            <div className='fixed md:absolute  bg-white w-full lg:w-[280px] top-[50px] lg:top-6 left-1/2 -translate-x-1/2 rounded-lg shadow-md overflow-hidden duration-500 group-hover:max-h-[1000px] max-h-0 transition-all text-left'>
+              <div className='flex flex-col gap-2 p-4'>
+                <Link to={'/lifestyle'} className={` flex items-center gap-4 font-medium group hover:font-bold `}>
+                  {t('header.rewards.sandsLifestyle')}
+                </Link>
+                <Link
+                  to={'/vip-membership-offers'}
+                  className={` flex items-center gap-4 font-medium group transition-all hover:font-bold `}
+                >
+                  {t('header.rewards.vipMembership')}
+                </Link>
+                <Link
+                  to={'/premium-perks'}
+                  className={` flex items-center gap-4 font-medium group transition-all hover:font-bold `}
+                >
+                  {t('header.rewards.premiumPerks')}
+                </Link>
+                <Link
+                  to={'/event-tournament-promotions'}
+                  className={` flex items-center gap-4 font-medium group transition-all hover:font-bold `}
+                >
+                  {t('header.rewards.eventPromotions')}
+                </Link>
+                <Link
+                  to={'/hotel/packages'}
+                  className={` flex items-center gap-4 font-medium group transition-all hover:font-bold `}
+                >
+                  {t('header.stay.onlineExclusive.stayPackages')}
+                </Link>
+              </div>
+            </div>
+          </button>
+          <Link
+            to={'/contact-now'}
+            className={` flex items-center gap-4 font-medium group hover:font-bold transition-all duration-300 flex-shrink-0 `}
+          >
+            Liên hệ
+          </Link>
+          {/* <button onClick={() => setIsNavOpen('Rewards')} className={` flex items-center gap-4 uppercase group `}>
+            {t('header.navigation.rewards')}
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              width='24'
+              height='24'
+              viewBox='0 0 24 24'
+              fill='none'
+              stroke='currentColor'
+              stroke-width='2'
+              stroke-linecap='round'
+              stroke-linejoin='round'
+              className='lucide lucide-move-right transition-all duration-300 group-hover:translate-x-2'
+            >
+              <path d='M18 8L22 12L18 16' />
+              <path d='M2 12H22' />
+            </svg>
+          </button> */}
         </div>
+        <Select initialView={initialData} selected={selectedLanguage} setSelected={handleLanguageChange} />
       </header>
 
-      <div
+      {/* <div
         className={`fixed inset-0 bg-white z-30 bg-opacity-70 transition-all duration-300 ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
           }`}
         onClick={toggleMenu}
@@ -245,9 +224,7 @@ const Header = () => {
             <Link onClick={toggleMenu} to={'/about-us'} className={` flex items-center gap-4 uppercase group `}>
               {t('header.navigation.aboutUs')}
             </Link>
-            {/* <Link onClick={toggleMenu} to={'/lifestyle'} className={` flex items-center gap-4 uppercase group `}>
-              {t('header.navigation.rewards')}
-            </Link> */}
+
             <Select initialView={initialData} selected={selectedLanguage} setSelected={handleLanguageChange} />
           </div>
         </div>
@@ -256,19 +233,7 @@ const Header = () => {
         className={`fixed  top-0 bg-[#e1e2d6] w-full lg:w-[360px] h-full pt-[60px] z-40 transition-all duration-700 ${isNavOpen === 'stay' ? 'opacity-100 visible lg:left-[360px]' : 'opacity-0 invisible left-0'
           }`}
       >
-        {/* <div
-          onClick={() => setIsNavOpen('')}
-          className='lg:hidden absolute top-[6rem] left-10 uppercase text-sm flex items-center gap-2 cursor-pointer hover:opacity-65 transition-all duration-300'
-        >
-          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' className='size-4'>
-            <path
-              fillRule='evenodd'
-              d='M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z'
-              clipRule='evenodd'
-            />
-          </svg>
-          Back to Menu
-        </div> */}
+
         <div className='py-[40px] px-[60px]'>
           <div className='pt-2 pb-5 border-t border-[#c5c6bc]'>
             <p className='text-sm text-[#666666] mb-5'>{t('header.stay.title')}</p>
@@ -332,7 +297,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

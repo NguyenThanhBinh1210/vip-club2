@@ -32,6 +32,8 @@ import Tour from '~/pages/Service/Tour'
 import Support from '~/pages/Service/Support'
 import ServiceLayout from '~/pages/Service/ServiceLayout'
 import FreeTransport from '~/pages/Service/FreeTransport'
+import PokerClub from '~/pages/PokerClub'
+import CasinoVip from '~/pages/CasinoVip'
 
 const useRouteElements = () => {
   const routeElements = useRoutes([
@@ -58,6 +60,22 @@ const useRouteElements = () => {
       element: (
         <HomeLayout>
           <ContactNow />
+        </HomeLayout>
+      )
+    },
+    {
+      path: '/poker-club',
+      element: (
+        <HomeLayout>
+          <PokerClub />
+        </HomeLayout>
+      )
+    },
+    {
+      path: '/casino-vip',
+      element: (
+        <HomeLayout>
+          <CasinoVip />
         </HomeLayout>
       )
     },
@@ -98,7 +116,7 @@ const useRouteElements = () => {
           element: <FreeTransport />
         },
         {
-          path: 'support', 
+          path: 'support',
           element: <Support />
         },
         {

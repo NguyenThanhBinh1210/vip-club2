@@ -20,9 +20,9 @@ export const Select = ({
   const { t } = useTranslation()
 
   return (
-    <div className='relative w-max'>
+    <div className='relative w-max ml-auto flex-shrink-0'>
       <div
-        className={`  py-1.5  uppercase  w-[140px]  text-sm flex justify-between items-center cursor-pointer ${classNames?.header}`}
+        className={`  py-1.5  uppercase w-[100px] lg:w-[140px]  text-sm flex justify-between items-center cursor-pointer ${classNames?.header}`}
         onClick={() => setIsOpen(!isOpen)}
       >
         {selected === 'en'
@@ -48,7 +48,7 @@ export const Select = ({
         </svg>
       </div>
       <div
-        className={`bg-[#f8f8f5] z-[51] text-sm transition-all duration-300 absolute top-full left-0 w-full overflow-hidden ${isOpen ? 'max-h-[1000px] py-4' : 'max-h-0 '
+        className={`bg-[#f8f8f5] z-[51] text-sm transition-all duration-300 absolute top-full right-0 w-max overflow-hidden ${isOpen ? 'max-h-[1000px] py-4' : 'max-h-0 '
           } ${classNames?.ul}`}
       >
         {initialView.map((item) => (
