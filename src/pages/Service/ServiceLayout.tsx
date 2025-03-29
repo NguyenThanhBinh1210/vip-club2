@@ -12,7 +12,7 @@ import money from '~/assets/chi-phi-duoc-tru-khoan-thu-lao-chu-tich-cong-ty-tnhh
 // import consultant from '~/assets/phone1.png'
 // import tour from '~/assets/gold1.png'
 // import money from '~/assets/hantram1.png'
-
+import '~/styles/index.scss'
 const ServiceLayout = () => {
     const services = [
         {
@@ -64,10 +64,10 @@ const ServiceLayout = () => {
     return (
         <div>
             <div className="pt-[160px] px-[33px] bg-gray-50 pb-12">
-                <h1 className="mb-10 text-center text-[28px] md:text-[40px] max-w-[980px] md:mx-auto uppercase">
+                <h1 className="gradient-text mb-10 text-center text-[28px] md:text-[50px] max-w-[980px] md:mx-auto uppercase">
                     Dịch vụ
-                </h1>
 
+                </h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-[1200px] mx-auto mb-12">
                     {services.map((service, index) => (
                         <Link

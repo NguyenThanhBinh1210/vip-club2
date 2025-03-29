@@ -44,3 +44,64 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 100% 0;
+  }
+
+  50% {
+    background-position: 0% 0;
+  }
+
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.gradient-text {
+  font-size: 60px;
+  /* Tăng kích thước chữ để dễ đọc và sang trọng */
+  font-weight: 600;
+  /* Chữ đậm vừa phải để không quá nặng */
+  background: linear-gradient(90deg, #f5a623, #f9e31c, #4a90e2, #9013fe);
+  /* Gradient các màu vàng, xanh dương, tím */
+  background-size: 200% 100%;
+  /* Gradient rộng giúp di chuyển mượt mà */
+  background-position: 100% 0;
+  /* Vị trí bắt đầu của gradient */
+  -webkit-background-clip: text;
+  color: transparent;
+  /* Làm cho chữ trong suốt để chỉ hiển thị gradient */
+  animation: gradientAnimation 6s ease infinite;
+  /* Animation mượt mà */
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  /* Thêm bóng mờ nhẹ để chữ nổi bật */
+  font-family: 'Playfair Display', serif;
+  /* Chọn font chữ sang trọng và thanh thoát */
+  letter-spacing: 2px;
+  /* Khoảng cách giữa các chữ để dễ đọc và thanh lịch */
+  text-transform: uppercase;
+  /* Chữ in hoa giúp tạo sự sang trọng */
+  padding: 15px;
+  /* Khoảng cách giữa chữ và viền */
+  border-radius: 10px;
+  /* Bo góc chữ mềm mại tạo cảm giác tinh tế */
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 0;
+    transform: translateX(0) translateY(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateX(5px) translateY(5px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(0) translateY(0);
+  }
+}
