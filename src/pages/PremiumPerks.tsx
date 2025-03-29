@@ -15,11 +15,11 @@ const PremiumPerks = () => {
   // Helper function to get image URL by filename
   const getImageUrl = (filename: string, fallbackImage: string) => {
     if (!imageData?.data?.data) return fallbackImage;
-    
+
     const foundImage = imageData.data.data.find(
       (img) => img.filename === filename
     );
-    
+
     return foundImage?.url || fallbackImage;
   };
 
@@ -62,10 +62,10 @@ const PremiumPerks = () => {
             </div>
           </div>
           <div className='lg:col-span-5'>
-            <img 
-              className='mt-5 lg:mt-0 aspect-[9/6]' 
-              src={getImageUrl('NWHON1', hotrambanner3)} 
-              alt='hotrambanner3' 
+            <img
+              className='mt-5 lg:mt-0 aspect-[9/6]'
+              src={getImageUrl('NWHON1', hotrambanner3)}
+              alt='hotrambanner3'
             />
             <div className='block lg:hidden'>
               <div className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>
@@ -88,10 +88,10 @@ const PremiumPerks = () => {
           <div className='lg:col-span-5'>
             <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>Xe đưa đón riêng khi đạt hạng VIP cao nhất</h2>
 
-            <img 
-              className='mt-5 lg:mt-0 aspect-[9/6]' 
-              src={getImageUrl('Web-Gallery-Slide_2000x1250_Inter-resort-Free-Shuttle', hotrambanner4)} 
-              alt='hoian' 
+            <img
+              className='mt-5 lg:mt-0 aspect-[9/6]'
+              src={getImageUrl('Web-Gallery-Slide_2000x1250_Inter-resort-Free-Shuttle', hotrambanner4)}
+              alt='hoian'
             />
             <div className='block lg:hidden pl-4 lg:pl-0'>
               <div className='text-[15px] mt-4 mb-8 text-[#333333]'>
@@ -146,10 +146,10 @@ const PremiumPerks = () => {
             </div>
           </div>
           <div className='lg:col-span-5'>
-            <img 
-              className='mt-5 lg:mt-0 aspect-[9/6]' 
-              src={getImageUrl('IMG_8527-768x512', hotrambanner5)} 
-              alt='hotrambanner5' 
+            <img
+              className='mt-5 lg:mt-0 aspect-[9/6]'
+              src={getImageUrl('IMG_8527-768x512', hotrambanner5)}
+              alt='hotrambanner5'
             />
             <div className='block lg:hidden'>
               <div className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>

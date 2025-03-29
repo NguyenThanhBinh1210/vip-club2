@@ -1,5 +1,4 @@
-import { Profile } from '~/types/auth.type'
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const setAccesTokenToLS = (access_token: string) => {
   localStorage.setItem('access_token', access_token)
 }
@@ -24,7 +23,7 @@ export const getDarkModeFromLS = () => {
   return result ? JSON.parse(result) : null
 }
 
-export const setProfileFromLS = (profile: Profile) => {
+export const setProfileFromLS = (profile: any) => {
   localStorage.setItem('profile', JSON.stringify(profile))
 }
 export const setDarkModeFromLS = (dark: boolean) => {

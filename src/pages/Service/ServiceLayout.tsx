@@ -1,8 +1,12 @@
 import { Link, Outlet } from 'react-router-dom'
-import car from '~/assets/car-icon-vector-image-can-be-used-luxury_120816-387961.jpg'
-import consultant from '~/assets/ly-do-3.jpg'
-import tour from '~/assets/pngtree-coconut-tree-beach-chair-beach-summer-cartoon-illustration-png-image_12498361.png'
-import money from '~/assets/images.jpg'
+// import car from '~/assets/car-icon-vector-image-can-be-used-luxury_120816-387961.jpg'
+// import consultant from '~/assets/ly-do-3.jpg'
+// import tour from '~/assets/pngtree-coconut-tree-beach-chair-beach-summer-cartoon-illustration-png-image_12498361.png'
+// import money from '~/assets/images.jpg'
+import car from '~/assets/car1.png'
+import consultant from '~/assets/phone1.png'
+import tour from '~/assets/gold1.png'
+import money from '~/assets/hantram1.png'
 
 const ServiceLayout = () => {
     const services = [
@@ -54,7 +58,7 @@ const ServiceLayout = () => {
 
     return (
         <div>
-            <div className="pt-[160px] px-[33px] bg-gray-50">
+            <div className="pt-[160px] px-[33px] bg-gray-50 pb-12">
                 <h1 className="mb-10 text-center text-[28px] md:text-[40px] max-w-[980px] md:mx-auto uppercase">
                     Dịch vụ
                 </h1>
@@ -64,22 +68,24 @@ const ServiceLayout = () => {
                         <Link
                             key={index}
                             to={service.path}
-                            className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col items-center text-center group"
+                            className=" bg-white p-8 rounded-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col items-center text-center group"
                         >
                             <div className="mb-6">
                                 <img
                                     src={service.icon}
                                     alt={service.title}
-                                    className="w-full h-full object-cover"
+                                    className="w-28 h-28 md:w-full md:h-full object-cover"
                                 />
                                 {/* {service.icon} */}
                             </div>
-                            <h3 className="font-bold text-xl mb-4">
-                                {service.title}
-                            </h3>
-                            <p className="text-gray-600 text-sm whitespace-pre-line">
-                                {service.description}
-                            </p>
+                            <div className='pt-auto'>
+                                <h3 className="font-bold text-xl mb-4">
+                                    {service.title}
+                                </h3>
+                                <p className="text-gray-600 text-sm whitespace-pre-line">
+                                    {service.description}
+                                </p>
+                            </div>
                         </Link>
                     ))}
                 </div>

@@ -108,11 +108,11 @@ const Header = () => {
       value: 'ko'
     },
     {
-      name:  t('languages.chinese'),
+      name: t('languages.chinese'),
       value: 'zh'
     },
     {
-      name:  t('languages.japanese'),
+      name: t('languages.japanese'),
       value: 'ja'
     },
   ]
@@ -239,6 +239,9 @@ const Header = () => {
                 <path d='M2 12H22' />
               </svg>
             </button>
+            <Link onClick={toggleMenu} to={'/service/support'} className={` flex items-center gap-4 uppercase group `}>
+              Dịch vụ
+            </Link>
             <Link onClick={toggleMenu} to={'/about-us'} className={` flex items-center gap-4 uppercase group `}>
               {t('header.navigation.aboutUs')}
             </Link>
