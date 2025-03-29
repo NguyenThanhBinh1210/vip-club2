@@ -3,10 +3,15 @@ import { Link, Outlet } from 'react-router-dom'
 // import consultant from '~/assets/ly-do-3.jpg'
 // import tour from '~/assets/pngtree-coconut-tree-beach-chair-beach-summer-cartoon-illustration-png-image_12498361.png'
 // import money from '~/assets/images.jpg'
-import car from '~/assets/car1.png'
-import consultant from '~/assets/phone1.png'
-import tour from '~/assets/gold1.png'
-import money from '~/assets/hantram1.png'
+import car from '~/assets/Web-Gallery-Slide_2000x1250_Inter-resort-Free-Shuttle.webp'
+import consultant from '~/assets/ho-tro-covid.jpg'
+
+import tour from '~/assets/BOL09680-768x512.webp'
+import money from '~/assets/chi-phi-duoc-tru-khoan-thu-lao-chu-tich-cong-ty-tnhh.webp'
+// import car from '~/assets/car1.png'
+// import consultant from '~/assets/phone1.png'
+// import tour from '~/assets/gold1.png'
+// import money from '~/assets/hantram1.png'
 
 const ServiceLayout = () => {
     const services = [
@@ -74,7 +79,7 @@ const ServiceLayout = () => {
                                 <img
                                     src={service.icon}
                                     alt={service.title}
-                                    className="w-28 h-28 md:w-full md:h-full object-cover"
+                                    className="w-28 h-28  object-cover rounded-full"
                                 />
                                 {/* {service.icon} */}
                             </div>
