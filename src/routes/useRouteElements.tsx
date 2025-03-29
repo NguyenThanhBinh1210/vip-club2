@@ -27,6 +27,11 @@ import LoginLayout from '~/layouts/LoginLayout'
 import VIPMembershipOffers from '~/pages/VIPMembershipOffers'
 import PremiumPerks from '~/pages/PremiumPerks'
 import EventTournamentPromotions from '~/pages/EventTournamentPromotions'
+import Commission from '~/pages/Service/Commission'
+import Tour from '~/pages/Service/Tour'
+import Support from '~/pages/Service/Support'
+import ServiceLayout from '~/pages/Service/ServiceLayout'
+import FreeTransport from '~/pages/Service/FreeTransport'
 
 const useRouteElements = () => {
   const routeElements = useRoutes([
@@ -79,6 +84,32 @@ const useRouteElements = () => {
           <SignUpOTPVerification />
         </LoginLayout>
       )
+    },
+    {
+      path: '/service',
+      element: (
+        <HomeLayout>
+          <ServiceLayout />
+        </HomeLayout>
+      ),
+      children: [
+        {
+          path: 'free-transport',
+          element: <FreeTransport />
+        },
+        {
+          path: 'support', 
+          element: <Support />
+        },
+        {
+          path: 'tour',
+          element: <Tour />
+        },
+        {
+          path: 'commission',
+          element: <Commission />
+        }
+      ]
     },
     {
       path: '/vip-membership-offers',
