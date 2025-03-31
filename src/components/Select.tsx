@@ -22,7 +22,7 @@ export const Select = ({
   return (
     <div className='relative w-max ml-auto flex-shrink-0'>
       <div
-        className={`  py-1.5  uppercase w-[100px] lg:w-[140px]  text-sm flex justify-between items-center cursor-pointer ${classNames?.header}`}
+        className={`  py-1.5  uppercase w-[100px] lg:w-[140px]  text-sm hidden lg:flex justify-between items-center cursor-pointer ${classNames?.header}`}
         onClick={() => setIsOpen(!isOpen)}
       >
         {selected === 'en'
@@ -36,6 +36,32 @@ export const Select = ({
                 : selected === 'ja'
                   ? t('languages.japanese')
                   : t('languages.vietnamese')}
+        <svg
+          xmlns='http://www.w3.org/2000/svg'
+          fill='none'
+          viewBox='0 0 24 24'
+          strokeWidth={2.5}
+          stroke='currentColor'
+          className={`size-4 transition-all duration-300 ${isOpen ? 'rotate-180' : ''}`}
+        >
+          <path strokeLinecap='round' strokeLinejoin='round' d='m19.5 8.25-7.5 7.5-7.5-7.5' />
+        </svg>
+      </div>
+      <div
+        className={`  py-1.5  uppercase w-max lg:w-[140px] gap-1  text-sm flex lg:hidden justify-between items-center cursor-pointer ${classNames?.header}`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        {selected === 'en'
+          ? 'en'
+          : selected === 'vi'
+            ? 'vi'
+            : selected === 'ko'
+              ? 'ko'
+              : selected === 'zh'
+                ? 'zh'
+                : selected === 'ja'
+                  ? 'ja'
+                  : 'vi'}
         <svg
           xmlns='http://www.w3.org/2000/svg'
           fill='none'

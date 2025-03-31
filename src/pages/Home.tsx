@@ -1,10 +1,10 @@
-import bannerLandingModule3 from '~/assets/casino-landing-module-3-1920x1080.webp'
 
 import hotram1 from '~/assets/Gaming-Salon-2048x1366.jpg'
 // import poket2 from '~/assets/poket1.jpg'
 import poket1 from '~/assets/poker2.jpg'
 import hoian from '~/assets/GHI0408-HDR-scaled.webp'
 import hoian3 from '~/assets/oker2.jpg'
+import poket2 from '~/assets/oker1.jpg'
 import hotrambannerpc from '~/assets/hotrambannerpc.png'
 import { ButtonBlack } from './Shop/Shopping'
 import { useTranslation } from 'react-i18next'
@@ -15,7 +15,7 @@ import { useQuery } from 'react-query'
 
 const Home = () => {
   const { t } = useTranslation()
-  
+
   // Query for home page images
   const { data: imageData } = useQuery({
     queryKey: ['images', 'home'],
@@ -25,38 +25,85 @@ const Home = () => {
   // Helper function to get image URL by filename
   const getImageUrl = (filename: string, fallbackImage: string) => {
     if (!imageData?.data?.data) return fallbackImage;
-    
+
     const foundImage = imageData.data.data.find(
       (img) => img.filename === filename
     );
-    
+
     return foundImage?.url || fallbackImage;
   };
 
   return (
-    <div>
-      <div>
+    <div className='pb-10'>
+      <div className='relative'>
         <img
           src={getImageUrl('hotrambannerpc', hotrambannerpc)}
           alt='bannerPC'
-          className='h-auto object-cover hidden md:block w-full w-full'
+          className='h-auto object-cover hidden lg:block w-full w-full'
         // style={{ aspectRatio: '21/9' }}
         />
         <img
           src={getImageUrl('hotrambannerpc', hotrambannerpc)}
           alt='hotrambanner'
-          className='h-auto object-cover block md:hidden'
+          className='h-auto object-cover block lg:hidden'
           style={{ aspectRatio: '3/4' }}
         />
+        <div className='absolute top-0 left-0 w-full h-full bg-[#935e1848] pl-10 flex flex-col justify-center'>
+          <div className=''>
+            <h1 className='text-4xl leading-snug font-semibold mb-4 text-white pr-20 max-w-[1000px]'>
+              Trải nghiệm đêm thưởng lưu tại Let's Win - VIP Club hàng đầu Đà Nẵng
+            </h1>
+          </div>
+          <div className='flex space-x-4 mb-6'>
+            <a href='tel:+84766798268'>
+
+              <button className='bg-[#cfaa26] text-white py-2 px-4 rounded'>Đặt tour VIP</button>
+            </a>
+            <a href='tel:+84766798268'>
+
+              <button className='bg-blue-500 text-white py-2 px-4 rounded'>Liên hệ tư vấn</button>
+
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className='py-20'>
+        <div className='pl-4  lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+          <div className='lg:col-span-4'>
+            <h2 className='text-[25px] uppercase lg:text-[32px]'>{t('home.vipClub.title')}</h2>
+            <div className='hidden lg:block'>
+              <p className='text-[15px] mt-4 mb-8 text-[#333333]'>{t('home.vipClub.description')}</p>
+              <a href='tel:+84766798268'>
+                <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
+                  {t('home.buttons.book')}
+                  <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className='lg:col-span-3'>
+            <img className='mt-5 lg:mt-0' src={getImageUrl('casino-landing-module-3-1920x1080', poket2)} alt='bannerLandingModule3' />
+            <div className='block lg:hidden'>
+              <p className='uppercase text-[15px] my-4 font-medium text-[#333333]'>{t('about.subtitle')}</p>
+              <p className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>{t('home.vipClub.description')}</p>
+              <a href='tel:+84766798268'>
+                <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
+                  {t('home.buttons.book')}
+                  <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
       <div>
-        <div className='pt-[160px] px-[33px]'>
+        <div className='pt-[50px] px-[33px]'>
           <h1 className='mb-10 text-center text-[28px] md:text-[40px] max-w-[980px] md:mx-auto uppercase'>
             {t('home.hero.title')}
           </h1>
         </div>
         <div className='py-20'>
-          <div className='pl-4 2xl:pl-[180px] lg:pl-[110px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+          <div className='pl-4 lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
             <div className='lg:col-span-2'>
               <h2 className='text-[25px] uppercase lg:text-[32px]'>{t('home.hoTram.title')}</h2>
               <div className='hidden lg:block'>
@@ -159,7 +206,7 @@ const Home = () => {
         </div>
 
         <div className='py-20'>
-          <div className='pr-4 2xl:pr-[180px] lg:pr-[110px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+          <div className='pr-4  lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
             <div className='lg:col-span-5'>
               <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>{t('home.hoiana.title')}</h2>
 
@@ -220,79 +267,11 @@ const Home = () => {
           <h3 className='uppercase text-[25px] mb-6 text-center'>{t('home.rewardsClub.title')}</h3>
           <p className='text-center text-[16px] mb-10 max-w-[800px] mx-auto px-4'>{t('lifestyle.membership.description')}</p>
 
-          {/* <div className='lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
-
-            <h3 className='uppercase text-[25px] mb-4 pl-4 lg:hidden'>{t('home.rewardsClub.title')}</h3>
-            <div className='gap-x-10 '>
-
-              <div className=''>
-                <h3 className='uppercase text-[32px] hidden lg:block'>{t('home.rewardsClub.title')}</h3>
-                <p className='py-4 '>For loyal players, featuring various privileges and rewards. Our VIP system includes four tiers: Green, Red, Gold, and Infinite, each with specific requirements and benefits.
-                </p>
-                <p className='text-[#333333] mb-4 font-semibold'>1. VIP TIERS & UPGRADE REQUIREMENTS</p>
-                <ul className='list-disc pl-5 text-[#333333] mb-5'>
-                  <li>Green Card (Basic Tier): Automatically granted upon registration, no points required.</li>
-                  <li>Red Card (Intermediate Tier): Requires 5,000 – 19,999 points or a minimum total wager of $50,000 within 6 months. Members must maintain at least 5,000 points per year to keep this tier.</li>
-                  <li>Gold Card (High Tier): Requires 20,000 – 49,999 points or a minimum total wager of $100,000 within 6 months. Members must maintain at least 20,000 points per year to keep this tier.</li>
-                  <li> Infinite Card (Elite Tier): Requires 50,000+ points or a minimum total wager of $250,000 within 6 months. This tier is invitation-only for VIP members. To maintain this status, members must wager at least $500,000 per year.</li>
-                </ul>
-                <p className='text-[#333333] mb-4 font-semibold'>2. POINT ACCUMULATION & REDEMPTION</p>
-                <ul className='list-disc pl-5 text-[#333333] mb-5'>
-                  <li>Green Card (Basic Tier): Automatically granted upon registration, no points required.</li>
-                  <li>Red Card (Intermediate Tier): Requires 5,000 – 19,999 points or a minimum total wager of $50,000 within 6 months. Members must maintain at least 5,000 points per year to keep this tier.</li>
-                  <li>Gold Card (High Tier): Requires 20,000 – 49,999 points or a minimum total wager of $100,000 within 6 months. Members must maintain at least 20,000 points per year to keep this tier.</li>
-                  <li> Infinite Card (Elite Tier): Requires 50,000+ points or a minimum total wager of $250,000 within 6 months. This tier is invitation-only for VIP members. To maintain this status, members must wager at least $500,000 per year.</li>
-                </ul>
-                <p className='text-[#333333] mb-4 font-semibold'>2. POINT ACCUMULATION & REDEMPTION</p>
-                <ul className='list-disc pl-5 text-[#333333] mb-5'>
-                  <li>Green Card (Basic Tier): Automatically granted upon registration, no points required.</li>
-                  <li>Red Card (Intermediate Tier): Requires 5,000 – 19,999 points or a minimum total wager of $50,000 within 6 months. Members must maintain at least 5,000 points per year to keep this tier.</li>
-                  <li>Gold Card (High Tier): Requires 20,000 – 49,999 points or a minimum total wager of $100,000 within 6 months. Members must maintain at least 20,000 points per year to keep this tier.</li>
-                  <li> Infinite Card (Elite Tier): Requires 50,000+ points or a minimum total wager of $250,000 within 6 months. This tier is invitation-only for VIP members. To maintain this status, members must wager at least $500,000 per year.</li>
-                </ul>
-                <p className='text-[#333333] mb-4 font-semibold'>2. POINT ACCUMULATION & REDEMPTION</p>
-                <ul className='list-disc pl-5 text-[#333333] mb-5'>
-                  <li>Green Card (Basic Tier): Automatically granted upon registration, no points required.</li>
-                  <li>Red Card (Intermediate Tier): Requires 5,000 – 19,999 points or a minimum total wager of $50,000 within 6 months. Members must maintain at least 5,000 points per year to keep this tier.</li>
-                  <li>Gold Card (High Tier): Requires 20,000 – 49,999 points or a minimum total wager of $100,000 within 6 months. Members must maintain at least 20,000 points per year to keep this tier.</li>
-                  <li> Infinite Card (Elite Tier): Requires 50,000+ points or a minimum total wager of $250,000 within 6 months. This tier is invitation-only for VIP members. To maintain this status, members must wager at least $500,000 per year.</li>
-                </ul>
-              </div>
-            </div>
-          </div> */}
 
           <Level></Level>
 
         </div>
-        <div className='py-20'>
-          <div className='pl-4 2xl:pl-[180px] lg:pl-[110px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
-            <div className='lg:col-span-2'>
-              <h2 className='text-[25px] uppercase lg:text-[32px]'>{t('home.vipClub.title')}</h2>
-              <div className='hidden lg:block'>
-                <p className='text-[15px] mt-4 mb-8 text-[#333333]'>{t('home.vipClub.description')}</p>
-                <a href='tel:+84766798268'>
-                  <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
-                    {t('home.buttons.book')}
-                    <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div className='lg:col-span-5'>
-              <img className='mt-5 lg:mt-0' src={getImageUrl('casino-landing-module-3-1920x1080', bannerLandingModule3)} alt='bannerLandingModule3' />
-              <div className='block lg:hidden'>
-                <p className='uppercase text-[15px] my-4 font-medium text-[#333333]'>{t('about.subtitle')}</p>
-                <p className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>{t('home.vipClub.description')}</p>
-                <a href='tel:+84766798268'>
-                  <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
-                    {t('home.buttons.book')}
-                    <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   )

@@ -69,10 +69,10 @@ const Header = () => {
       >
         <div className='flex justify-center items-center flex-shrink-0'>
           <Link to={'/'}>
-            <img className='size-20 rounded-full' src={getImageUrl('logo-01', logo)} alt='logo' />
+            <img className='size-12 md:size-20 rounded-full' src={getImageUrl('logo-01', logo)} alt='logo' />
           </Link>
         </div>
-        <div className='flex items-center gap-5 maw-w-[calc(100vw-0px)] md:max-w-max overflow-x-auto md:overflow-visible'>
+        <div className='flex items-center gap-3 md:gap-5 maw-w-[calc(100vw-0px)] md:max-w-max overflow-x-auto md:overflow-visible'>
           <Link
             to={'/about-us'}
             className={`  gap-4 font-medium group hover:font-bold tranition-all duration-300 flex-shrink-0  `}

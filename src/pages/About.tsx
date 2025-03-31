@@ -25,45 +25,33 @@ const About = () => {
 
   return (
     <div>
-      <div>
+      <div className='relative'>
         <img
           src={getImageUrl('generic-masthead-desktop-1920x823', bannerPC)}
           alt='bannerPC'
-          className='h-auto object-cover hidden md:block w-full'
+          className='object-cover hidden md:block w-full'
           style={{ aspectRatio: '21/9' }}
         />
         <img
           src={getImageUrl('generic-masthead-mobile-1080x1440', bannerMobile)}
           alt='bannerMobile'
-          className='h-auto object-cover block md:hidden w-full'
+          className='object-cover block md:hidden w-full'
           style={{ aspectRatio: '3/4' }}
         />
+        <div className='absolute top-0 left-0 w-full h-full bg-[#27869c48] pl-10 flex flex-col justify-center items-center'>
+          <div className=''>
+            <h1 className='uppercase text-[40px] text-center mb-10 text-white'>{t('about.title')}</h1>
+
+          </div>
+
+        </div>
       </div>
-      <div className='pt-20 pb-10'>
+      <div className='pb-10'>
         <div className=''>
-          <h1 className='uppercase text-[40px] text-center mb-10'>{t('about.title')}</h1>
 
-          {/* <p className='text-center text-[16px] font-bold mb-10'>
-            LET’SWIN LÀ GÌ? – HỆ SINH THÁI GIẢI TRÍ VIP DÀNH CHO KHÁCH QUỐC TẾ
-          </p>
-          <p className='text-[16px] mb-4'>
-            Let’swin là nền tảng cung cấp dịch vụ giải trí trọn gói dành cho khách du lịch quốc tế và người chơi cao cấp
-            khi đến Việt Nam. Chúng tôi chuyên tổ chức và kết nối khách hàng với các hoạt động cao cấp như:
-          </p>
 
-          <p className='text-left text-[16px] mb-4'>• Poker club riêng tư, chuyên nghiệp</p>
-          <p className='text-left text-[16px] mb-4'>• Trải nghiệm Casino VIP với nhiều ưu đãi</p>
-          <p className='text-left text-[16px] mb-4'>• Dịch vụ đưa đón, hỗ trợ chơi, phiên dịch</p>
-          <p className='text-left text-[16px] mb-4'>• Lên lịch trình tour nghỉ dưỡng – giải trí theo yêu cầu</p>
-          <p className='text-left text-[16px] mb-4'>• Hệ thống chăm sóc khách hàng 24/7</p>
-
-          <p className='text-[16px] mb-4'>
-            Let’swin không phải là một casino hay đơn vị trung gian đơn thuần – chúng tôi là đối tác chiến lược của
-            nhiều hệ thống casino hợp pháp, hoạt động theo hình thức cung cấp dịch vụ hỗ trợ và kết nối khách hàng cao
-            cấp.
-          </p> */}
           <div className='py-20'>
-            <div className='pr-4 2xl:pr-[180px] lg:pr-[110px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+            <div className='pr-4 2xl:pr-[180px]  lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
               <div className='lg:col-span-5'>
                 <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>LET’SWIN LÀ GÌ?</h2>
 
@@ -114,7 +102,7 @@ const About = () => {
             </div>
           </div>
           <div className='py-20'>
-            <div className='pl-4 2xl:pl-[180px] lg:pl-[110px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+            <div className='pl-4 2xl:pl-[180px]  lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
               <div className='lg:col-span-2'>
                 <h2 className='text-[25px] uppercase lg:text-[32px]'>Let’swin dành cho ai?</h2>
                 <div className='hidden lg:block'>

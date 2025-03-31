@@ -24,7 +24,7 @@ const PokerClub = () => {
 
   return (
     <div>
-      <div>
+      <div className='relative'>
         <img
           src={getImageUrl('B1127232-1', hotrambanner)}
           alt='bannerPC'
@@ -37,14 +37,24 @@ const PokerClub = () => {
           className='h-auto object-cover block md:hidden'
           style={{ aspectRatio: '3/4' }}
         />
+        <div className='absolute top-0 left-0 w-full h-full bg-[#48b0d930] pl-10 flex flex-col justify-center lg:items-center'>
+          <div className=''>
+            <h1 className='text-4xl leading-snug font-semibold mb-4 text-white pr-20 max-w-[1000px]'>
+              Trải nghiệm Poker Club tại Đà Nẵng
+            </h1>
+          </div>
+          <div className='flex space-x-4 mb-6'>
+            <a href='tel:+84766798268'>
+
+              <button className='bg-[#cfaa26] text-white py-2 px-4 rounded'>Liên hệ ngay</button>
+            </a>
+
+          </div>
+        </div>
       </div>
-      <div className='pt-[160px] px-[33px]'>
-        <h1 className='mb-10 text-center text-[28px] md:text-[40px] max-w-[980px] md:mx-auto uppercase'>
-          Poker Club
-        </h1>
-      </div>
+
       <div className='py-20'>
-        <div className='pl-4 2xl:pl-[180px] lg:pl-[110px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+        <div className='pl-4 2xl:pl-[180px]  lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
           <div className='lg:col-span-2'>
             <h2 className='text-[25px] uppercase lg:text-[32px]'>Phòng Poker riêng tư</h2>
             <div className='hidden lg:block'>
@@ -77,7 +87,7 @@ const PokerClub = () => {
         </div>
       </div>
       <div className='py-20'>
-        <div className='pr-4 2xl:pr-[180px] lg:pr-[110px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+        <div className='pr-4 2xl:pr-[180px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
           <div className='lg:col-span-5'>
             <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>Đến với Poker Club</h2>
 
