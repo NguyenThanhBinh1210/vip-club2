@@ -84,8 +84,15 @@ const ServiceLayout = () => {
             </h1>
           </div>
           <div className='flex space-x-4 mb-6'>
-            <button className='bg-[#cfaa26] text-white py-2 px-4 rounded'>Đặt tour VIP</button>
-            <button className='bg-blue-500 text-white py-2 px-4 rounded'>Liên hệ tư vấn</button>
+            <a href='tel:+84766798268'>
+
+              <button className='bg-[#cfaa26] text-white py-2 px-4 rounded shadow shadow-black/50 hover:shadow-none transition-all hover:translate-y-0.5'>Đặt tour VIP</button>
+            </a>
+            <a href='tel:+84766798268'>
+
+              <button className='bg-[#cfaa26] text-white py-2 px-4 rounded shadow shadow-black/50 hover:shadow-none transition-all hover:translate-y-0.5'>Liên hệ tư vấn</button>
+
+            </a>
           </div>
         </div>
       </div>

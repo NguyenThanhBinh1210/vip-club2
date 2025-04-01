@@ -46,7 +46,8 @@ const PokerClub = () => {
           <div className='flex space-x-4 mb-6'>
             <a href='tel:+84766798268'>
 
-              <button className='bg-[#cfaa26] text-white py-2 px-4 rounded'>Liên hệ ngay</button>
+              <button className='bg-[#cfaa26] text-white py-2 px-4 rounded shadow shadow-black/50 hover:shadow-none transition-all hover:translate-y-0.5'>Liên hệ tư vấn</button>
+
             </a>
 
           </div>
