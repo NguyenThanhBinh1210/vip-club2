@@ -98,7 +98,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className='grid grid-cols-2 md:grid-cols-4 gap-4 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc] my-10'>
+      <div className='grid grid-cols-2 md:grid-cols-4 gap-4 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc] my-10 px-4 md:px-0'>
         <div className='flex items-center flex-col shadow-md rounded p-4 cursor-pointer hover:-translate-y-1 transition-all duration-300'>
           <div className='h-14 flex items-center justify-center'>
             <svg
