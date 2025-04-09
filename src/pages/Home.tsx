@@ -388,7 +388,7 @@ const Home = () => {
           </div>
           <div className='lg:col-span-3'>
             <img
-              className='mt-5 lg:mt-0 aspect-square object-cover rounded-md object-top h-auto w-full'
+              className='mt-5 lg:mt-0 aspect-square object-cover rounded-md object-bottom h-auto w-full'
               src={vip4}
               alt='bannerLandingModule3'
             />
