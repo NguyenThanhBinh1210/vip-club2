@@ -1,5 +1,5 @@
-import hotrambanner from '~/assets/hotrambannerpc.png'
-import hotrambanner2 from '~/assets/hotrambannerpc.png'
+import hotrambanner2 from '~/assets/6cf5bec3-046d-4890-b05e-7c0adbadbdaf.jpg'
+import hotrambanner from '~/assets/3dc2e857-9031-4d1c-9a3b-ff91233e6fef.jpg'
 import hotram1 from '~/assets/the-grand-casino11-1.jpg'
 import casino1 from '~/assets/casino1.jpg'
 import casino2 from '~/assets/casino2.jpg'
@@ -36,7 +36,7 @@ const CasinoVip = () => {
         <img
           src={getImageUrl('B1127232-1', hotrambanner)}
           alt='bannerPC'
-          className='h-auto object-cover hidden md:block w-full'
+          className='h-auto object-cover hidden md:block w-full object-top'
           style={{ aspectRatio: '21/9' }}
         />
         <img

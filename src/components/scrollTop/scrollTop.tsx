@@ -3,8 +3,8 @@ import { useLocation } from 'react-router-dom'
 
 const ScrollToTop = () => {
   const [showButton, setShowButton] = useState<boolean>(false)
-  console.log(showButton)
   const { pathname } = useLocation()
+  console.log(pathname);
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -19,12 +19,14 @@ const ScrollToTop = () => {
     }
   }
   useEffect(() => {
-    window.scrollTo({
-      top: 0
-    })
-    window.addEventListener('scroll', handleScroll)
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
+    if (pathname !== '/') {
+      window.scrollTo({
+        top: 0
+      })
+      window.addEventListener('scroll', handleScroll)
+      return () => {
+        window.removeEventListener('scroll', handleScroll)
+      }
     }
   }, [pathname])
 
