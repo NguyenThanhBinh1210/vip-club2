@@ -102,7 +102,7 @@ const Home = () => {
       </div>
       <div className='flex overflow-x-auto lg:grid lg:gap-x-80 xl:gap-4 py-4 grid-cols-4 gap-4 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc] my-10 px-4 '>
         <div onClick={() => setShowPakage('1')} className='min-w-[300px] md:min-w-auto flex items-center flex-col shadow-md rounded p-4 cursor-pointer hover:-translate-y-1 transition-all duration-300'>
-          <div className='h-14 flex items-center justify-center'>
+          {/* <div className='h-14 flex items-center justify-center'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='36'
@@ -119,14 +119,15 @@ const Home = () => {
               <path d='M11 3 8 9l4 13 4-13-3-6' />
               <path d='M2 9h20' />
             </svg>
-          </div>
+          </div> */}
+          <img src={vip1} className='object-cover object-center aspect-[9/8] rounded-lg' alt="" />
           <div className='font-semibold text-lg my-2 text-center'>Gói trải nghiệm Vip</div>
           <div className='text-center'>Tận hưởng không gian riêng tư, đẳng cấp với dịch vụ cá nhân hóa 24/7.
 
           </div>
         </div>
         <div onClick={() => setShowPakage('2')} className='min-w-[300px] md:min-w-auto flex items-center flex-col shadow-md rounded p-4 cursor-pointer hover:-translate-y-1 transition-all duration-300'>
-          <div className='h-14 flex items-center justify-center'>
+          {/* <div className='h-14 flex items-center justify-center'>
             <svg version='1.1' x='0px' y='0px' viewBox='0 0 2200 2200' className='size-12'>
               <g id='background'>
                 <rect fill='#ffffff' width='' height='' />
@@ -174,7 +175,9 @@ const Home = () => {
                 </g>
               </g>
             </svg>
-          </div>
+          </div> */}
+          <img src={vip2} className='object-cover object-top aspect-[9/8] rounded-lg' alt="" />
+
           <div className='font-semibold text-lg my-2 text-center'>Gói Golf & Casino</div>
           <div className='text-center'>Kết hợp golf đẳng cấp và Casino cao cấp, mang đến trải nghiệm VIP tuyệt vời.
 
@@ -183,7 +186,7 @@ const Home = () => {
           </div>
         </div>
         <div onClick={() => setShowPakage('3')} className='min-w-[300px] md:min-w-auto flex items-center flex-col shadow-md rounded p-4 cursor-pointer hover:-translate-y-1 transition-all duration-300'>
-          <div className='h-14 flex items-center justify-center'>
+          {/* <div className='h-14 flex items-center justify-center'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -216,14 +219,15 @@ const Home = () => {
                 </g>
               </g>
             </svg>
-          </div>
+          </div> */}
+          <img src={vip4} className='object-cover object-bottom aspect-[9/8] rounded-lg' alt="" />
 
           <div className='font-semibold text-lg my-2 text-center'>Gói Poker chuyên nghiệp</div>
           <div className='text-center'>Gói dịch vụ đặc biệt dành cho người yêu thích poker thi đấu – nơi kỹ năng.
           </div>
         </div>
         <div onClick={() => setShowPakage('4')} className='min-w-[300px] md:min-w-auto flex items-center flex-col shadow-md rounded p-4 cursor-pointer hover:-translate-y-1 transition-all duration-300'>
-          <div className='h-14 flex items-center justify-center'>
+          {/* <div className='h-14 flex items-center justify-center'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               xmlnsXlink='http://www.w3.org/1999/xlink'
@@ -236,7 +240,8 @@ const Home = () => {
             >
               <path d='M389.8,76c-37.1,0-67.3,30.2-67.3,67.3s30.2,67.3,67.3,67.3s67.3-30.2,67.3-67.3S426.9,76,389.8,76z M440.3,134.3h-31.2  l21.8-21.8C435.5,118.9,438.8,126.3,440.3,134.3z M397.8,123V92.6c7.9,1.2,15.3,4.3,21.6,8.8L397.8,123z M381.8,123l-21.6-21.6  c6.3-4.5,13.6-7.6,21.6-8.8V123z M381.8,161.6v31.8c0,0.2,0,0.3,0,0.5c-8.4-1.3-16.2-4.7-22.7-9.6c0.1-0.1,0.2-0.1,0.2-0.2  L381.8,161.6z M397.8,193.4v-31.8l22.5,22.5c0.1,0.1,0.2,0.1,0.2,0.2c-6.5,4.9-14.3,8.3-22.7,9.6  C397.8,193.8,397.8,193.6,397.8,193.4z M348.7,112.6l21.8,21.8h-31.2C340.7,126.3,344,118.9,348.7,112.6z M339,150.3h31.5L348,172.8  c0,0,0,0-0.1,0.1C343.3,166.3,340.2,158.6,339,150.3z M431.6,172.9C431.6,172.8,431.6,172.8,431.6,172.9l-22.5-22.5h31.5  C439.4,158.6,436.3,166.3,431.6,172.9z M389.8,50.7c-46.7,0-85.5,34.9-91.7,79.9H158.3L123,22.5c-0.9-2.7-3.1-4.7-5.9-5.3l-77.8-17  c-4.3-0.9-8.6,1.8-9.5,6.1c-0.9,4.3,1.8,8.6,6.1,9.5l73.3,16l32.3,98.8H54.1c-2.9,0-5.5,1.5-6.9,4c-1.4,2.5-1.4,5.5,0,8l79.1,137  L197,402.2v62.2h-47.7c-13.1,0-23.8,10.7-23.8,23.8c0,13.1,10.7,23.8,23.8,23.8h156.1c13.1,0,23.8-10.7,23.8-23.8  c0-13.1-10.7-23.8-23.8-23.8h-47.7v-62.2l70.8-122.5l26.6-46.1c0,0,0,0,0,0l2.1-3.7c10.1,3.8,21.1,5.9,32.6,5.9  c51,0,92.5-41.5,92.5-92.5S440.8,50.7,389.8,50.7z M297.3,146.7c1.2,32.4,19.1,60.7,45.4,76.3l-0.9,1.5  c-52.5,53.5-80.3,36.3-112.5,16.4c-12.8-7.9-26.2-16.2-41.4-19.4l-24.4-74.8H297.3z M146.7,146.7l24,73.6  c-14.1,1-29.8,7.3-47.5,22.2l-55.3-95.8H146.7z M313.2,488.2c0,4.3-3.5,7.8-7.8,7.8H149.3c-4.3,0-7.8-3.5-7.8-7.8  c0-4.3,3.5-7.8,7.8-7.8H205h44.8h55.7C309.7,480.4,313.2,483.9,313.2,488.2z M242.8,396c-0.7,1.2-1.1,2.6-1.1,4v64.4H213V400  c0-1.4-0.4-2.8-1.1-4l-71.8-124.4l-8.7-15.1c38.4-33.7,61.1-19.7,89.7-2.1c17,10.5,34.5,21.3,56.3,21.6c0.3,0,0.6,0,0.9,0  c13.4,0,27.1-4.2,41.3-12.8l-4.8,8.4L242.8,396z M389.8,219.8c-42.2,0-76.5-34.3-76.5-76.5s34.3-76.5,76.5-76.5s76.5,34.3,76.5,76.5  S432,219.8,389.8,219.8z M191,282.7c-4.4,0-8-3.6-8-8v-7.4c0-4.4,3.6-8,8-8s8,3.6,8,8v7.4C199,279.1,195.4,282.7,191,282.7z   M282.8,288.7v7.5c0,4.4-3.6,8-8,8s-8-3.6-8-8v-7.5c0-4.4,3.6-8,8-8S282.8,284.3,282.8,288.7z M203.6,317.2v7.5c0,4.4-3.6,8-8,8  s-8-3.6-8-8v-7.5c0-4.4,3.6-8,8-8S203.6,312.8,203.6,317.2z M248.4,344.5v7.4c0,4.4-3.6,8-8,8s-8-3.6-8-8v-7.4c0-4.4,3.6-8,8-8  S248.4,340.1,248.4,344.5z M236.9,309.4c-1.6,1.7-3.7,2.5-5.8,2.5c-2,0-4-0.7-5.5-2.2c-3.2-3-3.3-8.1-0.3-11.3l5.1-5.4  c3-3.2,8.1-3.3,11.3-0.3c3.2,3,3.3,8.1,0.3,11.3L236.9,309.4z' />
             </svg>
-          </div>
+          </div> */}
+          <img src={vip3} className='object-cover object-bottom aspect-[9/8] rounded-lg' alt="" />
 
           <div className='font-semibold text-lg my-2 text-center'>Gói nghỉ dưỡng + Spa + Nightlife</div>
           <div className='text-center'>Kết hợp thư giãn, chăm sóc sức khỏe và trải nghiệm cuộc sống về đêm sôi động.
