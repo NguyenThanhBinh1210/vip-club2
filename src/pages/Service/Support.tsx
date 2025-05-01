@@ -1,7 +1,7 @@
-// import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import hotrambanner4 from '~/assets/ho-tro-covid.jpg'
 const Support = () => {
-  // const { t } = useTranslation()
+  const { t } = useTranslation()
 
 
   return (
@@ -9,17 +9,18 @@ const Support = () => {
       <section className='mb-8 max-w-[1600px] mx-auto'>
         <div className='flex justify-between gap-x-5 lg:gap-x-10'>
           <div className='text-sm md:text-base w-max'>
-            <h2 className='text-lg md:text-2xl font-semibold'>Hỗ trợ 24/7</h2>
+            <h2 className='text-lg md:text-2xl font-semibold'>
+              {t('support.title')}
+            </h2>
             <p className='text-gray-700 my-2'>
-              Đội ngũ chăm sóc khách hàng túc trực 24/7 – sẵn sàng hỗ trợ bất kỳ lúc nào.
+              {t('support.description')}
             </p>
             <ul className='mb-3 md:mb-10'>
-
-              <li>- Hỗ trợ đặt xe, phòng, hướng dẫn chơi</li>
-              <li>- Giải đáp thắc mắc về tour, casino, poker</li>
-              <li>- Xử lý tình huống ngay cả vào ban đêm</li>
+              <li>- {t('support.items.transport')}</li>
+              <li>- {t('support.items.tours')}</li>
+              <li>- {t('support.items.night')}</li>
             </ul>
-            <div className='flex gap-4 flex-wrap ga'>
+            <div className='flex gap-4 flex-wrap'>
               <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 relative hover:opacity-60 group transition-all duration-300'>
                   Zalo
@@ -41,7 +42,7 @@ const Support = () => {
             </div>
           </div>
           <img
-            className='lg:mt-0 w-[45%]  aspect-video lg:w-[50%] rounded flex-shrink-0 object-cover'
+            className='lg:mt-0 w-[45%] aspect-video lg:w-[50%] rounded flex-shrink-0 object-cover'
             src={hotrambanner4}
             alt='hoian'
           />

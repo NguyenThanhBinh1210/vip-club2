@@ -1,0 +1,821 @@
+{
+    "support": {
+      "title": "7/24 destek",
+      "description": "Müşteri hizmetleri ekibimiz günün her saatinde mevcuttur - size her zaman yardımcı olmaya hazırdır.",
+      "items": {
+        "transport": "Araba rezervasyonları, oda rezervasyonları ve oyun talimatları konusunda yardım",
+        "tours": "Turlar, kumarhane ve poker hakkında sorular",
+        "night": "Gece boyunca bile çözünürlük"
+      }
+    },
+    "service": {
+      "pageTitle": "Hizmet",
+      "hero": "Let's Win - Da Nang’ın Premier VIP Club'da lüks hizmetleri deneyimleyin",
+      "cta": {
+        "book": "Kitap VIP Turu",
+        "contact": "Danışma için iletişim"
+      },
+      "freeTransport": {
+        "title": "Ücretsiz Taşımacılık",
+        "description": "Özel VIP Transfer Hizmeti - Konuklar için tamamen ücretsiz."
+      },
+      "support": {
+        "title": "7/24 destek",
+        "description": "Müşteri Hizmetleri Ekibimiz 7/24 kullanılabilir - size her zaman yardımcı olmaya hazır"
+      },
+      "tour": {
+        "title": "Lüks tur",
+        "description": "Rahatlama, eğlence ve VIP casino deneyimlerini birleştiren bir paket turu.\n"
+      },
+      "commission": {
+        "title": "Cazip komisyon",
+        "description": "Şeffaf ve Açık Komisyon Politikası - Turlar, Sürücüler ve İşbirlikçileri için İdeal"
+      }
+    },
+    "common": {
+      "menu": "Menü",
+      "close": "Kapalı",
+      "back": "Geri",
+      "backToMenu": "Menüye geri dön",
+      "viewAll": "Hepsini görüntüle",
+      "bookNow": "Şimdi kitap",
+      "reserveNow": "Şimdi rezerve et",
+      "viewDetails": "Ayrıntıları Görüntüle",
+      "discoverMore": "Daha Fazla Keşfedin",
+      "signUp": "Üye olmak",
+      "signIn": "Oturum açmak",
+      "alreadyMember": "Zaten bir üye mi?",
+      "tourist": "Turist misin? "
+    },
+    "languages": {
+      "english": "İngilizce",
+      "vietnamese": "vietnamese",
+
+      "malay": "Bahasa Melayu",
+      "khmer": "ភាសាខ្មែរ",
+      "indonesian": "Endonezyalı",
+      "japanese": "日本語",
+      "korean": "한국어",
+      "thai": "ภาษาไทย",
+      "chineseSimplified": "简体中文",
+      "chineseTraditional": "繁體中文",
+      "burmese": "မြန်မာ",
+      "bengali": "বাংলা",
+      "spanish": "Español",
+      "portuguese": "Português",
+      "turkish": "Türkçe",
+      "german": "Deutsch",
+      "russian": "Р ut зык",
+      "haitianCreole": "Kreyòl Ayisyen",
+      "swahili": "Kiswahili"
+    },
+    "header": {
+      "navigation": {
+        "stay": "Kalmak",
+        "rewards": "Ödüller",
+        "aboutUs": "Hakkımızda",
+        "about": "Hakkımızda",
+        "services": "Hizmet",
+        "pokerClub": "Poker kulübü",
+        "casinoVip": "Casino VIP",
+        "offers": "Teklifler",
+        "contact": "Temas etmek"
+      },
+      "stay": {
+        "title": "Odalar ve Süitler",
+        "letsVipCollection": "Hadi VIP koleksiyonu",
+        "paizaCollection": "Paiza koleksiyonu",
+        "onlineExclusive": {
+          "title": "Çevrimiçi özel",
+          "stayPackages": "Otel paketleri"
+        },
+        "experiences": {
+          "title": "Deneyimler",
+          "skypark": "Skypark gözlem güvertesi",
+          "infinityPool": "Skypark Infinity Havuzu",
+          "guestPrivileges": "Konuk Ayrıcalıkları"
+        }
+      },
+      "rewards": {
+        "sandsLifestyle": "Hadi VIP yaşam tarzı",
+        "membershipTiers": "Üyelik katmanları",
+        "memberPerks": "Üye avantajları",
+        "alliancePrivileges": "Hadi vipalliance ayrıcalıkları",
+        "viewAllOutlets": "Tüm Let's Vipoutlets'i görüntüle",
+        "vipMembership": "VIP üyelik teklifleri",
+        "premiumPerks": "Premium avantajlar",
+        "eventPromotions": "Etkinlik ve Turnuva Promosyonları"
+      }
+    },
+    "home": {
+      "hero": {
+        "title": "Da Nang'daki Let's Win - The Lider VIP Club'da Premium Gece Deneyin"
+      },
+      "casinoVip": {
+        "heading": "Let's Win - VIP Club'da Casino VIP deneyin"
+      },
+      "hoTram": {
+        "title": "Ho Tram Casino'da VIP Lounge",
+        "description": "Vietnam'ın en büyük ve en ünlü kumarhanelerinden birinde yer alan Ho Tram'da VIP Lounge'ı kazanalım, sadece seçkin üyelerimiz için ayrılmış özel bir deneyim sunuyor.",
+        "features": {
+          "environment": "Özel ve seçkin ortam, lüks iç mekanlar ve üst düzey olanaklarla tasarlanmıştır.",
+          "services": "Özel uşaklar, özel yemek menüleri ve 7/24 yardım dahil kişiselleştirilmiş hizmetler.",
+          "privacy": "VIP misafirleri için maksimum rahatlık ve gönül rahatlığı sağlayan nihai gizlilik ve güvenlik."
+        }
+      },
+      "daNang": {
+        "title": "Da Nang'daki Poker Kulübü",
+        "description": "Poker tutkunları için mükemmel bir yer olan Da Nang'daki Club Win Club, prestijli ve yüksek sınıf bir ortamda profesyonel poker turnuvalarına ev sahipliği yapıyor.",
+        "features": {
+          "rooms": {
+            "title": "Özel Poker Odaları",
+            "description": ", yüksek bahis bahisleri ile dünya standartlarında bir oyun içeren."
+          },
+          "services": {
+            "title": "VIP Hizmetleri",
+            "description": " saygın konuklar için tasarlanmış, optimal bir deneyim sağlıyor."
+          },
+          "lounge": {
+            "title": "Lüks salon alanı",
+            "description": ", premium kokteyller ve ince likör sunmak, oyuncular için rafine ve rahatlatıcı bir ortam yaratır."
+          }
+        }
+      },
+      "hoiana": {
+        "title": "Hoiana Casino'da VIP Lounge",
+        "description": "Uluslararası ünlü bir tatil köyünde yer alan Hoiana'da VIP Win VIP, lüks eğlenceyi elit sınıfı sofistike ile birleştirerek olağanüstü bir atmosfer sunuyor.",
+        "features": {
+          "rooms": {
+            "title": "Özel VIP odaları",
+            "description": ", cömert ve zengin bir dokunuşla tasarlanmıştır."
+          },
+          "services": {
+            "title": "Premium VIP Hizmetleri",
+            "description": "Limuzin transferleri, kişiselleştirilmiş yardım ve beş yıldızlı konaklama dahil."
+          },
+          "rewards": {
+            "title": "Özel ödüller",
+            "description": " Let's Win üyeleri için lüks hediyeler ve çekici bir sadakat programı sunuyor."
+          }
+        }
+      },
+      "rewardsClub": {
+        "title": "Let's VIP Rewards Club ile özel avantajlar",
+        "subtitle": "Oynarken kazanmak için kaydolun",
+        "description": "Let's Viprewards Club üyesi olarak, Casino oyununuzda Let's Vippoints ve Vipdollars'ı kazanırsınız. ",
+        "locations": {
+          "b2m": "B2M",
+          "level1": "Seviye 1",
+          "level2Ruby": "Seviye 2 yakut masa oyunları girişi",
+          "level2RubySlots": "Seviye 2 Ruby Yuvaları Giriş",
+          "level2Apex": "Seviye 2 APEX Büyük Giriş"
+        }
+      },
+      "vipClub": {
+        "title": "Tanıtım VIP Club'ı kazanalım",
+        "description": "Let's Win VIP Club, seçkinler için özel lüks bir oyun deneyimi sunan özel bir VIP odaları sistemidir. ",
+        "packageTitle": "VIP Deneyim Paketi",
+        "packageDescription": "Kişiselleştirilmiş 7/24 hizmet ile özel, yüksek sınıf alanının tadını çıkarın.",
+        "golfCasinoPackage": "Golf ve casino paketi",
+        "golfCasinoDescription": "Olağanüstü bir VIP deneyimi için Elite Golf ve Premium Casino'yu birleştirmek.",
+        "pokerPackage": "Profesyonel poker paketi",
+        "pokerDescription": "Poker Turnuvası meraklıları için özel servis paketi - Becerilerin önemli olduğu.",
+        "spaNightlifePackage": "Resort + spa + gece hayatı paketi",
+        "spaNightlifeDescription": "Rahatlama, sağlıklı yaşam bakımı ve heyecan verici gece hayatı deneyimlerini birleştirin.",
+        "experienceHeader": "VIP Experience - 'En İyi Lüks'",
+        "experienceDescription": "Kişiselleştirilmiş 7/24 hizmet ile özel, zarif alanların tadını çıkarın. ",
+        "servicesInclude": "Hizmetler şunları içerir:",
+        "beverage": "Yerinde içecekler ve hafif içecekler",
+        "privateRoom": "Özel, sessiz ve lüks oyun odaları",
+        "personalSupport": "Kişisel 1: 1 Destek (çeviri, hizmet rezervasyonu, ulaşım ...)",
+        "vipAccess": "Sistemdeki VIP alanlarına öncelikli erişim",
+        "gifts": "Premium üyeler için özel hediyeler ve özel teklifler",
+        "suitableFor": "İçin uygun:",
+        "highRollers": "Yüksek silindirler, iş adamları ve gizlilik ve premium hizmeti takdir edenler.",
+        "golfCasinoHeader": "Golf ve Casino - 'Twopassions, OneJourney'",
+        "golfCasinoDescriptionLong": "Elite golf ve premium casino eğlencesini birleştiren bu, gündüz golfle dinlenmek ve gece canlı casino atmosferinin tadını çıkarmak isteyen konuklar için mükemmel bir seçimdir.",
+        "golfCasinoTeeTime": "Da Nang'daki Premium Golf Kulüplerinde Tee Times - Hoi An",
+        "golfCasinoVipTransfer": "VIP toplama ve bırakma hizmeti",
+        "golfCasinoLuxuryStay": "Golf sahası veya plajın yakınında lüks konaklama",
+        "golfCasinoGuide": "Casino'da özel rehber yardımı",
+        "golfCasinoGroupOffer": "Gruplar için özel kombo teklifleri",
+        "golfCasinoSuitableFor": "İçin uygun:",
+        "golfCasinoTarget": "Golf grupları, uzun saplı konuklar ve iş adamları, rahatlama ve eğlence karışımı ile müşterileri eğlendiriyor.",
+        "bulletPrivateRoom": "Özel, sessiz ve lüks oyun odaları",
+        "bulletPersonalSupport": "1: 1 kişisel yardım (yorumlama, rezervasyon, ulaşım ...)",
+        "bulletVipAccess": "Sistemdeki VIP alanlarına öncelikli erişim",
+        "bulletGifts": "Premium üyeler için özel hediyeler ve teklifler",
+        "highRollersVn": "Uygun: Yüksek silindirler, iş adamları ve gizlilik ve premium hizmeti takdir edenler.",
+        "mobileExperienceDescription": "Kişiselleştirilmiş 7/24 hizmet ile özel ve şık bir alanın tadını çıkarın. ",
+        "privateRoomVn": "Özel, sessiz ve lüks oyun odaları",
+        "personalSupportVn": "Kişisel 1: 1 Destek (yorumlama, hizmet rezervasyonu, ulaşım ...)",
+        "vipAccessVn": "Sistemdeki VIP alanlarına öncelikli erişim",
+        "giftsVn": "Premium üyeler için özel hediyeler ve özel teklifler",
+        "suitableForVnTitle": "İçin uygun:",
+        "suitableForVnDesc": "Yüksek silindirler, iş adamları ve gizlilik ve premium hizmeti takdir edenler.",
+        "spaNightlifeTitle": "Spa & Nightlife - \"Rahatlayın ve tutuşturma\"",
+        "spaNightlifeDescription2": "Oyun masasında yoğun anlardan sonra, vücudunuzu gevşetme ve ruhunuzu canlı bir Beach City gece hayatıyla yükseltmenin zamanı geldi.",
+        "spaNightlifeServicesInclude": "Hizmetler şunları içerir:",
+        "spaLuxuryPackage": "Premium Spa Tedavileri (Vücut Masajı, Yüz, Sauna, Bitkisel Steam…)",
+        "spaVipClubBooking": "En iyi barlarda ve kulüplerde VIP masa rezervasyonları",
+        "spaNightTransfer": "Özel ve Güvenli Gece Taşımacılığı",
+        "spaInRoomService": "Oda içi yemek ve kokteyl servisi",
+        "spaNightlifeSuitableFor": "İçin uygun:",
+        "spaNightlifeTarget": "Çiftler, yakın arkadaşlar ve zarif rahatlama ve lüks eğlencenin tadını çıkaran konuklar.",
+        "pokerPackageTitle": "Poker Paketi - \"Beceri Prestijle Buluştuğu Yer\"",
+        "pokerDescription2": "Poker turnuvası meraklıları için özel bir servis paketi - beceri, strateji ve sportmenliğin kutlandığı.",
+        "pokerServicesInclude": "Hizmetler şunları içerir:",
+        "pokerProTournaments": "Let's Win Poker Club'da Profesyonel Poker Turnuvalarına Katılım",
+        "pokerPrivateEvents": "Gruplar veya kurumsal müşteriler için özel turnuva barındırma",
+        "pokerProfessionalDealer": "Profesyonel bayiler ve turnuva standartları poker masaları",
+        "pokerInterpreterSupport": "Uluslararası konuklara tercüman desteği ve bakım",
+        "pokerCustomAccommodation": "Talep üzerine otel/apartman rezervasyonu",
+        "pokerSuitableFor": "İçin uygun:",
+        "pokerTarget": "Profesyonel oyuncular, poker toplulukları, zihin sporlarından hoşlanan Koreli/Çinli konuklar."
+      },
+      "buttons": {
+        "contact": "Bize Ulaşın",
+        "book": "Şimdi kitap",
+        "viewDetails": "Ayrıntıları Görüntüle",
+        "bookVipTour": "Kitap VIP Turu",
+        "contactConsultant": "İletişim danışmanı",
+        "contactNow": "Şimdi iletişime geçin"
+      }
+    },
+    "footer": {
+      "getToKnow": {
+        "title": "Bizi Tanıyın",
+        "companyInfo": "Şirket bilgileri",
+        "careers": "Kariyer",
+        "faq": "SSS",
+        "contactUs": "Bize Ulaşın",
+        "awards": "Ödüller ve Ödüller"
+      },
+      "usefulInfo": {
+        "title": "Yararlı bilgiler",
+        "travelGuide": "Seyahat rehberi",
+        "planVisit": "Ziyaretinizi Planlayın",
+        "gettingHere": "Buraya gelmek",
+        "services": "Hizmetler ve Olanaklar",
+        "packages": "Otel ve uçuş paketleri"
+      },
+      "downloadApp": {
+        "title": "Uygulamamızı indirin"
+      },
+      "social": {
+        "title": "Bizimle bağlantı kurun"
+      },
+      "getInspired": {
+        "title": "İlham Alın",
+        "subtitle": "Hızlı Rezervasyon ve İletişim",
+        "bookNow": "Şimdi kitap"
+      },
+      "copyright": "© 2025 VIP Lifestyle. "
+    },
+    "about": {
+      "title": "giriiş",
+      "subtitle": "Hakkında VIP Club Win Hakkında",
+      "introduction": "Premium eğlence ve lüks hizmetler arayanlar için özel bir yer olan VIP Club'a hoş geldiniz. ",
+      "experience": {
+        "title": "Let's Win VIP Club'da keyif alacaksınız:",
+        "hoTram": {
+          "title": "• Ho Tram Casino'da VIP Lounge: ",
+          "description": "Konfor ve sınıf sağlayan VIP misafirleri için özel oyunlarla özel alan."
+        },
+        "hoiana": {
+          "title": "• Hoiana'daki VIP alanı: ",
+          "description": "Kişiselleştirilmiş hizmet ile sofistike tasarım, benzersiz ve lüks deneyimler sunar."
+        },
+        "danang": {
+          "title": "• Danaciti Hotel'de Poker Kulübü: ",
+          "description": "Profesyonel turnuvalar ve premium masalar içeren poker tutkunları için ideal bir yer."
+        }
+      },
+      "service": "Özellikle, tüm ihtiyaçlarınızı desteklemeye ve karşılamaya hazır olan Direct Hotline aracılığıyla 7/24 müşteri hizmetleri sunuyoruz.",
+      "invitation": "Premium deneyimlerin ve kazanan anların bir araya geldiği Let's Win VIP Club'daki seçkin topluluğa katılın!",
+      "whyChoose": {
+        "title": "Neden VIP CLUB KAZANIMIZI SEÇİN?",
+        "features": {
+          "spaces": "✔ Mutlak rahatlık sağlayan lüks iç mekanlara sahip özel VIP boşlukları.",
+          "services": "✔ 7/24 destek sağlayan özel bir profesyonel ekiple kişiselleştirilmiş hizmetler.",
+          "rewards": "✔ Let's Win VIP üyeleri için ayrılmış özel ödüller ve lüks hediyeler.",
+          "privacy": "✔ Üst düzey gizlilik ve güvenlik, güvenli ve lüks bir eğlence deneyimini garanti eder."
+        }
+      },
+      "join": "Bugün Let's VIP Club'a katılın ve eşsiz bir lüks deneyime girin!",
+      "contact": "📞 VIP Müşteri Hizmetleri Yardım Hattı (7/24): [Telefon numarası]"
+    },
+    "premiumPerks": {
+      "pageTitle": "Hoiana & Ho Tram'da Premium Ayrıcalıklar",
+      "freeHotelTitle": "VIP üyeleri için ücretsiz otel odası",
+      "freeHotelDesc": "Bir VIP üyesi olarak, ücretsiz otel odaları da dahil olmak üzere özel ayrıcalıkların tadını çıkaracaksınız. ",
+      "privateShuttleTitle": "Üst düzey VIP'ler için özel servis hizmeti",
+      "privateShuttleDesc": "Üst düzey bir VIP olarak, en uygun ve konforlu seyahatleri sağlayarak ücretsiz özel servis hizmeti alacaksınız. ",
+      "exclusiveGiftsTitle": "Özel günlerde özel hediyeler",
+      "exclusiveGiftsDesc": "Premium avantajlara ek olarak, VIP üyeleri yıl boyunca özel günlerde özel hediyeler alma fırsatına sahip olacaklar. ",
+      "contactNow": "Şimdi iletişime geçin"
+    },
+    "freeTransport": {
+      "title": "Ücretsiz servis servisi",
+      "description": "Özel VIP Taşımacılık Hizmeti - Konuklar için tamamen ücretsiz.",
+      "items": {
+        "pickup": "Havaalanı, Otel veya Şehir Merkezinden Pick-up",
+        "driver": "Kibar ve gizli sürücü",
+        "logo": "Let'swin logosu olan veya olmayan aracı seçme seçeneği",
+        "group": "Gruplar veya bireyler için mevcut"
+      },
+      "cta": "Şimdi yolculuğa çıkın"
+    },
+    "eventPromotions": {
+      "pageTitle": "Etkinlik ve Turnuva ayrıcalıkları",
+      "tournamentTitle": "VIP'den özel turnuvalara katılın",
+      "tournamentDesc": "Bir VIP üyesi olarak, birinci sınıf bir ortamda becerilerinizi, stratejinizi ve yeteneğinizi sergileyebileceğiniz özel turnuvalara katılma fırsatına sahip olacaksınız. ",
+      "vipPartiesTitle": "Ücretsiz VIP Partileri ve Etkinlikleri",
+      "vipPartiesDesc": "Bir VIP olarak, lüks mekanlarda düzenli ücretsiz partilere ve özel etkinliklere davet edileceksiniz. ",
+      "specialRewardsTitle": "Özel programlardan büyük ödül fırsatları",
+      "specialRewardsDesc": "VIP'ler için tasarlanmış özel programlar büyük kazanmak için inanılmaz fırsatlar sunar. ",
+      "contactNow": "Şimdi iletişime geçin"
+    },
+    "aboutSection": {
+      "missionTitle": "Hadi görev",
+      "missionDescription": "Premium, güvenli, profesyonel ve güvenilir eğlence bulmak için Vietnam'a gelen her uluslararası konuk için güvenilir sağ el ortak olmak.",
+      "missionStatement": "Hadi sadece deneyimler düzenlemiyor değil, aynı zamanda seçkinler için VIP Entertainment yaşam tarzını şekillendiriyoruz.",
+      "whatIsLetswin": "Letswin nedir?",
+      "letswinIntroMobile": "Letswin, uluslararası turistler ve yüksek silindirler için her şey dahil eğlence hizmetleri sunan bir platform.",
+      "letswinIntroDesktop": "Letswin, uluslararası gezginler ve Vietnam'ı ziyaret eden üst düzey oyuncular için kapsamlı eğlence hizmetleri sunan bir platformdur. ",
+      "letswinServices": {
+        "pokerClub": "• Özel ve profesyonel poker kulübü",
+        "vipCasino": "• Özel tekliflerle VIP casino deneyimi",
+        "transportSupport": "• Ulaşım, oyun yardımı ve çeviri hizmetleri",
+        "customTours": "• Rahatlama ve eğlence için özelleştirilmiş tur programları",
+        "support247": "• 7/24 müşteri hizmetleri sistemi",
+        "nightSupport": "• Gece boyunca bile acil destek"
+      },
+      "whoIsFor": "Kim için hadi?",
+      "whoIsForList": {
+        "internationalTourists": "• Vietnam'da poker, casino ve lüks rahatlama yaşamak isteyen uluslararası turistler.",
+        "experiencedPlayers": "• Profesyonel - güvenilir - sağduyulu hizmetler arayan deneyimli oyuncular.",
+        "partners": "• Yüksek katlı müşteri ağları geliştirmek için işbirliği yapmak isteyen ortaklar: tur operatörleri, oteller, sürücüler, ortak çalışanlar."
+      },
+      "vipExperience": "Özel indirimlerin ötesinde, özel ve lüks VIP odalarının tadını çıkarabilirsiniz. ",
+      "contactNow": "Şimdi iletişime geçin"
+    },
+    "vipMembership": {
+      "title": "VIP üyelik teklifleri",
+      "contactNow": "Şimdi iletişime geçin",
+      "section1": {
+        "title": "Puan kazanın ve hediyeleri kullanın",
+        "description": "Oyunlara katılarak puan kazanma ve hediyeleri kurtarmak size heyecan verici deneyimler ve çekici ödüller getirir. "
+      },
+      "section2": {
+        "title": "Yemek, otel ve spa hizmetlerinde indirimler",
+        "description": "Premium restoranlarda güzel yemeklerin tadını çıkarın, Spa'da rahatlayın veya lüks otel atmosferine şımartın - hepsi ödül noktası indirim programımızla daha erişilebilir hale getirin. "
+      },
+      "section3": {
+        "title": "Premium hizmetlerle özel VIP odaları",
+        "description": "Düzenli indirimlerin ötesinde, premium VIP odalarımızla özel ve lüks alanlara şımartabilirsiniz. "
+      }
+    },
+    "pokerClub": {
+      "heading": "Poker Kulübünü Da Nang'da deneyimleyin",
+      "contactConsultant": "İletişim danışmanı",
+      "privateRoomTitle": "Özel Poker Odası",
+      "privateRoomDescription": "Bir VIP üyesi olarak, becerilerinizi, stratejilerinizi ve yeteneklerinizi lüks bir ortamda sergileyebileceğiniz özel poker turnuvalarına erişiminiz olacak. ",
+      "clubTitle": "Poker Kulübüne Hoş Geldiniz",
+      "clubDescription": "Poker sadece bir oyundan daha fazlasıdır - akıllı kararların ve rafine stratejilerin değerli ödüllere yol açtığı prestijli bir deneyimdir. "
+    },
+    "contact": {
+      "title": "Hızlı Rezervasyon ve İletişim",
+      "stage1": {
+        "title": "Beyond'a girin",
+        "description": "Let's Win Club'daki özel tekliflerin, yaklaşan etkinliklerin ve hoşgörülerin küratörlüğünü keşfeden ilk kişi olun.",
+        "fullName": "Ad Soyad",
+        "phoneNumber": "Telefon numarası",
+        "submit": "Göndermek"
+      },
+      "stage2": {
+        "title": "Bültenimize abone olduğunuz için teşekkür ederiz.",
+        "description": "Olağanüstü her şeye olan sevgimizi sergileyen düşünceli bir içerik kürasyonunu dört gözle bekleyin.",
+        "backToHome": "Ana Sayfa'ya Bön"
+      }
+    },
+    "fineDining": {
+      "title": "Güzel yemek restoranları",
+      "description": "Singapur'daki bu güzel yemek restoranlarında mutfak sanatlarını keşfedin, Let's Win Club. ",
+      "romanticRestaurants": {
+        "title": "Romantik restoranlar",
+        "description": "Bu romantik restoranlarda samimi bir ortamla herhangi bir akşam unutulmaz bir vesileyle dönüştürün. "
+      },
+      "specialOccasions": {
+        "title": "Özel Durumlar",
+        "description": "En değerli anları anılar ve bu tertemiz restoranlarda herhangi bir duruma bir zarafet ekleyin. "
+      },
+      "shoppes": {
+        "title": "Mağazaları keşfedin",
+        "description": "170'den fazla tasarımcı etiketi ve lüks butikten oluşan etkileyici bir seçimle, daha ince şeyleri aramanız burada bitiyor. "
+      },
+      "viewRestaurants": "Restoranları Görüntüle",
+      "viewShops": "Dükkanları Görüntüle",
+      "viewDetails": "Ayrıntıları Görüntüle"
+    },
+    "signupSuccessful": {
+      "welcome": "Hoş geldiniz, asdasd",
+      "digitalAccount": {
+        "title": "Dijital hesap",
+        "description": "Yeni oluşturulan kullanıcı adınız ve şifrenizle Let's VIP Lifestyle hesabınıza erişin."
+      },
+      "membershipCard": {
+        "title": "Üyelik kartı",
+        "description": "Marina Bay Sands'teki Let's Viprewards işlemleri için üyelik kimliğiniz ve PIN'iniz gerekecektir."
+      },
+      "username": "Kullanıcı adı",
+      "membershipId": "Üyelik Kimliği",
+      "loginNow": "Şimdi giriş yapın"
+    },
+    "otpVerification": {
+      "title": "OTP doğrulaması",
+      "stage1": {
+        "description": "Doğrulama sürecinin bir parçası olarak bir kerelik şifreyi (OTP) almak için lütfen bir kanal seçin."
+      },
+      "stage2": {
+        "description": "Bir kerelik şifre (OTP) içeren bir e-posta, e-posta adresinize t****************************************"
+      },
+      "emailOtp": "E -posta OTP",
+      "enterOtp": "OTP girin",
+      "resendOtp": "01: 16'da yeni bir OTP'yi yeniden gönder",
+      "proceed": "İlerlemek",
+      "verify": "Doğrulamak",
+      "back": "Geri"
+    },
+    "signup": {
+      "title": "Ücretsiz Let's VIP Lifestyle üyeliğiniz için kaydolun",
+      "banner": "Rezervasyon afişi",
+      "already_have_account": "Zaten bir hesabınız var mı?",
+      "login_here": "Buraya giriş yapın.",
+      "particulars": "Ayrıntılar",
+      "digital_account": "Dijital hesap",
+      "complete": "Tamamlamak",
+      "last_name": "Soy isim",
+      "first_name": "İlk adı",
+      "passport_note": "(Pasaportunuza basıldığı gibi)",
+      "date_of_birth": "Doğum tarihi",
+      "age_requirement": "(Katılmak için en az 18 yaşında olmanız gerekir.)",
+      "mobile_number": "Cep numarası",
+      "mobile_note": "Sayı 8 basamak olmalı",
+      "email": "E -posta adresi",
+      "email_note": "Geçerli bir e",
+      "referral_code": "Tavsiye Kodu",
+      "optional": "(İsteğe bağlı)",
+      "next": "SONRAKİ",
+      "create_pin": "Üyelik Pin Oluştur",
+      "create_4digit_pin": "4 haneli kart piminizi oluşturun",
+      "pin_description": "4 haneli PIN'iniz Marina Bay Sands'teki Let's Viprewards işlemleri için kullanılacaktır.",
+      "create_pin_label": "PIN Oluştur",
+      "confirm_pin": "PIN onaylayın",
+      "create_digital_account": "Dijital Hesap Oluştur",
+      "digital_accounts": "Dijital Hesaplar",
+      "digital_account_description": "Bu dijital hesap (kullanıcı adı ve şifre) dijital platformlarımıza giriş yapmak için kullanılacaktır. ",
+      "username": "Kullanıcı adı",
+      "password": "Şifre",
+      "confirm_password": "Şifreyi onaylayın",
+      "create": "Yaratmak",
+      "steps": {
+        "particulars": "Ayrıntılar",
+        "digitalAccount": "Dijital hesap",
+        "complete": "Tamamlamak"
+      },
+      "form": {
+        "lastName": "Soy isim",
+        "firstName": "İlk adı",
+        "asPassport": "(Pasaportunuza basıldığı gibi)",
+        "dob": "Doğum tarihi",
+        "dobNote": "(Katılmak için en az 18 yaşında olmanız gerekir.)",
+        "dd": "DD",
+        "mmm": "Mmm",
+        "yyyy": "Yyyy",
+        "months": {
+          "jan": "Ocak",
+          "feb": "Şubat",
+          "mar": "Martı",
+          "apr": "Nisan",
+          "may": "Mayıs",
+          "jun": "Haziran",
+          "jul": "Temmuz ayında",
+          "aug": "Ağustos",
+          "sep": "Sep",
+          "oct": "Ekim",
+          "nov": "Kasım",
+          "dec": "Aralık"
+        },
+        "mobileNumber": "Cep numarası",
+        "mobileNote": "Sayı 8 basamak olmalı",
+        "email": "E -posta adresi",
+        "emailNote": "Geçerli bir e",
+        "referralCode": "Tavsiye Kodu",
+        "optional": "(İsteğe bağlı)"
+      }
+    },
+    "notFound": {
+      "title": "Bu sayfa mevcut değil",
+      "description": "Aradığınız sayfa bulunamadı."
+    },
+    "more": {
+      "title": "Daha fazla deneyim",
+      "viewDetails": "Ayrıntıları Görüntüle",
+      "casinoLevy": {
+        "title": "Casino giriş vergisi",
+        "description": "Genel casino kuralları ve giriş koşulları hakkında bilgi alın."
+      },
+      "rewardsClub": {
+        "title": "Let's VIP Rewards Club ile özel avantajlar",
+        "subtitle": "Oynarken kazanmak için kaydolun",
+        "description": "Let's Viprewards Club üyesi olarak, Casino oyununuzda Let's Vippoints ve Vipdollars'ı kazanırsınız. ",
+        "locations": [
+          "B2M",
+          "Seviye 1",
+          "Seviye 2 yakut masa oyunları girişi",
+          "Seviye 2 Ruby Yuvaları Giriş",
+          "Seviye 2 APEX Büyük Giriş"
+        ]
+      },
+      "responsibleGambling": {
+        "title": "Sorumlu kumar",
+        "subtitle": "Kullanıcılarımıza bir taahhüt",
+        "description": "Unutulmaz deneyimler yaratma taahhüdümüz, tesisimizin her yönüne - casino tabanına kadar uzanmaktadır."
+      }
+    },
+    "login": {
+      "title": "Giriş yapmak",
+      "username": "Kullanıcı adı",
+      "emailPlaceholder": "E -posta",
+      "password": "Şifre",
+      "passwordPlaceholder": "Şifre",
+      "loginButton": "Giriş yapmak",
+      "noAccount": "Hesabınız yok mu?",
+      "registerNow": "Şimdi Kaydolun"
+    },
+    "paiza": {
+      "title": "Paiza koleksiyonu",
+      "bannerAlt": "Paiza Koleksiyon Banner",
+      "bannerMobileAlt": "Paiza koleksiyonu mobil afiş",
+      "intro": "En seçici olana ayrılmış olan Paiza Koleksiyonu, her fırsatta eşsiz lüks, düşünceli detay ve sınırsız sanatla nihai evi evden uzaklaştırıyor.",
+      "description1": "Gerici girişlerden cömert ensuite tesislerine kadar, en iyi süit koleksiyonumuzun her yönü gizlilik ve konfor için tasarlanmıştır. ",
+      "description2": "Landmark otelimizin üstünde yer alan özel bir kulüp salonu olan Paiza Sky Residence'a ayrıcalıklı erişimin tadını çıkarın. ",
+      "description3": "Konaklamanız boyunca, 24 saatlik Butler ekibimiz, her şeyi mümkün kılmak için bir kararla her dileğinizi tahmin etmek için hazır.",
+      "description4": "Gerçekten olağanüstü bir konaklama olan Paiza koleksiyonuna hoş geldiniz.",
+      "experienceTitle": "Olağanüstü deneyim",
+      "experienceImageAlt": "Deneyim görüntüsü",
+      "experiences": {
+        "0": {
+          "title": "Paiza VIP varış",
+          "description": "Özel selamlalarımızla sıcak bir karşılama için dokunun. "
+        },
+        "1": {
+          "title": "Özel uşak hizmeti",
+          "description": "Kişiselleştirilmiş 24 saat uşak hizmetini deneyimleyin, her ihtiyacınızın en yüksek dikkat ve özenle karşılanmasını sağlayın."
+        },
+        "2": {
+          "title": "Özel gökyüzü salonu",
+          "description": "Panoramik manzaralar ve premium hizmetler sunan özel Paiza Sky konutuna erişin."
+        },
+        "3": {
+          "title": "Küratörlü deneyimler",
+          "description": "Tercihlerinize göre özel yemekten yat maceralarına kadar ısmarlama deneyimlerin tadını çıkarın."
+        }
+      },
+      "tour": {
+        "title": "Lüks Retreat - Eğlence - Golf Turu",
+        "intro": "Let'swin, premium bir yaşam tarzından hoşlanan müşteriler için tasarlanmış rahatlama, eğlence ve golf birleştiren her şey dahil turlar düzenler.",
+        "scheduleTitle": "Önerilen güzergah (3 gün 2 gece):",
+        "day1": {
+          "title": "1. Gün:",
+          "item1": "Havaalanı / Otelde Pick-up",
+          "item2": "4-5 yıldızlı bir tesiste check-in",
+          "item3": "Yemek - Masaj - Hafif Rahatlama"
+        },
+        "day2": {
+          "title": "2. Gün:",
+          "item1": "Sabah: Lüks bir kurstan golf",
+          "item2": "Öğleden sonra: poker veya boş zaman",
+          "item3": "Akşam: Kişisel ev sahibi ile VIP casino deneyimi"
+        },
+        "day3": {
+          "title": "3. Gün:",
+          "item1": "Kahvaltı - Spa veya Hafif Alışveriş",
+          "item2": "Havaalanına veya otele geri dönün"
+        },
+        "servicesTitle": "Dahil Hizmetler:",
+        "services": {
+          "golf": "Golf Sahası Rezervasyon ve Ekipman Kiralama",
+          "transport": "Özel ulaşım",
+          "guide": "Kişisel Tur Rehberi",
+          "support": "24/7 Müşteri Desteği",
+          "group": "Grup (2-10 kişi) veya bireysel turlar mevcut"
+        },
+        "cta": "Turunuzu şimdi rezerve edin"
+      },
+      "aboveExpectation": {
+        "title": "Her şeyden önce beklenti",
+        "description1": "İkonik binamızın en yüksek katlarına tünemiş olan Paiza koleksiyonu, yüce tavanlar, lüks peluş mobilyalar ve en iyi malzemeler, büyüleyici sanat eserleri ve mükemmel manzaralar içeren nefes kesici büyük ama sakin iç mekanları sergiliyor.",
+        "description2": "Fromental'in çarpıcı el boyalı ipek duvar kaplamaları, Zanetto'nun mücevher benzeri pirinç gemileri ve Legle Asya'nın lotusla süslenmiş porselen yazılımı gibi en iyi uluslararası zanaatkârlarla birlikte yaratılan bir dizi çarpıcı objet, sizi güzellikle çevreleyen her dönüşte göze çarpıyor.",
+        "description3": "Zarif Soire'den derin dinlenmeye kadar, en küçük detaylar bile rahatınız ve zevkiniz için dikkatlice incelenmiştir."
+      },
+      "rooms": {
+        "premierRoom": {
+          "imageAlt": "Vippremier oda resmi hadi",
+          "title": "Hadi vippremier oda",
+          "gardenView": "Bahçeler By The Bay View",
+          "cityView": "Şehir görüşü",
+          "description": "Zarif odanızda gevşeyin ve ısmarlama armoire'deki hazinelerin cömert küratörlüğünün tadını çıkarın. ",
+          "features": {
+            "size": "Ortalama 45 m2",
+            "guests": "En fazla 3 misafir",
+            "beds": "1 kral veya 2 kraliçe yatak"
+          }
+        }
+      },
+      "paizaExperience": {
+        "imageAlt": "Hadi VIP Lifestyle Image",
+        "title": "Paiza deneyimi",
+        "description": "Yeni Paiza koleksiyonunda sofistike yaşamın zirvesinde eğlenin. "
+      }
+    },
+    "packages": {
+      "banner": {
+        "desktopAlt": "Paketler Banner Masaüstü",
+        "mobileAlt": "Paketler Banner Mobile"
+      },
+      "title": "Size uyarlanmış bir cennet",
+      "description": "Aileler, çiftler ve seçici tadı, meraklı zihinleri ve macera iştahına sahip bireyler için küratörlü kalış paketlerini keşfedin",
+      "room": {
+        "title": "Hadi vippremier oda",
+        "view": {
+          "gardens": "Bahçeler By The Bay View",
+          "city": "Şehir görüşü"
+        },
+        "description": "Zarif odanızda gevşeyin ve ısmarlama armoire'deki hazinelerin cömert küratörlüğünün tadını çıkarın. ",
+        "details": {
+          "area": "Ortalama 45 m2",
+          "guests": "En fazla 3 misafir",
+          "beds": "1 kral veya 2 kraliçe yatak"
+        },
+        "viewDetails": "Ayrıntıları Görüntüle"
+      }
+    },
+    "skypark": {
+      "banner_alt": "Skypark Gözlem Güverte Banner",
+      "banner_mobile_alt": "Skypark gözlem güvertesi mobil afiş",
+      "paradise_title": "Size uyarlanmış bir cennet",
+      "discover_text": "17 Ocak'tan itibaren, Skyline Singapur'da Let's Win Club'ın geçmişini, bugününü ve geleceğini keşfedin: Skypark Gözlem Deskinde yeni bir vitrin, yukarıdan hikayeler.",
+      "explore_text": "Şehri, Singapur'un birinci sınıf şehir manzarasının doğal manzarasının benzersiz bir nefes kesici olduğu 56 kat yüksekliğindeki yeni bir bakış noktasından keşfedin. ",
+      "evening_view": "Akşamları, gözlem güvertesi de spektrumların muhteşem bir görünümünü sunar.",
+      "sunset_experience": "Daha samimi bir izleme deneyimi için, özel bir giriş noktası, özel oturma alanları ve premium yemek menüsü üzerinden öncelikli erişim ile tamamlanan özel bir program olan Sky In the Sky'ı tercih edin.",
+      "book_tickets": "Kitap Biletleri",
+      "notice_title": "Fark etme",
+      "notice_text": "SkyPark Gözlem Güverte Sessiz Disko Dolunay Partileri için aşağıdaki tarihlerde saat 21: 00'de kapanacak (Sabah 20: 00'de son giriş)",
+      "details_title": "Detaylar",
+      "location_title": "Konum",
+      "location_text1": "Otel Kulesi 3, Seviye 56",
+      "location_text2": "Skypark gözlem güvertesine giriş, Hotel Tower 3 Driveway aracılığıyla erişilebilir.",
+      "hours_title": "Açılış saatleri",
+      "hours_nonpeak": "Zincirsiz: 10:00-16:30 (son giriş 16: 00'da)",
+      "hours_peak": "Zirve: 17:00 - 22:00 (son giriş 9.30'da)",
+      "prices_title": "Bilet fiyatları",
+      "whats_on": "Neler var",
+      "you_may_like": "Ayrıca seveceğini düşünüyoruz",
+      "faq_title": "Sık sorulan sorular",
+      "faq": {
+        "opening_hours": {
+          "question": "Let's Vipskypark için açılış saatleri nelerdir?",
+          "answer1": "Gözlem güvertesi de dahil olmak üzere VIP Skypark, saat 10'dan akşam 10'a kadar açık. ",
+          "answer2": "Gözlem güvertesi belirli zamanlarda özel etkinlikler veya ticari taahhütler için kapatılabilir. "
+        },
+        "rain": {
+          "question": "Yağmur yağarsa ne olur?",
+          "answer1": "Gözlem güvertesi de dahil olmak üzere VIP Skypark, saat 10'dan akşam 10'a kadar açık. ",
+          "answer2": "Gözlem güvertesi belirli zamanlarda özel etkinlikler veya ticari taahhütler için kapatılabilir. "
+        },
+        "souvenir": {
+          "question": "Hatıra dükkanı var mı?",
+          "answer1": "Gözlem güvertesi de dahil olmak üzere VIP Skypark, saat 10'dan akşam 10'a kadar açık. ",
+          "answer2": "Gözlem güvertesi belirli zamanlarda özel etkinlikler veya ticari taahhütler için kapatılabilir. "
+        },
+        "prohibited": {
+          "question": "Skypark gözlem güvertesinde herhangi bir öğe yasak mı?",
+          "answer1": "Gözlem güvertesi de dahil olmak üzere VIP Skypark, saat 10'dan akşam 10'a kadar açık. ",
+          "answer2": "Gözlem güvertesi belirli zamanlarda özel etkinlikler veya ticari taahhütler için kapatılabilir. "
+        },
+        "other_areas": {
+          "question": "Skypark gözlem güverte biletimle Let's Vipskypark'ın diğer alanlarını ziyaret edebilir miyim?",
+          "answer1": "Gözlem güvertesi de dahil olmak üzere VIP Skypark, saat 10'dan akşam 10'a kadar açık. ",
+          "answer2": "Gözlem güvertesi belirli zamanlarda özel etkinlikler veya ticari taahhütler için kapatılabilir. "
+        },
+        "conditions": {
+          "question": "Skypark gözlem güvertesine başka giriş koşulları var mı?",
+          "answer1": "Gözlem güvertesi de dahil olmak üzere VIP Skypark, saat 10'dan akşam 10'a kadar açık. ",
+          "answer2": "Gözlem güvertesi belirli zamanlarda özel etkinlikler veya ticari taahhütler için kapatılabilir. "
+        }
+      },
+      "slider": {
+        "weekday_escapade": {
+          "image_alt": "Hafta içi tatil resmi",
+          "title": "Hafta içi kaçış",
+          "tag": "Hafta içi | ",
+          "description": "Derin bir ıslatma küveti ve gömme gardırop ile şık bir şekilde donatılmış yeni restore edilmiş Let's Vippremier odasını deneyimleyin. "
+        }
+      }
+    },
+    "infinityPool": {
+      "banner": {
+        "desktopAlt": "Infinity Pool Banner masaüstü",
+        "mobileAlt": "Infinity Pool Banner Mobile"
+      },
+      "title": "Skypark Infinity Havuzu",
+      "renowned": "Bir sebepten dolayı ünlü.",
+      "description": "Dünyanın en büyük çatı sonsuzluk havuzunda yepyeni bir bakış açısı kazanın. ",
+      "details": {
+        "title": "Detaylar",
+        "location": {
+          "title": "Konum",
+          "text1": "Otel Kulesi 3, Seviye 56",
+          "text2": "Skypark gözlem güvertesine giriş, Hotel Tower 3 Driveway aracılığıyla erişilebilir."
+        },
+        "hours": {
+          "title": "Açılış saatleri",
+          "nonPeak": "Zincirsiz: 10:00-16:30 (son giriş 16: 00'da)",
+          "peak": "Zirve: 17:00 - 22:00 (son giriş 9.30'da)"
+        }
+      },
+      "operatingHours": {
+        "title": "Çalışma saatleri",
+        "location": {
+          "title": "Konum",
+          "text1": "Otel Kulesi 3, Seviye 56",
+          "text2": "Skypark gözlem güvertesine giriş, Hotel Tower 3 Driveway aracılığıyla erişilebilir."
+        },
+        "hours": {
+          "title": "Açılış saatleri",
+          "nonPeak": "Zincirsiz: 10:00-16:30 (son giriş 16: 00'da)",
+          "peak": "Zirve: 17:00 - 22:00 (son giriş 9.30'da)"
+        }
+      },
+      "faq": {
+        "title": "Sık sorulan sorular",
+        "openingHours": {
+          "question": "Let's Vipskypark için açılış saatleri nelerdir?",
+          "answer1": "Gözlem güvertesi de dahil olmak üzere VIP Skypark, saat 10'dan akşam 10'a kadar açık. ",
+          "answer2": "Gözlem güvertesi belirli zamanlarda özel etkinlikler veya ticari taahhütler için kapatılabilir. "
+        }
+      },
+      "recommendations": {
+        "title": "Ayrıca seveceğini düşünüyoruz"
+      }
+    },
+    "lifestyle": {
+      "banner": {
+        "desktopAlt": "VIP Koleksiyon Banner",
+        "mobileAlt": "Hadi VIP koleksiyon mobil afiş"
+      },
+      "title": "Hadi VIP yaşam tarzı",
+      "description": "Singapur'un en cömert ödül programı olan ücretsiz Let's VIP Lifestyle üyeliğinizle özel ödüller ve avantajlar dünyasının kilidini açın.",
+      "alreadyMember": "Zaten bir üye mi?",
+      "tourist": "Turist misin? ",
+      "membershipTiers": "Üyelik katmanları",
+      "membership": {
+        "description": "Çeşitli ayrıcalıklar ve ödüller içeren sadık oyuncular için. ",
+        "imageAlt": "Üyelik katman görüntüsü",
+        "lifestyle": {
+          "title": "Yaşam tarzı",
+          "content": [
+            "Kayıt üzerine otomatik olarak verilen, puan gerekmez.",
+            "Bahsetilen 10 $ başına 1 puan kazanın. ",
+            "Restoranlarda ve barlarda% 5 indirim."
+          ]
+        },
+        "prestige": {
+          "title": "Prestij",
+          "content": [
+            "6 ay içinde 5.000 - 19.999 puan veya asgari toplam 50.000 dolarlık bahis gerektirir. ",
+            "7,5 dolarlık bahis başına 1 puan kazanın. ",
+            "Restoranlarda ve barlarda% 10 indirim, kumarhanede öncelik rezervasyonları."
+          ]
+        },
+        "elite": {
+          "title": "Seçkin",
+          "content": [
+            "6 ay içinde 20.000 - 49.999 puan veya toplam 100.000 dolarlık toplam bahis gerektirir. ",
+            "5 $ bahis başına 1 puan kazanın. ",
+            "Restoranlar ve barlarda% 15 indirim, VIP Lounge erişimi, belirlenmiş bir alanda ücretsiz servis hizmeti."
+          ]
+        },
+        "paiza": {
+          "title": "Paiza",
+          "content": [
+            "6 ay içinde 50.000'den fazla puan veya asgari toplam 250.000 dolarlık bahis gerektirir. ",
+            "2.5 $ bahis başına 1 puan kazanın. ",
+            "Restoranlar ve barlarda% 20 indirim, en yüksek katmanlı VIP salonuna erişim, 7/24 kişisel VIP yardımı, ücretsiz lüks ulaşım (üst düzey araçlar veya özel jetler dahil), özel poker turnuvaları ve elit etkinlikler."
+          ]
+        }
+      }
+    }
+  }

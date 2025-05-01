@@ -51,9 +51,9 @@ const About = () => {
 
 
           <div className='py-20'>
-            <div className='pr-4 2xl:pr-[180px]  lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+            <div className='pr-4 2xl:pr-[180px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
               <div className='lg:col-span-5'>
-                <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>LET’SWIN LÀ GÌ?</h2>
+                <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>{t('aboutSection.whatIsLetswin')}</h2>
 
                 <img
                   className='mt-5 lg:mt-0 aspect-[9/6] object-cover'
@@ -62,14 +62,13 @@ const About = () => {
                 />
                 <div className='block lg:hidden pl-4 lg:pl-0'>
                   <div className='text-[15px] mt-4 mb-8 text-[#333333]'>
-                    <p className='mb-4'>Let’swin là nền tảng cung cấp dịch vụ giải trí trọn gói dành cho khách du lịch quốc tế và người chơi cao cấp</p>
-
+                    <p className='mb-4'>{t('aboutSection.letswinIntroMobile')}</p>
                     <ul className='space-y-2'>
-                      <li>• Poker club riêng tư, chuyên nghiệp</li>
-                      <li>• Trải nghiệm Casino VIP với nhiều ưu đãi</li>
-                      <li>• Dịch vụ đưa đón, hỗ trợ chơi, phiên dịch</li>
-                      <li>• Lên lịch trình tour nghỉ dưỡng – giải trí theo yêu cầu</li>
-                      <li>• Hệ thống chăm sóc khách hàng 24/7</li>
+                      <li>{t('aboutSection.letswinServices.pokerClub')}</li>
+                      <li>{t('aboutSection.letswinServices.vipCasino')}</li>
+                      <li>{t('aboutSection.letswinServices.transportSupport')}</li>
+                      <li>{t('aboutSection.letswinServices.customTours')}</li>
+                      <li>{t('aboutSection.letswinServices.support247')}</li>
                     </ul>
                   </div>
                   <a href='tel:+84766798268'>
@@ -78,48 +77,38 @@ const About = () => {
                       <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
                     </button>
                   </a>
-
                 </div>
               </div>
               <div className='lg:col-span-2'>
-                <h2 className='text-[25px] uppercase lg:text-[32px] hidden lg:block'>LET’SWIN LÀ GÌ?</h2>
+                <h2 className='text-[25px] uppercase lg:text-[32px] hidden lg:block'>{t('aboutSection.whatIsLetswin')}</h2>
                 <div className='hidden lg:block'>
                   <div className='text-[15px] mt-4 mb-4 text-[#333333]'>
-                    <p className='mb-4'> Let’swin là nền tảng cung cấp dịch vụ giải trí trọn gói dành cho khách du lịch quốc tế và người chơi cao cấp
-                      khi đến Việt Nam. Chúng tôi chuyên tổ chức và kết nối khách hàng với các hoạt động cao cấp như:</p>
-
+                    <p className='mb-4'>{t('aboutSection.letswinIntroDesktop')}</p>
                     <ul className='space-y-2'>
-                      <li>• Poker club riêng tư, chuyên nghiệp</li>
-                      <li>• Trải nghiệm Casino VIP với nhiều ưu đãi</li>
-                      <li>• Xử lý tình huống ngay cả vào ban đêm</li>
-                      <li>• Lên lịch trình tour nghỉ dưỡng – giải trí theo yêu cầu</li>
-                      <li>• Hệ thống chăm sóc khách hàng 24/7</li>
+                      <li>{t('aboutSection.letswinServices.pokerClub')}</li>
+                      <li>{t('aboutSection.letswinServices.vipCasino')}</li>
+                      <li>{t('aboutSection.letswinServices.nightSupport')}</li>
+                      <li>{t('aboutSection.letswinServices.customTours')}</li>
+                      <li>{t('aboutSection.letswinServices.support247')}</li>
                     </ul>
                   </div>
-
                 </div>
               </div>
             </div>
           </div>
+
           <div className='py-20'>
-            <div className='pl-4 2xl:pl-[180px]  lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+            <div className='pl-4 2xl:pl-[180px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
               <div className='lg:col-span-2'>
-                <h2 className='text-[25px] uppercase lg:text-[32px]'>Let’swin dành cho ai?</h2>
+                <h2 className='text-[25px] uppercase lg:text-[32px]'>{t('aboutSection.whoIsFor')}</h2>
                 <div className='hidden lg:block'>
                   <div className='text-[15px] mt-4 mb-8 text-[#333333]'>
                     <ul className='space-y-2'>
-                      <li>
-                        • Du khách quốc tế muốn trải nghiệm poker, casino và nghỉ dưỡng tại Việt Nam.
-                      </li>
-                      <li>
-                        • Những người chơi có kinh nghiệm đang tìm kiếm dịch vụ chuyên nghiệp – uy tín – bí mật.
-                      </li>
-                      <li>
-                        • Các đối tác muốn hợp tác phát triển nguồn khách chơi lớn: tour, khách sạn, tài xế, cộng tác viên.
-                      </li>
+                      <li>{t('aboutSection.whoIsForList.internationalTourists')}</li>
+                      <li>{t('aboutSection.whoIsForList.experiencedPlayers')}</li>
+                      <li>{t('aboutSection.whoIsForList.partners')}</li>
                     </ul>
                   </div>
-
                 </div>
               </div>
               <div className='lg:col-span-5'>
@@ -130,11 +119,11 @@ const About = () => {
                 />
                 <div className='block lg:hidden'>
                   <div className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>
-                    Ngoài các dịch vụ giảm giá, bạn còn có thể tận hưởng không gian riêng biệt và đẳng cấp với các phòng VIP cao cấp. Được trang bị đầy đủ tiện nghi và dịch vụ chăm sóc đặc biệt, các phòng VIP sẽ là nơi lý tưởng để bạn thư giãn sau những giờ phút tham gia các trò chơi và hoạt động giải trí. Với dịch vụ tận tâm và không gian riêng tư, mỗi khoảnh khắc trong kỳ nghỉ của bạn sẽ trở nên thật sự đáng nhớ.
+                    {t('aboutSection.vipExperience')}
                   </div>
                   <a href='tel:+84766798268'>
                     <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
-                      Liên hệ ngay
+                      {t('aboutSection.contactNow')}
                       <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
                     </button>
                   </a>
@@ -143,16 +132,18 @@ const About = () => {
             </div>
           </div>
 
-          <p className='text-center text-3xl pt-5 mb-10 uppercase'>Sứ mệnh của Let’swin</p>
+          <p className='text-center text-3xl pt-5 mb-10 uppercase'>
+            {t('aboutSection.missionTitle')}
+          </p>
 
           <p className='text-left text-[16px] mb-3 text-center'>
-            Trở thành cánh tay phải cho mọi khách hàng quốc tế khi đến Việt Nam tìm kiếm giải trí cao cấp – an toàn –
-            chuyên nghiệp – đáng tin cậy.
+            {t('aboutSection.missionDescription')}
           </p>
 
           <p className='text-center text-[16px] font-bold mb-3 mt-10'>
-            Let’swin không chỉ tổ chức trải nghiệm – chúng tôi định hình phong cách sống giải trí VIP cho giới tinh hoa.
+            {t('aboutSection.missionStatement')}
           </p>
+
           <div className='pl-4  lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc] py-20'>
 
             <img src={hotrambanner6} alt="hotrambanner6" />

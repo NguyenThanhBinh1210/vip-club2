@@ -1,27 +1,29 @@
-// import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import hotrambanner4 from '~/assets/Web-Gallery-Slide_2000x1250_Inter-resort-Free-Shuttle.webp'
 
 const FreeTransport = () => {
-  // const { t } = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <>
       <section className='mb-8 max-w-[1600px] mx-auto'>
         <div className='flex justify-between gap-x-5 lg:gap-x-10'>
           <div className='text-sm md:text-base'>
-            <h2 className='text-lg md:text-2xl font-semibold'>Đưa đón miễn phí</h2>
+            <h2 className='text-lg md:text-2xl font-semibold'>
+              {t('freeTransport.title')}
+            </h2>
             <p className='text-gray-700 my-2'>
-              Dịch vụ xe riêng đưa đón VIP tận nơi – hoàn toàn miễn phí cho khách của Let'swin.
+              {t('freeTransport.description')}
             </p>
             <ul className='mb-3 md:mb-10'>
-              <li>- Đón tại sân bay, khách sạn, trung tâm thành phố</li>
-              <li>- Tài xế lịch sự, kín đáo</li>
-              <li>- Có thể chọn xe có hoặc không logo Let'swin</li>
-              <li>- Hỗ trợ nhóm khách hoặc cá nhân</li>
+              <li>- {t('freeTransport.items.pickup')}</li>
+              <li>- {t('freeTransport.items.driver')}</li>
+              <li>- {t('freeTransport.items.logo')}</li>
+              <li>- {t('freeTransport.items.group')}</li>
             </ul>
             <a href='tel:+84766798268'>
               <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
-                Liên hệ đặt xe ngay
+                {t('freeTransport.cta')}
                 <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-black group-hover:opacity-60 group-hover:w-[70%] transition-all duration-300'></div>
               </button>
             </a>

@@ -1,0 +1,820 @@
+{
+    "support": {
+      "title": "Suporte 24/7",
+      "description": "Nossa equipe de atendimento ao cliente está disponível o tempo todo - pronta para ajudá -lo a qualquer momento.",
+      "items": {
+        "transport": "Assistência com reservas de carros, reservas de quartos e instruções de jogo",
+        "tours": "Consultas sobre passeios, cassino e poker",
+        "night": "Emitir resolução mesmo durante a noite"
+      }
+    },
+    "service": {
+      "pageTitle": "Serviços",
+      "hero": "Experimente serviços de luxo na Let's Win - o principal clube VIP de Da Nang",
+      "cta": {
+        "book": "Livro VIP Tour",
+        "contact": "Contato para consulta"
+      },
+      "freeTransport": {
+        "title": "Transporte livre",
+        "description": "Serviço de transferência VIP privado - completamente gratuito para os convidados Let'Swin."
+      },
+      "support": {
+        "title": "Suporte 24/7",
+        "description": "Nossa equipe de atendimento ao cliente está disponível 24/7 - pronta para ajudá -lo a qualquer hora"
+      },
+      "tour": {
+        "title": "Tour de luxo",
+        "description": "Um passeio de pacote combinando experiências de relaxamento, entretenimento e cassino VIP.\n"
+      },
+      "commission": {
+        "title": "Comissão Atraente",
+        "description": "Política de comissão transparente e clara - ideal para passeios, motoristas e colaboradores"
+      }
+    },
+    "common": {
+      "menu": "Menu",
+      "close": "Fechar",
+      "back": "Voltar",
+      "backToMenu": "Voltar ao menu",
+      "viewAll": "Ver tudo",
+      "bookNow": "Reserve agora",
+      "reserveNow": "Reserve agora",
+      "viewDetails": "Ver detalhes",
+      "discoverMore": "Descubra mais",
+      "signUp": "Inscrever-se",
+      "signIn": "Entrar",
+      "alreadyMember": "Já é um membro?",
+      "tourist": "Você é um turista? "
+    },
+    "languages": {
+      "english": "Inglês",
+      "vietnamese": "vietnamese",
+      "malay": "Bahasa Melayu",
+      "khmer": "ភាសាខ្មែរ",
+      "indonesian": "indonésio",
+      "japanese": "日本語",
+      "korean": "한국어",
+      "thai": "ภาษาไทย",
+      "chineseSimplified": "简体中文",
+      "chineseTraditional": "繁體中文",
+      "burmese": "မြန်မာ",
+      "bengali": "বাংলা",
+      "spanish": "Español",
+      "portuguese": "Português",
+      "turkish": "Türkçe",
+      "german": "Deutsch",
+      "russian": "Р кйий зызы",
+      "haitianCreole": "Kreyòl Ayisyen",
+      "swahili": "Kiswahili"
+    },
+    "header": {
+      "navigation": {
+        "stay": "Ficar",
+        "rewards": "Recompensas",
+        "aboutUs": "Sobre nós",
+        "about": "Sobre nós",
+        "services": "Serviços",
+        "pokerClub": "Clube de Poker",
+        "casinoVip": "Casino VIP",
+        "offers": "Ofertas",
+        "contact": "Contato"
+      },
+      "stay": {
+        "title": "Quartos e suítes",
+        "letsVipCollection": "Vamos coleção VIP",
+        "paizaCollection": "A coleção Paiza",
+        "onlineExclusive": {
+          "title": "Exclusivo online",
+          "stayPackages": "Pacotes de hotéis"
+        },
+        "experiences": {
+          "title": "Experiências",
+          "skypark": "Deck de observação de Skypark",
+          "infinityPool": "Skypark Infinity Pool",
+          "guestPrivileges": "Privilégios de convidados"
+        }
+      },
+      "rewards": {
+        "sandsLifestyle": "Vamos VIP Lifestyle",
+        "membershipTiers": "Camadas de associação",
+        "memberPerks": "Vantagens de membros",
+        "alliancePrivileges": "Vamos privilégios da VIPALLIANCE",
+        "viewAllOutlets": "Veja todos os vipotlets VIP",
+        "vipMembership": "Ofertas de associação VIP",
+        "premiumPerks": "Vantagens premium",
+        "eventPromotions": "Promoções de eventos e torneios"
+      }
+    },
+    "home": {
+      "hero": {
+        "title": "Experimente uma noite premium no Let's Win - o principal clube VIP em Da Nang"
+      },
+      "casinoVip": {
+        "heading": "Experimente o cassino VIP no Let's Win - VIP Club"
+      },
+      "hoTram": {
+        "title": "Salão VIP no cassino Ho Tram",
+        "description": "Localizado em um dos maiores e mais renomados cassinos do Vietnã, vamos ganhar o VIP Lounge no HO Tram oferece uma experiência exclusiva, reservada apenas para nossos membros distintos.",
+        "features": {
+          "environment": "Ambiente privado e de elite, projetado com interiores luxuosos e comodidades de primeira linha.",
+          "services": "Serviços personalizados, incluindo mordomos dedicados, menus de jantar exclusivos e assistência 24/7.",
+          "privacy": "Ultimate Privacy and Security, garantindo o máximo conforto e paz de espírito para os hóspedes VIP."
+        }
+      },
+      "daNang": {
+        "title": "Poker Club em Da Nang",
+        "description": "Um destino perfeito para os entusiastas do poker, vamos vencer o clube no DA Nang hospeda torneios profissionais de poker em um cenário de prestígio e de alta classe.",
+        "features": {
+          "rooms": {
+            "title": "Salas de poker privadas",
+            "description": ", com jogabilidade de classe mundial com apostas de alto risco."
+          },
+          "services": {
+            "title": "Serviços VIP",
+            "description": " adaptado para convidados estimados, garantindo uma experiência ideal."
+          },
+          "lounge": {
+            "title": "Área de lounge luxuosa",
+            "description": ", servindo coquetéis premium e licor fino, criando um ambiente refinado e relaxante para os jogadores."
+          }
+        }
+      },
+      "hoiana": {
+        "title": "Salão VIP no cassino Hoiana",
+        "description": "Situado em um resort de renome internacional, vamos ganhar o VIP em Hoiana oferece uma atmosfera excepcional, combinando entretenimento luxuoso com sofisticação de classe de elite.",
+        "features": {
+          "rooms": {
+            "title": "Quartos VIP exclusivos",
+            "description": ", projetado com um toque luxuoso e opulento."
+          },
+          "services": {
+            "title": "Serviços VIP premium",
+            "description": ", incluindo transferências de limusine, assistência personalizada e acomodações de cinco estrelas."
+          },
+          "rewards": {
+            "title": "Recompensas exclusivas",
+            "description": " Para os membros Let's Win, com presentes de luxo e um atraente programa de fidelidade."
+          }
+        }
+      },
+      "rewardsClub": {
+        "title": "Benefícios exclusivos com o Let's VIP Rewards Club",
+        "subtitle": "Inscreva -se para ganhar enquanto joga",
+        "description": "Como membro do Let's ViPrewards Club, você ganha o Vippoints e vamos VIPDOLLAS em sua peça de cassino. ",
+        "locations": {
+          "b2m": "B2M",
+          "level1": "Nível 1",
+          "level2Ruby": "Entrada de jogos de mesa de rubi de nível 2",
+          "level2RubySlots": "Entrada de slots de rubi de nível 2",
+          "level2Apex": "Nível 2 APEX Grand Entrance"
+        }
+      },
+      "vipClub": {
+        "title": "Apresentando o Let's Win VIP Club",
+        "description": "Vamos Win VIP Club é um sistema exclusivo de salas VIP, oferecendo uma luxuosa experiência de jogo adaptada para a elite. ",
+        "packageTitle": "Pacote de experiência VIP",
+        "packageDescription": "Desfrute de espaço privado de alta classe com serviço personalizado 24/7.",
+        "golfCasinoPackage": "Pacote de golfe e cassino",
+        "golfCasinoDescription": "Combinando o Golf de elite e o cassino premium para uma experiência VIP excepcional.",
+        "pokerPackage": "Pacote profissional de poker",
+        "pokerDescription": "Pacote de serviço especial para entusiastas do torneio de pôquer - onde as habilidades são importantes.",
+        "spaNightlifePackage": "Resort + spa + pacote de vida noturna",
+        "spaNightlifeDescription": "Combine relaxamento, cuidados com o bem -estar e experiências emocionantes da vida noturna.",
+        "experienceHeader": "Experiência VIP - 'Luxo no seu melhor'",
+        "experienceDescription": "Desfrute de espaços particulares e elegantes com serviço personalizado 24/7. ",
+        "servicesInclude": "Os serviços incluem:",
+        "beverage": "Bebidas no local e bebidas leves",
+        "privateRoom": "Salas de jogos privadas, silenciosas e luxuosas",
+        "personalSupport": "Suporte pessoal 1: 1 (tradução, reserva de serviço, transporte ...)",
+        "vipAccess": "Acesso prioritário a áreas VIP em todo o sistema",
+        "gifts": "Presentes exclusivos e ofertas especiais para membros premium",
+        "suitableFor": "Adequado para:",
+        "highRollers": "Rolos altos, empresários e aqueles que apreciam o serviço de privacidade e premium.",
+        "golfCasinoHeader": "Golf & Casino - 'TwoPassions, OneJourney'",
+        "golfCasinoDescriptionLong": "Combinando a elite de golfe e entretenimento premium de cassino, esta é a escolha perfeita para os hóspedes que querem relaxar com golfe durante o dia e apreciar a vibrante atmosfera de cassino à noite.",
+        "golfCasinoTeeTime": "Tee Times em clubes de golfe premium em Da Nang - Hoi An",
+        "golfCasinoVipTransfer": "Serviço de pick -up e queda VIP",
+        "golfCasinoLuxuryStay": "Acomodações de luxo perto do campo de golfe ou praia",
+        "golfCasinoGuide": "Assistência ao guia dedicado no cassino",
+        "golfCasinoGroupOffer": "Ofertas de combinação especiais para grupos",
+        "golfCasinoSuitableFor": "Adequado para:",
+        "golfCasinoTarget": "Grupos de golfe, convidados de longa duração e empresários divertem os clientes com uma mistura de relaxamento e entretenimento.",
+        "bulletPrivateRoom": "Salas de jogos privadas, silenciosas e luxuosas",
+        "bulletPersonalSupport": "1: 1 Assistência pessoal (interpretação, reserva, transporte ...)",
+        "bulletVipAccess": "Acesso prioritário a áreas VIP em todo o sistema",
+        "bulletGifts": "Presentes e ofertas exclusivos para membros premium",
+        "highRollersVn": "Adequado para: rolos altos, empresários e para quem aprecia o serviço de privacidade e premium.",
+        "mobileExperienceDescription": "Desfrute de um espaço privado e elegante com serviço personalizado 24/7. ",
+        "privateRoomVn": "Salas de jogos privadas, silenciosas e luxuosas",
+        "personalSupportVn": "Suporte pessoal 1: 1 (interpretação, reserva de serviço, transporte ...)",
+        "vipAccessVn": "Acesso prioritário a áreas VIP em todo o sistema",
+        "giftsVn": "Presentes exclusivos e ofertas especiais para membros premium",
+        "suitableForVnTitle": "Adequado para:",
+        "suitableForVnDesc": "Rolos altos, empresários e aqueles que apreciam o serviço de privacidade e premium.",
+        "spaNightlifeTitle": "Spa e vida noturna - “Relaxe e inflamar”",
+        "spaNightlifeDescription2": "Depois de momentos intensos na mesa do jogo, é hora de relaxar seu corpo - e elevar seu espírito com uma vibrante vida noturna de Beach City.",
+        "spaNightlifeServicesInclude": "Os serviços incluem:",
+        "spaLuxuryPackage": "Tratamentos de spa premium (massagem corporal, facial, sauna, vapor de ervas…)",
+        "spaVipClubBooking": "Reservas de mesa VIP nas barras e clubes superiores",
+        "spaNightTransfer": "Transporte noturno privado e seguro",
+        "spaInRoomService": "Serviço de comida e coquetel no quarto",
+        "spaNightlifeSuitableFor": "Adequado para:",
+        "spaNightlifeTarget": "Casais, amigos íntimos e convidados que desfrutam de relaxamento elegante e entretenimento sofisticado.",
+        "pokerPackageTitle": "Pacote de poker - “Onde a habilidade encontra prestígio”",
+        "pokerDescription2": "Um pacote de serviço especial para entusiastas do torneio de poker - onde habilidades, estratégia e espírito esportivo são comemorados.",
+        "pokerServicesInclude": "Os serviços incluem:",
+        "pokerProTournaments": "Participação em torneios profissionais de poker no Let's Win Poker Club",
+        "pokerPrivateEvents": "Torneio privado Hospedagem para grupos ou clientes corporativos",
+        "pokerProfessionalDealer": "Revendedores profissionais e mesas de poker padrão do torneio",
+        "pokerInterpreterSupport": "Apoio e cuidados de intérpretes para convidados internacionais",
+        "pokerCustomAccommodation": "Reserva de hotel/apartamento mediante solicitação",
+        "pokerSuitableFor": "Adequado para:",
+        "pokerTarget": "Jogadores profissionais, comunidades de poker, convidados coreanos/chineses que gostam de esportes mentais."
+      },
+      "buttons": {
+        "contact": "Contate-nos",
+        "book": "Reserve agora",
+        "viewDetails": "Ver detalhes",
+        "bookVipTour": "Livro VIP Tour",
+        "contactConsultant": "Entre em contato com o consultor",
+        "contactNow": "Contate agora"
+      }
+    },
+    "footer": {
+      "getToKnow": {
+        "title": "Conheça -nos",
+        "companyInfo": "Informações da empresa",
+        "careers": "Carreiras",
+        "faq": "Perguntas frequentes",
+        "contactUs": "Contate-nos",
+        "awards": "Prêmios e elogios"
+      },
+      "usefulInfo": {
+        "title": "Informação útil",
+        "travelGuide": "Guia de viagem",
+        "planVisit": "Planeje sua visita",
+        "gettingHere": "Chegando aqui",
+        "services": "Serviços e comodidades",
+        "packages": "Pacotes de hotel e voo"
+      },
+      "downloadApp": {
+        "title": "Baixe nosso aplicativo"
+      },
+      "social": {
+        "title": "Conecte -se conosco"
+      },
+      "getInspired": {
+        "title": "Inspire -se",
+        "subtitle": "Reserva rápida e contato",
+        "bookNow": "Reserve agora"
+      },
+      "copyright": "© 2025 Let's VIP Lifestyle. "
+    },
+    "about": {
+      "title": "Introdução",
+      "subtitle": "Sobre vamos ganhar clube VIP",
+      "introduction": "Bem -vindo ao Let's Win VIP Club - um destino exclusivo para quem procura entretenimento premium e serviços de luxo. ",
+      "experience": {
+        "title": "No Let's Win VIP Club, você vai gostar:",
+        "hoTram": {
+          "title": "• Lounge VIP no HO Tram Casino: ",
+          "description": "Espaço privado com jogos exclusivos para convidados VIP, proporcionando conforto e classe."
+        },
+        "hoiana": {
+          "title": "• Área VIP em Hoiana: ",
+          "description": "Design sofisticado com serviço personalizado, oferecendo experiências únicas e luxuosas."
+        },
+        "danang": {
+          "title": "• Poker Club no Danaciti Hotel: ",
+          "description": "O destino ideal para os entusiastas do poker, com torneios profissionais e mesas premium."
+        }
+      },
+      "service": "Notavelmente, fornecemos atendimento ao cliente 24 horas por dia, 7 dias por semana, via linha direta direta, pronta para apoiar e atender a todas as suas necessidades.",
+      "invitation": "Junte -se à comunidade Elite no Let's Win VIP Club - onde experiências premium e momentos vencedores se reúnem!",
+      "whyChoose": {
+        "title": "Por que escolher vamos ganhar o VIP Club?",
+        "features": {
+          "spaces": "✔ Espaços VIP exclusivos com interiores luxuosos, garantindo conforto absoluto.",
+          "services": "✔ Serviços personalizados, com uma equipe profissional dedicada fornecendo suporte 24/7.",
+          "rewards": "Rewards Rewards e presentes de luxo exclusivos, reservados para os membros do Let's Win VIP.",
+          "privacy": "✔ Privacidade e segurança de primeira linha, garantindo uma experiência de entretenimento segura e luxuosa."
+        }
+      },
+      "join": "Participe do Let's Win VIP Club hoje e entregue uma experiência de luxo incomparável!",
+      "contact": "📞 Linha direta de atendimento ao cliente VIP (24/7): [número de telefone]"
+    },
+    "premiumPerks": {
+      "pageTitle": "Privilégios premium em Hoiana e Ho Tram",
+      "freeHotelTitle": "Quarto de hotel grátis para membros VIP",
+      "freeHotelDesc": "Como membro do VIP, você desfrutará de privilégios exclusivos, incluindo quartos de hotel de cortesia. ",
+      "privateShuttleTitle": "Serviço de transporte privado para VIPs de primeira linha",
+      "privateShuttleDesc": "Como VIP de primeira linha, você receberá um serviço de transporte privado de cortesia, garantindo a viagem mais conveniente e confortável. ",
+      "exclusiveGiftsTitle": "Presentes exclusivos em ocasiões especiais",
+      "exclusiveGiftsDesc": "Além dos benefícios premium, os membros do VIP terão a oportunidade de receber presentes exclusivos durante ocasiões especiais ao longo do ano. ",
+      "contactNow": "Contate agora"
+    },
+    "freeTransport": {
+      "title": "Serviço de transporte grátis",
+      "description": "Serviço de Transporte VIP privado - completamente gratuito para os convidados Let'Swin.",
+      "items": {
+        "pickup": "Retirada do aeroporto, hotel ou centro da cidade",
+        "driver": "Motorista educado e discreto",
+        "logo": "Opção para escolher o veículo com ou sem o logotipo Let'Swin",
+        "group": "Disponível para grupos ou indivíduos"
+      },
+      "cta": "Reserve seu passeio agora"
+    },
+    "eventPromotions": {
+      "pageTitle": "Privilégios de eventos e torneios",
+      "tournamentTitle": "Junte-se aos torneios exclusivos do VIP",
+      "tournamentDesc": "Como membro do VIP, você terá a oportunidade de participar de torneios exclusivos, onde você pode mostrar suas habilidades, estratégia e talento em um ambiente de classe mundial. ",
+      "vipPartiesTitle": "Partes e eventos VIP de cortesia",
+      "vipPartiesDesc": "Como VIP, você será convidado para festas gratuitas regulares e eventos exclusivos realizados em locais de luxo. ",
+      "specialRewardsTitle": "Grandes oportunidades de prêmios de programas especiais",
+      "specialRewardsDesc": "Os programas exclusivos projetados para VIPs oferecem oportunidades incríveis para ganhar grandes. ",
+      "contactNow": "Contate agora"
+    },
+    "aboutSection": {
+      "missionTitle": "Vamos missão de Win",
+      "missionDescription": "Tornar-se o parceiro de direita de confiança de todos os hóspedes internacionais que chegam ao Vietnã em busca de entretenimento premium, seguro, profissional e confiável.",
+      "missionStatement": "Vamos não apenas organizar experiências - moldamos o estilo de vida de entretenimento VIP para a elite.",
+      "whatIsLetswin": "O que é Let'Swin?",
+      "letswinIntroMobile": "Let'Swin é uma plataforma que oferece serviços de entretenimento com tudo incluído para turistas internacionais e rolos altos.",
+      "letswinIntroDesktop": "Let'Swin é uma plataforma que fornece serviços de entretenimento abrangentes para viajantes internacionais e jogadores de alto nível que visitam o Vietnã. ",
+      "letswinServices": {
+        "pokerClub": "• Clube de poker privado e profissional",
+        "vipCasino": "• Experiência de cassino VIP com ofertas exclusivas",
+        "transportSupport": "• Serviços de transporte, assistência ao jogo e tradução",
+        "customTours": "• Cronogramas de turismo personalizados para relaxamento e entretenimento",
+        "support247": "• Sistema de atendimento ao cliente 24/7",
+        "nightSupport": "• Suporte de emergência mesmo durante a noite"
+      },
+      "whoIsFor": "Para quem é o Let'Swin?",
+      "whoIsForList": {
+        "internationalTourists": "• Turistas internacionais que desejam experimentar poker, cassinos e relaxamento de luxo no Vietnã.",
+        "experiencedPlayers": "• Jogadores experientes em busca de serviços profissionais - confiáveis ​​- discretos.",
+        "partners": "• Parceiros que desejam colaborar no desenvolvimento de redes de clientes de alto jogador: operadores turísticos, hotéis, motoristas e colaboradores."
+      },
+      "vipExperience": "Além dos descontos exclusivos, você também pode desfrutar de quartos VIP privados e luxuosos. ",
+      "contactNow": "Contate agora"
+    },
+    "vipMembership": {
+      "title": "Ofertas de associação VIP",
+      "contactNow": "Contate agora",
+      "section1": {
+        "title": "Ganhe pontos e resgatar presentes",
+        "description": "Ganhar pontos e resgatar presentes ao participar de jogos traz experiências emocionantes e recompensas atraentes. "
+      },
+      "section2": {
+        "title": "Descontos em serviços de jantar, hotel e spa",
+        "description": "Desfrute de refeições requintadas em restaurantes premium, relaxe no spa ou entregue a atmosfera de hotel luxuosa - tudo mais acessível com o nosso programa de desconto para pontos de recompensa. "
+      },
+      "section3": {
+        "title": "Salas VIP privadas com serviços premium",
+        "description": "Além dos descontos regulares, você pode se entregar a espaços exclusivos e luxuosos por meio de nossos quartos VIP premium. "
+      }
+    },
+    "pokerClub": {
+      "heading": "Experimente o clube de poker em Da Nang",
+      "contactConsultant": "Entre em contato com o consultor",
+      "privateRoomTitle": "Sala de poker privado",
+      "privateRoomDescription": "Como membro do VIP, você terá acesso a torneios exclusivos de poker, onde pode mostrar suas habilidades, estratégias e talentos em um ambiente de luxo. ",
+      "clubTitle": "Bem -vindo ao Poker Club",
+      "clubDescription": "O poker é mais do que apenas um jogo - é uma experiência de prestígio em que decisões inteligentes e estratégias refinadas levam a recompensas dignas. "
+    },
+    "contact": {
+      "title": "Reserva rápida e contato",
+      "stage1": {
+        "title": "Entre acima além",
+        "description": "Seja o primeiro a descobrir uma curadoria de ofertas exclusivas, próximos eventos e indulgências no seu melhor no Let's Win Club.",
+        "fullName": "Nome completo",
+        "phoneNumber": "Número de telefone",
+        "submit": "Enviar"
+      },
+      "stage2": {
+        "title": "Obrigado por assinar nossa newsletter.",
+        "description": "Aguarde uma curadoria atenciosa de conteúdo que mostre nosso amor por tudo extraordinário.",
+        "backToHome": "Voltar para a página inicial"
+      }
+    },
+    "fineDining": {
+      "title": "Restaurantes requintados",
+      "description": "Descubra as artes da culinária nesses restaurantes de refeições requintadas em Cingapura, Let's Win Club. ",
+      "romanticRestaurants": {
+        "title": "Restaurantes românticos",
+        "description": "Transforme qualquer noite em uma ocasião memorável com o ambiente íntimo nesses restaurantes românticos. "
+      },
+      "specialOccasions": {
+        "title": "Ocasiões especiais",
+        "description": "Comemore os momentos mais preciosos da vida e adicione uma pitada de elegância a qualquer ocasião nesses restaurantes imaculados. "
+      },
+      "shoppes": {
+        "title": "Descubra os compras",
+        "description": "Com uma seleção impressionante de mais de 170 etiquetas de grife e butiques de luxo, sua pesquisa pelas coisas mais delicadas termina aqui. "
+      },
+      "viewRestaurants": "Veja restaurantes",
+      "viewShops": "Veja lojas",
+      "viewDetails": "Ver detalhes"
+    },
+    "signupSuccessful": {
+      "welcome": "Bem -vindo, Asdasd",
+      "digitalAccount": {
+        "title": "Conta digital",
+        "description": "Acesse sua conta Let's VIP Lifestyle com seu nome de usuário e senha recém -criados."
+      },
+      "membershipCard": {
+        "title": "Cartão de associação",
+        "description": "Seu ID e PIN de associação serão necessários para as transações VIPREWARDS no Marina Bay Sands."
+      },
+      "username": "Nome de usuário",
+      "membershipId": "ID da associação",
+      "loginNow": "Faça login agora"
+    },
+    "otpVerification": {
+      "title": "Verificação de OTP",
+      "stage1": {
+        "description": "Selecione um canal para receber a senha única (OTP) como parte do processo de verificação."
+      },
+      "stage2": {
+        "description": "Um e-mail que contém uma senha único (OTP) foi enviado para o seu endereço de e-mail twelge*************@gmail.com."
+      },
+      "emailOtp": "Email OTP",
+      "enterOtp": "Digite otp",
+      "resendOtp": "Reenvie um novo OTP em 01:16",
+      "proceed": "Prosseguir",
+      "verify": "Verificar",
+      "back": "Voltar"
+    },
+    "signup": {
+      "title": "Inscreva -se para a sua associação gratuita de estilo de vida VIP",
+      "banner": "Banner de reserva",
+      "already_have_account": "Já tem uma conta?",
+      "login_here": "Faça login aqui.",
+      "particulars": "Detalhes",
+      "digital_account": "Conta digital",
+      "complete": "Completo",
+      "last_name": "Sobrenome",
+      "first_name": "Primeiro nome",
+      "passport_note": "(Como impresso no seu passaporte)",
+      "date_of_birth": "Data de nascimento",
+      "age_requirement": "(Você precisa ter pelo menos 18 anos para participar.)",
+      "mobile_number": "Número de telemóvel",
+      "mobile_note": "O número deve ser de 8 dígitos",
+      "email": "Endereço de email",
+      "email_note": "Por favor, insira um endereço de e -mail válido",
+      "referral_code": "Código de referência",
+      "optional": "(Opcional)",
+      "next": "PRÓXIMO",
+      "create_pin": "Crie PIN de associação",
+      "create_4digit_pin": "Crie seu pino de cartão de 4 dígitos",
+      "pin_description": "Seu pino de 4 dígitos será usado para as transações VIPREWARDS no Marina Bay Sands.",
+      "create_pin_label": "Crie pino",
+      "confirm_pin": "Confirme o pino",
+      "create_digital_account": "Crie uma conta digital",
+      "digital_accounts": "Conta digital (s)",
+      "digital_account_description": "Esta conta digital (nome de usuário e senha) será usada para fazer login em nossas plataformas digitais. ",
+      "username": "Nome de usuário",
+      "password": "Senha",
+      "confirm_password": "Confirme sua senha",
+      "create": "Criar",
+      "steps": {
+        "particulars": "Detalhes",
+        "digitalAccount": "Conta digital",
+        "complete": "Completo"
+      },
+      "form": {
+        "lastName": "Sobrenome",
+        "firstName": "Primeiro nome",
+        "asPassport": "(Como impresso no seu passaporte)",
+        "dob": "Data de nascimento",
+        "dobNote": "(Você precisa ter pelo menos 18 anos para participar.)",
+        "dd": "Dd",
+        "mmm": "Mmm",
+        "yyyy": "AAA",
+        "months": {
+          "jan": "Jan",
+          "feb": "Fevereiro",
+          "mar": "Mar",
+          "apr": "Apr",
+          "may": "Poderia",
+          "jun": "Jun",
+          "jul": "Jul",
+          "aug": "AUG",
+          "sep": "Set",
+          "oct": "OUT",
+          "nov": "Nov",
+          "dec": "DEC"
+        },
+        "mobileNumber": "Número de telemóvel",
+        "mobileNote": "O número deve ser de 8 dígitos",
+        "email": "Endereço de email",
+        "emailNote": "Por favor, insira um endereço de e -mail válido",
+        "referralCode": "Código de referência",
+        "optional": "(Opcional)"
+      }
+    },
+    "notFound": {
+      "title": "Esta página não existe",
+      "description": "A página que você está procurando não foi encontrada."
+    },
+    "more": {
+      "title": "Mais experiências",
+      "viewDetails": "Ver detalhes",
+      "casinoLevy": {
+        "title": "Taxa de entrada do cassino",
+        "description": "Obtenha informações sobre as regras gerais do cassino e as condições de entrada."
+      },
+      "rewardsClub": {
+        "title": "Benefícios exclusivos com o Let's VIP Rewards Club",
+        "subtitle": "Inscreva -se para ganhar enquanto joga",
+        "description": "Como membro do Let's ViPrewards Club, você ganha o Vippoints e vamos VIPDOLLAS em sua peça de cassino. ",
+        "locations": [
+          "B2M",
+          "Nível 1",
+          "Entrada de jogos de mesa de rubi de nível 2",
+          "Entrada de slots de rubi de nível 2",
+          "Nível 2 APEX Grand Entrance"
+        ]
+      },
+      "responsibleGambling": {
+        "title": "Jogo responsável",
+        "subtitle": "Um compromisso com nossos clientes",
+        "description": "Nosso compromisso de criar experiências inesquecíveis se estende a todas as facetas do nosso resort - até o chão do cassino."
+      }
+    },
+    "login": {
+      "title": "Conecte-se",
+      "username": "Nome de usuário",
+      "emailPlaceholder": "E-mail",
+      "password": "Senha",
+      "passwordPlaceholder": "Senha",
+      "loginButton": "Conecte-se",
+      "noAccount": "Não tem uma conta?",
+      "registerNow": "Registre -se agora"
+    },
+    "paiza": {
+      "title": "A coleção Paiza",
+      "bannerAlt": "Banner de coleção Paiza",
+      "bannerMobileAlt": "Coleção Paiza Banner Mobile",
+      "intro": "Reservado para o mais exigente, a coleção Paiza incorpora o lar final de casa, com luxo incomparável, detalhes atenciosos e arte ilimitada a cada passo.",
+      "description1": "Das entradas discretas a instalações privilegiadas, todos os aspectos da nossa melhor coleção de suítes são projetados para privacidade e conforto. ",
+      "description2": "Desfrute de acesso privilegiado à Paiza Sky Residence, uma lounge de clubes privados aninhada no topo do nosso hotel de referência. ",
+      "description3": "Durante a sua estadia, nossa equipe de Butler de 24 horas está à disposição para antecipar todos os seus desejos, com uma determinação de fazer qualquer coisa possível.",
+      "description4": "Bem -vindo ao lar da coleção Paiza, uma estadia verdadeiramente excepcional.",
+      "experienceTitle": "Experimente o extraordinário",
+      "experienceImageAlt": "Experiência de imagem",
+      "experiences": {
+        "0": {
+          "title": "PAIZA VIP CHEGA",
+          "description": "Toque em uma recepção calorosa com nossos recebedores dedicados. "
+        },
+        "1": {
+          "title": "Serviço de mordomo exclusivo",
+          "description": "Experimente o serviço personalizado de mordomo 24 horas, garantindo que todas as suas necessidades sejam atendidas com a maior atenção e cuidado."
+        },
+        "2": {
+          "title": "Lounge do céu privado",
+          "description": "Acesse a residência exclusiva de Paiza Sky, oferecendo vistas panorâmicas e serviços premium."
+        },
+        "3": {
+          "title": "Experiências com curadoria",
+          "description": "Desfrute de experiências sob medida, desde refeições particulares a aventuras de iate, adaptadas às suas preferências."
+        }
+      },
+      "tour": {
+        "title": "Retiro de luxo - entretenimento - turnê de golfe",
+        "intro": "Let'Swin organiza passeios com tudo incluído que combinam relaxamento, entretenimento e golfe-adaptados para clientes que desfrutam de um estilo de vida premium.",
+        "scheduleTitle": "Itinerário sugerido (3 dias 2 noites):",
+        "day1": {
+          "title": "Dia 1:",
+          "item1": "Retirada no aeroporto / hotel",
+          "item2": "Check-in em um resort de 4 a 5 estrelas",
+          "item3": "Ranta - massagem - relaxamento leve"
+        },
+        "day2": {
+          "title": "Dia 2:",
+          "item1": "Manhã: golfe em um campo de luxo",
+          "item2": "Tarde: poker ou tempo livre",
+          "item3": "Noite: Experiência VIP do Casino com Anfitrião Pessoal"
+        },
+        "day3": {
+          "title": "Dia 3:",
+          "item1": "Café da manhã - spa ou compras leves",
+          "item2": "Transporte de volta ao aeroporto ou hotel"
+        },
+        "servicesTitle": "Serviços incluídos:",
+        "services": {
+          "golf": "Reserva de campo de golfe e aluguel de equipamentos",
+          "transport": "Transporte privado",
+          "guide": "Guia de turismo pessoal",
+          "support": "Suporte ao cliente 24 horas por dia, 7 dias por semana",
+          "group": "Grupo (2 a 10 pessoas) ou passeios individuais disponíveis"
+        },
+        "cta": "Reserve sua turnê agora"
+      },
+      "aboveExpectation": {
+        "title": "Acima de toda a expectativa",
+        "description1": "Empoleirado nos pisos mais altos do nosso edifício icônico, a coleção Paiza mostra interiores de incrivelmente grandes e serenos, com tetos elevados, móveis luxuriosamente de pelúcia e os melhores materiais, obras de arte cativantes e vistas excelentes.",
+        "description2": "Uma variedade de impressionantes Objet co-criou com os principais artesãos internacionais-como as deslumbrantes destaques de seda pintadas à mão da Fromental, os navios de bronze do tipo jóia de Zanetto e a porcelana de porcelana de lótus de Legle Ásia-se beija a todos os seus turnos, cercando você com beleza.",
+        "description3": "De sobes elegantes a descanso profundo, até os menores detalhes foram cuidadosamente finessos para o seu conforto e prazer."
+      },
+      "rooms": {
+        "premierRoom": {
+          "imageAlt": "Vamos VIPPREMIER SALA REMA",
+          "title": "Vamos Vippremier Room",
+          "gardenView": "Jardins by the Bay View",
+          "cityView": "Vista da cidade",
+          "description": "Revira -se em sua sala elegante e saboreie a generosa curadoria de tesouros no armário sob medida. ",
+          "features": {
+            "size": "45 m² em média",
+            "guests": "Até 3 convidados",
+            "beds": "1 rei ou 2 camas queen -size"
+          }
+        }
+      },
+      "paizaExperience": {
+        "imageAlt": "Vamos a imagem VIP de estilo de vida",
+        "title": "A experiência de Paiza",
+        "description": "Revelar o auge da vida sofisticada na nova coleção de Paiza. "
+      }
+    },
+    "packages": {
+      "banner": {
+        "desktopAlt": "Pacotes Banner Desktop",
+        "mobileAlt": "Pacotes Banner Mobile"
+      },
+      "title": "Um paraíso que é adaptado a você",
+      "description": "Explore os pacotes de permanência com curadoria de famílias, casais e indivíduos com sabor discernante, mentes curiosas e um apetite por aventura",
+      "room": {
+        "title": "Vamos Vippremier Room",
+        "view": {
+          "gardens": "Jardins by the Bay View",
+          "city": "Vista da cidade"
+        },
+        "description": "Revira -se em sua sala elegante e saboreie a generosa curadoria de tesouros no armário sob medida. ",
+        "details": {
+          "area": "45 m² em média",
+          "guests": "Até 3 convidados",
+          "beds": "1 rei ou 2 camas queen -size"
+        },
+        "viewDetails": "Ver detalhes"
+      }
+    },
+    "skypark": {
+      "banner_alt": "Skypark Observation Deck Banner",
+      "banner_mobile_alt": "Skypark Observation Deck Mobile Banner",
+      "paradise_title": "Um paraíso que é adaptado a você",
+      "discover_text": "A partir de 17 de janeiro, descubra o passado, presente e o futuro do Let's Win Club no Skyline Singapore: Histórias de cima, uma nova vitrine no Skypark Observation Deck.",
+      "explore_text": "Explore a cidade de um novo ponto de vista com 56 andares de altura, onde a vista cênica da paisagem urbana de classe mundial de Cingapura é de tirar o fôlego. ",
+      "evening_view": "À noite, o deck de observação também oferece uma vista espetacular dos espectros.",
+      "sunset_experience": "Para uma experiência de visualização mais íntima, opte pelo pôr do sol no céu, um programa exclusivo completo com acesso prioritário por meio de um ponto de entrada particular, áreas de assentos dedicadas e menu de jantar premium.",
+      "book_tickets": "Tickets de livro",
+      "notice_title": "Perceber",
+      "notice_text": "O deck de observação do Skypark fechará nas datas a seguir às 21h para festas de lua cheia de discoteca silenciosa (última entrada às 20h)",
+      "details_title": "Detalhes",
+      "location_title": "Localização",
+      "location_text1": "Torre do Hotel 3, Nível 56",
+      "location_text2": "A entrada para o deck de observação do Skypark é acessível pela Torre do Hotel Torre 3.",
+      "hours_title": "Horário de funcionamento",
+      "hours_nonpeak": "Não pico: 10h às 16h30 (última entrada às 16h)",
+      "hours_peak": "Pico: 17:00 às 22:00 (última entrada às 21h30)",
+      "prices_title": "Preços dos ingressos",
+      "whats_on": "O que está acontecendo",
+      "you_may_like": "Achamos que você também gostaria",
+      "faq_title": "Perguntas frequentes",
+      "faq": {
+        "opening_hours": {
+          "question": "Quais são o horário de funcionamento do Let's Vipskypark?",
+          "answer1": "Vamos VIP Skypark - incluindo o deck de observação - está aberto das 10h às 22h. ",
+          "answer2": "O deck de observação pode ser fechado para eventos privados ou compromissos comerciais em determinados momentos. "
+        },
+        "rain": {
+          "question": "O que acontece se chover?",
+          "answer1": "Vamos VIP Skypark - incluindo o deck de observação - está aberto das 10h às 22h. ",
+          "answer2": "O deck de observação pode ser fechado para eventos privados ou compromissos comerciais em determinados momentos. "
+        },
+        "souvenir": {
+          "question": "Existe uma loja de lembranças?",
+          "answer1": "Vamos VIP Skypark - incluindo o deck de observação - está aberto das 10h às 22h. ",
+          "answer2": "O deck de observação pode ser fechado para eventos privados ou compromissos comerciais em determinados momentos. "
+        },
+        "prohibited": {
+          "question": "Algum itens é proibido no deck de observação do Skypark?",
+          "answer1": "Vamos VIP Skypark - incluindo o deck de observação - está aberto das 10h às 22h. ",
+          "answer2": "O deck de observação pode ser fechado para eventos privados ou compromissos comerciais em determinados momentos. "
+        },
+        "other_areas": {
+          "question": "Posso visitar outras áreas do Let's Vipskypark com o meu bilhete de convés de observação do Skypark?",
+          "answer1": "Vamos VIP Skypark - incluindo o deck de observação - está aberto das 10h às 22h. ",
+          "answer2": "O deck de observação pode ser fechado para eventos privados ou compromissos comerciais em determinados momentos. "
+        },
+        "conditions": {
+          "question": "Existem outras condições de entrada no deck de observação do Skypark?",
+          "answer1": "Vamos VIP Skypark - incluindo o deck de observação - está aberto das 10h às 22h. ",
+          "answer2": "O deck de observação pode ser fechado para eventos privados ou compromissos comerciais em determinados momentos. "
+        }
+      },
+      "slider": {
+        "weekday_escapade": {
+          "image_alt": "Imagem de férias durante a semana",
+          "title": "Escapade da semana",
+          "tag": "Dia da semana | ",
+          "description": "Experimente a sala recém-restaurada Let's Vippremier, elegantemente equipada com uma banheira de imersão profunda e guarda-roupa. "
+        }
+      }
+    },
+    "infinityPool": {
+      "banner": {
+        "desktopAlt": "Desktop de banner de piscina infinita",
+        "mobileAlt": "Infinity Pool Banner Mobile"
+      },
+      "title": "Skypark Infinity Pool",
+      "renowned": "Conhecido por um motivo.",
+      "description": "Obtenha uma nova perspectiva no maior pool infinito na cobertura do mundo. ",
+      "details": {
+        "title": "Detalhes",
+        "location": {
+          "title": "Localização",
+          "text1": "Torre do Hotel 3, Nível 56",
+          "text2": "A entrada para o deck de observação do Skypark é acessível pela Torre do Hotel Torre 3."
+        },
+        "hours": {
+          "title": "Horário de funcionamento",
+          "nonPeak": "Não pico: 10h às 16h30 (última entrada às 16h)",
+          "peak": "Pico: 17:00 às 22:00 (última entrada às 21h30)"
+        }
+      },
+      "operatingHours": {
+        "title": "Horário de funcionamento",
+        "location": {
+          "title": "Localização",
+          "text1": "Torre do Hotel 3, Nível 56",
+          "text2": "A entrada para o deck de observação do Skypark é acessível pela Torre do Hotel Torre 3."
+        },
+        "hours": {
+          "title": "Horário de funcionamento",
+          "nonPeak": "Não pico: 10h às 16h30 (última entrada às 16h)",
+          "peak": "Pico: 17:00 às 22:00 (última entrada às 21h30)"
+        }
+      },
+      "faq": {
+        "title": "Perguntas frequentes",
+        "openingHours": {
+          "question": "Quais são o horário de funcionamento do Let's Vipskypark?",
+          "answer1": "Vamos VIP Skypark - incluindo o deck de observação - está aberto das 10h às 22h. ",
+          "answer2": "O deck de observação pode ser fechado para eventos privados ou compromissos comerciais em determinados momentos. "
+        }
+      },
+      "recommendations": {
+        "title": "Achamos que você também gostaria"
+      }
+    },
+    "lifestyle": {
+      "banner": {
+        "desktopAlt": "Vamos banner de coleção VIP",
+        "mobileAlt": "Vamos VIP Coleção Mobile Banner"
+      },
+      "title": "Vamos VIP Lifestyle",
+      "description": "Desbloqueie um mundo de recompensas e vantagens exclusivas com sua associação de estilo de vida VIP de cortesia, o programa de recompensas mais generoso de Cingapura.",
+      "alreadyMember": "Já é um membro?",
+      "tourist": "Você é um turista? ",
+      "membershipTiers": "Camadas de associação",
+      "membership": {
+        "description": "Para jogadores leais, apresentando vários privilégios e recompensas. ",
+        "imageAlt": "Imagem de nível de associação",
+        "lifestyle": {
+          "title": "Estilo de vida",
+          "content": [
+            "Concedido automaticamente após o registro, nenhum ponto é necessário.",
+            "Ganhe 1 ponto por US $ 10 apostado. ",
+            "5% de desconto em restaurantes e bares."
+          ]
+        },
+        "prestige": {
+          "title": "Prestígio",
+          "content": [
+            "Requer 5.000 a 19.999 pontos ou uma aposta total mínima de US $ 50.000 em 6 meses. ",
+            "Ganhe 1 ponto por US $ 7,5 apostada. ",
+            "10% de desconto em restaurantes e bares, reservas prioritárias no cassino."
+          ]
+        },
+        "elite": {
+          "title": "Elite",
+          "content": [
+            "Requer 20.000 - 49.999 pontos ou uma aposta total mínima de US $ 100.000 em 6 meses. ",
+            "Ganhe 1 ponto por US $ 5 apostado. ",
+            "Desconto de 15% em restaurantes e bares, acesso ao lounge VIP, serviço de ônibus de cortesia dentro de uma área designada."
+          ]
+        },
+        "paiza": {
+          "title": "PAIZA",
+          "content": [
+            "Requer mais de 50.000 pontos ou uma aposta total mínima de US $ 250.000 em 6 meses. ",
+            "Ganhe 1 ponto por US $ 2,5 apostada. ",
+            "20% de desconto em restaurantes e bares, acesso ao lounge VIP de mais alto nível, assistência VIP pessoal 24 horas por dia, 7 dias por semana, transporte de luxo gratuito (incluindo veículos sofisticados ou jatos particulares), torneios exclusivos de poker e eventos de elite."
+          ]
+        }
+      }
+    }
+  }

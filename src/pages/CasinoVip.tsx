@@ -48,13 +48,14 @@ const CasinoVip = () => {
         <div className='absolute top-0 left-0 w-full h-full bg-[#935e1848] pl-10 flex flex-col justify-center'>
           <div className=''>
             <h1 className='text-4xl leading-snug font-semibold mb-4 text-white pr-20 max-w-[1000px]'>
-              Trải nghiệm Casino VIP tại Let's Win - VIP Club
+            {t('home.casinoVip.heading')}
             </h1>
           </div>
           <div className='flex space-x-4 mb-6'>
             <a href='tel:+84766798268'>
 
-              <button className='bg-[#cfaa26] text-white py-2 px-4 rounded shadow shadow-black/50 hover:shadow-none transition-all hover:translate-y-0.5'>Liên hệ ngay</button>
+              <button className='bg-[#cfaa26] text-white py-2 px-4 rounded shadow shadow-black/50 hover:shadow-none transition-all hover:translate-y-0.5'>      {t('home.buttons.contactNow')}
+              </button>
             </a>
 
           </div>

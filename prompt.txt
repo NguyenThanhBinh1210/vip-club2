@@ -1,7 +1,7 @@
-# Yêu cầu Dự án: Admin Dashboard cho Website Tour Du lịch
 
 ## Thư viện & Framework được sử dụng:
 dùng yarn add để cài đặt thư viện mới 
+ngôn ngữ được chứa trong folder locales ưu tiên làm src/locales/en/translation.json 
 1. UI Components:
 - NextUI (@nextui-org/react): Sử dụng cho các components chính
 - PrimeReact: Sử dụng cho các components phức tạp (Data Table, Calendar)

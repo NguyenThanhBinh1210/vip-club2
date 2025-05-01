@@ -6,7 +6,6 @@ import { Select } from '../Select'
 import { useTranslation } from 'react-i18next'
 import { useQuery } from 'react-query'
 import { imageApi } from '~/apis/image.api'
-
 const Header = () => {
 
 
@@ -38,27 +37,30 @@ const Header = () => {
     setSelectedLanguage(language)
   }
   const initialData = [
-    {
-      name: t('languages.english'),
-      value: 'en'
-    },
-    {
-      name: t('languages.vietnamese'),
-      value: 'vn'
-    },
-    {
-      name: t('languages.korean'),
-      value: 'ko'
-    },
-    {
-      name: t('languages.chinese'),
-      value: 'zh'
-    },
-    {
-      name: t('languages.japanese'),
-      value: 'ja'
-    }
-  ]
+    { name: t('languages.english'), value: 'en', countryCode: 'GB' },
+    { name: t('languages.vietnamese'), value: 'vi', countryCode: 'VN' },
+
+    { name: t('languages.malay'), value: 'ms', countryCode: 'MY' },
+    { name: t('languages.khmer'), value: 'km', countryCode: 'KH' },
+    { name: t('languages.indonesian'), value: 'id', countryCode: 'ID' },
+    { name: t('languages.japanese'), value: 'ja', countryCode: 'JP' },
+    { name: t('languages.korean'), value: 'ko', countryCode: 'KR' },
+    { name: t('languages.thai'), value: 'th', countryCode: 'TH' },
+    { name: t('languages.chineseSimplified'), value: 'zh-Hans', countryCode: 'CN' },
+    { name: t('languages.chineseTraditional'), value: 'zh-Hant', countryCode: 'HK' },
+    { name: t('languages.burmese'), value: 'my', countryCode: 'MM' },
+    { name: t('languages.bengali'), value: 'bn', countryCode: 'BD' },
+    { name: t('languages.spanish'), value: 'es', countryCode: 'ES' },
+    { name: t('languages.portuguese'), value: 'pt', countryCode: 'BR' },
+    { name: t('languages.turkish'), value: 'tr', countryCode: 'TR' },
+    { name: t('languages.german'), value: 'de', countryCode: 'DE' },
+    { name: t('languages.russian'), value: 'ru', countryCode: 'RU' },
+    { name: t('languages.haitianCreole'), value: 'ht', countryCode: 'HT' },
+    { name: t('languages.swahili'), value: 'sw', countryCode: 'TZ' },
+  ];
+  
+  
+
   return (
     <>
       <header
@@ -74,32 +76,32 @@ const Header = () => {
         </div>
         <div className='flex items-center gap-3 md:gap-5 maw-w-[calc(100vw-0px)] md:max-w-max overflow-x-auto md:overflow-visible'>
           <Link
-            to={'/about-us'}
-            className={`  gap-4 font-medium group hover:font-bold tranition-all duration-300 flex-shrink-0  `}
+            to='/about-us'
+            className='gap-4 font-medium group hover:font-bold tranition-all duration-300 flex-shrink-0'
           >
-            Giới thiệu
+            {t('header.navigation.about')}
           </Link>
           <Link
-            to={'/service/support'}
-            className={`  gap-4 font-medium group hover:font-bold transition-all duration-300 flex-shrink-0 `}
+            to='/service/support'
+            className='gap-4 font-medium group hover:font-bold transition-all duration-300 flex-shrink-0'
           >
-            Dịch vụ
+            {t('header.navigation.services')}
           </Link>
           <Link
-            to={'/poker-club'}
-            className={`  gap-4 font-medium group hover:font-bold tranition-all duration-300 flex-shrink-0  `}
+            to='/poker-club'
+            className='gap-4 font-medium group hover:font-bold tranition-all duration-300 flex-shrink-0'
           >
-            Poker Club
+            {t('header.navigation.pokerClub')}
           </Link>
           <Link
-            to={'/casino-vip'}
-            className={`  gap-4 font-medium group hover:font-bold transition-all duration-300 flex-shrink-0 `}
+            to='/casino-vip'
+            className='gap-4 font-medium group hover:font-bold transition-all duration-300 flex-shrink-0'
           >
-            Casino VIP
+            {t('header.navigation.casinoVip')}
           </Link>
 
-          <button className={` flex items-center flex-shrink-0  gap-2 font-medium group hover:font-bold transition-all relative`}>
-            Ưu đãi
+          <button className='flex items-center flex-shrink-0 gap-2 font-medium group hover:font-bold transition-all relative'>
+            {t('header.navigation.offers')}
             <svg
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
@@ -110,63 +112,35 @@ const Header = () => {
             >
               <path strokeLinecap='round' strokeLinejoin='round' d='m19.5 8.25-7.5 7.5-7.5-7.5' />
             </svg>
-            <div className='fixed md:absolute  bg-white w-full lg:w-[280px] top-[50px] lg:top-6 left-1/2 -translate-x-1/2 rounded-lg shadow-md overflow-hidden duration-500 group-hover:max-h-[1000px] max-h-0 transition-all text-left'>
+            <div className='fixed md:absolute bg-white w-full lg:w-[280px] top-[50px] lg:top-6 left-1/2 -translate-x-1/2 rounded-lg shadow-md overflow-hidden duration-500 group-hover:max-h-[1000px] max-h-0 transition-all text-left'>
               <div className='flex flex-col gap-2 p-4'>
-                <Link to={'/lifestyle'} className={` flex items-center gap-4 font-medium group hover:font-bold `}>
+                <Link to='/lifestyle' className='flex items-center gap-4 font-medium group hover:font-bold'>
                   {t('header.rewards.sandsLifestyle')}
                 </Link>
-                <Link
-                  to={'/vip-membership-offers'}
-                  className={` flex items-center gap-4 font-medium group transition-all hover:font-bold `}
-                >
+                <Link to='/vip-membership-offers' className='flex items-center gap-4 font-medium group transition-all hover:font-bold'>
                   {t('header.rewards.vipMembership')}
                 </Link>
-                <Link
-                  to={'/premium-perks'}
-                  className={` flex items-center gap-4 font-medium group transition-all hover:font-bold `}
-                >
+                <Link to='/premium-perks' className='flex items-center gap-4 font-medium group transition-all hover:font-bold'>
                   {t('header.rewards.premiumPerks')}
                 </Link>
-                <Link
-                  to={'/event-tournament-promotions'}
-                  className={` flex items-center gap-4 font-medium group transition-all hover:font-bold `}
-                >
+                <Link to='/event-tournament-promotions' className='flex items-center gap-4 font-medium group transition-all hover:font-bold'>
                   {t('header.rewards.eventPromotions')}
                 </Link>
-                <Link
-                  to={'/hotel/packages'}
-                  className={` flex items-center gap-4 font-medium group transition-all hover:font-bold `}
-                >
+                <Link to='/hotel/packages' className='flex items-center gap-4 font-medium group transition-all hover:font-bold'>
                   {t('header.stay.onlineExclusive.stayPackages')}
                 </Link>
               </div>
             </div>
           </button>
+
           <Link
-            to={'/contact-now'}
-            className={` flex items-center gap-4 font-medium group hover:font-bold transition-all duration-300 flex-shrink-0 `}
+            to='/contact-now'
+            className='flex items-center gap-4 font-medium group hover:font-bold transition-all duration-300 flex-shrink-0'
           >
-            Liên hệ
+            {t('header.navigation.contact')}
           </Link>
-          {/* <button onClick={() => setIsNavOpen('Rewards')} className={` flex items-center gap-4 uppercase group `}>
-            {t('header.navigation.rewards')}
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
-              fill='none'
-              stroke='currentColor'
-              stroke-width='2'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-              className='lucide lucide-move-right transition-all duration-300 group-hover:translate-x-2'
-            >
-              <path d='M18 8L22 12L18 16' />
-              <path d='M2 12H22' />
-            </svg>
-          </button> */}
         </div>
+
         <Select initialView={initialData} selected={selectedLanguage} setSelected={handleLanguageChange} />
       </header>
 

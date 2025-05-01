@@ -1,596 +1,821 @@
 {
-    "common": {
-      "menu": "菜单",
-      "close": "关闭",
-      "back": "后退",
-      "backToMenu": "返回菜单",
-      "viewAll": "查看全部",
-      "bookNow": "立即预订",
-      "reserveNow": "立即预订",
-      "viewDetails": "查看详细信息",
-      "discoverMore": "发现更多",
-      "signUp": "报名",
-      "signIn": "登入",
-      "alreadyMember": "已经是会员了吗？",
-      "tourist": "你是游客吗？"
+  "support": {
+    "title": "24/7支持",
+    "description": "我们的客户服务团队可以全天候提供 - 随时准备为您提供帮助。",
+    "items": {
+      "transport": "协助汽车预订，房间预订和游戏说明",
+      "tours": "查询旅行，赌场和扑克",
+      "night": "即使在夜间发出解决"
+    }
+  },
+  "service": {
+    "pageTitle": "服务",
+    "hero": "在Let's Win -da Nang的总理VIP Club上体验奢侈品服务",
+    "cta": {
+      "book": "贵宾之旅",
+      "contact": "联系以进行咨询"
     },
-    
-        "languages": {
-          "english": "英语",
-          "vietnamese": "越南语",
-          "korean": "韩语",
-          "chinese": "中文",
-          "japanese": "日语"
-        }
-      ,
-    "header": {
-      "navigation": {
-        "stay": "停留",
-        "rewards": "奖励",
-        "aboutUs": "关于我们"
+    "freeTransport": {
+      "title": "免费运输",
+      "description": "私人VIP转移服务 - 完全免费为Let'swin客人免费。"
+    },
+    "support": {
+      "title": "24/7支持",
+      "description": "我们的客户服务团队24/7可以使用 - 随时准备为您提供帮助"
+    },
+    "tour": {
+      "title": "豪华之旅",
+      "description": "一揽子游览，结合了放松，娱乐和VIP赌场体验。\n"
+    },
+    "commission": {
+      "title": "有吸引力的委员会",
+      "description": "透明和清晰的委员会政策 - 非常适合旅行，驾驶员和合作者"
+    }
+  },
+  "common": {
+    "menu": "菜单",
+    "close": "关闭",
+    "back": "后退",
+    "backToMenu": "返回菜单",
+    "viewAll": "查看全部",
+    "bookNow": "立即预订",
+    "reserveNow": "立即预订",
+    "viewDetails": "查看详细信息",
+    "discoverMore": "发现更多",
+    "signUp": "报名",
+    "signIn": "登入",
+    "alreadyMember": "已经是会员了吗？",
+    "tourist": "你是游客吗？"
+  },
+  "languages": {
+    "english": "英语",
+    "vietnamese": "vietnamese",
+
+    "malay": "Bahasa Melayu",
+    "khmer": "ភាសាខ្មែរ",
+    "indonesian": "印度尼西亚",
+    "japanese": "日本语",
+    "korean": "한국어",
+    "thai": "ภาษาไทย",
+    "chineseSimplified": "简体中文",
+    "chineseTraditional": "繁体中文",
+    "burmese": "မြန်မာ",
+    "bengali": "বাংলা",
+    "spanish": "Español",
+    "portuguese": "葡萄牙",
+    "turkish": "Türkçe",
+    "german": "德意志",
+    "russian": "n",
+    "haitianCreole": "KreyòlAyisyen",
+    "swahili": "基斯瓦希里"
+  },
+  "header": {
+    "navigation": {
+      "stay": "停留",
+      "rewards": "奖励",
+      "aboutUs": "关于我们",
+      "about": "关于我们",
+      "services": "服务",
+      "pokerClub": "扑克俱乐部",
+      "casinoVip": "赌场VIP",
+      "offers": "优惠",
+      "contact": "接触"
+    },
+    "stay": {
+      "title": "房间和套房",
+      "letsVipCollection": "让我们的VIP收藏",
+      "paizaCollection": "Paiza系列",
+      "onlineExclusive": {
+        "title": "在线独家",
+        "stayPackages": "酒店套餐"
       },
-      "stay": {
-        "title": "房间和套房",
-        "letsVipCollection": "让我们的VIP收藏",
-        "paizaCollection": "Paiza系列",
-        "onlineExclusive": {
-          "title": "在线独家",
-          "stayPackages": "留套餐"
-        },
-        "experiences": {
-          "title": "经验",
-          "skypark": "Skypark观察甲板",
-          "infinityPool": "Skypark Infinity Pool",
-          "guestPrivileges": "来宾特权"
-        }
-      },
-      "rewards": {
-        "sandsLifestyle": "让我们来vip的生活方式",
-        "membershipTiers": "会员层",
-        "memberPerks": "会员津贴",
-        "alliancePrivileges": "让我们vipalliance特权",
-        "viewAllOutlets": "查看所有让我们的vipoutlets",
-        "vipMembership": "VIP会员优惠",
-      "premiumPerks": "尊享特权",
-      "eventPromotions": "活动与赛事优惠"
+      "experiences": {
+        "title": "经验",
+        "skypark": "Skypark观察甲板",
+        "infinityPool": "Skypark Infinity Pool",
+        "guestPrivileges": "来宾特权"
       }
     },
-    "home": {
-      "hero": {
-        "title": "体验让我们赢得俱乐部赌场"
-      },
+    "rewards": {
+      "sandsLifestyle": "让我们来vip的生活方式",
+      "membershipTiers": "会员层",
+      "memberPerks": "会员津贴",
+      "alliancePrivileges": "让我们vipalliance特权",
+      "viewAllOutlets": "查看所有让我们的vipoutlets",
+      "vipMembership": "VIP会员优惠",
+      "premiumPerks": "高级津贴",
+      "eventPromotions": "活动与锦标赛促销"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "在Let's Win- Da Nang的领先VIP俱乐部度过高级夜晚"
+    },
+    "casinoVip": {
+      "heading": "在Let's Win -VIP Club上体验赌场VIP"
+    },
+    "hoTram": {
+      "title": "Ho Tram赌场的VIP休息室",
+      "description": "Let's Win在Ho Tram上赢得VIP Lounge，位于越南最大，最著名的赌场之一，提供独家体验，仅保留给我们的杰出成员。",
+      "features": {
+        "environment": "私人和精英环境，设计具有豪华的内饰和顶级设施。",
+        "services": "个性化服务，包括专门的管家，独家用餐菜单和24/7帮助。",
+        "privacy": "最终的隐私和安全性，确保VIP客人的最大舒适度和安心。"
+      }
+    },
+    "daNang": {
+      "title": "北南的扑克俱乐部",
+      "description": "让我们在Da Nang赢得扑克爱好者的理想目的地，在享有声望和高级的环境中举办专业扑克锦标赛。",
+      "features": {
+        "rooms": {
+          "title": "私人扑克室",
+          "description": "，由世界一流的游戏玩法和高风险投注。"
+        },
+        "services": {
+          "title": "VIP服务",
+          "description": " 为受人尊敬的客人量身定制，确保获得最佳体验。"
+        },
+        "lounge": {
+          "title": "豪华休息区",
+          "description": "，提供优质的鸡尾酒和优质酒，为玩家创造精致而轻松的环境。"
+        }
+      }
+    },
+    "hoiana": {
+      "title": "Hoiana赌场的VIP休息室",
+      "description": "Let's ton Hoiana赢得了国际知名的度假胜地，在Hoiana赢得了非凡的氛围，将豪华的娱乐与精英级别的精致相结合。",
+      "features": {
+        "rooms": {
+          "title": "独家贵宾",
+          "description": "，设计具有奢华而豪华的触感。"
+        },
+        "services": {
+          "title": "高级VIP服务",
+          "description": "，包括豪华轿车转移，个性化援助和五星级住宿。"
+        },
+        "rewards": {
+          "title": "独家奖励",
+          "description": " 对于让我们赢得奢侈品礼物和有吸引力的忠诚度计划的成员。"
+        }
+      }
+    },
+    "rewardsClub": {
+      "title": "让我们的VIP奖励俱乐部独家福利",
+      "subtitle": "注册以赚钱",
+      "description": "作为让我们的Viprewards俱乐部会员，您可以赚取Let's Vippoints，让我们在您的赌场游戏中vipdollars。",
+      "locations": {
+        "b2m": "B2m",
+        "level1": "1级",
+        "level2Ruby": "2级红宝石桌游戏入口",
+        "level2RubySlots": "2级红宝石插槽入口",
+        "level2Apex": "2级Apex Grand入口"
+      }
+    },
+    "vipClub": {
+      "title": "介绍让我们赢得VIP俱乐部",
+      "description": "让我们赢得VIP俱乐部是一个独家的VIP室系统，提供了为精英量身定制的豪华游戏体验。",
+      "packageTitle": "VIP体验包",
+      "packageDescription": "享受具有个性化24/7服务的私人高级空间。",
+      "golfCasinoPackage": "高尔夫和赌场套餐",
+      "golfCasinoDescription": "将精英高尔夫和高级赌场结合起来，以获得出色的VIP体验。",
+      "pokerPackage": "专业的扑克包",
+      "pokerDescription": "扑克锦标赛爱好者的特殊服务包 - 技能重要的地方。",
+      "spaNightlifePackage": "度假村 +水疗中心 +夜生活包",
+      "spaNightlifeDescription": "结合放松，健康护理和激动人心的夜生活体验。",
+      "experienceHeader": "VIP体验 - “最好的奢侈品”",
+      "experienceDescription": "享受具有个性化24/7服务的私人优雅空间。",
+      "servicesInclude": "服务包括：",
+      "beverage": "现场饮料和茶点",
+      "privateRoom": "私人，安静和豪华的游戏室",
+      "personalSupport": "个人1：1支持（翻译，服务预订，运输...）",
+      "vipAccess": "优先访问整个系统中的VIP区域",
+      "gifts": "高级会员的独家礼物和特别优惠",
+      "suitableFor": "适合：",
+      "highRollers": "高级滚筒，商人以及欣赏隐私和高级服务的人。",
+      "golfCasinoHeader": "高尔夫和赌场 - “ Twopassions，Onejourney”",
+      "golfCasinoDescriptionLong": "结合精英高尔夫球和高级赌场娱乐活动，对于那些想白天和高尔夫放松身心并在晚上享受充满活力的赌场氛围的客人来说，这是理想的选择。",
+      "golfCasinoTeeTime": "Tee Times在Da Nang的高级高尔夫俱乐部",
+      "golfCasinoVipTransfer": "VIP接送服务和下降服务",
+      "golfCasinoLuxuryStay": "高尔夫球场或海滩附近的豪华住宿",
+      "golfCasinoGuide": "赌场的专用指南协助",
+      "golfCasinoGroupOffer": "小组的特殊组合优惠",
+      "golfCasinoSuitableFor": "适合：",
+      "golfCasinoTarget": "高尔夫团体，长期安装客人和商人，通过放松和娱乐的混合来娱乐客户。",
+      "bulletPrivateRoom": "私人，安静和豪华的游戏室",
+      "bulletPersonalSupport": "1：1个人帮助（解释，预订，运输...）",
+      "bulletVipAccess": "优先访问整个系统中的VIP区域",
+      "bulletGifts": "高级会员的独家礼物和优惠",
+      "highRollersVn": "适用于：高级滚筒，商人以及欣赏隐私和高级服务的人。",
+      "mobileExperienceDescription": "享受具有个性化24/7服务的私人且优雅的空间。 ",
+      "privateRoomVn": "私人，安静和豪华的游戏室",
+      "personalSupportVn": "个人1：1支持（解释，服务预订，运输...）",
+      "vipAccessVn": "优先访问整个系统中的VIP区域",
+      "giftsVn": "高级会员的独家礼物和特别优惠",
+      "suitableForVnTitle": "适合：",
+      "suitableForVnDesc": "高级滚筒，商人以及欣赏隐私和高级服务的人。",
+      "spaNightlifeTitle": "水疗和夜生活 - “放松和点燃”",
+      "spaNightlifeDescription2": "在游戏桌上度过了激烈的时刻之后，是时候放松身体了，并通过充满活力的海滩夜生活来提升您的精神。",
+      "spaNightlifeServicesInclude": "服务包括：",
+      "spaLuxuryPackage": "高级水疗疗法（身体按摩，面部，桑拿，草药蒸汽……）",
+      "spaVipClubBooking": "顶级酒吧和俱乐部的VIP桌子预订",
+      "spaNightTransfer": "私人夜间运输",
+      "spaInRoomService": "室内食物和鸡尾酒服务",
+      "spaNightlifeSuitableFor": "适合：",
+      "spaNightlifeTarget": "夫妻，亲密的朋友和客人，他们喜欢优雅的放松和高档娱乐。",
+      "pokerPackageTitle": "扑克包 - “技能遇到声望的地方”",
+      "pokerDescription2": "扑克锦标赛爱好者的特殊服务包装 - 庆祝技能，策略和体育精神。",
+      "pokerServicesInclude": "服务包括：",
+      "pokerProTournaments": "参加Let's Win Poker Club参加专业扑克锦标赛",
+      "pokerPrivateEvents": "集团或公司客户的私人锦标赛举办",
+      "pokerProfessionalDealer": "专业经销商和比赛标准扑克桌",
+      "pokerInterpreterSupport": "口译员支持和关怀国际客人",
+      "pokerCustomAccommodation": "根据要求进行酒店/公寓预订",
+      "pokerSuitableFor": "适合：",
+      "pokerTarget": "专业球员，扑克社区，享受精神运动的韩国/中国客人。"
+    },
+    "buttons": {
+      "contact": "联系我们",
+      "book": "立即预订",
+      "viewDetails": "查看详细信息",
+      "bookVipTour": "贵宾之旅",
+      "contactConsultant": "联系顾问",
+      "contactNow": "立即联系"
+    }
+  },
+  "footer": {
+    "getToKnow": {
+      "title": "认识我们",
+      "companyInfo": "公司信息",
+      "careers": "职业",
+      "faq": "常问问题",
+      "contactUs": "联系我们",
+      "awards": "奖项和赞誉"
+    },
+    "usefulInfo": {
+      "title": "有用的信息",
+      "travelGuide": "旅行指南",
+      "planVisit": "计划您的访问",
+      "gettingHere": "到达这里",
+      "services": "服务和便利设施",
+      "packages": "酒店和飞行套餐"
+    },
+    "downloadApp": {
+      "title": "下载我们的应用"
+    },
+    "social": {
+      "title": "与我们联系"
+    },
+    "getInspired": {
+      "title": "受到启发",
+      "subtitle": "快速预订与联系",
+      "bookNow": "立即预订"
+    },
+    "copyright": "©2025让我们的VIP生活方式。"
+  },
+  "about": {
+    "title": "介绍",
+    "subtitle": "关于让我们赢得VIP俱乐部",
+    "introduction": "欢迎来到Let's Win VIP Club  - 那些寻求优质娱乐和奢侈品服务的人的独家目的地。",
+    "experience": {
+      "title": "在让我们赢得VIP俱乐部，您将享受：",
       "hoTram": {
-        "title": "Ho Tram赌场的VIP休息室",
-        "description": "Let's Win在Ho Tram上赢得VIP Lounge，位于越南最大，最著名的赌场之一，提供独家体验，仅保留给我们的杰出成员。",
-        "features": {
-          "environment": "私人和精英环境，设计具有豪华的内饰和顶级设施。",
-          "services": "个性化服务，包括专门的管家，独家用餐菜单和24/7帮助。",
-          "privacy": "最终的隐私和安全性，确保VIP客人的最大舒适度和安心。"
-        }
-      },
-      "daNang": {
-        "title": "北南的扑克俱乐部",
-        "description": "让我们在Da Nang赢得扑克爱好者的理想目的地，在享有声望和高级的环境中举办专业扑克锦标赛。",
-        "features": {
-          "rooms": {
-            "title": "私人扑克室",
-            "description": "，由世界一流的游戏玩法和高风险投注。"
-          },
-          "services": {
-            "title": "VIP服务",
-            "description": " 为受人尊敬的客人量身定制，确保获得最佳体验。"
-          },
-          "lounge": {
-            "title": "豪华休息区",
-            "description": "，提供优质的鸡尾酒和优质酒，为玩家创造精致而轻松的环境。"
-          }
-        }
+        "title": "•Ho Tram赌场的VIP休息室： ",
+        "description": "私人空间，可为VIP客人提供独家游戏，提供舒适性和班级。"
       },
       "hoiana": {
-        "title": "Hoiana赌场的VIP休息室",
-        "description": "Let's ton Hoiana赢得了国际知名的度假胜地，在Hoiana赢得了非凡的氛围，将豪华的娱乐与精英级别的精致相结合。",
-        "features": {
-          "rooms": {
-            "title": "独家贵宾",
-            "description": "，设计具有奢华而豪华的触感。"
-          },
-          "services": {
-            "title": "高级VIP服务",
-            "description": "，包括豪华轿车转移，个性化援助和五星级住宿。"
-          },
-          "rewards": {
-            "title": "独家奖励",
-            "description": " 对于让我们赢得奢侈品礼物和有吸引力的忠诚度计划的成员。"
-          }
-        }
+        "title": "•Hoiana的VIP区域： ",
+        "description": "具有个性化服务的精致设计，提供独特而豪华的体验。"
       },
-      "rewardsClub": {
-        "title": "让我们的VIP奖励俱乐部独家福利",
-        "subtitle": "注册以赚钱",
-        "description": "作为让我们的Viprewards俱乐部会员，您可以赚取Let's Vippoints，让我们在您的赌场游戏中vipdollars。",
-        "locations": {
-          "b2m": "B2m",
-          "level1": "1级",
-          "level2Ruby": "2级红宝石桌游戏入口",
-          "level2RubySlots": "2级红宝石插槽入口",
-          "level2Apex": "2级Apex Grand入口"
-        }
-      },
-      "vipClub": {
-        "title": "介绍让我们赢得VIP俱乐部",
-        "description": "让我们赢得VIP俱乐部是一个独家的VIP室系统，提供了为精英量身定制的豪华游戏体验。"
-      },
-      "buttons": {
-        "contact": "联系我们",
-        "book": "立即预订",
-        "viewDetails": "查看详细信息"
+      "danang": {
+        "title": "•Danaciti酒店的扑克俱乐部： ",
+        "description": "扑克爱好者的理想目的地，包括专业比赛和优质桌子。"
       }
     },
-    "footer": {
-      "getToKnow": {
-        "title": "认识我们",
-        "companyInfo": "公司信息",
-        "careers": "职业",
-        "faq": "常问问题",
-        "contactUs": "联系我们",
-        "awards": "奖项和赞誉"
-      },
-      "usefulInfo": {
-        "title": "有用的信息",
-        "travelGuide": "旅行指南",
-        "planVisit": "计划您的访问",
-        "gettingHere": "到达这里",
-        "services": "服务和便利设施",
-        "packages": "酒店和飞行套餐"
-      },
-      "downloadApp": {
-        "title": "下载我们的应用"
-      },
-      "social": {
-        "title": "与我们联系"
-      },
-      "getInspired": {
-        "title": "受到启发",
-        "subtitle": "快速预订与联系",
-        "bookNow": "立即预订"
-      },
-      "copyright": "©2025让我们的VIP生活方式。"
-    },
-    "about": {
-      "title": "介绍",
-      "subtitle": "关于让我们赢得VIP俱乐部",
-      "introduction": "欢迎来到Let's Win VIP Club  - 那些寻求优质娱乐和奢侈品服务的人的独家目的地。",
-      "experience": {
-        "title": "在让我们赢得VIP俱乐部，您将享受：",
-        "hoTram": {
-          "title": "•Ho Tram赌场的VIP休息室： ",
-          "description": "私人空间，可为VIP客人提供独家游戏，提供舒适性和班级。"
-        },
-        "hoiana": {
-          "title": "•Hoiana的VIP区域： ",
-          "description": "具有个性化服务的精致设计，提供独特而豪华的体验。"
-        },
-        "danang": {
-          "title": "•Danaciti酒店的扑克俱乐部： ",
-          "description": "扑克爱好者的理想目的地，包括专业比赛和优质桌子。"
-        }
-      },
-      "service": "值得注意的是，我们通过直接热线提供24/7的客户服务，准备支持并满足您的所有需求。",
-      "invitation": "加入Let's Win VIP俱乐部的Elite社区 - 优质的体验和获胜时刻聚集在一起！",
-      "whyChoose": {
-        "title": "为什么选择让我们赢得VIP俱乐部？",
-        "features": {
-          "spaces": "✔具有豪华内饰的独家VIP空间，确保绝对舒适。",
-          "services": "✔个性化服务，由专业的专业团队提供24/7的支持。",
-          "rewards": "✔独家奖励和豪华礼物，为Let's Win VIP成员保留。",
-          "privacy": "✔顶级隐私和安全性，保证安全豪华的娱乐体验。"
-        }
-      },
-      "join": "加入Let's Win win VIP俱乐部，沉迷于无与伦比的豪华体验！",
-      "contact": "📞VIP客户服务热线（24/7）：[电话号码]"
-    },
-    "contact": {
-      "title": "快速预订与联系",
-      "stage1": {
-        "title": "输入以上",
-        "description": "成为第一个在Let's Win Club上最好的选择，即将举行的活动，即将举行的活动和放纵的人。",
-        "fullName": "姓名",
-        "phoneNumber": "电话号码",
-        "submit": "提交"
-      },
-      "stage2": {
-        "title": "感谢您订阅我们的新闻通讯。",
-        "description": "期待内容周到的内容，展示了我们对所有事物的热爱。",
-        "backToHome": "返回家庭页面"
+    "service": "值得注意的是，我们通过直接热线提供24/7的客户服务，准备支持并满足您的所有需求。",
+    "invitation": "加入Let's Win VIP俱乐部的Elite社区 - 优质的体验和获胜时刻聚集在一起！",
+    "whyChoose": {
+      "title": "为什么选择让我们赢得VIP俱乐部？",
+      "features": {
+        "spaces": "✔具有豪华内饰的独家VIP空间，确保绝对舒适。",
+        "services": "✔个性化服务，由专业的专业团队提供24/7的支持。",
+        "rewards": "✔独家奖励和豪华礼物，为Let's Win VIP成员保留。",
+        "privacy": "✔顶级隐私和安全性，保证安全豪华的娱乐体验。"
       }
     },
-    "fineDining": {
-      "title": "优质餐厅",
-      "description": "在新加坡的这些高级用餐餐厅里发现烹饪艺术，让我们赢得俱乐部。",
-      "romanticRestaurants": {
-        "title": "浪漫餐厅",
-        "description": "在这些浪漫餐厅的亲密氛围中，每个晚上都会变成令人难忘的时刻。"
-      },
-      "specialOccasions": {
-        "title": "特殊场合",
-        "description": "纪念最宝贵的时刻，并在这些完美的餐厅为任何场合增添了一点点的优雅。"
-      },
-      "shoppes": {
-        "title": "发现商店",
-        "description": "凭借令人印象深刻的170多种设计师标签和豪华精品店的选择，您对更精细的东西的搜索结束了。"
-      },
-      "viewRestaurants": "查看餐厅",
-      "viewShops": "查看商店",
-      "viewDetails": "查看详细信息"
+    "join": "加入Let's Win win VIP俱乐部，沉迷于无与伦比的豪华体验！",
+    "contact": "📞VIP客户服务热线（24/7）：[电话号码]"
+  },
+  "premiumPerks": {
+    "pageTitle": "Hoiana＆Ho Tram的溢价特权",
+    "freeHotelTitle": "VIP会员的免费酒店房间",
+    "freeHotelDesc": "作为VIP会员，您将享受包括免费酒店房间在内的独家特权。",
+    "privateShuttleTitle": "顶级贵宾的私人班车服务",
+    "privateShuttleDesc": "作为顶级VIP，您将获得免费的私人班车服务，以确保最方便，最舒适的旅行。",
+    "exclusiveGiftsTitle": "在特殊场合独家礼物",
+    "exclusiveGiftsDesc": "除高级福利外，VIP成员还将有机会在全年的特殊场合获得独家礼物。",
+    "contactNow": "立即联系"
+  },
+  "freeTransport": {
+    "title": "免费班车服务",
+    "description": "私人VIP运输服务 - 完全免费提供Let'swin客人。",
+    "items": {
+      "pickup": "从机场，酒店或市中心接送",
+      "driver": "礼貌和谨慎的司机",
+      "logo": "在有或没有Let'swin徽标的情况下选择车辆的选项",
+      "group": "可用于团体或个人"
     },
-    "signupSuccessful": {
-      "welcome": "欢迎，阿斯达斯",
-      "digitalAccount": {
-        "title": "数字帐户",
-        "description": "使用您新创建的用户名和密码访问让我们的VIP生活方式帐户。"
-      },
-      "membershipCard": {
-        "title": "会员卡",
-        "description": "在Marina Bay Sands，我们的会员ID和PIN将需要让我们的Viprewards交易。"
-      },
-      "username": "用户名",
-      "membershipId": "会员ID",
-      "loginNow": "立即登录"
+    "cta": "立即预订您的旅程"
+  },
+  "eventPromotions": {
+    "pageTitle": "活动和锦标赛特权",
+    "tournamentTitle": "参加VIP独家比赛",
+    "tournamentDesc": "作为VIP成员，您将有机会参加独家比赛，您可以在世界一流的环境中展示自己的技能，策略和才能。",
+    "vipPartiesTitle": "免费的VIP派对与活动",
+    "vipPartiesDesc": "作为VIP，您将被邀请参加在豪华场所举行的定期免费聚会和独家活动。",
+    "specialRewardsTitle": "特殊计划的大奖机会",
+    "specialRewardsDesc": "为VIP设计的独家计划提供了令人难以置信的胜利机会。",
+    "contactNow": "立即联系"
+  },
+  "aboutSection": {
+    "missionTitle": "让我们的使命",
+    "missionDescription": "成为可信赖的右手合作伙伴，供每位来到越南寻求优质，安全，专业和可靠娱乐活动的国际客人。",
+    "missionStatement": "让我们不仅仅是组织体验 - 我们为精英塑造了VIP娱乐生活方式。",
+    "whatIsLetswin": "什么是让我们？",
+    "letswinIntroMobile": "Let’Swin是一个为国际游客和高级滚筒提供全包娱乐服务的平台。",
+    "letswinIntroDesktop": "Let’Swin是一个平台，为访问越南的国际旅行者和高级球员提供全面的娱乐服务。",
+    "letswinServices": {
+      "pokerClub": "•私人和专业扑克俱乐部",
+      "vipCasino": "•VIP赌场的独家优惠经验",
+      "transportSupport": "•运输，游戏帮助和翻译服务",
+      "customTours": "•放松和娱乐的定制游览时间表",
+      "support247": "•24/7客户服务系统",
+      "nightSupport": "•即使在夜间紧急支持"
     },
-    "otpVerification": {
-      "title": "OTP验证",
-      "stage1": {
-        "description": "请选择一个频道作为验证过程的一部分接收一次性密码（OTP）。"
-      },
-      "stage2": {
-        "description": "包含一次性密码（OTP）的电子邮件已发送到您的电子邮件地址ttheyde*********@gmail.com。"
-      },
-      "emailOtp": "电子邮件OTP",
-      "enterOtp": "输入OTP",
-      "resendOtp": "在01:16重新发出新的OTP",
-      "proceed": "继续",
-      "verify": "核实",
-      "back": "后退"
+    "whoIsFor": "谁是让我们的人？",
+    "whoIsForList": {
+      "internationalTourists": "•希望在越南体验扑克，赌场和豪华放松的国际游客。",
+      "experiencedPlayers": "•经验丰富的参与者寻求专业人士 - 可靠 - 谨慎的服务。",
+      "partners": "•希望合作开发高级客户网络：旅游运营商，酒店，司机，合作者。"
     },
-    "signup": {
-      "title": "注册您的免费让我们的VIP生活方式会员资格",
-      "banner": "预订横幅",
-      "already_have_account": "已经有一个帐户？",
-      "login_here": "在这里登录。",
+    "vipExperience": "除了独家折扣之外，您还可以享受私人和豪华的贵宾室。",
+    "contactNow": "立即联系"
+  },
+  "vipMembership": {
+    "title": "VIP会员优惠",
+    "contactNow": "立即联系",
+    "section1": {
+      "title": "赚取积分和兑换礼物",
+      "description": "通过参加游戏来赢得积分和赎回礼物，为您带来令人兴奋的体验和有吸引力的奖励。"
+    },
+    "section2": {
+      "title": "餐饮，酒店和水疗服务的折扣",
+      "description": "在高级餐厅享受美食，在水疗中心放松身心或沉迷于豪华酒店的氛围 - 通过我们的奖励点折扣计划使他们更容易获得。"
+    },
+    "section3": {
+      "title": "带有高级服务的私人贵宾室",
+      "description": "除了定期折扣外，您还可以通过我们的优质贵宾室沉迷于独家和豪华的空间。"
+    }
+  },
+  "pokerClub": {
+    "heading": "体验在丹南的扑克俱乐部",
+    "contactConsultant": "联系顾问",
+    "privateRoomTitle": "私人扑克室",
+    "privateRoomDescription": "作为VIP成员，您将可以参加独家的扑克锦标赛，您可以在豪华环境中展示自己的技能，策略和才华。",
+    "clubTitle": "欢迎来到扑克俱乐部",
+    "clubDescription": "扑克不仅仅是一款游戏，而且是一种享有盛誉的体验，智能决策和精致的策略会带来值得回报。"
+  },
+  "contact": {
+    "title": "快速预订与联系",
+    "stage1": {
+      "title": "输入以上",
+      "description": "成为第一个在Let's Win Club上最好的选择，即将举行的活动，即将举行的活动和放纵的人。",
+      "fullName": "姓名",
+      "phoneNumber": "电话号码",
+      "submit": "提交"
+    },
+    "stage2": {
+      "title": "感谢您订阅我们的新闻通讯。",
+      "description": "期待内容周到的内容，展示了我们对所有事物的热爱。",
+      "backToHome": "返回家庭页面"
+    }
+  },
+  "fineDining": {
+    "title": "优质餐厅",
+    "description": "在新加坡的这些高级用餐餐厅里发现烹饪艺术，让我们赢得俱乐部。",
+    "romanticRestaurants": {
+      "title": "浪漫餐厅",
+      "description": "在这些浪漫餐厅的亲密氛围中，每个晚上都会变成令人难忘的时刻。"
+    },
+    "specialOccasions": {
+      "title": "特殊场合",
+      "description": "纪念最宝贵的时刻，并在这些完美的餐厅为任何场合增添了一点点的优雅。"
+    },
+    "shoppes": {
+      "title": "发现商店",
+      "description": "凭借令人印象深刻的170多种设计师标签和豪华精品店的选择，您对更精细的东西的搜索结束了。"
+    },
+    "viewRestaurants": "查看餐厅",
+    "viewShops": "查看商店",
+    "viewDetails": "查看详细信息"
+  },
+  "signupSuccessful": {
+    "welcome": "欢迎，阿斯达斯",
+    "digitalAccount": {
+      "title": "数字帐户",
+      "description": "使用您新创建的用户名和密码访问让我们的VIP生活方式帐户。"
+    },
+    "membershipCard": {
+      "title": "会员卡",
+      "description": "在Marina Bay Sands，我们的会员ID和PIN将需要让我们的Viprewards交易。"
+    },
+    "username": "用户名",
+    "membershipId": "会员ID",
+    "loginNow": "立即登录"
+  },
+  "otpVerification": {
+    "title": "OTP验证",
+    "stage1": {
+      "description": "请选择一个频道作为验证过程的一部分接收一次性密码（OTP）。"
+    },
+    "stage2": {
+      "description": "包含一次性密码（OTP）的电子邮件已发送到您的电子邮件地址ttheyde*********@gmail.com。"
+    },
+    "emailOtp": "电子邮件OTP",
+    "enterOtp": "输入OTP",
+    "resendOtp": "在01:16重新发出新的OTP",
+    "proceed": "继续",
+    "verify": "核实",
+    "back": "后退"
+  },
+  "signup": {
+    "title": "注册您的免费让我们的VIP生活方式会员资格",
+    "banner": "预订横幅",
+    "already_have_account": "已经有一个帐户？",
+    "login_here": "在这里登录。",
+    "particulars": "细节",
+    "digital_account": "数字帐户",
+    "complete": "完全的",
+    "last_name": "姓",
+    "first_name": "名",
+    "passport_note": "（如您的护照上打印）",
+    "date_of_birth": "出生日期",
+    "age_requirement": "（您需要至少18岁才能加入。）",
+    "mobile_number": "手机号码",
+    "mobile_note": "数字必须是8位数字",
+    "email": "电子邮件",
+    "email_note": "请输入有效的电子邮件地址",
+    "referral_code": "推荐代码",
+    "optional": "（选修的）",
+    "next": "下一个",
+    "create_pin": "创建会员PIN",
+    "create_4digit_pin": "创建您的四位数卡PIN",
+    "pin_description": "您的4位销钉将用于在Marina Bay Sands的Viprewards交易。",
+    "create_pin_label": "创建PIN",
+    "confirm_pin": "确认PIN",
+    "create_digital_account": "创建数字帐户",
+    "digital_accounts": "数字帐户",
+    "digital_account_description": "该数字帐户（用户名和密码）将用于登录我们的数字平台。",
+    "username": "用户名",
+    "password": "密码",
+    "confirm_password": "确认密码",
+    "create": "创造",
+    "steps": {
       "particulars": "细节",
-      "digital_account": "数字帐户",
-      "complete": "完全的",
-      "last_name": "姓",
-      "first_name": "名",
-      "passport_note": "（如您的护照上打印）",
-      "date_of_birth": "出生日期",
-      "age_requirement": "（您需要至少18岁才能加入。）",
-      "mobile_number": "手机号码",
-      "mobile_note": "数字必须是8位数字",
+      "digitalAccount": "数字帐户",
+      "complete": "完全的"
+    },
+    "form": {
+      "lastName": "姓",
+      "firstName": "名",
+      "asPassport": "（如您的护照上打印）",
+      "dob": "出生日期",
+      "dobNote": "（您需要至少18岁才能加入。）",
+      "dd": "DD",
+      "mmm": "嗯",
+      "yyyy": "Yyyy",
+      "months": {
+        "jan": "扬",
+        "feb": "2月",
+        "mar": "3月",
+        "apr": "4月",
+        "may": "可能",
+        "jun": "六月",
+        "jul": "七月",
+        "aug": "八月",
+        "sep": "九月",
+        "oct": "十月",
+        "nov": "十一月",
+        "dec": "十二月"
+      },
+      "mobileNumber": "手机号码",
+      "mobileNote": "数字必须是8位数字",
       "email": "电子邮件",
-      "email_note": "请输入有效的电子邮件地址",
-      "referral_code": "推荐代码",
-      "optional": "（选修的）",
-      "next": "下一个",
-      "create_pin": "创建会员PIN",
-      "create_4digit_pin": "创建您的四位数卡PIN",
-      "pin_description": "您的4位销钉将用于在Marina Bay Sands的Viprewards交易。",
-      "create_pin_label": "创建PIN",
-      "confirm_pin": "确认PIN",
-      "create_digital_account": "创建数字帐户",
-      "digital_accounts": "数字帐户",
-      "digital_account_description": "该数字帐户（用户名和密码）将用于登录我们的数字平台。",
-      "username": "用户名",
-      "password": "密码",
-      "confirm_password": "确认密码",
-      "create": "创造",
-      "steps": {
-        "particulars": "细节",
-        "digitalAccount": "数字帐户",
-        "complete": "完全的"
+      "emailNote": "请输入有效的电子邮件地址",
+      "referralCode": "推荐代码",
+      "optional": "（选修的）"
+    }
+  },
+  "notFound": {
+    "title": "此页面不存在",
+    "description": "您要查找的页面找不到。"
+  },
+  "more": {
+    "title": "更多经验",
+    "viewDetails": "查看详细信息",
+    "casinoLevy": {
+      "title": "赌场进入税",
+      "description": "获取有关一般赌场规则和进入条件的信息。"
+    },
+    "rewardsClub": {
+      "title": "让我们的VIP奖励俱乐部独家福利",
+      "subtitle": "注册以赚钱",
+      "description": "作为让我们的Viprewards俱乐部会员，您可以赚取Let's Vippoints，让我们在您的赌场游戏中vipdollars。",
+      "locations": [
+        "B2m",
+        "1级",
+        "2级红宝石桌游戏入口",
+        "2级红宝石插槽入口",
+        "2级Apex Grand入口"
+      ]
+    },
+    "responsibleGambling": {
+      "title": "负责的赌博",
+      "subtitle": "对我们的顾客的承诺",
+      "description": "我们致力于创造难忘的体验的承诺扩展到了度假村的每个方面 - 直到赌场地板。"
+    }
+  },
+  "login": {
+    "title": "登录",
+    "username": "用户名",
+    "emailPlaceholder": "电子邮件",
+    "password": "密码",
+    "passwordPlaceholder": "密码",
+    "loginButton": "登录",
+    "noAccount": "没有帐户？",
+    "registerNow": "立即注册"
+  },
+  "paiza": {
+    "title": "Paiza系列",
+    "bannerAlt": "Paiza Collection Banner",
+    "bannerMobileAlt": "Paiza Collection移动横幅",
+    "intro": "Paiza系列保留给最挑剔的，体现了最终的家外之家，无与伦比的奢侈品，周到的细节和无限的艺术性。",
+    "description1": "从谨慎的入口到豪华的套间设施，我们最好的套房收藏的各个方面都是为隐私和舒适而设计的。",
+    "description2": "享受特权进入Paiza Sky Residence，这是一个私人俱乐部休息室，坐落在我们具有里程碑意义的酒店。",
+    "description3": "在您的整个逗留期间，我们24小时的巴特勒团队将在场，以期待您的每一个愿望，并决心使一切成为可能。",
+    "description4": "欢迎回家Paiza Collection，这是一个真正的出色住宿。",
+    "experienceTitle": "体验非凡的",
+    "experienceImageAlt": "体验图像",
+    "experiences": {
+      "0": {
+        "title": "Paiza VIP到达",
+        "description": "与我们敬业的问候者一起度过热烈的欢迎。"
       },
-      "form": {
-        "lastName": "姓",
-        "firstName": "名",
-        "asPassport": "（如您的护照上打印）",
-        "dob": "出生日期",
-        "dobNote": "（您需要至少18岁才能加入。）",
-        "dd": "DD",
-        "mmm": "嗯",
-        "yyyy": "Yyyy",
-        "months": {
-          "jan": "扬",
-          "feb": "2月",
-          "mar": "3月",
-          "apr": "4月",
-          "may": "可能",
-          "jun": "六月",
-          "jul": "七月",
-          "aug": "八月",
-          "sep": "九月",
-          "oct": "十月",
-          "nov": "十一月",
-          "dec": "十二月"
-        },
-        "mobileNumber": "手机号码",
-        "mobileNote": "数字必须是8位数字",
-        "email": "电子邮件",
-        "emailNote": "请输入有效的电子邮件地址",
-        "referralCode": "推荐代码",
-        "optional": "（选修的）"
+      "1": {
+        "title": "独家管家服务",
+        "description": "体验个性化的24小时巴特勒服务，以确保您的每一项需求得到最大的关注和关心。"
+      },
+      "2": {
+        "title": "私人天空休息室",
+        "description": "访问独家Paiza Sky Residence，提供全景和高级服务。"
+      },
+      "3": {
+        "title": "精心策划的经验",
+        "description": "享受从私人用餐到游艇冒险的定制体验，这些体验是根据您的喜好量身定制的。"
       }
     },
-    "notFound": {
-      "title": "此页面不存在",
-      "description": "您要查找的页面找不到。"
+    "tour": {
+      "title": "豪华度假 - 娱乐 - 高尔夫之旅",
+      "intro": "让我们组织的全包游览，将放松，娱乐和高尔夫结合在一起 - 适合享受优质生活方式的顾客。",
+      "scheduleTitle": "建议的行程（3天2晚）：",
+      "day1": {
+        "title": "第1天：",
+        "item1": "在机场 /酒店接送",
+        "item2": "在4–5星度假村办理登机手续",
+        "item3": "用餐 - 按摩 - 轻松"
+      },
+      "day2": {
+        "title": "第2天：",
+        "item1": "早上：豪华球场高尔夫",
+        "item2": "下午：扑克或空闲时间",
+        "item3": "晚上：VIP赌场与个人主持人的体验"
+      },
+      "day3": {
+        "title": "第3天：",
+        "item1": "早餐 - 水疗或午餐购物",
+        "item2": "运输回机场或酒店"
+      },
+      "servicesTitle": "包括服务：",
+      "services": {
+        "golf": "高尔夫球场预订和设备租赁",
+        "transport": "私人运输",
+        "guide": "个人导游",
+        "support": "24/7客户支持",
+        "group": "小组（2-10人）或个人旅行"
+      },
+      "cta": "立即预订您的旅行"
     },
-    "more": {
-      "title": "更多经验",
-      "viewDetails": "查看详细信息",
-      "casinoLevy": {
-        "title": "赌场进入税",
-        "description": "获取有关一般赌场规则和进入条件的信息。"
-      },
-      "rewardsClub": {
-        "title": "让我们的VIP奖励俱乐部独家福利",
-        "subtitle": "注册以赚钱",
-        "description": "作为让我们的Viprewards俱乐部会员，您可以赚取Let's Vippoints，让我们在您的赌场游戏中vipdollars。",
-        "locations": [
-          "B2m",
-          "1级",
-          "2级红宝石桌游戏入口",
-          "2级红宝石插槽入口",
-          "2级Apex Grand入口"
-        ]
-      },
-      "responsibleGambling": {
-        "title": "负责的赌博",
-        "subtitle": "对我们的顾客的承诺",
-        "description": "我们致力于创造难忘的体验的承诺扩展到了度假村的每个方面 - 直到赌场地板。"
-      }
+    "aboveExpectation": {
+      "title": "最重要的是",
+      "description1": "Paiza系列栖息在我们标志性建筑的最高楼层上，展示了令人叹为观止的宏伟而宁静的室内装饰，上面有崇高的天花板，茂盛的毛绒家具和最好的材料，令人着迷的艺术品和精美的景色。",
+      "description2": "一系列令人惊叹的OBJET与顶级国际工匠共同创造，例如Fromental的令人惊叹的手绘丝绸墙壁，Zanetto的珠宝般的黄铜船和Legle Asia的Lotus the polcelainware-在每一个转弯处都会吸引您的眼睛，并带有美丽。",
+      "description3": "从优雅的大约人到深层休息，即使是最细节的细节也被精心修复，以舒适和愉悦。"
     },
-    "login": {
-      "title": "登录",
-      "username": "用户名",
-      "emailPlaceholder": "电子邮件",
-      "password": "密码",
-      "passwordPlaceholder": "密码",
-      "loginButton": "登录",
-      "noAccount": "没有帐户？",
-      "registerNow": "立即注册"
-    },
-    "paiza": {
-      "title": "Paiza系列",
-      "bannerAlt": "Paiza Collection Banner",
-      "bannerMobileAlt": "Paiza Collection移动横幅",
-      "intro": "Paiza系列保留给最挑剔的，体现了最终的家外之家，无与伦比的奢侈品，周到的细节和无限的艺术性。",
-      "description1": "从谨慎的入口到豪华的套间设施，我们最好的套房收藏的各个方面都是为隐私和舒适而设计的。",
-      "description2": "享受特权进入Paiza Sky Residence，这是一个私人俱乐部休息室，坐落在我们具有里程碑意义的酒店。",
-      "description3": "在您的整个逗留期间，我们24小时的巴特勒团队将在场，以期待您的每一个愿望，并决心使一切成为可能。",
-      "description4": "欢迎回家Paiza Collection，这是一个真正的出色住宿。",
-      "experienceTitle": "体验非凡的",
-      "experienceImageAlt": "体验图像",
-      "experiences": {
-        "0": {
-          "title": "Paiza VIP到达",
-          "description": "与我们敬业的问候者一起度过热烈的欢迎。"
-        },
-        "1": {
-          "title": "独家管家服务",
-          "description": "体验个性化的24小时巴特勒服务，以确保您的每一项需求得到最大的关注和关心。"
-        },
-        "2": {
-          "title": "私人天空休息室",
-          "description": "访问独家Paiza Sky Residence，提供全景和高级服务。"
-        },
-        "3": {
-          "title": "精心策划的经验",
-          "description": "享受从私人用餐到游艇冒险的定制体验，这些体验是根据您的喜好量身定制的。"
-        }
-      },
-      "aboveExpectation": {
-        "title": "最重要的是",
-        "description1": "Paiza系列栖息在我们标志性建筑的最高楼层上，展示了令人叹为观止的宏伟而宁静的室内装饰，上面有崇高的天花板，茂盛的毛绒家具和最好的材料，令人着迷的艺术品和精美的景色。",
-        "description2": "一系列令人惊叹的OBJET与顶级国际工匠共同创造，例如Fromental的令人惊叹的手绘丝绸墙壁，Zanetto的珠宝般的黄铜船和Legle Asia的Lotus the polcelainware-在每一个转弯处都会吸引您的眼睛，并带有美丽。",
-        "description3": "从优雅的大约人到深层休息，即使是最细节的细节也被精心修复，以舒适和愉悦。"
-      },
-      "rooms": {
-        "premierRoom": {
-          "imageAlt": "让我们的vippremier房间图像",
-          "title": "让我们的Vippremier房间",
-          "gardenView": "海湾景观的花园",
-          "cityView": "城市景观",
-          "description": "放在优雅的房间里，品尝定制衣橱中珍贵的宝藏策划。",
-          "features": {
-            "size": "平均45平方米",
-            "guests": "最多3位客人",
-            "beds": "1个国王或2张大床"
-          }
-        }
-      },
-      "paizaExperience": {
-        "imageAlt": "让我们的VIP生活方式形象",
-        "title": "Paiza体验",
-        "description": "陶醉在新的Paiza系列中精致的巅峰之中。"
-      }
-    },
-    "packages": {
-      "banner": {
-        "desktopAlt": "包装横幅桌面",
-        "mobileAlt": "包装横幅移动"
-      },
-      "title": "为您量身定制的天堂",
-      "description": "探索为家庭，夫妻和个人有敏锐的口味，好奇心和对冒险的胃口策划的住宿套餐",
-      "room": {
+    "rooms": {
+      "premierRoom": {
+        "imageAlt": "让我们的vippremier房间图像",
         "title": "让我们的Vippremier房间",
-        "view": {
-          "gardens": "海湾景观的花园",
-          "city": "城市景观"
-        },
+        "gardenView": "海湾景观的花园",
+        "cityView": "城市景观",
         "description": "放在优雅的房间里，品尝定制衣橱中珍贵的宝藏策划。",
-        "details": {
-          "area": "平均45平方米",
+        "features": {
+          "size": "平均45平方米",
           "guests": "最多3位客人",
           "beds": "1个国王或2张大床"
-        },
-        "viewDetails": "查看详细信息"
-      }
-    },
-    "skypark": {
-      "banner_alt": "Skypark观察甲板横幅",
-      "banner_mobile_alt": "Skypark观察甲板移动横幅",
-      "paradise_title": "为您量身定制的天堂",
-      "discover_text": "从1月17日开始，在Skyline Newapore：Skypark观察甲板上的新展示柜上发现Let's Win Club的过去，现在和未来。",
-      "explore_text": "从56层高的新有利位置探索这座城市，新加坡世界一流的城市景观的风景令人叹为观止。",
-      "evening_view": "在傍晚，观察甲板还提供了光谱的壮丽景色。",
-      "sunset_experience": "为了获得更亲密的观看体验，请选择“ Sunset in the Sky”，这是一个独家计划，可以通过私人入口点，专用的座位区和优质用餐菜单进行优先访问。",
-      "book_tickets": "书票",
-      "notice_title": "注意",
-      "notice_text": "Skypark观察甲板将在下午9点关闭，以供无声迪斯科满月派对（上次晚上8点）关闭",
-      "details_title": "细节",
-      "location_title": "地点",
-      "location_text1": "酒店塔3，56级",
-      "location_text2": "Skypark观察甲板的入口可以通过Hotel Tower 3车道进入。",
-      "hours_title": "开放时间",
-      "hours_nonpeak": "非高峰：上午10点 - 下午4.30（上次下午4点）",
-      "hours_peak": "峰值：下午5点 - 晚上10点（最后一个条目在9.30pm）",
-      "prices_title": "票价",
-      "whats_on": "发生了什么",
-      "you_may_like": "我们认为您也喜欢",
-      "faq_title": "常见问题",
-      "faq": {
-        "opening_hours": {
-          "question": "让我们的Vipskypark的开头时间是多少？",
-          "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
-          "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
-        },
-        "rain": {
-          "question": "如果下雨会怎样？",
-          "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
-          "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
-        },
-        "souvenir": {
-          "question": "有纪念品商店吗？",
-          "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
-          "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
-        },
-        "prohibited": {
-          "question": "Skypark观察甲板上是否禁止任何项目？",
-          "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
-          "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
-        },
-        "other_areas": {
-          "question": "我可以用我的Skypark观察甲板票访问Let's't's''Vipskypark吗？",
-          "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
-          "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
-        },
-        "conditions": {
-          "question": "还有其他进入Skypark观察甲板的条件吗？",
-          "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
-          "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
-        }
-      },
-      "slider": {
-        "weekday_escapade": {
-          "image_alt": "工作日度假图片",
-          "title": "工作日逃生",
-          "tag": "工作日|",
-          "description": "体验新修复的让我们的Vippremier房间，时尚地装有深层浸泡浴缸和步入式衣柜。"
         }
       }
     },
-    "infinityPool": {
-      "banner": {
-        "desktopAlt": "Infinity Pool横幅桌面",
-        "mobileAlt": "Infinity Pool Banner手机"
+    "paizaExperience": {
+      "imageAlt": "让我们的VIP生活方式形象",
+      "title": "Paiza体验",
+      "description": "陶醉在新的Paiza系列中精致的巅峰之中。"
+    }
+  },
+  "packages": {
+    "banner": {
+      "desktopAlt": "包装横幅桌面",
+      "mobileAlt": "包装横幅移动"
+    },
+    "title": "为您量身定制的天堂",
+    "description": "探索为家庭，夫妻和个人有敏锐的口味，好奇心和对冒险的胃口策划的住宿套餐",
+    "room": {
+      "title": "让我们的Vippremier房间",
+      "view": {
+        "gardens": "海湾景观的花园",
+        "city": "城市景观"
       },
-      "title": "Skypark Infinity Pool",
-      "renowned": "闻名是有原因的。",
-      "description": "在世界上最大的屋顶无边泳池中获得全新的视角。",
+      "description": "放在优雅的房间里，品尝定制衣橱中珍贵的宝藏策划。",
       "details": {
-        "title": "细节",
-        "location": {
-          "title": "地点",
-          "text1": "酒店塔3，56级",
-          "text2": "Skypark观察甲板的入口可以通过Hotel Tower 3车道进入。"
-        },
-        "hours": {
-          "title": "开放时间",
-          "nonPeak": "非高峰：上午10点 - 下午4.30（上次下午4点）",
-          "peak": "峰值：下午5点 - 晚上10点（最后一个条目在9.30pm）"
-        }
+        "area": "平均45平方米",
+        "guests": "最多3位客人",
+        "beds": "1个国王或2张大床"
       },
-      "operatingHours": {
-        "title": "营业时间",
-        "location": {
-          "title": "地点",
-          "text1": "酒店塔3，56级",
-          "text2": "Skypark观察甲板的入口可以通过Hotel Tower 3车道进入。"
-        },
-        "hours": {
-          "title": "开放时间",
-          "nonPeak": "非高峰：上午10点 - 下午4.30（上次下午4点）",
-          "peak": "峰值：下午5点 - 晚上10点（最后一个条目在9.30pm）"
-        }
+      "viewDetails": "查看详细信息"
+    }
+  },
+  "skypark": {
+    "banner_alt": "Skypark观察甲板横幅",
+    "banner_mobile_alt": "Skypark观察甲板移动横幅",
+    "paradise_title": "为您量身定制的天堂",
+    "discover_text": "从1月17日开始，在Skyline Newapore：Skypark观察甲板上的新展示柜上发现Let's Win Club的过去，现在和未来。",
+    "explore_text": "从56层高的新有利位置探索这座城市，新加坡世界一流的城市景观的风景令人叹为观止。",
+    "evening_view": "在傍晚，观察甲板还提供了光谱的壮丽景色。",
+    "sunset_experience": "为了获得更亲密的观看体验，请选择“ Sunset in the Sky”，这是一个独家计划，可以通过私人入口点，专用的座位区和优质用餐菜单进行优先访问。",
+    "book_tickets": "书票",
+    "notice_title": "注意",
+    "notice_text": "Skypark观察甲板将在下午9点关闭，以供无声迪斯科满月派对（上次晚上8点）关闭",
+    "details_title": "细节",
+    "location_title": "地点",
+    "location_text1": "酒店塔3，56级",
+    "location_text2": "Skypark观察甲板的入口可以通过Hotel Tower 3车道进入。",
+    "hours_title": "开放时间",
+    "hours_nonpeak": "非高峰：上午10点 - 下午4.30（上次下午4点）",
+    "hours_peak": "峰值：下午5点 - 晚上10点（最后一个条目在9.30pm）",
+    "prices_title": "票价",
+    "whats_on": "发生了什么",
+    "you_may_like": "我们认为您也喜欢",
+    "faq_title": "常见问题",
+    "faq": {
+      "opening_hours": {
+        "question": "让我们的Vipskypark的开头时间是多少？",
+        "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
+        "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
       },
-      "faq": {
-        "title": "常见问题",
-        "openingHours": {
-          "question": "让我们的Vipskypark的开头时间是多少？",
-          "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
-          "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
-        }
+      "rain": {
+        "question": "如果下雨会怎样？",
+        "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
+        "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
       },
-      "recommendations": {
-        "title": "我们认为您也喜欢"
+      "souvenir": {
+        "question": "有纪念品商店吗？",
+        "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
+        "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
+      },
+      "prohibited": {
+        "question": "Skypark观察甲板上是否禁止任何项目？",
+        "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
+        "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
+      },
+      "other_areas": {
+        "question": "我可以用我的Skypark观察甲板票访问Let's't's''Vipskypark吗？",
+        "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
+        "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
+      },
+      "conditions": {
+        "question": "还有其他进入Skypark观察甲板的条件吗？",
+        "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
+        "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
       }
     },
-    "lifestyle": {
-      "banner": {
-        "desktopAlt": "让我们的VIP收集横幅",
-        "mobileAlt": "让我们的VIP收集移动横幅"
+    "slider": {
+      "weekday_escapade": {
+        "image_alt": "工作日度假图片",
+        "title": "工作日逃生",
+        "tag": "工作日|",
+        "description": "体验新修复的让我们的Vippremier房间，时尚地装有深层浸泡浴缸和步入式衣柜。"
+      }
+    }
+  },
+  "infinityPool": {
+    "banner": {
+      "desktopAlt": "Infinity Pool横幅桌面",
+      "mobileAlt": "Infinity Pool Banner手机"
+    },
+    "title": "Skypark Infinity Pool",
+    "renowned": "闻名是有原因的。",
+    "description": "在世界上最大的屋顶无边泳池中获得全新的视角。",
+    "details": {
+      "title": "细节",
+      "location": {
+        "title": "地点",
+        "text1": "酒店塔3，56级",
+        "text2": "Skypark观察甲板的入口可以通过Hotel Tower 3车道进入。"
       },
-      "title": "让我们来vip的生活方式",
-      "description": "通过免费的“让我们的VIP Lifestyle会员资格”（新加坡最慷慨的奖励计划）解锁独家奖励和特权的世界。",
-      "alreadyMember": "已经是会员了吗？",
-      "tourist": "你是游客吗？",
-      "membershipTiers": "会员层",
-      "membership": {
-        "description": "为忠实玩家提供各种特权和奖励。我们的VIP系统包括绿卡、红卡、金卡和无限卡四个等级，每个等级都有特定的要求和福利。",
-
-        "imageAlt": "会员层图像",
-        "lifestyle": {
-          "title": "生活方式",
-          "content": [
-            "注册后自动授予，无需积分。",
-            "每10美元下注1分。 ",
-            "餐馆和酒吧的折扣为5％。"
-          ]
-        },
-        "prestige": {
-          "title": "声望",
-          "content": [
-            "在6个月内需要5,000至19,999点或最低总赌注为50,000美元。",
-            "每$ 7.5赚取1分。 ",
-            "餐馆和酒吧的折扣为10％，赌场优先保留。"
-          ]
-        },
-        "elite": {
-          "title": "精英",
-          "content": [
-            "在6个月内需要20,000  -  49,999点或最低总赌注为100,000美元。",
-            "每5美元下注1分。 ",
-            "餐馆和酒吧的折扣，VIP休息室的访问权限，指定区域内的免费班车服务。"
-          ]
-        },
-        "paiza": {
-          "title": "Paiza",
-          "content": [
-            "在6个月内需要50,000多点以上的积分或最低总赌注为250,000美元。",
-            "每$ 2.5赚取1分。 ",
-            "餐馆和酒吧的折扣为20％，可以使用最高级别的VIP休息室，24/7个人VIP援助，免费的豪华交通（包括高端车辆或私人飞机），独家扑克锦标赛和精英活动。"
-          ]
-        }
+      "hours": {
+        "title": "开放时间",
+        "nonPeak": "非高峰：上午10点 - 下午4.30（上次下午4点）",
+        "peak": "峰值：下午5点 - 晚上10点（最后一个条目在9.30pm）"
+      }
+    },
+    "operatingHours": {
+      "title": "营业时间",
+      "location": {
+        "title": "地点",
+        "text1": "酒店塔3，56级",
+        "text2": "Skypark观察甲板的入口可以通过Hotel Tower 3车道进入。"
+      },
+      "hours": {
+        "title": "开放时间",
+        "nonPeak": "非高峰：上午10点 - 下午4.30（上次下午4点）",
+        "peak": "峰值：下午5点 - 晚上10点（最后一个条目在9.30pm）"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "openingHours": {
+        "question": "让我们的Vipskypark的开头时间是多少？",
+        "answer1": "让我们VIP Skypark（包括观察甲板）从上午10点至晚上10点开放。",
+        "answer2": "在某些时间，可以关闭观察甲板，以进行私人活动或商业承诺。"
+      }
+    },
+    "recommendations": {
+      "title": "我们认为您也喜欢"
+    }
+  },
+  "lifestyle": {
+    "banner": {
+      "desktopAlt": "让我们的VIP收集横幅",
+      "mobileAlt": "让我们的VIP收集移动横幅"
+    },
+    "title": "让我们来vip的生活方式",
+    "description": "通过免费的“让我们的VIP Lifestyle会员资格”（新加坡最慷慨的奖励计划）解锁独家奖励和特权的世界。",
+    "alreadyMember": "已经是会员了吗？",
+    "tourist": "你是游客吗？",
+    "membershipTiers": "会员层",
+    "membership": {
+      "description": "对于忠实的玩家，具有各种特权和奖励。",
+      "imageAlt": "会员层图像",
+      "lifestyle": {
+        "title": "生活方式",
+        "content": [
+          "注册后自动授予，无需积分。",
+          "每10美元下注1分。 ",
+          "餐馆和酒吧的折扣为5％。"
+        ]
+      },
+      "prestige": {
+        "title": "声望",
+        "content": [
+          "在6个月内需要5,000至19,999点或最低总赌注为50,000美元。",
+          "每$ 7.5赚取1分。 ",
+          "餐馆和酒吧的折扣为10％，赌场优先保留。"
+        ]
+      },
+      "elite": {
+        "title": "精英",
+        "content": [
+          "在6个月内需要20,000  -  49,999点或最低总赌注为100,000美元。",
+          "每5美元下注1分。 ",
+          "餐馆和酒吧的折扣，VIP休息室的访问权限，指定区域内的免费班车服务。"
+        ]
+      },
+      "paiza": {
+        "title": "Paiza",
+        "content": [
+          "在6个月内需要50,000多点以上的积分或最低总赌注为250,000美元。",
+          "每$ 2.5赚取1分。 ",
+          "餐馆和酒吧的折扣为20％，可以使用最高级别的VIP休息室，24/7个人VIP援助，免费的豪华交通（包括高端车辆或私人飞机），独家扑克锦标赛和精英活动。"
+        ]
       }
     }
   }
+}

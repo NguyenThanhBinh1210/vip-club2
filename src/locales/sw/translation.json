@@ -1,0 +1,821 @@
+{
+    "support": {
+      "title": "24/7 Msaada",
+      "description": "Timu yetu ya utunzaji wa wateja inapatikana karibu na saa - tayari kukusaidia wakati wowote.",
+      "items": {
+        "transport": "Msaada na uhifadhi wa gari, kutoridhishwa kwa chumba, na maagizo ya mchezo",
+        "tours": "Maswali juu ya ziara, kasino, na poker",
+        "night": "Toa azimio hata wakati wa usiku"
+      }
+    },
+    "service": {
+      "pageTitle": "Huduma",
+      "hero": "Uzoefu huduma za kifahari huko Let Win - Klabu ya DA Nang ya VIP ya DA Nang",
+      "cta": {
+        "book": "Ziara ya VIP ya Kitabu",
+        "contact": "Wasiliana kwa mashauriano"
+      },
+      "freeTransport": {
+        "title": "Usafiri wa bure",
+        "description": "Huduma ya Uhamishaji wa VIP ya kibinafsi - bure kabisa kwa wageni wa Let'swin."
+      },
+      "support": {
+        "title": "24/7 Msaada",
+        "description": "Timu yetu ya utunzaji wa wateja inapatikana 24/7 - tayari kukusaidia wakati wowote"
+      },
+      "tour": {
+        "title": "Ziara ya kifahari",
+        "description": "Ziara ya kifurushi inayochanganya kupumzika, burudani, na uzoefu wa kasino wa VIP.\n"
+      },
+      "commission": {
+        "title": "Tume ya kuvutia",
+        "description": "Sera ya Tume ya uwazi na wazi - bora kwa ziara, madereva, na washirika"
+      }
+    },
+    "common": {
+      "menu": "Mechi",
+      "close": "Karibu",
+      "back": "Nyuma",
+      "backToMenu": "Rudi kwenye menyu",
+      "viewAll": "Tazama Zote",
+      "bookNow": "Kitabu sasa",
+      "reserveNow": "Hifadhi sasa",
+      "viewDetails": "Tazama maelezo",
+      "discoverMore": "Gundua zaidi",
+      "signUp": "Jisajili",
+      "signIn": "Ingia",
+      "alreadyMember": "Tayari mwanachama?",
+      "tourist": "Je! Wewe ni mtalii? "
+    },
+    "languages": {
+      "english": "Kiingereza",
+      "vietnamese": "vietnamese",
+
+      "malay": "Bahasa Melayu",
+      "khmer": "ភាសាខ្មែរ",
+      "indonesian": "Kiindonesia",
+      "japanese": "日本語",
+      "korean": "한국어",
+      "thai": "ภาษาไทย",
+      "chineseSimplified": "简体中文",
+      "chineseTraditional": "繁體中文",
+      "burmese": "မြန်မာ",
+      "bengali": "বাংলা",
+      "spanish": "Español",
+      "portuguese": "Português",
+      "turkish": "Türkçe",
+      "german": "Deutsch",
+      "russian": "Руский язык",
+      "haitianCreole": "Kreyòl Ayisyen",
+      "swahili": "Kiswahili"
+    },
+    "header": {
+      "navigation": {
+        "stay": "Kaa",
+        "rewards": "Thawabu",
+        "aboutUs": "Kuhusu sisi",
+        "about": "Kuhusu sisi",
+        "services": "Huduma",
+        "pokerClub": "Klabu ya Poker",
+        "casinoVip": "Kasino VIP",
+        "offers": "Inatoa",
+        "contact": "Wasiliana"
+      },
+      "stay": {
+        "title": "Vyumba na Suites",
+        "letsVipCollection": "Wacha tukusanyika",
+        "paizaCollection": "Mkusanyiko wa Paiza",
+        "onlineExclusive": {
+          "title": "Mtandaoni kipekee",
+          "stayPackages": "Vifurushi vya hoteli"
+        },
+        "experiences": {
+          "title": "Uzoefu",
+          "skypark": "Dawati la uchunguzi wa SkyPark",
+          "infinityPool": "Skypark infinity dimbwi",
+          "guestPrivileges": "Marupurupu ya wageni"
+        }
+      },
+      "rewards": {
+        "sandsLifestyle": "Wacha maisha ya VIP",
+        "membershipTiers": "Vipimo vya wanachama",
+        "memberPerks": "PERKS Mwanachama",
+        "alliancePrivileges": "Wacha marupurupu ya Vipalliance",
+        "viewAllOutlets": "Angalia wote wacha vioutlets",
+        "vipMembership": "Uanachama wa VIP hutoa",
+        "premiumPerks": "Premium Perks",
+        "eventPromotions": "Matangazo ya Tukio na Mashindano"
+      }
+    },
+    "home": {
+      "hero": {
+        "title": "Uzoefu usiku wa malipo huko Let Win Win - Klabu inayoongoza ya VIP huko Da Nang"
+      },
+      "casinoVip": {
+        "heading": "Uzoefu wa kasino VIP huko Let Win - VIP Club"
+      },
+      "hoTram": {
+        "title": "VIP Lounge katika Ho Tram Casino",
+        "description": "Iko katika moja ya kasinon kubwa na mashuhuri ya Vietnam, wacha tushinde VIP Lounge huko Ho Tram hutoa uzoefu wa kipekee, uliohifadhiwa tu kwa washiriki wetu wanaotambulika.",
+        "features": {
+          "environment": "Mazingira ya kibinafsi na ya wasomi, iliyoundwa na mambo ya ndani ya kifahari na huduma za juu.",
+          "services": "Huduma za kibinafsi, pamoja na vifurushi vya kujitolea, menyu ya kipekee ya dining, na msaada wa 24/7.",
+          "privacy": "Usiri wa mwisho na usalama, kuhakikisha faraja ya juu na amani ya akili kwa wageni wa VIP."
+        }
+      },
+      "daNang": {
+        "title": "Klabu ya Poker huko Da Nang",
+        "description": "Marudio kamili kwa washawishi wa poker, wacha tushinde kilabu katika da Nang mwenyeji wa mashindano ya poker ya kitaalam katika mpangilio wa kifahari na wa kiwango cha juu.",
+        "features": {
+          "rooms": {
+            "title": "Vyumba vya kibinafsi vya poker",
+            "description": ", iliyo na mchezo wa kiwango cha ulimwengu na betting za kiwango cha juu."
+          },
+          "services": {
+            "title": "Huduma za VIP",
+            "description": " Iliyoundwa kwa wageni waliotukuzwa, kuhakikisha uzoefu mzuri."
+          },
+          "lounge": {
+            "title": "Sehemu ya kupumzika ya kifahari",
+            "description": ", Kutumikia Visa vya kwanza na pombe nzuri, na kuunda mazingira yaliyosafishwa na ya kupumzika kwa wachezaji."
+          }
+        }
+      },
+      "hoiana": {
+        "title": "VIP Lounge huko Hoiana Casino",
+        "description": "Imewekwa katika mapumziko mashuhuri kimataifa, wacha tushinde VIP huko Hoiana inatoa mazingira ya kipekee, ikichanganya burudani ya kifahari na ujanja wa darasa la wasomi.",
+        "features": {
+          "rooms": {
+            "title": "Vyumba vya kipekee vya VIP",
+            "description": ", iliyoundwa kwa kugusa ya kupendeza na ya kupendeza."
+          },
+          "services": {
+            "title": "Huduma za VIP za Premium",
+            "description": ", pamoja na uhamishaji wa limousine, msaada wa kibinafsi, na makao ya nyota tano."
+          },
+          "rewards": {
+            "title": "Thawabu za kipekee",
+            "description": " Kwa wacha tushinde wanachama, wakishirikiana na zawadi za kifahari na mpango wa uaminifu wa kuvutia."
+          }
+        }
+      },
+      "rewardsClub": {
+        "title": "Faida za kipekee na Klabu ya Let ya Let VIP",
+        "subtitle": "Jisajili kupata pesa unapocheza",
+        "description": "Kama mwanachama wa Klabu ya Let Viprewards, unapata vippoints na wacha vipdollars kwenye mchezo wako wa kasino. ",
+        "locations": {
+          "b2m": "B2M",
+          "level1": "Kiwango cha 1",
+          "level2Ruby": "Kiwango cha 2 cha michezo ya meza ya ruby",
+          "level2RubySlots": "Kiwango cha 2 Ruby inafaa kuingia",
+          "level2Apex": "Kiwango cha 2 Apex Grand Entrance"
+        }
+      },
+      "vipClub": {
+        "title": "Kuanzisha Wacha tushinde VIP Club",
+        "description": "Wacha tushinde VIP Club ni mfumo wa kipekee wa vyumba vya VIP, kutoa uzoefu wa kifahari wa michezo ya kubahatisha iliyoundwa kwa wasomi. ",
+        "packageTitle": "Kifurushi cha Uzoefu wa VIP",
+        "packageDescription": "Furahiya nafasi ya kibinafsi, ya kiwango cha juu na huduma ya kibinafsi 24/7.",
+        "golfCasinoPackage": "Gofu na kifurushi cha kasino",
+        "golfCasinoDescription": "Kuchanganya gofu ya wasomi na kasino ya premium kwa uzoefu wa kipekee wa VIP.",
+        "pokerPackage": "Kifurushi cha Poker cha Utaalam",
+        "pokerDescription": "Kifurushi maalum cha huduma kwa washirika wa mashindano ya poker - ambapo ujuzi unafaa.",
+        "spaNightlifePackage": "Resort + Spa + kifurushi cha maisha ya usiku",
+        "spaNightlifeDescription": "Kuchanganya kupumzika, utunzaji wa ustawi na uzoefu wa kufurahisha wa maisha ya usiku.",
+        "experienceHeader": "Uzoefu wa VIP - 'anasa saa bora zaidi'",
+        "experienceDescription": "Furahiya nafasi za kibinafsi, za kifahari na huduma ya kibinafsi 24/7. ",
+        "servicesInclude": "Huduma ni pamoja na:",
+        "beverage": "Vinywaji kwenye tovuti na vinywaji nyepesi",
+        "privateRoom": "Vyumba vya kibinafsi, vya utulivu, na vya kifahari",
+        "personalSupport": "Binafsi 1: 1 Msaada (tafsiri, uhifadhi wa huduma, usafirishaji ...)",
+        "vipAccess": "Upataji wa kipaumbele kwa maeneo ya VIP katika mfumo wote",
+        "gifts": "Zawadi za kipekee na ofa maalum kwa washiriki wa premium",
+        "suitableFor": "Inafaa kwa:",
+        "highRollers": "Rollers kubwa, wafanyabiashara, na wale wanaothamini huduma ya faragha na ya malipo.",
+        "golfCasinoHeader": "Gofu & Casino - 'Twopassions, OneJourney'",
+        "golfCasinoDescriptionLong": "Kuchanganya gofu ya wasomi na burudani ya kasino ya kwanza, hii ndio chaguo bora kwa wageni ambao wanataka kupumzika na gofu siku na kufurahiya hali nzuri ya kasino usiku.",
+        "golfCasinoTeeTime": "Nyakati za Tee katika Vilabu vya Gofu ya Premium huko Da Nang - Hoi An",
+        "golfCasinoVipTransfer": "VIP Pick - Up na huduma ya kuacha",
+        "golfCasinoLuxuryStay": "Malazi ya kifahari karibu na uwanja wa gofu au pwani",
+        "golfCasinoGuide": "Msaada wa mwongozo wa kujitolea kwenye kasino",
+        "golfCasinoGroupOffer": "Combo maalum inatoa kwa vikundi",
+        "golfCasinoSuitableFor": "Inafaa kwa:",
+        "golfCasinoTarget": "Vikundi vya gofu, wageni wa muda mrefu, na wateja wa burudani wafanyabiashara na mchanganyiko wa kupumzika na burudani.",
+        "bulletPrivateRoom": "Vyumba vya kibinafsi, vya utulivu, na vya kifahari",
+        "bulletPersonalSupport": "1: 1 Msaada wa kibinafsi (tafsiri, uhifadhi, usafirishaji ...)",
+        "bulletVipAccess": "Upataji wa kipaumbele kwa maeneo ya VIP katika mfumo wote",
+        "bulletGifts": "Zawadi za kipekee na matoleo kwa wanachama wa malipo",
+        "highRollersVn": "Inafaa kwa: rollers kubwa, wafanyabiashara, na wale wanaothamini faragha na huduma ya malipo.",
+        "mobileExperienceDescription": "Furahiya nafasi ya kibinafsi na ya classy na huduma ya kibinafsi 24/7. ",
+        "privateRoomVn": "Vyumba vya kibinafsi, vya utulivu, na vya kifahari",
+        "personalSupportVn": "Binafsi 1: 1 Msaada (tafsiri, uhifadhi wa huduma, usafirishaji ...)",
+        "vipAccessVn": "Upataji wa kipaumbele kwa maeneo ya VIP katika mfumo wote",
+        "giftsVn": "Zawadi za kipekee na ofa maalum kwa washiriki wa premium",
+        "suitableForVnTitle": "Inafaa kwa:",
+        "suitableForVnDesc": "Rollers za juu, wafanyabiashara, na wale wanaothamini huduma ya faragha na malipo.",
+        "spaNightlifeTitle": "Biashara na Usiku wa Usiku - \"Pumzika na Ignite\"",
+        "spaNightlifeDescription2": "Baada ya muda mkali kwenye meza ya mchezo, ni wakati wa kufunguka mwili wako - na kuinua roho yako na maisha ya usiku ya jiji la pwani.",
+        "spaNightlifeServicesInclude": "Huduma ni pamoja na:",
+        "spaLuxuryPackage": "Matibabu ya Biashara ya Premium (Massage ya Mwili, Usoni, Sauna, Steam ya Mitishamba…)",
+        "spaVipClubBooking": "Kutoridhishwa kwa meza ya VIP kwenye baa za juu na vilabu",
+        "spaNightTransfer": "Usafirishaji wa usiku wa kibinafsi na salama",
+        "spaInRoomService": "Chakula cha ndani ya chumba na huduma ya chakula cha jioni",
+        "spaNightlifeSuitableFor": "Inafaa kwa:",
+        "spaNightlifeTarget": "Wanandoa, marafiki wa karibu, na wageni ambao wanafurahiya kupumzika kwa kifahari na burudani ya hali ya juu.",
+        "pokerPackageTitle": "Kifurushi cha Poker - \"Ambapo Ujuzi hukutana na ufahari\"",
+        "pokerDescription2": "Kifurushi maalum cha huduma kwa washiriki wa mashindano ya poker - ambapo ustadi, mkakati, na michezo huadhimishwa.",
+        "pokerServicesInclude": "Huduma ni pamoja na:",
+        "pokerProTournaments": "Ushiriki katika mashindano ya kitaalam ya poker huko Let's Win Poker Club",
+        "pokerPrivateEvents": "Mashindano ya kibinafsi ya mwenyeji wa vikundi au wateja wa kampuni",
+        "pokerProfessionalDealer": "Wafanyabiashara wa kitaalam na meza za poker za kiwango cha mashindano",
+        "pokerInterpreterSupport": "Msaada wa mtafsiri na utunzaji wa wageni wa kimataifa",
+        "pokerCustomAccommodation": "Hoteli/uhifadhi wa ghorofa juu ya ombi",
+        "pokerSuitableFor": "Inafaa kwa:",
+        "pokerTarget": "Wacheza kitaalam, jamii za poker, wageni wa Kikorea/Wachina ambao wanafurahiya michezo ya akili."
+      },
+      "buttons": {
+        "contact": "Wasiliana nasi",
+        "book": "Kitabu sasa",
+        "viewDetails": "Tazama maelezo",
+        "bookVipTour": "Ziara ya VIP ya Kitabu",
+        "contactConsultant": "Mshauri wa Mawasiliano",
+        "contactNow": "Wasiliana sasa"
+      }
+    },
+    "footer": {
+      "getToKnow": {
+        "title": "Tujue",
+        "companyInfo": "Habari ya kampuni",
+        "careers": "Kazi",
+        "faq": "Maswali",
+        "contactUs": "Wasiliana nasi",
+        "awards": "Tuzo na sifa"
+      },
+      "usefulInfo": {
+        "title": "Habari muhimu",
+        "travelGuide": "Mwongozo wa Kusafiri",
+        "planVisit": "Panga ziara yako",
+        "gettingHere": "Kupata hapa",
+        "services": "Huduma na huduma",
+        "packages": "Hoteli na vifurushi vya ndege"
+      },
+      "downloadApp": {
+        "title": "Pakua programu yetu"
+      },
+      "social": {
+        "title": "Ungana na sisi"
+      },
+      "getInspired": {
+        "title": "Pata msukumo",
+        "subtitle": "Uhifadhi wa haraka na Wasiliana",
+        "bookNow": "Kitabu sasa"
+      },
+      "copyright": "© 2025 Wacha tufahamishe mtindo wa maisha. "
+    },
+    "about": {
+      "title": "Utangulizi",
+      "subtitle": "Kuhusu hebu tushinde kilabu cha VIP",
+      "introduction": "Karibu kwenye Let WIN WIN VIP Club - marudio ya kipekee kwa wale wanaotafuta burudani za kwanza na huduma za kifahari. ",
+      "experience": {
+        "title": "Wacha tushinde kilabu cha VIP, utafurahiya:",
+        "hoTram": {
+          "title": "• VIP Lounge katika Ho Tram Casino: ",
+          "description": "Nafasi ya kibinafsi na michezo ya kipekee kwa wageni wa VIP, kutoa faraja na darasa."
+        },
+        "hoiana": {
+          "title": "• Eneo la VIP huko Hoiana: ",
+          "description": "Ubunifu wa kisasa na huduma ya kibinafsi, kutoa uzoefu wa kipekee na wa kifahari."
+        },
+        "danang": {
+          "title": "• Klabu ya Poker katika Hoteli ya Danaciti: ",
+          "description": "Marudio bora kwa washawishi wa poker, iliyo na mashindano ya kitaalam na meza za malipo."
+        }
+      },
+      "service": "Kwa kweli, tunatoa huduma ya wateja 24/7 kupitia Hotline ya moja kwa moja, tayari kusaidia na kukidhi mahitaji yako yote.",
+      "invitation": "Jiunge na jamii ya wasomi huko Let's Win VIP Club - ambapo uzoefu wa kwanza na wakati wa kushinda unakusanyika!",
+      "whyChoose": {
+        "title": "Kwa nini Uchague Wacha Tushinde VIP?",
+        "features": {
+          "spaces": "✔ Nafasi za kipekee za VIP na mambo ya ndani ya kupendeza, kuhakikisha faraja kabisa.",
+          "services": "Huduma za kibinafsi, na timu ya wataalamu waliojitolea kutoa msaada wa 24/7.",
+          "rewards": "✔ Zawadi za kipekee na Zawadi za kifahari, zilizohifadhiwa kwa wacha washindi wa VIP.",
+          "privacy": "✔ Usiri wa juu na usalama, na kuhakikisha uzoefu salama na wa kifahari."
+        }
+      },
+      "join": "Jiunge na tushinde Klabu ya VIP leo na tujishughulishe na uzoefu wa kifahari usio sawa!",
+      "contact": "Hotline ya Huduma ya Wateja wa VIP (24/7): [Nambari ya simu]"
+    },
+    "premiumPerks": {
+      "pageTitle": "Upendeleo wa Premium huko Hoiana & Ho Tram",
+      "freeHotelTitle": "Chumba cha hoteli ya bure kwa washiriki wa VIP",
+      "freeHotelDesc": "Kama mwanachama wa VIP, utafurahiya marupurupu ya kipekee, pamoja na vyumba vya hoteli za kupendeza. ",
+      "privateShuttleTitle": "Huduma ya kibinafsi ya kibinafsi kwa VIP za juu",
+      "privateShuttleDesc": "Kama VIP ya juu, utapokea huduma ya kibinafsi ya kuhamisha kibinafsi, kuhakikisha kusafiri rahisi na vizuri. ",
+      "exclusiveGiftsTitle": "Zawadi za kipekee kwenye hafla maalum",
+      "exclusiveGiftsDesc": "Mbali na faida za malipo, washiriki wa VIP watapata fursa ya kupokea zawadi za kipekee wakati wa hafla maalum kwa mwaka mzima. ",
+      "contactNow": "Wasiliana sasa"
+    },
+    "freeTransport": {
+      "title": "Huduma ya Shuttle Bure",
+      "description": "Huduma ya Usafirishaji wa VIP ya kibinafsi - bure kabisa kwa wageni wa Let'swin.",
+      "items": {
+        "pickup": "Chukua-juu kutoka uwanja wa ndege, hoteli, au kituo cha jiji",
+        "driver": "Dereva mwenye heshima na mwenye busara",
+        "logo": "Chaguo la kuchagua gari na au bila nembo ya Let'swin",
+        "group": "Inapatikana kwa vikundi au watu binafsi"
+      },
+      "cta": "Agiza safari yako sasa"
+    },
+    "eventPromotions": {
+      "pageTitle": "Hafla na Upendeleo wa Mashindano",
+      "tournamentTitle": "Jiunge na mashindano ya kipekee ya VIP",
+      "tournamentDesc": "Kama mwanachama wa VIP, utakuwa na nafasi ya kushiriki katika mashindano ya kipekee ambapo unaweza kuonyesha ujuzi wako, mkakati, na talanta katika mpangilio wa kiwango cha ulimwengu. ",
+      "vipPartiesTitle": "VIWANGO VYA VIPIZO NA HABARI",
+      "vipPartiesDesc": "Kama VIP, utaalikwa kwenye vyama vya mara kwa mara na hafla za kipekee zilizofanyika katika kumbi za kifahari. ",
+      "specialRewardsTitle": "Fursa kubwa za tuzo kutoka kwa programu maalum",
+      "specialRewardsDesc": "Programu za kipekee iliyoundwa kwa VIP hutoa fursa nzuri za kushinda kubwa. ",
+      "contactNow": "Wasiliana sasa"
+    },
+    "aboutSection": {
+      "missionTitle": "Ujumbe wa wacha",
+      "missionDescription": "Kuwa mshirika wa kulia anayeaminika kwa kila mgeni wa kimataifa anayekuja Vietnam kutafuta burudani, salama, taaluma, na burudani ya kuaminika.",
+      "missionStatement": "Wacha tuandae uzoefu tu - tunaunda maisha ya burudani ya VIP kwa wasomi.",
+      "whatIsLetswin": "Let ni nini?",
+      "letswinIntroMobile": "LetSwin ni jukwaa linalotoa huduma za burudani zinazojumuisha zote kwa watalii wa kimataifa na rollers kubwa.",
+      "letswinIntroDesktop": "LetSwin ni jukwaa ambalo hutoa huduma kamili za burudani kwa wasafiri wa kimataifa na wachezaji wa kiwango cha juu wanaotembelea Vietnam. ",
+      "letswinServices": {
+        "pokerClub": "• Klabu ya kibinafsi na ya kitaalam",
+        "vipCasino": "• Uzoefu wa kasino ya VIP na ofa za kipekee",
+        "transportSupport": "• Usafiri, msaada wa mchezo, na huduma za tafsiri",
+        "customTours": "• Ratiba za utalii zilizobinafsishwa za kupumzika na burudani",
+        "support247": "• Mfumo wa utunzaji wa wateja 24/7",
+        "nightSupport": "• Msaada wa dharura hata wakati wa usiku"
+      },
+      "whoIsFor": "Acha ni nani?",
+      "whoIsForList": {
+        "internationalTourists": "• Watalii wa kimataifa wanaotafuta kupata uzoefu wa poker, kasinon, na kupumzika kwa kifahari huko Vietnam.",
+        "experiencedPlayers": "• Wachezaji wenye uzoefu wanaotafuta huduma za kuaminika - za kuaminika.",
+        "partners": "• Washirika wanaotafuta kushirikiana katika kukuza mitandao ya wateja wa juu: waendeshaji wa watalii, hoteli, madereva, washirika."
+      },
+      "vipExperience": "Zaidi ya punguzo la kipekee, unaweza pia kufurahiya vyumba vya kibinafsi na vya kifahari vya VIP. ",
+      "contactNow": "Wasiliana sasa"
+    },
+    "vipMembership": {
+      "title": "Uanachama wa VIP hutoa",
+      "contactNow": "Wasiliana sasa",
+      "section1": {
+        "title": "Pata Pointi na Zawadi za Kukomboa",
+        "description": "Kupata alama na kukomboa zawadi kupitia kushiriki katika michezo hukuletea uzoefu wa kufurahisha na thawabu za kuvutia. "
+      },
+      "section2": {
+        "title": "Punguzo juu ya dining, hoteli, na huduma za spa",
+        "description": "Furahiya kula vizuri kwenye mikahawa ya premium, pumzika kwenye spa, au ujiingie katika mazingira ya hoteli ya kifahari -yote yalifanya kupatikana zaidi na mpango wetu wa punguzo la malipo. "
+      },
+      "section3": {
+        "title": "Vyumba vya kibinafsi vya VIP na huduma za premium",
+        "description": "Zaidi ya punguzo la kawaida, unaweza kujiingiza katika nafasi za kipekee na za kifahari kupitia vyumba vyetu vya VIP. "
+      }
+    },
+    "pokerClub": {
+      "heading": "Uzoefu wa kilabu cha poker huko Da Nang",
+      "contactConsultant": "Mshauri wa Mawasiliano",
+      "privateRoomTitle": "Chumba cha kibinafsi cha poker",
+      "privateRoomDescription": "Kama mwanachama wa VIP, utapata mashindano ya kipekee ya poker ambapo unaweza kuonyesha ujuzi wako, mikakati, na talanta katika mpangilio wa kifahari. ",
+      "clubTitle": "Karibu kwenye Klabu ya Poker",
+      "clubDescription": "Poker ni zaidi ya mchezo tu - ni uzoefu wa kifahari ambapo maamuzi smart na mikakati iliyosafishwa husababisha thawabu zinazostahili. "
+    },
+    "contact": {
+      "title": "Uhifadhi wa haraka na Wasiliana",
+      "stage1": {
+        "title": "Ingiza hapo juu zaidi",
+        "description": "Kuwa wa kwanza kugundua utaftaji wa matoleo ya kipekee, matukio yanayokuja na udhalilishaji katika bora zaidi huko Let Win Club.",
+        "fullName": "Jina kamili",
+        "phoneNumber": "Nambari ya simu",
+        "submit": "Wasilisha"
+      },
+      "stage2": {
+        "title": "Asante kwa kujiandikisha kwa jarida letu.",
+        "description": "Tarajia kubadilika kwa mawazo ya yaliyomo ambayo yanaonyesha upendo wetu kwa kila kitu cha kushangaza.",
+        "backToHome": "Rudi kwenye ukurasa wa nyumbani"
+      }
+    },
+    "fineDining": {
+      "title": "Migahawa nzuri ya kula",
+      "description": "Gundua sanaa ya upishi katika mikahawa hii nzuri ya kula huko Singapore, wacha tushinde kilabu. ",
+      "romanticRestaurants": {
+        "title": "Migahawa ya kimapenzi",
+        "description": "Badilisha jioni yoyote kuwa tukio la kukumbukwa na ambience ya karibu katika mikahawa hii ya kimapenzi. "
+      },
+      "specialOccasions": {
+        "title": "Hafla maalum",
+        "description": "Kuadhimisha maisha ya wakati wa thamani zaidi na kuongeza kasi ya umakini kwa hafla yoyote kwenye mikahawa hii isiyo ya kawaida. "
+      },
+      "shoppes": {
+        "title": "Gundua duka",
+        "description": "Na uteuzi wa kuvutia wa lebo zaidi ya 170 za wabuni na boutique za kifahari, utaftaji wako wa vitu vizuri unaisha hapa. "
+      },
+      "viewRestaurants": "Tazama mikahawa",
+      "viewShops": "Tazama maduka",
+      "viewDetails": "Tazama maelezo"
+    },
+    "signupSuccessful": {
+      "welcome": "Karibu, Asdasd",
+      "digitalAccount": {
+        "title": "Akaunti ya dijiti",
+        "description": "Fikia akaunti yako ya Maisha ya Let VIP na jina lako mpya la mtumiaji na nywila."
+      },
+      "membershipCard": {
+        "title": "Kadi ya Uanachama",
+        "description": "Kitambulisho chako cha ushirika na PIN kitahitajika kwa shughuli za Let's Viprewards huko Marina Bay Sands."
+      },
+      "username": "Jina la mtumiaji",
+      "membershipId": "Kitambulisho cha wanachama",
+      "loginNow": "Ingia sasa"
+    },
+    "otpVerification": {
+      "title": "Uthibitishaji wa OTP",
+      "stage1": {
+        "description": "Tafadhali chagua kituo kupokea nywila ya wakati mmoja (OTP) kama sehemu ya mchakato wa uhakiki."
+      },
+      "stage2": {
+        "description": "Barua pepe iliyo na nywila ya wakati mmoja (OTP) imetumwa kwa anwani yako ya barua pepe t**************@gmail.com."
+      },
+      "emailOtp": "Barua pepe OTP",
+      "enterOtp": "Ingiza OTP",
+      "resendOtp": "Rudisha OTP mpya mnamo 01:16",
+      "proceed": "Endelea",
+      "verify": "Thibitisha",
+      "back": "Nyuma"
+    },
+    "signup": {
+      "title": "Jisajili kwa ushirika wako wa bure wa Let VIP",
+      "banner": "Bango la Kuhifadhi",
+      "already_have_account": "Tayari una akaunti?",
+      "login_here": "Ingia hapa.",
+      "particulars": "Maelezo",
+      "digital_account": "Akaunti ya dijiti",
+      "complete": "Kamili",
+      "last_name": "Jina la mwisho",
+      "first_name": "Jina la kwanza",
+      "passport_note": "(Kama ilivyochapishwa kwenye pasipoti yako)",
+      "date_of_birth": "Tarehe ya kuzaliwa",
+      "age_requirement": "(Unahitaji kuwa na umri wa miaka 18 kujiunga.)",
+      "mobile_number": "Nambari ya rununu",
+      "mobile_note": "Nambari lazima iwe nambari 8",
+      "email": "Anwani ya barua pepe",
+      "email_note": "Tafadhali ingiza anwani halali ya barua pepe",
+      "referral_code": "Nambari ya rufaa",
+      "optional": "(Hiari)",
+      "next": "Ifuatayo",
+      "create_pin": "Unda pini ya uanachama",
+      "create_4digit_pin": "Unda pini yako ya kadi ya nambari 4",
+      "pin_description": "Pini yako ya nambari 4 itatumika kwa shughuli za Let's Viprewards huko Marina Bay Sands.",
+      "create_pin_label": "Unda pini",
+      "confirm_pin": "Thibitisha pini",
+      "create_digital_account": "Unda akaunti ya dijiti",
+      "digital_accounts": "Akaunti ya dijiti (s)",
+      "digital_account_description": "Akaunti hii ya dijiti (jina la mtumiaji na nywila) itatumika kuingia kwenye majukwaa yetu ya dijiti. ",
+      "username": "Jina la mtumiaji",
+      "password": "Nenosiri",
+      "confirm_password": "Thibitisha nywila",
+      "create": "Unda",
+      "steps": {
+        "particulars": "Maelezo",
+        "digitalAccount": "Akaunti ya dijiti",
+        "complete": "Kamili"
+      },
+      "form": {
+        "lastName": "Jina la mwisho",
+        "firstName": "Jina la kwanza",
+        "asPassport": "(Kama ilivyochapishwa kwenye pasipoti yako)",
+        "dob": "Tarehe ya kuzaliwa",
+        "dobNote": "(Unahitaji kuwa na umri wa miaka 18 kujiunga.)",
+        "dd": "Dd",
+        "mmm": "Mmm",
+        "yyyy": "Yyyy",
+        "months": {
+          "jan": "Jan",
+          "feb": "Februari",
+          "mar": "Mar",
+          "apr": "Aprili",
+          "may": "Mei",
+          "jun": "Jun",
+          "jul": "Jul",
+          "aug": "Aug",
+          "sep": "Sep",
+          "oct": "Oktoba",
+          "nov": "Novemba",
+          "dec": "Dec"
+        },
+        "mobileNumber": "Nambari ya rununu",
+        "mobileNote": "Nambari lazima iwe nambari 8",
+        "email": "Anwani ya barua pepe",
+        "emailNote": "Tafadhali ingiza anwani halali ya barua pepe",
+        "referralCode": "Nambari ya rufaa",
+        "optional": "(Hiari)"
+      }
+    },
+    "notFound": {
+      "title": "Ukurasa huu haipo",
+      "description": "Ukurasa unaotafuta haukuweza kupatikana."
+    },
+    "more": {
+      "title": "Uzoefu zaidi",
+      "viewDetails": "Tazama maelezo",
+      "casinoLevy": {
+        "title": "Kuingia kwa kasino",
+        "description": "Pata habari juu ya sheria za jumla za kasino na masharti ya kuingia."
+      },
+      "rewardsClub": {
+        "title": "Faida za kipekee na Klabu ya Let ya Let VIP",
+        "subtitle": "Jisajili kupata pesa unapocheza",
+        "description": "Kama mwanachama wa Klabu ya Let Viprewards, unapata vippoints na wacha vipdollars kwenye mchezo wako wa kasino. ",
+        "locations": [
+          "B2M",
+          "Kiwango cha 1",
+          "Kiwango cha 2 cha michezo ya meza ya ruby",
+          "Kiwango cha 2 Ruby inafaa kuingia",
+          "Kiwango cha 2 Apex Grand Entrance"
+        ]
+      },
+      "responsibleGambling": {
+        "title": "Kamari anayewajibika",
+        "subtitle": "Kujitolea kwa walinzi wetu",
+        "description": "Kujitolea kwetu kuunda uzoefu usioweza kusahaulika kunaenea kwa kila sehemu ya mapumziko yetu - chini ya sakafu ya kasino."
+      }
+    },
+    "login": {
+      "title": "Ingia",
+      "username": "Jina la mtumiaji",
+      "emailPlaceholder": "Barua pepe",
+      "password": "Nenosiri",
+      "passwordPlaceholder": "Nenosiri",
+      "loginButton": "Ingia",
+      "noAccount": "Je! Hauna akaunti?",
+      "registerNow": "Jisajili sasa"
+    },
+    "paiza": {
+      "title": "Mkusanyiko wa Paiza",
+      "bannerAlt": "Bango la Mkusanyiko wa Paiza",
+      "bannerMobileAlt": "Ukusanyaji wa Paiza",
+      "intro": "Imehifadhiwa kwa utambuzi zaidi, mkusanyiko wa Paiza unajumuisha nyumba ya mwisho mbali na nyumbani, na anasa isiyo na usawa, maelezo ya kufikiria na sanaa isiyo na mipaka kila upande.",
+      "description1": "Kutoka kwa viingilio vya busara hadi vifaa vya kupendeza vya Ensuite, kila nyanja ya mkusanyiko wetu bora wa Suite imeundwa kwa faragha na faraja. ",
+      "description2": "Furahiya upatikanaji wa upendeleo wa makazi ya Paiza Sky, chumba cha kupumzika cha kilabu cha kibinafsi kilichowekwa kwenye hoteli yetu ya alama. ",
+      "description3": "Katika makazi yako yote, timu yetu ya Butler ya masaa 24 iko tayari kutarajia matakwa yako kila, na azimio la kufanya chochote kinachowezekana.",
+      "description4": "Karibu nyumbani kwa Mkusanyiko wa Paiza, makazi ya kipekee.",
+      "experienceTitle": "Uzoefu wa ajabu",
+      "experienceImageAlt": "Picha ya uzoefu",
+      "experiences": {
+        "0": {
+          "title": "Kufika kwa Paiza VIP",
+          "description": "Gusa kukaribishwa kwa joto na salamu zetu za kujitolea. "
+        },
+        "1": {
+          "title": "Huduma ya kipekee ya Butler",
+          "description": "Uzoefu wa kibinafsi huduma ya Butler ya masaa 24, kuhakikisha kila hitaji lako linafikiwa kwa umakini mkubwa na utunzaji."
+        },
+        "2": {
+          "title": "Sebule ya anga ya kibinafsi",
+          "description": "Fikia makazi ya kipekee ya Paiza Sky, ukitoa maoni ya paneli na huduma za premium."
+        },
+        "3": {
+          "title": "Uzoefu wa Curated",
+          "description": "Furahiya uzoefu wa bespoke kutoka kwa dining ya kibinafsi hadi adventures ya yacht, iliyoundwa na upendeleo wako."
+        }
+      },
+      "tour": {
+        "title": "Marejesho ya kifahari - Burudani - Ziara ya Gofu",
+        "intro": "Let'swin hupanga ziara zinazojumuisha zote ambazo zinachanganya kupumzika, burudani, na gofu-iliyoundwa kwa wateja ambao wanafurahiya mtindo wa maisha ya kwanza.",
+        "scheduleTitle": "Ratiba iliyopendekezwa (siku 3 usiku 2):",
+        "day1": {
+          "title": "Siku ya 1:",
+          "item1": "Chukua uwanja wa ndege / hoteli",
+          "item2": "Angalia katika mapumziko ya nyota 4-5",
+          "item3": "Kula - massage - kupumzika nyepesi"
+        },
+        "day2": {
+          "title": "Siku ya 2:",
+          "item1": "Asubuhi: Gofu katika kozi ya kifahari",
+          "item2": "Mchana: Poker au wakati wa bure",
+          "item3": "Jioni: Uzoefu wa kasino ya VIP na mwenyeji wa kibinafsi"
+        },
+        "day3": {
+          "title": "Siku ya 3:",
+          "item1": "Kiamsha kinywa - spa au ununuzi mwepesi",
+          "item2": "Usafiri kurudi kwenye uwanja wa ndege au hoteli"
+        },
+        "servicesTitle": "Huduma zilizojumuishwa:",
+        "services": {
+          "golf": "Uhifadhi wa kozi ya gofu na kukodisha vifaa",
+          "transport": "Usafiri wa kibinafsi",
+          "guide": "Mwongozo wa ziara ya kibinafsi",
+          "support": "Msaada wa wateja 24/7",
+          "group": "Kikundi (watu 2-10) au ziara za kibinafsi zinapatikana"
+        },
+        "cta": "Agiza ziara yako sasa"
+      },
+      "aboveExpectation": {
+        "title": "Juu ya matarajio yote",
+        "description1": "Iliyowekwa kwenye sakafu ya juu zaidi ya jengo letu la iconic, mkusanyiko wa Paiza unaonyesha mambo ya ndani ya kupendeza lakini yenye utulivu yaliyo na dari za juu, vifaa vya kupendeza vya vifaa na vifaa bora, vya sanaa za kuvutia na maoni mazuri.",
+        "description2": "Safu ya kushangaza ya Objet iliyoundwa na mafundi wa juu wa kimataifa-kama vile kutoka kwa vifaa vya kuchora vya rangi ya hariri, vyombo vya shaba kama vito vya Zanetto na Legle Asia ya porcelainware-huzaa jicho kila zamu, inayokuzunguka na uzuri.",
+        "description3": "Kutoka kwa soirees ya kifahari hadi kupumzika kwa kina, hata maelezo madogo kabisa yametolewa kwa uangalifu kwa faraja yako na raha."
+      },
+      "rooms": {
+        "premierRoom": {
+          "imageAlt": "Wacha picha ya chumba cha Vippremier",
+          "title": "Wacha chumba cha Vippremier",
+          "gardenView": "Bustani na Mtazamo wa Bay",
+          "cityView": "Mtazamo wa jiji",
+          "description": "Ondoa kwenye chumba chako cha kifahari na ufurahie uboreshaji wa hazina katika armoire ya bespoke. ",
+          "features": {
+            "size": "45 sqm kwa wastani",
+            "guests": "Hadi wageni 3",
+            "beds": "1 mfalme au vitanda 2 vya malkia"
+          }
+        }
+      },
+      "paizaExperience": {
+        "imageAlt": "Wacha picha ya maisha ya VIP",
+        "title": "Uzoefu wa Paiza",
+        "description": "Revel katika nguzo ya kuishi kisasa katika mkusanyiko mpya wa Paiza. "
+      }
+    },
+    "packages": {
+      "banner": {
+        "desktopAlt": "Vifurushi vya Mabango",
+        "mobileAlt": "Vifurushi vya bendera"
+      },
+      "title": "Paradiso ambayo imeundwa kwako",
+      "description": "Chunguza vifurushi vya kukaa vilivyochorwa kwa familia, wanandoa na watu walio na ladha ya utambuzi, akili za kutamani na hamu ya adventure",
+      "room": {
+        "title": "Wacha chumba cha Vippremier",
+        "view": {
+          "gardens": "Bustani na Mtazamo wa Bay",
+          "city": "Mtazamo wa jiji"
+        },
+        "description": "Ondoa kwenye chumba chako cha kifahari na ufurahie uboreshaji wa hazina katika armoire ya bespoke. ",
+        "details": {
+          "area": "45 sqm kwa wastani",
+          "guests": "Hadi wageni 3",
+          "beds": "1 mfalme au vitanda 2 vya malkia"
+        },
+        "viewDetails": "Tazama maelezo"
+      }
+    },
+    "skypark": {
+      "banner_alt": "Bango la uchunguzi wa SkyPark",
+      "banner_mobile_alt": "SkyPark Uangalizi wa Bango la Simu ya SkyPark",
+      "paradise_title": "Paradiso ambayo imeundwa kwako",
+      "discover_text": "Kuanzia 17 Jan, gundua zamani, za sasa na za baadaye za Klabu ya Let's Win huko Skyline Singapore: Hadithi kutoka juu, onyesho jipya huko SkyPark Observation Deck.",
+      "explore_text": "Chunguza jiji kutoka eneo jipya la duka saa 56 Highs High, ambapo mtazamo mzuri wa sura ya jiji la Singapore ni ya kupendeza. ",
+      "evening_view": "Jioni, dawati la uchunguzi pia hutoa maoni ya kuvutia ya spectra.",
+      "sunset_experience": "Kwa uzoefu wa karibu zaidi wa kutazama, chagua jua la jua, mpango wa kipekee kamili na ufikiaji wa kipaumbele kupitia eneo la kuingia kwa kibinafsi, maeneo ya kujitolea ya kujitolea na menyu ya dining ya kwanza.",
+      "book_tickets": "Tikiti za kitabu",
+      "notice_title": "Taarifa",
+      "notice_text": "Dawati la uchunguzi wa SkyPark litafunga tarehe zifuatazo saa 9 jioni kwa vyama vya Mwezi kamili wa Disco (kiingilio cha mwisho saa 8 jioni)",
+      "details_title": "Maelezo",
+      "location_title": "Mahali",
+      "location_text1": "Mnara wa Hoteli 3, kiwango cha 56",
+      "location_text2": "Kuingia kwa dawati la uchunguzi wa SkyPark kunapatikana kupitia barabara kuu ya Hoteli 3.",
+      "hours_title": "Masaa ya ufunguzi",
+      "hours_nonpeak": "Isiyo ya kilele: 10 asubuhi-4.30 jioni (kiingilio cha mwisho saa 4 jioni)",
+      "hours_peak": "Kilele: 5pm - 10pm (kiingilio cha mwisho saa 9.30 jioni)",
+      "prices_title": "Bei ya tikiti",
+      "whats_on": "Nini juu",
+      "you_may_like": "Tunadhani pia ungependa",
+      "faq_title": "Maswali yanayoulizwa mara kwa mara",
+      "faq": {
+        "opening_hours": {
+          "question": "Je! Ni masaa gani ya ufunguzi wa Let VipskyPark?",
+          "answer1": "Wacha VIP Skypark - pamoja na dawati la uchunguzi - imefunguliwa kutoka 10 asubuhi hadi 10 jioni. ",
+          "answer2": "Dawati la uchunguzi linaweza kufungwa kwa hafla za kibinafsi au ahadi za kibiashara kwa nyakati fulani. "
+        },
+        "rain": {
+          "question": "Ni nini kinatokea ikiwa mvua inanyesha?",
+          "answer1": "Wacha VIP Skypark - pamoja na dawati la uchunguzi - imefunguliwa kutoka 10 asubuhi hadi 10 jioni. ",
+          "answer2": "Dawati la uchunguzi linaweza kufungwa kwa hafla za kibinafsi au ahadi za kibiashara kwa nyakati fulani. "
+        },
+        "souvenir": {
+          "question": "Je! Kuna duka la ukumbusho?",
+          "answer1": "Wacha VIP Skypark - pamoja na dawati la uchunguzi - imefunguliwa kutoka 10 asubuhi hadi 10 jioni. ",
+          "answer2": "Dawati la uchunguzi linaweza kufungwa kwa hafla za kibinafsi au ahadi za kibiashara kwa nyakati fulani. "
+        },
+        "prohibited": {
+          "question": "Je! Vitu vyovyote vimepigwa marufuku kwenye dawati la uchunguzi wa SkyPark?",
+          "answer1": "Wacha VIP Skypark - pamoja na dawati la uchunguzi - imefunguliwa kutoka 10 asubuhi hadi 10 jioni. ",
+          "answer2": "Dawati la uchunguzi linaweza kufungwa kwa hafla za kibinafsi au ahadi za kibiashara kwa nyakati fulani. "
+        },
+        "other_areas": {
+          "question": "Je! Ninaweza kutembelea maeneo mengine ya Let VipskyPark na tikiti yangu ya uchunguzi wa SkyPark?",
+          "answer1": "Wacha VIP Skypark - pamoja na dawati la uchunguzi - imefunguliwa kutoka 10 asubuhi hadi 10 jioni. ",
+          "answer2": "Dawati la uchunguzi linaweza kufungwa kwa hafla za kibinafsi au ahadi za kibiashara kwa nyakati fulani. "
+        },
+        "conditions": {
+          "question": "Je! Kuna hali zingine za kuingia kwenye dawati la uchunguzi wa SkyPark?",
+          "answer1": "Wacha VIP Skypark - pamoja na dawati la uchunguzi - imefunguliwa kutoka 10 asubuhi hadi 10 jioni. ",
+          "answer2": "Dawati la uchunguzi linaweza kufungwa kwa hafla za kibinafsi au ahadi za kibiashara kwa nyakati fulani. "
+        }
+      },
+      "slider": {
+        "weekday_escapade": {
+          "image_alt": "Picha ya likizo ya siku ya wiki",
+          "title": "Kutoroka kwa siku ya wiki",
+          "tag": "Siku ya wiki | ",
+          "description": "Pata chumba kipya kilichorejeshwa cha Let Vippremier, kilichowekwa na bafu ya kina kirefu na WARDROBE ya kutembea. "
+        }
+      }
+    },
+    "infinityPool": {
+      "banner": {
+        "desktopAlt": "Desktop ya bango la infinity",
+        "mobileAlt": "Bango la Dimbwi la Infinity"
+      },
+      "title": "Skypark infinity dimbwi",
+      "renowned": "Mashuhuri kwa sababu.",
+      "description": "Pata mtazamo mpya katika dimbwi kubwa zaidi la infinity ulimwenguni. ",
+      "details": {
+        "title": "Maelezo",
+        "location": {
+          "title": "Mahali",
+          "text1": "Mnara wa Hoteli 3, kiwango cha 56",
+          "text2": "Kuingia kwa dawati la uchunguzi wa SkyPark kunapatikana kupitia barabara kuu ya Hoteli 3."
+        },
+        "hours": {
+          "title": "Masaa ya ufunguzi",
+          "nonPeak": "Isiyo ya kilele: 10 asubuhi-4.30 jioni (kiingilio cha mwisho saa 4 jioni)",
+          "peak": "Kilele: 5pm - 10pm (kiingilio cha mwisho saa 9.30 jioni)"
+        }
+      },
+      "operatingHours": {
+        "title": "Masaa ya kufanya kazi",
+        "location": {
+          "title": "Mahali",
+          "text1": "Mnara wa Hoteli 3, kiwango cha 56",
+          "text2": "Kuingia kwa dawati la uchunguzi wa SkyPark kunapatikana kupitia barabara kuu ya Hoteli 3."
+        },
+        "hours": {
+          "title": "Masaa ya ufunguzi",
+          "nonPeak": "Isiyo ya kilele: 10 asubuhi-4.30 jioni (kiingilio cha mwisho saa 4 jioni)",
+          "peak": "Kilele: 5pm - 10pm (kiingilio cha mwisho saa 9.30 jioni)"
+        }
+      },
+      "faq": {
+        "title": "Maswali yanayoulizwa mara kwa mara",
+        "openingHours": {
+          "question": "Je! Ni masaa gani ya ufunguzi wa Let VipskyPark?",
+          "answer1": "Wacha VIP Skypark - pamoja na dawati la uchunguzi - imefunguliwa kutoka 10 asubuhi hadi 10 jioni. ",
+          "answer2": "Dawati la uchunguzi linaweza kufungwa kwa hafla za kibinafsi au ahadi za kibiashara kwa nyakati fulani. "
+        }
+      },
+      "recommendations": {
+        "title": "Tunadhani pia ungependa"
+      }
+    },
+    "lifestyle": {
+      "banner": {
+        "desktopAlt": "Wacha Bango la Ukusanyaji wa VIP",
+        "mobileAlt": "Wacha tukusanya bendera ya rununu ya VIP"
+      },
+      "title": "Wacha maisha ya VIP",
+      "description": "Fungua ulimwengu wa thawabu za kipekee na faida na ushirika wako wa maisha ya VIP, mpango wa tuzo za ukarimu zaidi za Singapore.",
+      "alreadyMember": "Tayari mwanachama?",
+      "tourist": "Je! Wewe ni mtalii? ",
+      "membershipTiers": "Vipimo vya wanachama",
+      "membership": {
+        "description": "Kwa wachezaji waaminifu, wakishirikiana na haki na thawabu mbali mbali. ",
+        "imageAlt": "Picha ya wanachama",
+        "lifestyle": {
+          "title": "Mtindo wa maisha",
+          "content": [
+            "Imepewa kiotomatiki juu ya usajili, hakuna alama zinazohitajika.",
+            "Pata nukta 1 kwa $ 10 iliyowekwa. ",
+            "5% punguzo katika mikahawa na baa."
+          ]
+        },
+        "prestige": {
+          "title": "Ufahari",
+          "content": [
+            "Inahitaji alama 5,000 - 19,999 au jumla ya jumla ya $ 50,000 ndani ya miezi 6. ",
+            "Pata nukta 1 kwa $ 7.5 iliyoondolewa. ",
+            "Punguzo la 10% katika mikahawa na baa, kutoridhishwa kwa kipaumbele kwenye kasino."
+          ]
+        },
+        "elite": {
+          "title": "Wasomi",
+          "content": [
+            "Inahitaji alama 20,000 - 49,999 au jumla ya jumla ya $ 100,000 ndani ya miezi 6. ",
+            "Pata nukta 1 kwa $ 5 iliyowekwa. ",
+            "Punguzo la 15% katika mikahawa na baa, ufikiaji wa chumba cha kupumzika cha VIP, huduma ya kuhamisha ndani ya eneo lililotengwa."
+          ]
+        },
+        "paiza": {
+          "title": "Paiza",
+          "content": [
+            "Inahitaji alama 50,000+ au jumla ya jumla ya $ 250,000 ndani ya miezi 6. ",
+            "Pata nukta 1 kwa $ 2.5 iliyowekwa. ",
+            "Punguzo la 20% kwenye mikahawa na baa, ufikiaji wa chumba cha kupumzika cha juu zaidi cha VIP, msaada wa kibinafsi wa VIP 24/7, usafirishaji wa kifahari (pamoja na magari ya mwisho au jets za kibinafsi), mashindano ya kipekee ya poker, na hafla za wasomi."
+          ]
+        }
+      }
+    }
+  }

@@ -1,4 +1,37 @@
 {
+  "support": {
+    "title": "24/7 Support",
+    "description": "Our customer care team is available around the clock – ready to assist you anytime.",
+    "items": {
+      "transport": "Assistance with car bookings, room reservations, and game instructions",
+      "tours": "Inquiries about tours, casino, and poker",
+      "night": "Issue resolution even during the night"
+    }
+  },
+  "service": {
+    "pageTitle": "Services",
+    "hero": "Experience luxury services at Let's Win – Da Nang’s premier VIP Club",
+    "cta": {
+      "book": "Book VIP Tour",
+      "contact": "Contact for Consultation"
+    },
+    "freeTransport": {
+      "title": "FREE TRANSPORT",
+      "description": "Private VIP transfer service – completely free for Let'swin guests."
+    },
+    "support": {
+      "title": "24/7 SUPPORT",
+      "description": "Our customer care team is available 24/7 – ready to assist you anytime"
+    },
+    "tour": {
+      "title": "LUXURY TOUR",
+      "description": "A package tour combining relaxation, entertainment, and VIP casino experiences.\nSuggested itinerary (3 days 2 nights):"
+    },
+    "commission": {
+      "title": "ATTRACTIVE COMMISSION",
+      "description": "Transparent and clear commission policy – ideal for tours, drivers, and collaborators"
+    }
+  },
   "common": {
     "menu": "Menu",
     "close": "Close",
@@ -16,25 +49,44 @@
   },
   "languages": {
     "english": "English",
-    "vietnamese": "Vietnamese", 
-    "korean": "Korean",
-    "chinese": "Chinese",
-    "japanese": "Japanese"
+    "malay": "Bahasa Melayu",
+    "vietnamese": "Vietnamese",
+    "khmer": "ភាសាខ្មែរ",
+    "indonesian": "Indonesian",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "thai": "ภาษาไทย",
+    "chineseSimplified": "简体中文",
+    "chineseTraditional": "繁體中文",
+    "burmese": "မြန်မာ",
+    "bengali": "বাংলা",
+    "spanish": "Español",
+    "portuguese": "Português",
+    "turkish": "Türkçe",
+    "german": "Deutsch",
+    "russian": "Русский язык",
+    "haitianCreole": "Kreyòl ayisyen",
+    "swahili": "Kiswahili"
   },
   "header": {
     "navigation": {
       "stay": "Stay",
       "rewards": "Rewards",
-      "aboutUs": "About Us"
+      "aboutUs": "About Us",
+      "about": "About Us",
+      "services": "Services",
+      "pokerClub": "Poker Club",
+      "casinoVip": "Casino VIP",
+      "offers": "Offers",
+      "contact": "Contact"
     },
-    
     "stay": {
       "title": "Rooms & Suites",
       "letsVipCollection": "Let's Vip Collection",
       "paizaCollection": "The Paiza Collection",
       "onlineExclusive": {
         "title": "Online Exclusive",
-        "stayPackages": "Stay Packages"
+        "stayPackages": "Hotel Packages"
       },
       "experiences": {
         "title": "Experiences",
@@ -56,7 +108,10 @@
   },
   "home": {
     "hero": {
-      "title": "EXPERIENCE THE LET'S WIN CLUB CASINO"
+      "title": "Experience a premium night at Let's Win - The leading VIP Club in Da Nang"
+    },
+    "casinoVip": {
+      "heading": "Experience Casino VIP at Let's Win - VIP Club"
     },
     "hoTram": {
       "title": "VIP LOUNGE AT HO TRAM CASINO",
@@ -117,13 +172,73 @@
     },
     "vipClub": {
       "title": "INTRODUCING LET'S WIN VIP CLUB",
-      "description": "Let's Win VIP Club is an exclusive system of VIP rooms, offering a luxurious gaming experience tailored for the elite. With sophisticated, private spaces and exclusive services, Let's Win VIP Club asserts itself as the premier destination for those seeking a high-end experience at Vietnam's most prestigious casinos."
+      "description": "Let's Win VIP Club is an exclusive system of VIP rooms, offering a luxurious gaming experience tailored for the elite. With sophisticated, private spaces and exclusive services, Let's Win VIP Club asserts itself as the premier destination for those seeking a high-end experience at Vietnam's most prestigious casinos.",
+      "packageTitle": "VIP Experience Package",
+      "packageDescription": "Enjoy private, high-class space with personalized 24/7 service.",
+      "golfCasinoPackage": "Golf & Casino Package",
+      "golfCasinoDescription": "Combining elite golf and premium casino for an exceptional VIP experience.",
+      "pokerPackage": "Professional Poker Package",
+      "pokerDescription": "Special service package for poker tournament enthusiasts – where skills matter.",
+      "spaNightlifePackage": "Resort + Spa + Nightlife Package",
+      "spaNightlifeDescription": "Combine relaxation, wellness care and exciting nightlife experiences.",
+      "experienceHeader": "VIP EXPERIENCE - 'LUXURY AT ITS FINEST'",
+      "experienceDescription": "Enjoy private, elegant spaces with personalized 24/7 service. Our VIP experience package offers a distinctive difference from the moment you enter - until your final winning moment.",
+      "servicesInclude": "Services include:",
+      "beverage": "On-site drinks and light refreshments",
+      "privateRoom": "Private, quiet, and luxurious gaming rooms",
+      "personalSupport": "Personal 1:1 support (translation, service booking, transportation...)",
+      "vipAccess": "Priority access to VIP areas throughout the system",
+      "gifts": "Exclusive gifts & special offers for premium members",
+      "suitableFor": "Suitable for:",
+      "highRollers": "High rollers, businesspeople, and those who appreciate privacy and premium service.",
+      "golfCasinoHeader": "GOLF & CASINO – ‘TWO PASSIONS, ONE JOURNEY’",
+      "golfCasinoDescriptionLong": "Combining elite golf and premium casino entertainment, this is the perfect choice for guests who want to relax with golf by day and enjoy the vibrant casino atmosphere by night.",
+      "golfCasinoTeeTime": "Tee times at premium golf clubs in Da Nang – Hoi An",
+      "golfCasinoVipTransfer": "VIP pick‑up and drop‑off service",
+      "golfCasinoLuxuryStay": "Luxury accommodation near the golf course or beach",
+      "golfCasinoGuide": "Dedicated guide assistance at the casino",
+      "golfCasinoGroupOffer": "Special combo offers for groups",
+      "golfCasinoSuitableFor": "Suitable for:",
+      "golfCasinoTarget": "Golf groups, long‑stay guests, and businesspeople entertaining clients with a mix of relaxation and entertainment.",
+      "bulletPrivateRoom": "Private, quiet, and luxurious gaming rooms",
+      "bulletPersonalSupport": "1:1 personal assistance (interpretation, booking, transportation...)",
+      "bulletVipAccess": "Priority access to VIP areas throughout the system",
+      "bulletGifts": "Exclusive gifts and offers for premium members",
+      "highRollersVn": "Suitable for: High rollers, businesspeople, and those who appreciate privacy and premium service.",
+      "mobileExperienceDescription": "Enjoy a private and classy space with personalized 24/7 service. The VIP experience package offers a distinctive difference from the moment you enter – until your final winning moment.",
+      "privateRoomVn": "Private, quiet, and luxurious gaming rooms",
+      "personalSupportVn": "Personal 1:1 support (interpretation, service booking, transportation...)",
+      "vipAccessVn": "Priority access to VIP areas throughout the system",
+      "giftsVn": "Exclusive gifts & special offers for premium members",
+      "suitableForVnTitle": "Suitable for:",
+      "suitableForVnDesc": "High rollers, businesspeople, and those who appreciate privacy and premium service.",
+      "spaNightlifeTitle": "SPA & NIGHTLIFE – “RELAX AND IGNITE”",
+      "spaNightlifeDescription2": "After intense moments at the game table, it’s time to unwind your body – and elevate your spirit with a vibrant beach city nightlife.",
+      "spaNightlifeServicesInclude": "Services include:",
+      "spaLuxuryPackage": "Premium spa treatments (body massage, facial, sauna, herbal steam…)",
+      "spaVipClubBooking": "VIP table reservations at top bars and clubs",
+      "spaNightTransfer": "Private and safe night transportation",
+      "spaInRoomService": "In-room food and cocktail service",
+      "spaNightlifeSuitableFor": "Suitable for:",
+      "spaNightlifeTarget": "Couples, close friends, and guests who enjoy elegant relaxation and upscale entertainment.",
+      "pokerPackageTitle": "POKER PACKAGE – “WHERE SKILL MEETS PRESTIGE”",
+      "pokerDescription2": "A special service package for poker tournament enthusiasts – where skill, strategy, and sportsmanship are celebrated.",
+      "pokerServicesInclude": "Services include:",
+      "pokerProTournaments": "Participation in professional Poker tournaments at Let’s Win Poker Club",
+      "pokerPrivateEvents": "Private tournament hosting for groups or corporate clients",
+      "pokerProfessionalDealer": "Professional dealers and tournament-standard poker tables",
+      "pokerInterpreterSupport": "Interpreter support and care for international guests",
+      "pokerCustomAccommodation": "Hotel/apartment booking upon request",
+      "pokerSuitableFor": "Suitable for:",
+      "pokerTarget": "Professional players, poker communities, Korean/Chinese guests who enjoy mind sports."
     },
-
     "buttons": {
       "contact": "Contact us",
       "book": "Book now",
-      "viewDetails": "View details"
+      "viewDetails": "View details",
+      "bookVipTour": "Book VIP Tour",
+      "contactConsultant": "Contact Consultant",
+      "contactNow": "Contact Now"
     }
   },
   "footer": {
@@ -188,6 +303,85 @@
     },
     "join": "Join Let's Win VIP Club today and indulge in an unmatched luxury experience!",
     "contact": "📞 VIP Customer Service Hotline (24/7): [Phone Number]"
+  },
+  "premiumPerks": {
+    "pageTitle": "PREMIUM PRIVILEGES AT HOIANA & HO TRAM",
+    "freeHotelTitle": "Free Hotel Room for VIP Members",
+    "freeHotelDesc": "As a VIP member, you will enjoy exclusive privileges, including complimentary hotel rooms. This is a great opportunity to experience luxurious accommodations without worrying about the cost. Take full advantage of high-end amenities, from cozy beds to premium in-room services.",
+    "privateShuttleTitle": "Private Shuttle Service for Top-tier VIPs",
+    "privateShuttleDesc": "As a top-tier VIP, you will receive complimentary private shuttle service, ensuring the most convenient and comfortable travel. No need to worry about transportation – our private car will pick you up and take you anywhere within the resort for a flawless and luxurious experience.",
+    "exclusiveGiftsTitle": "Exclusive Gifts on Special Occasions",
+    "exclusiveGiftsDesc": "In addition to premium benefits, VIP members will have the opportunity to receive exclusive gifts during special occasions throughout the year. These elegant and valuable gifts mark memorable moments in your journey with us – not just items, but heartfelt tokens of appreciation.",
+    "contactNow": "Contact now"
+  },
+  "freeTransport": {
+    "title": "Free Shuttle Service",
+    "description": "Private VIP transportation service – completely free for Let'swin guests.",
+    "items": {
+      "pickup": "Pick-up from airport, hotel, or city center",
+      "driver": "Polite and discreet driver",
+      "logo": "Option to choose vehicle with or without Let'swin logo",
+      "group": "Available for groups or individuals"
+    },
+    "cta": "Book Your Ride Now"
+  },
+  "eventPromotions": {
+    "pageTitle": "EVENT & TOURNAMENT PRIVILEGES",
+    "tournamentTitle": "Join VIP-exclusive Tournaments",
+    "tournamentDesc": "As a VIP member, you'll have the opportunity to participate in exclusive tournaments where you can showcase your skills, strategy, and talent in a world-class setting. These tournaments not only offer exciting challenges, but also chances to win attractive prizes and prove yourself among the elite VIP community.",
+    "vipPartiesTitle": "Complimentary VIP Parties & Events",
+    "vipPartiesDesc": "As a VIP, you’ll be invited to regular complimentary parties and exclusive events held at luxurious venues. These gatherings offer the perfect chance to connect and socialize with fellow elites while enjoying a lively, high-end atmosphere with exceptional service.",
+    "specialRewardsTitle": "Big Prize Opportunities from Special Programs",
+    "specialRewardsDesc": "Exclusive programs designed for VIPs offer incredible opportunities to win big. Get ready to join exciting events, games, and activities where you could walk away with luxurious rewards – from premium gifts to unforgettable travel experiences.",
+    "contactNow": "Contact now"
+  },
+  "aboutSection": {
+    "missionTitle": "LET’SWIN'S MISSION",
+    "missionDescription": "To become the trusted right-hand partner for every international guest coming to Vietnam in search of premium, safe, professional, and reliable entertainment.",
+    "missionStatement": "Let’swin doesn’t just organize experiences – we shape the VIP entertainment lifestyle for the elite.",
+    "whatIsLetswin": "WHAT IS LET’SWIN?",
+    "letswinIntroMobile": "Let’swin is a platform offering all-inclusive entertainment services for international tourists and high rollers.",
+    "letswinIntroDesktop": "Let’swin is a platform that provides comprehensive entertainment services for international travelers and high-level players visiting Vietnam. We specialize in organizing and connecting clients with premium activities such as:",
+    "letswinServices": {
+      "pokerClub": "• Private and professional poker club",
+      "vipCasino": "• VIP Casino experience with exclusive offers",
+      "transportSupport": "• Transportation, game assistance, and translation services",
+      "customTours": "• Customized tour schedules for relaxation and entertainment",
+      "support247": "• 24/7 customer care system",
+      "nightSupport": "• Emergency support even during the night"
+    },
+    "whoIsFor": "WHO IS LET’SWIN FOR?",
+    "whoIsForList": {
+      "internationalTourists": "• International tourists looking to experience poker, casinos, and luxury relaxation in Vietnam.",
+      "experiencedPlayers": "• Experienced players seeking professional – reliable – discreet services.",
+      "partners": "• Partners looking to collaborate in developing high-roller client networks: tour operators, hotels, drivers, collaborators."
+    },
+    "vipExperience": "Beyond exclusive discounts, you can also enjoy private and luxurious VIP rooms. Fully equipped with high-end amenities and attentive service, these rooms offer the perfect place to unwind after your entertainment activities. With exceptional service and privacy, every moment of your stay will be truly memorable.",
+    "contactNow": "Contact now"
+  },
+  "vipMembership": {
+    "title": "VIP Membership Offers",
+    "contactNow": "Contact Now",
+    "section1": {
+      "title": "Earn Points & Redeem Gifts",
+      "description": "Earning points and redeeming gifts through participating in games brings you exciting experiences and attractive rewards. By joining activities at the resort, not only do you get to enjoy entertainment, but you can also accumulate reward points to exchange for valuable gifts. The more you participate, the more benefits you receive—from exclusive gifts to priority services."
+    },
+    "section2": {
+      "title": "Discounts on Dining, Hotel, and Spa Services",
+      "description": "Enjoy fine dining at premium restaurants, relax at the spa, or indulge in the luxurious hotel atmosphere—all made more accessible with our reward point discount program. Every reward point you earn brings practical value to your stay, ensuring your experience is both satisfying and rewarding."
+    },
+    "section3": {
+      "title": "Private VIP Rooms with Premium Services",
+      "description": "Beyond regular discounts, you can indulge in exclusive and luxurious spaces through our premium VIP rooms. Fully equipped with modern amenities and personalized services, these rooms provide the perfect place to relax after enjoying games and entertainment. With attentive service and private space, every moment of your vacation will be truly memorable."
+    }
+  },
+  "pokerClub": {
+    "heading": "Experience the Poker Club in Da Nang",
+    "contactConsultant": "Contact Consultant",
+    "privateRoomTitle": "Private Poker Room",
+    "privateRoomDescription": "As a VIP member, you’ll have access to exclusive poker tournaments where you can showcase your skills, strategies, and talent in a luxurious setting. These events not only bring exciting challenges but also offer opportunities to win prestigious prizes and assert your status among the VIP community.",
+    "clubTitle": "Welcome to Poker Club",
+    "clubDescription": "Poker is more than just a game – it’s a prestigious experience where smart decisions and refined strategies lead to worthy rewards. Playing poker means entering a world of luxury and prestige, where rewards go beyond money – they symbolize success and honor. Every hand is a thrilling challenge where only the best players can conquer the stakes and establish their dominance in the poker elite."
   },
   "contact": {
     "title": "Quick Booking & Contact",
@@ -388,7 +582,37 @@
         "description": "Enjoy bespoke experiences from private dining to yacht adventures, tailored to your preferences."
       }
     },
-
+    "tour": {
+      "title": "Luxury Retreat – Entertainment – Golf Tour",
+      "intro": "Let'swin organizes all-inclusive tours that combine relaxation, entertainment, and golf — tailored for customers who enjoy a premium lifestyle.",
+      "scheduleTitle": "Suggested Itinerary (3 Days 2 Nights):",
+      "day1": {
+        "title": "Day 1:",
+        "item1": "Pick-up at airport / hotel",
+        "item2": "Check-in at a 4–5 star resort",
+        "item3": "Dining – Massage – Light relaxation"
+      },
+      "day2": {
+        "title": "Day 2:",
+        "item1": "Morning: Golf at a luxury course",
+        "item2": "Afternoon: Poker or free time",
+        "item3": "Evening: VIP Casino experience with personal host"
+      },
+      "day3": {
+        "title": "Day 3:",
+        "item1": "Breakfast – Spa or light shopping",
+        "item2": "Transport back to airport or hotel"
+      },
+      "servicesTitle": "Included Services:",
+      "services": {
+        "golf": "Golf course reservation & equipment rental",
+        "transport": "Private transportation",
+        "guide": "Personal tour guide",
+        "support": "24/7 customer support",
+        "group": "Group (2–10 people) or individual tours available"
+      },
+      "cta": "Book Your Tour Now"
+    },
     "aboveExpectation": {
       "title": "ABOVE ALL EXPECTATION",
       "description1": "Perched on the highest floors of our iconic building, the Paiza Collection showcases breathtakingly grand yet serene interiors featuring lofty ceilings, luxuriantly plush furnishings and the finest materials, captivating artworks and superb views.",
@@ -446,10 +670,8 @@
     "evening_view": "In the evening, the observation deck also offers a spectacular view of Spectra.",
     "sunset_experience": "For a more intimate viewing experience, opt for Sunset in the Sky, an exclusive programme complete with priority access via a private entry point, dedicated seating areas and premium dining menu.",
     "book_tickets": "Book Tickets",
-
     "notice_title": "Notice",
     "notice_text": "SkyPark Observation Deck will close on the following dates at 9pm for Silent Disco Full Moon Parties (Last entry at 8pm)",
-
     "details_title": "Details",
     "location_title": "Location",
     "location_text1": "Hotel Tower 3, Level 56",
@@ -457,12 +679,9 @@
     "hours_title": "Opening Hours",
     "hours_nonpeak": "Non-peak: 10am – 4.30pm (Last entry at 4pm)",
     "hours_peak": "Peak: 5pm – 10pm (Last entry at 9.30pm)",
-
     "prices_title": "Ticket Prices",
-
     "whats_on": "WHAT'S ON",
     "you_may_like": "WE THINK YOU'D ALSO LIKE",
-
     "faq_title": "FREQUENTLY ASKED QUESTIONS",
     "faq": {
       "opening_hours": {
@@ -556,7 +775,6 @@
       "desktopAlt": "Let's Vip Collection Banner",
       "mobileAlt": "Let's Vip Collection Mobile Banner"
     },
-    
     "title": "Let's Vip LifeStyle",
     "description": "Unlock a world of exclusive rewards and perks with your complimentary Let's Vip LifeStyle membership, Singapore's most generous rewards programme.",
     "alreadyMember": "Already a member?",
@@ -564,7 +782,6 @@
     "membershipTiers": "MEMBERSHIP TIERS",
     "membership": {
       "description": "For loyal players, featuring various privileges and rewards. Our VIP system includes four tiers: Green, Red, Gold, and Infinite, each with specific requirements and benefits.",
-
       "imageAlt": "Membership Tier Image",
       "lifestyle": {
         "title": "Lifestyle",

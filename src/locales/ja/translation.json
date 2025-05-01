@@ -1,4 +1,37 @@
 {
+  "support": {
+    "title": "24時間年中無休のサポート",
+    "description": "当社のカスタマーケアチームは、24時間体制で利用できます。いつでもお手伝いできます。",
+    "items": {
+      "transport": "車の予約、部屋の予約、ゲームの指示に関する支援",
+      "tours": "ツアー、カジノ、ポーカーに関するお問い合わせ",
+      "night": "夜間でも解決策を発行します"
+    }
+  },
+  "service": {
+    "pageTitle": "サービス",
+    "hero": "Let's Win -Da NangのプレミアVIPクラブで高級サービスを体験する",
+    "cta": {
+      "book": "予約VIPツアー",
+      "contact": "相談のための連絡先"
+    },
+    "freeTransport": {
+      "title": "無料の輸送",
+      "description": "プライベートVIP転送サービス -  Let'swinゲストのために完全に無料。"
+    },
+    "support": {
+      "title": "24時間年中無休のサポート",
+      "description": "私たちのカスタマーケアチームは24時間年中無休で利用可能です - いつでもあなたを支援する準備ができています"
+    },
+    "tour": {
+      "title": "豪華なツアー",
+      "description": "リラクゼーション、エンターテイメント、VIPカジノエクスペリエンスを組み合わせたパッケージツアー。\n"
+    },
+    "commission": {
+      "title": "魅力的な委員会",
+      "description": "透明で明確なコミッションポリシー - ツアー、ドライバー、協力者に最適"
+    }
+  },
   "common": {
     "menu": "メニュー",
     "close": "近い",
@@ -16,16 +49,37 @@
   },
   "languages": {
     "english": "英語",
-    "vietnamese": "ベトナム語",
-    "korean": "韓国語",
-    "chinese": "中国語",
-    "japanese": "日本語"
+    "vietnamese": "vietnamese",
+
+    "malay": "バハサ・メラユ",
+    "khmer": "ភាសាខ្មែរ",
+    "indonesian": "インドネシア語",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "thai": "ภาษาไทย",
+    "chineseSimplified": "简体中文",
+    "chineseTraditional": "繁體中文",
+    "burmese": "မြန်မာ",
+    "bengali": "বাংলা",
+    "spanish": "español",
+    "portuguese": "Português",
+    "turkish": "Türkçe",
+    "german": "ドイツ",
+    "russian": "陶芸йuル",
+    "haitianCreole": "kreyòlayisyen",
+    "swahili": "キスワヒリ"
   },
   "header": {
     "navigation": {
       "stay": "滞在する",
       "rewards": "報酬",
-      "aboutUs": "私たちについて"
+      "aboutUs": "私たちについて",
+      "about": "私たちについて",
+      "services": "サービス",
+      "pokerClub": "ポーカークラブ",
+      "casinoVip": "カジノVIP",
+      "offers": "申し出",
+      "contact": "接触"
     },
     "stay": {
       "title": "客室とスイート",
@@ -33,7 +87,7 @@
       "paizaCollection": "パイザコレクション",
       "onlineExclusive": {
         "title": "オンライン排他的",
-        "stayPackages": "パッケージを滞在します"
+        "stayPackages": "ホテルパッケージ"
       },
       "experiences": {
         "title": "経験",
@@ -48,14 +102,17 @@
       "memberPerks": "メンバーの特典",
       "alliancePrivileges": "vipalliance特権",
       "viewAllOutlets": "すべてを表示してくださいVipoutlets",
-      "vipMembership": "VIP会員特典",
+      "vipMembership": "VIPメンバーシップオファー",
       "premiumPerks": "プレミアム特典",
-      "eventPromotions": "イベント＆トーナメント プロモーション"
+      "eventPromotions": "イベントとトーナメントのプロモーション"
     }
   },
   "home": {
     "hero": {
-      "title": "Let's Win Win Clubカジノを体験してください"
+      "title": "Let's Win -Da Nangの主要なVIPクラブでプレミアムナイトを体験する"
+    },
+    "casinoVip": {
+      "heading": "Let's Win -VIP ClubでカジノVIPを体験してください"
     },
     "hoTram": {
       "title": "Ho TramカジノのVIPラウンジ",
@@ -116,12 +173,73 @@
     },
     "vipClub": {
       "title": "VIPクラブを獲得しましょう",
-      "description": "Let's Win VIP ClubはVIPルームの独占システムであり、エリートのために調整された豪華なゲーム体験を提供します。"
+      "description": "Let's Win VIP ClubはVIPルームの独占システムであり、エリートのために調整された豪華なゲーム体験を提供します。",
+      "packageTitle": "VIPエクスペリエンスパッケージ",
+      "packageDescription": "パーソナライズされた24時間年中無休のサービスで、プライベートで高級スペースをお楽しみください。",
+      "golfCasinoPackage": "ゴルフ＆カジノパッケージ",
+      "golfCasinoDescription": "エリートゴルフとプレミアムカジノを組み合わせて、並外れたVIP体験をします。",
+      "pokerPackage": "プロのポーカーパッケージ",
+      "pokerDescription": "ポーカートーナメント愛好家向けの特別なサービスパッケージ - スキルが重要です。",
+      "spaNightlifePackage": "リゾート +スパ +ナイトライフパッケージ",
+      "spaNightlifeDescription": "リラクゼーション、ウェルネスケア、エキサイティングなナイトライフ体験を組み合わせます。",
+      "experienceHeader": "VIPエクスペリエンス - 「最高級の贅沢」",
+      "experienceDescription": "パーソナライズされた24時間年中無休のサービスを備えたプライベートでエレガントなスペースをお楽しみください。",
+      "servicesInclude": "サービスは次のとおりです。",
+      "beverage": "オンサイトの飲み物と軽食",
+      "privateRoom": "プライベートで静かで豪華なゲームルーム",
+      "personalSupport": "個人1：1サポート（翻訳、サービス予約、交通機関...）",
+      "vipAccess": "システム全体のVIPエリアへの優先アクセス",
+      "gifts": "プレミアムメンバー向けの排他的なギフトと特別オファー",
+      "suitableFor": "適しています：",
+      "highRollers": "ハイローラー、ビジネスマン、およびプライバシーとプレミアムサービスに感謝する人々。",
+      "golfCasinoHeader": "ゴルフ＆カジノ - 「Twopassions、OneJourney」",
+      "golfCasinoDescriptionLong": "エリートゴルフとプレミアムカジノエンターテイメントを組み合わせて、これは昼間はゴルフとリラックスして夜中に活気のあるカジノの雰囲気を楽しみたいゲストに最適です。",
+      "golfCasinoTeeTime": "ダナンのプレミアムゴルフクラブでのティータイム - ホイアン",
+      "golfCasinoVipTransfer": "VIPピックアップおよびドロップオフサービス",
+      "golfCasinoLuxuryStay": "ゴルフコースやビーチの近くの豪華な宿泊施設",
+      "golfCasinoGuide": "カジノでの専用ガイドアシスタンス",
+      "golfCasinoGroupOffer": "グループ向けの特別なコンボオファー",
+      "golfCasinoSuitableFor": "適しています：",
+      "golfCasinoTarget": "ゴルフグループ、ロングステイのゲスト、ビジネスマンは、リラクゼーションとエンターテイメントを組み合わせた楽しいクライアントを楽しませます。",
+      "bulletPrivateRoom": "プライベートで静かで豪華なゲームルーム",
+      "bulletPersonalSupport": "1：1個人支援（解釈、予約、輸送...）",
+      "bulletVipAccess": "システム全体のVIPエリアへの優先アクセス",
+      "bulletGifts": "プレミアムメンバー向けの排他的なギフトとオファー",
+      "highRollersVn": "適しています：ハイローラー、ビジネスマン、およびプライバシーとプレミアムサービスを高く評価する人。",
+      "mobileExperienceDescription": "パーソナライズされた24時間年中無休のサービスで、プライベートで上品なスペースをお楽しみください。 ",
+      "privateRoomVn": "プライベートで静かで豪華なゲームルーム",
+      "personalSupportVn": "個人1：1サポート（解釈、サービス予約、輸送...）",
+      "vipAccessVn": "システム全体のVIPエリアへの優先アクセス",
+      "giftsVn": "プレミアムメンバー向けの排他的なギフトと特別オファー",
+      "suitableForVnTitle": "適しています：",
+      "suitableForVnDesc": "ハイローラー、ビジネスマン、およびプライバシーとプレミアムサービスに感謝する人々。",
+      "spaNightlifeTitle": "スパ＆ナイトライフ - 「リラックスして点火」",
+      "spaNightlifeDescription2": "ゲームテーブルでの激しい瞬間の後、それはあなたの体を解き放ち、そして活気のあるビーチシティのナイトライフであなたの精神を高めます。",
+      "spaNightlifeServicesInclude": "サービスは次のとおりです。",
+      "spaLuxuryPackage": "プレミアムスパトリートメント（ボディマッサージ、フェイシャル、サウナ、ハーブスチーム…）",
+      "spaVipClubBooking": "トップバーやクラブでのVIPテーブルの予約",
+      "spaNightTransfer": "プライベートで安全な夜の交通機関",
+      "spaInRoomService": "室内料理とカクテルサービス",
+      "spaNightlifeSuitableFor": "適しています：",
+      "spaNightlifeTarget": "カップル、親しい友人、エレガントなリラクゼーションと高級なエンターテイメントを楽しむゲスト。",
+      "pokerPackageTitle": "ポーカーパッケージ - 「スキルが名声と出会う場所」",
+      "pokerDescription2": "ポーカートーナメント愛好家向けの特別なサービスパッケージ - スキル、戦略、スポーツマンシップが祝われます。",
+      "pokerServicesInclude": "サービスは次のとおりです。",
+      "pokerProTournaments": "Let's Win Poker Clubでのプロのポーカートーナメントへの参加",
+      "pokerPrivateEvents": "グループまたは企業クライアント向けのプライベートトーナメントホスティング",
+      "pokerProfessionalDealer": "プロのディーラーとトーナメント標準のポーカーテーブル",
+      "pokerInterpreterSupport": "国際的なゲストの通訳サポートとケア",
+      "pokerCustomAccommodation": "リクエストに応じてホテル/アパートの予約",
+      "pokerSuitableFor": "適しています：",
+      "pokerTarget": "プロの選手、ポーカーコミュニティ、マインドスポーツを楽しむ韓国人/中国人ゲスト。"
     },
     "buttons": {
       "contact": "お問い合わせ",
       "book": "今すぐ予約してください",
-      "viewDetails": "詳細を表示します"
+      "viewDetails": "詳細を表示します",
+      "bookVipTour": "予約VIPツアー",
+      "contactConsultant": "コンサルタントに連絡してください",
+      "contactNow": "今すぐお問い合わせください"
     }
   },
   "footer": {
@@ -186,6 +304,85 @@
     },
     "join": "今日、VIPクラブに勝ち、比類のない豪華な体験を楽しんでください！",
     "contact": "📞VIPカスタマーサービスホットライン（24/7）：[電話番号]"
+  },
+  "premiumPerks": {
+    "pageTitle": "Hoiana＆Ho Tramでのプレミアム特権",
+    "freeHotelTitle": "VIPメンバーのための無料のホテルルーム",
+    "freeHotelDesc": "VIPメンバーとして、無料のホテルの部屋を含む排他的な特権をお楽しみいただけます。",
+    "privateShuttleTitle": "一流のVIPのプライベートシャトルサービス",
+    "privateShuttleDesc": "一流のVIPとして、無料のプライベートシャトルサービスを受け、最も便利で快適な旅行を確保します。",
+    "exclusiveGiftsTitle": "特別な機会に排他的な贈り物",
+    "exclusiveGiftsDesc": "プレミアム特典に加えて、VIPメンバーは、年間を通じて特別な機会に独占的な贈り物を受け取る機会があります。",
+    "contactNow": "今すぐお問い合わせください"
+  },
+  "freeTransport": {
+    "title": "無料シャトルサービス",
+    "description": "プライベートVIP輸送サービス -  Let'swinゲストは完全に無料です。",
+    "items": {
+      "pickup": "空港、ホテル、または市内中心部からのピックアップ",
+      "driver": "丁寧で控えめなドライバー",
+      "logo": "Let'swinロゴの有無にかかわらず車両を選択するオプション",
+      "group": "グループまたは個人が利用できます"
+    },
+    "cta": "今すぐあなたの乗り物を予約してください"
+  },
+  "eventPromotions": {
+    "pageTitle": "イベントとトーナメントの特権",
+    "tournamentTitle": "VIP専用トーナメントに参加してください",
+    "tournamentDesc": "VIPメンバーとして、世界クラスの環境でスキル、戦略、才能を紹介できる独占トーナメントに参加する機会があります。",
+    "vipPartiesTitle": "無料のVIPパーティーとイベント",
+    "vipPartiesDesc": "VIPとして、豪華な会場で開催される定期的な無料のパーティーや独占イベントに招待されます。",
+    "specialRewardsTitle": "特別プログラムからの大きな賞の機会",
+    "specialRewardsDesc": "VIP向けに設計された排他的なプログラムは、大きな勝つための信じられないほどの機会を提供します。",
+    "contactNow": "今すぐお問い合わせください"
+  },
+  "aboutSection": {
+    "missionTitle": "スウィンの使命",
+    "missionDescription": "プレミアム、安全、プロフェッショナル、信頼できるエンターテイメントを求めてベトナムに来るすべての国際的なゲストの信頼できる右パートナーになること。",
+    "missionStatement": "経験を組織するだけでなく、エリートのVIPエンターテイメントライフスタイルを形作ります。",
+    "whatIsLetswin": "何をしましょうか？",
+    "letswinIntroMobile": "Let’Swinは、国際的な観光客とハイローラー向けの包括的なエンターテイメントサービスを提供するプラットフォームです。",
+    "letswinIntroDesktop": "Let’Swinは、ベトナムを訪れる国際的な旅行者と高レベルのプレーヤーに包括的なエンターテイメントサービスを提供するプラットフォームです。",
+    "letswinServices": {
+      "pokerClub": "•プライベートおよびプロのポーカークラブ",
+      "vipCasino": "•排他的なオファーを備えたVIPカジノエクスペリエンス",
+      "transportSupport": "•輸送、ゲーム支援、および翻訳サービス",
+      "customTours": "•リラクゼーションとエンターテイメントのカスタマイズされたツアースケジュール",
+      "support247": "•24時間年中無休のカスタマーケアシステム",
+      "nightSupport": "•夜間でも緊急サポート"
+    },
+    "whoIsFor": "誰のためにしましょうか？",
+    "whoIsForList": {
+      "internationalTourists": "•ベトナムでポーカー、カジノ、豪華なリラクゼーションを体験しようとしている国際的な観光客。",
+      "experiencedPlayers": "•専門家を求めている経験豊富なプレイヤー - 信頼できる - 控えめなサービス。",
+      "partners": "•ハイローラークライアントネットワークの開発に協力しようとしているパートナー：ツアーオペレーター、ホテル、ドライバー、協力者。"
+    },
+    "vipExperience": "排他的な割引を超えて、プライベートで豪華なVIPルームを楽しむことができます。",
+    "contactNow": "今すぐお問い合わせください"
+  },
+  "vipMembership": {
+    "title": "VIPメンバーシップオファー",
+    "contactNow": "今すぐお問い合わせください",
+    "section1": {
+      "title": "ポイントを獲得し、ギフトを引き換えます",
+      "description": "ゲームに参加してポイントを獲得し、ギフトを償還することで、エキサイティングな体験と魅力的な報酬がもたらされます。"
+    },
+    "section2": {
+      "title": "食事、ホテル、スパサービスの割引",
+      "description": "プレミアムレストランでの高級レストランをお楽しみください。スパでリラックスしたり、豪華なホテルの雰囲気を楽しんだり、報酬ポイント割引プログラムでアクセスしやすくなりました。"
+    },
+    "section3": {
+      "title": "プレミアムサービスを備えたプライベートVIPルーム",
+      "description": "定期的な割引を超えて、プレミアムVIPルームを通じて排他的で豪華なスペースにふけることができます。"
+    }
+  },
+  "pokerClub": {
+    "heading": "ダナンのポーカークラブを体験してください",
+    "contactConsultant": "コンサルタントに連絡してください",
+    "privateRoomTitle": "プライベートポーカールーム",
+    "privateRoomDescription": "VIPメンバーとして、豪華な環境でスキル、戦略、才能を紹介できる排他的なポーカートーナメントにアクセスできます。",
+    "clubTitle": "ポーカークラブへようこそ",
+    "clubDescription": "ポーカーは単なるゲーム以上のものです。賢明な決定と洗練された戦略が価値のある報酬につながる有名な体験です。"
   },
   "contact": {
     "title": "クイック予約と連絡先",
@@ -386,6 +583,37 @@
         "description": "プライベートダイニングからヨットアドベンチャーまで、あなたの好みに合わせてオーダーメイドの体験をお楽しみください。"
       }
     },
+    "tour": {
+      "title": "豪華なリトリート - エンターテイメント - ゴルフツアー",
+      "intro": "Let'swinは、リラクゼーション、エンターテイメント、ゴルフを組み合わせたすべての包括的なツアーを開催します。",
+      "scheduleTitle": "提案された旅程（3日間2泊）：",
+      "day1": {
+        "title": "1日目：",
+        "item1": "空港 /ホテルでのピックアップ",
+        "item2": "4〜5星のリゾートでチェックインします",
+        "item3": "ダイニング - マッサージ - 軽いリラクゼーション"
+      },
+      "day2": {
+        "title": "2日目：",
+        "item1": "朝：高級コースでのゴルフ",
+        "item2": "午後：ポーカーまたは自由時間",
+        "item3": "夕方：個人ホストとのVIPカジノエクスペリエンス"
+      },
+      "day3": {
+        "title": "3日目：",
+        "item1": "朝食 - スパまたは軽い買い物",
+        "item2": "空港またはホテルに戻る"
+      },
+      "servicesTitle": "含まれるサービス：",
+      "services": {
+        "golf": "ゴルフコースの予約と機器のレンタル",
+        "transport": "民間交通機関",
+        "guide": "パーソナルツアーガイド",
+        "support": "24時間年中無休のカスタマーサポート",
+        "group": "グループ（2〜10人）または個別のツアーが利用可能です"
+      },
+      "cta": "今すぐツアーを予約してください"
+    },
     "aboveExpectation": {
       "title": "何よりも期待",
       "description1": "私たちの象徴的な建物の最高の床にあるパイザコレクションは、息をのむように壮大でありながら穏やかなインテリアを紹介しています。",
@@ -554,8 +782,8 @@
     "tourist": "あなたは観光客ですか？",
     "membershipTiers": "メンバーシップ層",
     "membership": {
+      "description": "さまざまな特権と報酬を特徴とする忠実なプレイヤー向け。",
       "imageAlt": "メンバーシップティア画像",
-      "description": "ロイヤルプレイヤー向けの様々な特典と報酬をご用意しています。当VIPシステムはグリーン、レッド、ゴールド、インフィニットの4つのステージで構成され、各ステージには特定の要件と特典があります。",
       "lifestyle": {
         "title": "ライフスタイル",
         "content": [
@@ -567,7 +795,7 @@
       "prestige": {
         "title": "威信",
         "content": [
-          "6か月以内に5,000〜19999ポイントまたは最低総賭け$50,000ドルを必要とします。",
+          "6か月以内に5,000〜19999ポイントまたは最低総賭けが50,000ドルを必要とします。",
           "$ 7.5につき1ポイント賭けて獲得します。 ",
           "レストランやバーで10％割引、カジノでの優先予約。"
         ]
@@ -575,8 +803,8 @@
       "elite": {
         "title": "エリート",
         "content": [
-          "6か月以内に20,000〜49,999ポイントまたは最低総賭け$100,000ドルです。",
-          "$5ルにつき1ポイント賭けて1ポイントを獲得します。 ",
+          "6か月以内に20,000〜49,999ポイントまたは最低総賭けが100,000ドルです。",
+          "5ドルにつき1ポイント賭けて1ポイントを獲得します。 ",
           "レストランやバーでの15％の割引、VIPラウンジアクセス、指定されたエリア内の無料シャトルサービス。"
         ]
       },
@@ -584,7 +812,7 @@
         "title": "パイザ",
         "content": [
           "6か月以内に50,000以上のポイントまたは最低総額250,000ドルが必要です。",
-          "$2.5に合わせて1ポイントを獲得します。 ",
+          "$ 2.5に合わせて1ポイントを獲得します。 ",
           "レストランやバーで20％割引、最高層のVIPラウンジへのアクセス、24時間年中無休の個人VIP支援、無料の高級輸送（ハイエンド車両またはプライベートジェットを含む）、排他的なポーカートーナメント、エリートイベント。"
         ]
       }

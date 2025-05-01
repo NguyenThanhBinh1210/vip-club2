@@ -1,0 +1,18 @@
+# **Rule: Đọc Prompt từ prompt.txt trước khi code**
+## **1️⃣ Đọc file `prompt.txt` trước khi bắt đầu bất kỳ tác vụ nào**
+- Trước khi AI sinh code, nó phải đọc nội dung từ `prompt.txt`.
+- Nếu `prompt.txt` chứa yêu cầu cụ thể, AI phải tuân thủ yêu cầu đó.
+
+## **2️⃣ Cách AI xử lý nội dung trong `prompt.txt`**
+- Nếu file chứa mô tả về dự án, AI phải dựa vào đó để tạo code.
+- Nếu file chứa quy tắc coding (ví dụ: chuẩn REST API, sử dụng Mongoose, v.v.), AI phải tuân theo khi viết code.
+- Nếu file chứa prompt yêu cầu tối ưu hoặc refactor code, AI phải thực hiện theo hướng đó.
+
+## **3️⃣ Nếu `prompt.txt` không có hoặc bị lỗi**
+- Nếu file `prompt.txt` không tồn tại hoặc lỗi, AI phải hỏi người dùng về nội dung mong muốn trước khi tiếp tục.
+- AI không tự động giả định nội dung nếu file không có.
+
+## **4️⃣ Hướng dẫn AI về cách viết code**
+- AI phải viết code theo nội dung từ `prompt.txt`, không tự động thay đổi yêu cầu.
+- Nếu người dùng thay đổi nội dung file `prompt.txt`, AI phải cập nhật cách viết code dựa trên file mới.
+# **Rules for AI Optimization in Cursor**

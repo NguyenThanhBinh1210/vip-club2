@@ -1,606 +1,818 @@
 {
+  "support": {
+    "title": "Hỗ trợ 24/7",
+    "description": "Nhóm chăm sóc khách hàng của chúng tôi có sẵn suốt ngày đêm - sẵn sàng hỗ trợ bạn bất cứ lúc nào.",
+    "items": {
+      "transport": "Hỗ trợ đặt phòng, đặt phòng và hướng dẫn trò chơi",
+      "tours": "Thắc mắc về các tour du lịch, sòng bạc và poker",
+      "night": "Phát hành giải quyết ngay cả trong đêm"
+    }
+  },
+  "service": {
+    "pageTitle": "Dịch vụ",
+    "hero": "Trải nghiệm các dịch vụ xa xỉ tại Let's Win - Câu lạc bộ VIP hàng đầu của Da Nang",
+    "cta": {
+      "book": "Cuốn sách tham quan VIP",
+      "contact": "Liên hệ để tham khảo ý kiến"
+    },
+    "freeTransport": {
+      "title": "Vận chuyển miễn phí",
+      "description": "Dịch vụ chuyển nhượng VIP riêng - Hoàn toàn miễn phí cho khách cho phép."
+    },
+    "support": {
+      "title": "Hỗ trợ 24/7",
+      "description": "Đội ngũ chăm sóc khách hàng của chúng tôi có sẵn 24/7 - sẵn sàng hỗ trợ bạn bất cứ lúc nào"
+    },
+    "tour": {
+      "title": "Tour du lịch sang trọng",
+      "description": "Một chuyến tham quan gói kết hợp thư giãn, giải trí và trải nghiệm sòng bạc VIP.\n"
+    },
+    "commission": {
+      "title": "Hoa hồng hấp dẫn",
+      "description": "Chính sách Ủy ban minh bạch và rõ ràng - Lý tưởng cho các tour du lịch, lái xe và cộng tác viên"
+    }
+  },
   "common": {
     "menu": "Menu",
     "close": "Đóng",
-    "back": "Quay lại",
-    "backToMenu": "Quay lại Menu",
+    "back": "Mặt sau",
+    "backToMenu": "Quay lại menu",
     "viewAll": "Xem tất cả",
-    "bookNow": "Đặt ngay",
-    "reserveNow": "Đặt ngay",
+    "bookNow": "Đặt ngay bây giờ",
+    "reserveNow": "Đặt trước ngay bây giờ",
     "viewDetails": "Xem chi tiết",
     "discoverMore": "Khám phá thêm",
     "signUp": "Đăng ký",
     "signIn": "Đăng nhập",
     "alreadyMember": "Đã là thành viên?",
-    "tourist": "Bạn có phải là du khách không? Khám phá quyền lợi độc quyền của bạn."
+    "tourist": "Bạn có phải là khách du lịch? "
   },
   "languages": {
     "english": "Tiếng Anh",
-    "vietnamese": "Tiếng Việt",
-    "korean": "Tiếng Hàn",
-    "chinese": "Tiếng Trung",
-    "japanese": "Tiếng Nhật"
+    "vietnamese": "vietnamese",
+    "malay": "Bahasa Melayu",
+    "khmer": "ភាសាខ្មែរ",
+    "indonesian": "Indonesia",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "thai": "ภาษาไทย",
+    "chineseSimplified": "简体中文",
+    "chineseTraditional": "繁體中文",
+    "burmese": "မြန်မာ",
+    "bengali": "বাংলা",
+    "spanish": "Español",
+    "portuguese": "Bồ Đào Nha",
+    "turkish": "Türkçe",
+    "german": "Deutsch",
+    "russian": "Р р",
+    "haitianCreole": "Kreyòl Ayisyen",
+    "swahili": "Kiswahili"
   },
   "header": {
     "navigation": {
-      "stay": "Lưu Trú",
-      "rewards": "Ưu Đãi",
-      "aboutUs": "Về Chúng Tôi"
+      "stay": "Ở lại",
+      "rewards": "Phần thưởng",
+      "aboutUs": "Về chúng tôi",
+      "about": "Về chúng tôi",
+      "services": "Dịch vụ",
+      "pokerClub": "Câu lạc bộ Poker",
+      "casinoVip": "Sòng bạc vip",
+      "offers": "Ưu đãi",
+      "contact": "Liên hệ"
     },
     "stay": {
-      "title": "Phòng & Suite",
-      "letsVipCollection": "Bộ Sưu Tập VIP",
-      "paizaCollection": "Bộ Sưu Tập Paiza",
+      "title": "Phòng & Suites",
+      "letsVipCollection": "Let's VIP Collection",
+      "paizaCollection": "Bộ sưu tập Paiza",
       "onlineExclusive": {
-        "title": "Độc Quyền Online",
-        "stayPackages": "Gói Lưu Trú"
+        "title": "Độc quyền trực tuyến",
+        "stayPackages": "Gói khách sạn"
       },
       "experiences": {
-        "title": "Trải Nghiệm",
-        "skypark": "Đài Quan Sát SkyPark",
-        "infinityPool": "Hồ Bơi Vô Cực SkyPark",
-        "guestPrivileges": "Đặc Quyền Khách Hàng"
+        "title": "Kinh nghiệm",
+        "skypark": "Skypark quan sát",
+        "infinityPool": "Skypark Infinity Pool",
+        "guestPrivileges": "Đặc quyền của khách"
       }
     },
     "rewards": {
-      "sandsLifestyle": "Let's Vip LifeStyle",
-      "membershipTiers": "Cấp Độ Thành Viên",
-      "memberPerks": "Ưu Đãi Thành Viên",
-      "alliancePrivileges": "Đặc Quyền Liên Minh Sands",
-      "viewAllOutlets": "Xem Tất Cả Cơ Sở",
-      "vipMembership": "Ưu đãi Thành viên VIP",
-      "premiumPerks": "Đặc quyền Cao cấp",
-      "eventPromotions": "Khuyến mãi Sự kiện & Giải đấu"
+      "sandsLifestyle": "Hãy sống VIP",
+      "membershipTiers": "Các tầng thành viên",
+      "memberPerks": "Đặc quyền thành viên",
+      "alliancePrivileges": "Hãy để các đặc quyền của Vipalliance",
+      "viewAllOutlets": "Xem tất cả các vipoutlets",
+      "vipMembership": "Ưu đãi thành viên VIP",
+      "premiumPerks": "Đặc quyền cao cấp",
+      "eventPromotions": "Chương trình khuyến mãi sự kiện & giải đấu"
     }
   },
   "home": {
     "hero": {
-      "title": "TRẢI NGHIỆM CASINO LET'S WIN CLUB"
+      "title": "Trải nghiệm một đêm cao cấp tại Let's Win - Câu lạc bộ VIP hàng đầu ở Da Nang"
+    },
+    "casinoVip": {
+      "heading": "Trải nghiệm Sòng bạc VIP tại Let's Win - Câu lạc bộ VIP"
     },
     "hoTram": {
-      "title": "PHÒNG VIP TẠI CASINO HỒ TRÀM",
-      "description": "Tọa lạc tại một trong những sòng bạc lớn nhất và nổi tiếng nhất Việt Nam, Let's Win VIP Lounge tại Hồ Tràm mang đến trải nghiệm độc quyền, dành riêng cho các thành viên danh giá.",
+      "title": "Phòng chờ vip tại sòng bạc ho tram",
+      "description": "Nằm tại một trong những sòng bạc lớn nhất và nổi tiếng nhất của Việt Nam, hãy giành chiến thắng VIP Lounge tại Ho Tram mang đến trải nghiệm độc quyền, chỉ dành riêng cho các thành viên nổi tiếng của chúng tôi.",
       "features": {
-        "environment": "Môi trường riêng tư và cao cấp, được thiết kế với nội thất sang trọng và tiện nghi đẳng cấp.",
-        "services": "Dịch vụ cá nhân hóa, bao gồm quản gia riêng, thực đơn ẩm thực độc quyền và hỗ trợ 24/7.",
-        "privacy": "Bảo mật và riêng tư tối đa, đảm bảo sự thoải mái và yên tâm cho khách VIP."
+        "environment": "Môi trường tư nhân và ưu tú, được thiết kế với nội thất sang trọng và các tiện nghi hàng đầu.",
+        "services": "Các dịch vụ được cá nhân hóa, bao gồm các nhà bán thịt chuyên dụng, thực đơn ăn uống độc quyền và hỗ trợ 24/7.",
+        "privacy": "Quyền riêng tư và an ninh cuối cùng, đảm bảo sự thoải mái và an tâm tối đa cho khách VIP."
       }
     },
     "daNang": {
-      "title": "CÂU LẠC BỘ POKER TẠI ĐÀ NẴNG",
-      "description": "Là điểm đến hoàn hảo cho những người yêu thích poker, Let's Win Club tại Đà Nẵng tổ chức các giải đấu poker chuyên nghiệp trong không gian sang trọng và đẳng cấp.",
+      "title": "Câu lạc bộ Poker ở da Nang",
+      "description": "Một điểm đến hoàn hảo cho những người đam mê poker, hãy giành chiến thắng câu lạc bộ trong Da Nang tổ chức các giải đấu poker chuyên nghiệp trong một khung cảnh uy tín và cao cấp.",
       "features": {
         "rooms": {
-          "title": "Phòng Poker riêng tư",
-          "description": ", với lối chơi đẳng cấp thế giới và cược giá trị cao."
+          "title": "Phòng poker riêng",
+          "description": ", có trò chơi đẳng cấp thế giới với cá cược cổ phần cao."
         },
         "services": {
           "title": "Dịch vụ VIP",
-          "description": " được thiết kế riêng cho khách hàng cao cấp, đảm bảo trải nghiệm tối ưu."
+          "description": " Phù hợp cho khách quý, đảm bảo trải nghiệm tối ưu."
         },
         "lounge": {
-          "title": "Khu vực lounge sang trọng",
-          "description": ", phục vụ cocktail cao cấp và rượu thượng hạng, tạo không gian tinh tế và thư giãn cho người chơi."
+          "title": "Khu vực phòng chờ sang trọng",
+          "description": ", phục vụ các loại cocktail cao cấp và rượu mịn, tạo ra một môi trường tinh tế và thư giãn cho người chơi."
         }
       }
     },
     "hoiana": {
-      "title": "PHÒNG VIP TẠI HOIANA CASINO",
-      "description": "Tọa lạc trong khu nghỉ dưỡng đẳng cấp quốc tế, Let's Win VIP tại Hoiana mang đến không gian đẳng cấp, kết hợp giữa giải trí xa hoa và sự tinh tế của giới thượng lưu.",
+      "title": "Phòng chờ VIP tại Sòng bạc Hoiana",
+      "description": "Nằm trong một khu nghỉ mát nổi tiếng quốc tế, hãy giành chiến thắng VIP tại Hoiana mang đến một bầu không khí đặc biệt, kết hợp giải trí sang trọng với sự tinh tế tầng lớp ưu tú.",
       "features": {
         "rooms": {
           "title": "Phòng VIP độc quyền",
-          "description": ", được thiết kế với phong cách sang trọng và đẳng cấp."
+          "description": ", được thiết kế với một liên lạc xa hoa và sang trọng."
         },
         "services": {
           "title": "Dịch vụ VIP cao cấp",
-          "description": ", bao gồm đưa đón bằng xe limousine, hỗ trợ cá nhân và lưu trú 5 sao."
+          "description": ", bao gồm chuyển xe limousine, hỗ trợ cá nhân hóa và chỗ ở năm sao."
         },
         "rewards": {
-          "title": "Ưu đãi độc quyền",
-          "description": " dành cho thành viên Let's Win, với quà tặng cao cấp và chương trình khách hàng thân thiết hấp dẫn."
+          "title": "Phần thưởng độc quyền",
+          "description": " Đối với các thành viên Let Win, với những món quà sang trọng và một chương trình khách hàng thân thiết hấp dẫn."
         }
       }
     },
     "rewardsClub": {
-      "title": "Đặc Quyền Độc Quyền Với Câu Lạc Bộ Thưởng Let's VIP",
-      "subtitle": "Đăng ký để tích điểm khi chơi",
-      "description": "Là thành viên Let's VipRewards Club, bạn tích lũy Điểm Let's Vipvà Đô-la Let's Vipkhi chơi tại Casino. Bạn có thể đăng ký tại bất kỳ quầy Let's VipRewards Club nào đặt tại:",
+      "title": "Lợi ích độc quyền với Câu lạc bộ Phần thưởng VIP",
+      "subtitle": "Đăng ký để kiếm khi bạn chơi",
+      "description": "Là thành viên Let's Vipreards Club, bạn kiếm được Vippoints và hãy để VipDollars chơi sòng bạc của bạn. ",
       "locations": {
         "b2m": "B2M",
-        "level1": "Tầng 1",
-        "level2Ruby": "Tầng 2 Lối vào Bàn chơi Ruby",
-        "level2RubySlots": "Tầng 2 Lối vào Máy đánh bạc Ruby",
-        "level2Apex": "Tầng 2 Lối vào Apex Grand"
+        "level1": "Cấp 1",
+        "level2Ruby": "Lối vào trò chơi bảng Ruby cấp 2",
+        "level2RubySlots": "Lối vào các khe Ruby cấp 2",
+        "level2Apex": "Cấp 2 APEX Lối vào lớn"
       }
     },
     "vipClub": {
-      "title": "GIỚI THIỆU LET'S WIN VIP CLUB",
-      "description": "Let's Win VIP Club là hệ thống phòng VIP độc quyền, mang đến trải nghiệm chơi game sang trọng dành riêng cho giới tinh hoa. Với không gian riêng tư tinh tế và dịch vụ độc quyền, Let's Win VIP Club khẳng định vị thế là điểm đến hàng đầu cho những ai tìm kiếm trải nghiệm đẳng cấp tại các sòng bạc danh tiếng nhất Việt Nam."
+      "title": "Giới thiệu Let's Win VIP Club",
+      "description": "Hãy giành chiến thắng VIP Club là một hệ thống độc quyền của các phòng VIP, mang đến trải nghiệm chơi game sang trọng phù hợp với giới thượng lưu. ",
+      "packageTitle": "Gói kinh nghiệm VIP",
+      "packageDescription": "Thưởng thức không gian riêng tư, cao cấp với dịch vụ 24/7 được cá nhân hóa.",
+      "golfCasinoPackage": "Gói Golf & Sòng bạc",
+      "golfCasinoDescription": "Kết hợp golf ưu tú và sòng bạc cao cấp cho trải nghiệm VIP đặc biệt.",
+      "pokerPackage": "Gói poker chuyên nghiệp",
+      "pokerDescription": "Gói dịch vụ đặc biệt cho những người đam mê giải đấu poker - nơi các kỹ năng quan trọng.",
+      "spaNightlifePackage": "Khu nghỉ dưỡng + SPA + Gói cuộc sống về đêm",
+      "spaNightlifeDescription": "Kết hợp thư giãn, chăm sóc sức khỏe và trải nghiệm cuộc sống về đêm thú vị.",
+      "experienceHeader": "Kinh nghiệm VIP - 'Sự sang trọng tốt nhất'",
+      "experienceDescription": "Thưởng thức không gian riêng tư, thanh lịch với dịch vụ 24/7 được cá nhân hóa. ",
+      "servicesInclude": "Dịch vụ bao gồm:",
+      "beverage": "Đồ uống tại chỗ và giải khát nhẹ",
+      "privateRoom": "Phòng chơi game riêng tư, yên tĩnh và sang trọng",
+      "personalSupport": "Hỗ trợ cá nhân 1: 1 (dịch, đặt dịch vụ, vận chuyển ...)",
+      "vipAccess": "Truy cập ưu tiên vào các khu vực VIP trên toàn hệ thống",
+      "gifts": "Quà tặng độc quyền & Ưu đãi đặc biệt cho các thành viên cao cấp",
+      "suitableFor": "Thích hợp cho:",
+      "highRollers": "Con lăn cao, doanh nhân và những người đánh giá cao quyền riêng tư và dịch vụ cao cấp.",
+      "golfCasinoHeader": "Golf & Casino - twopassions, OneJourney",
+      "golfCasinoDescriptionLong": "Kết hợp giải trí sòng bạc ưu tú và sòng bạc cao cấp, đây là lựa chọn hoàn hảo cho những vị khách muốn thư giãn với golf vào ban ngày và tận hưởng bầu không khí sòng bạc sôi động vào ban đêm.",
+      "golfCasinoTeeTime": "Tee Times tại các câu lạc bộ golf cao cấp ở da nang - hoi an",
+      "golfCasinoVipTransfer": "Dịch vụ chọn và dịch vụ giảm giá VIP",
+      "golfCasinoLuxuryStay": "Chỗ ở sang trọng gần sân golf hoặc bãi biển",
+      "golfCasinoGuide": "Hỗ trợ hướng dẫn chuyên dụng tại sòng bạc",
+      "golfCasinoGroupOffer": "Ưu đãi kết hợp đặc biệt cho các nhóm",
+      "golfCasinoSuitableFor": "Thích hợp cho:",
+      "golfCasinoTarget": "Các nhóm golf, khách đến lâu và doanh nhân giải trí cho khách hàng với sự pha trộn giữa thư giãn và giải trí.",
+      "bulletPrivateRoom": "Phòng chơi game riêng tư, yên tĩnh và sang trọng",
+      "bulletPersonalSupport": "Hỗ trợ cá nhân 1: 1 (giải thích, đặt phòng, vận chuyển ...)",
+      "bulletVipAccess": "Truy cập ưu tiên vào các khu vực VIP trên toàn hệ thống",
+      "bulletGifts": "Quà tặng và ưu đãi độc quyền cho các thành viên cao cấp",
+      "highRollersVn": "Thích hợp cho: Con lăn cao, doanh nhân và những người đánh giá cao sự riêng tư và dịch vụ cao cấp.",
+      "mobileExperienceDescription": "Tận hưởng một không gian riêng tư và sang trọng với dịch vụ 24/7 được cá nhân hóa. ",
+      "privateRoomVn": "Phòng chơi game riêng tư, yên tĩnh và sang trọng",
+      "personalSupportVn": "Hỗ trợ cá nhân 1: 1 (giải thích, đặt phòng dịch vụ, vận chuyển ...)",
+      "vipAccessVn": "Truy cập ưu tiên vào các khu vực VIP trên toàn hệ thống",
+      "giftsVn": "Quà tặng độc quyền & Ưu đãi đặc biệt cho các thành viên cao cấp",
+      "suitableForVnTitle": "Thích hợp cho:",
+      "suitableForVnDesc": "Con lăn cao, doanh nhân và những người đánh giá cao quyền riêng tư và dịch vụ cao cấp.",
+      "spaNightlifeTitle": "Spa & Nightlife - \"Thư giãn và đốt cháy\"",
+      "spaNightlifeDescription2": "Sau những khoảnh khắc dữ dội tại bàn trò chơi, đã đến lúc thư giãn cơ thể bạn - và nâng cao tinh thần của bạn với một cuộc sống về đêm thành phố bãi biển sôi động.",
+      "spaNightlifeServicesInclude": "Dịch vụ bao gồm:",
+      "spaLuxuryPackage": "Phương pháp điều trị spa cao cấp (massage cơ thể, mặt, phòng tắm hơi, hơi nước thảo dược)",
+      "spaVipClubBooking": "Đặt phòng bàn VIP tại các quán bar và câu lạc bộ hàng đầu",
+      "spaNightTransfer": "Vận chuyển ban đêm riêng tư và an toàn",
+      "spaInRoomService": "Dịch vụ thức ăn và cocktail trong phòng",
+      "spaNightlifeSuitableFor": "Thích hợp cho:",
+      "spaNightlifeTarget": "Các cặp vợ chồng, bạn bè thân thiết và những vị khách thích thư giãn thanh lịch và giải trí cao cấp.",
+      "pokerPackageTitle": "Gói poker - “Nơi kỹ năng gặp uy tín”",
+      "pokerDescription2": "Một gói dịch vụ đặc biệt cho những người đam mê giải đấu poker - nơi kỹ năng, chiến lược và thể thao được tôn vinh.",
+      "pokerServicesInclude": "Dịch vụ bao gồm:",
+      "pokerProTournaments": "Tham gia vào các giải đấu poker chuyên nghiệp tại Let Let Win Poker Club",
+      "pokerPrivateEvents": "Lưu trữ giải đấu riêng cho các nhóm hoặc khách hàng của công ty",
+      "pokerProfessionalDealer": "Đại lý chuyên nghiệp và bảng poker tiêu chuẩn giải đấu",
+      "pokerInterpreterSupport": "Hỗ trợ và chăm sóc thông dịch cho khách quốc tế",
+      "pokerCustomAccommodation": "Khách sạn/căn hộ đặt theo yêu cầu",
+      "pokerSuitableFor": "Thích hợp cho:",
+      "pokerTarget": "Người chơi chuyên nghiệp, cộng đồng poker, khách Hàn Quốc/Trung Quốc thích thể thao tâm trí."
     },
     "buttons": {
-      "contact": "Liên hệ ngay",
-      "book": "Đặt ngay",
-      "viewDetails": "Xem chi tiết"
+      "contact": "Liên hệ với chúng tôi",
+      "book": "Đặt ngay bây giờ",
+      "viewDetails": "Xem chi tiết",
+      "bookVipTour": "Cuốn sách tham quan VIP",
+      "contactConsultant": "Liên hệ với tư vấn",
+      "contactNow": "Liên hệ ngay bây giờ"
     }
   },
   "footer": {
     "getToKnow": {
-      "title": "Tìm hiểu về chúng tôi",
+      "title": "Làm quen với chúng tôi",
       "companyInfo": "Thông tin công ty",
-      "careers": "Cơ hội nghề nghiệp",
+      "careers": "Sự nghiệp",
       "faq": "Câu hỏi thường gặp",
-      "contactUs": "Liên hệ",
-      "awards": "Giải thưởng & Thành tựu"
+      "contactUs": "Liên hệ với chúng tôi",
+      "awards": "Giải thưởng & giải thưởng"
     },
     "usefulInfo": {
       "title": "Thông tin hữu ích",
       "travelGuide": "Hướng dẫn du lịch",
-      "planVisit": "Lên kế hoạch thăm quan",
-      "gettingHere": "Cách đến đây",
-      "services": "Dịch vụ & tiện ích",
+      "planVisit": "Lập kế hoạch cho chuyến thăm của bạn",
+      "gettingHere": "Đến đây",
+      "services": "Dịch vụ & Tiện nghi",
       "packages": "Gói khách sạn & chuyến bay"
     },
     "downloadApp": {
-      "title": "Tải ứng dụng của chúng tôi"
+      "title": "Tải xuống ứng dụng của chúng tôi"
     },
     "social": {
       "title": "Kết nối với chúng tôi"
     },
     "getInspired": {
-      "title": "Khám phá ngay",
-      "subtitle": "Đặt chỗ & Liên hệ nhanh",
-      "bookNow": "Đặt ngay"
+      "title": "Lấy cảm hứng",
+      "subtitle": "Đặt chỗ nhanh và liên hệ",
+      "bookNow": "Đặt ngay bây giờ"
     },
-    "copyright": "© 2025 Let's Vip LifeStyle. Đã đăng ký bản quyền."
+    "copyright": "© 2025 Hãy sống VIP. "
   },
   "about": {
-    "title": "Lời giới thiệu",
-    "subtitle": "Giới thiệu về Let's Win VIP Club",
-    "introduction": "Chào mừng bạn đến với Let's Win VIP Club – điểm đến dành riêng cho những ai tìm kiếm trải nghiệm giải trí đỉnh cao và dịch vụ thượng lưu. Với không gian sang trọng, dịch vụ chuyên nghiệp và các trò chơi đẳng cấp, chúng tôi cam kết mang lại những khoảnh khắc khó quên cho từng vị khách.",
+    "title": "Giới thiệu",
+    "subtitle": "Về Let's Win VIP Club",
+    "introduction": "Chào mừng bạn đến với Win VIP Club - một điểm đến độc quyền cho những người tìm kiếm các dịch vụ giải trí cao cấp và xa xỉ. ",
     "experience": {
-      "title": "Tại Let's Win VIP Club, bạn sẽ được tận hưởng:",
+      "title": "Tại Let's Win VIP Club, bạn sẽ thích:",
       "hoTram": {
-        "title": "• Sảnh VIP tại Hồ Tràm Casino: ",
-        "description": "Không gian riêng tư với các trò chơi dành riêng cho khách VIP, mang lại sự thoải mái và đẳng cấp."
+        "title": "• Phòng chờ VIP tại HO Tram Casino: ",
+        "description": "Không gian riêng với các trò chơi độc quyền cho khách VIP, cung cấp sự thoải mái và đẳng cấp."
       },
       "hoiana": {
-        "title": "• Khu VIP tại Hoiana: ",
-        "description": "Thiết kế tinh tế cùng dịch vụ cá nhân hóa, mang đến trải nghiệm độc đáo và sang trọng."
+        "title": "• Khu vực VIP tại HOIANA: ",
+        "description": "Thiết kế tinh vi với dịch vụ cá nhân, mang lại những trải nghiệm độc đáo và sang trọng."
       },
       "danang": {
-        "title": "• Club Poker tại khách sạn Danaciti: ",
-        "description": "Điểm hẹn lý tưởng cho những người yêu thích Poker, với các giải đấu chuyên nghiệp và bàn chơi cao cấp."
+        "title": "• Câu lạc bộ poker tại khách sạn Danaciti: ",
+        "description": "Điểm đến lý tưởng cho những người đam mê poker, có các giải đấu chuyên nghiệp và bảng cao cấp."
       }
     },
-    "service": "Đặc biệt, chúng tôi cung cấp dịch vụ chăm sóc khách hàng 24/7 qua hotline trực tiếp, sẵn sàng hỗ trợ và đáp ứng mọi nhu cầu của bạn.",
-    "invitation": "Hãy gia nhập cộng đồng thượng lưu tại Let's Win VIP Club – nơi hội tụ của những trải nghiệm đỉnh cao và những khoảnh khắc chiến thắng!",
+    "service": "Đáng chú ý, chúng tôi cung cấp dịch vụ khách hàng 24/7 thông qua đường dây nóng trực tiếp, sẵn sàng hỗ trợ và đáp ứng tất cả các nhu cầu của bạn.",
+    "invitation": "Tham gia cộng đồng ưu tú tại Let's Win VIP Club - nơi trải nghiệm cao cấp và những khoảnh khắc chiến thắng kết hợp với nhau!",
     "whyChoose": {
-      "title": "TẠI SAO CHỌN LET'S WIN VIP CLUB?",
+      "title": "Tại sao chọn Let Win VIP Club?",
       "features": {
-        "spaces": "✔ Không gian VIP độc quyền với nội thất sang trọng, đảm bảo sự thoải mái tuyệt đối.",
-        "services": "✔ Dịch vụ cá nhân hóa, với đội ngũ chuyên nghiệp hỗ trợ 24/7.",
-        "rewards": "✔ Ưu đãi độc quyền & quà tặng cao cấp, dành riêng cho thành viên Let's Win VIP.",
-        "privacy": "✔ Bảo mật và riêng tư hàng đầu, đảm bảo trải nghiệm giải trí an toàn và sang trọng."
+        "spaces": "Không gian VIP độc quyền với nội thất xa hoa, đảm bảo sự thoải mái tuyệt đối.",
+        "services": "Các dịch vụ cá nhân hóa, với một nhóm chuyên nghiệp chuyên dụng cung cấp hỗ trợ 24/7.",
+        "rewards": "Phần thưởng độc quyền & quà tặng sang trọng, dành riêng cho các thành viên Let Win VIP.",
+        "privacy": "Sự riêng tư và bảo mật hàng đầu, đảm bảo trải nghiệm giải trí an toàn và sang trọng."
       }
     },
-    "join": "Tham gia Let's Win VIP Club ngay hôm nay và trải nghiệm đẳng cấp xa hoa không giới hạn!",
-    "contact": "📞 Hotline Chăm sóc Khách hàng VIP (24/7): [Số điện thoại]"
+    "join": "Tham gia Let's Win VIP Club ngay hôm nay và thưởng thức trải nghiệm xa xỉ chưa từng có!",
+    "contact": "📞 Đường dây nóng dịch vụ khách hàng VIP (24/7): [Số điện thoại]"
+  },
+  "premiumPerks": {
+    "pageTitle": "Đặc quyền cao cấp tại Hoiana & Ho Tram",
+    "freeHotelTitle": "Phòng khách sạn miễn phí cho các thành viên VIP",
+    "freeHotelDesc": "Là một thành viên VIP, bạn sẽ được hưởng các đặc quyền độc quyền, bao gồm các phòng khách sạn miễn phí. ",
+    "privateShuttleTitle": "Dịch vụ đưa đón riêng cho VIP hàng đầu",
+    "privateShuttleDesc": "Là một VIP hàng đầu, bạn sẽ nhận được dịch vụ đưa đón riêng miễn phí, đảm bảo du lịch thuận tiện và thoải mái nhất. ",
+    "exclusiveGiftsTitle": "Quà tặng độc quyền vào những dịp đặc biệt",
+    "exclusiveGiftsDesc": "Ngoài các lợi ích cao cấp, các thành viên VIP sẽ có cơ hội nhận được những món quà độc quyền trong những dịp đặc biệt trong suốt cả năm. ",
+    "contactNow": "Liên hệ ngay bây giờ"
+  },
+  "freeTransport": {
+    "title": "Dịch vụ đưa đón miễn phí",
+    "description": "Dịch vụ vận chuyển VIP tư nhân - Hoàn toàn miễn phí cho khách cho phép.",
+    "items": {
+      "pickup": "Đón từ sân bay, khách sạn hoặc trung tâm thành phố",
+      "driver": "Trình điều khiển lịch sự và kín đáo",
+      "logo": "Tùy chọn chọn xe có hoặc không có logo cho phép",
+      "group": "Có sẵn cho các nhóm hoặc cá nhân"
+    },
+    "cta": "Đặt chuyến đi của bạn ngay bây giờ"
+  },
+  "eventPromotions": {
+    "pageTitle": "Đặc quyền sự kiện & giải đấu",
+    "tournamentTitle": "Tham gia các giải đấu độc quyền VIP",
+    "tournamentDesc": "Là thành viên VIP, bạn sẽ có cơ hội tham gia các giải đấu độc quyền, nơi bạn có thể thể hiện các kỹ năng, chiến lược và tài năng của mình trong một môi trường đẳng cấp thế giới. ",
+    "vipPartiesTitle": "Bữa tiệc & Sự kiện VIP miễn phí",
+    "vipPartiesDesc": "Là một VIP, bạn sẽ được mời đến các bữa tiệc miễn phí thường xuyên và các sự kiện độc quyền được tổ chức tại các địa điểm sang trọng. ",
+    "specialRewardsTitle": "Cơ hội giải thưởng lớn từ các chương trình đặc biệt",
+    "specialRewardsDesc": "Các chương trình độc quyền được thiết kế cho VIP cung cấp các cơ hội đáng kinh ngạc để giành chiến thắng lớn. ",
+    "contactNow": "Liên hệ ngay bây giờ"
+  },
+  "aboutSection": {
+    "missionTitle": "Nhiệm vụ của Letwin",
+    "missionDescription": "Để trở thành đối tác tay phải đáng tin cậy cho mỗi khách quốc tế đến Việt Nam để tìm kiếm giải trí cao cấp, an toàn, chuyên nghiệp và đáng tin cậy.",
+    "missionStatement": "Hãy để không chỉ tổ chức các trải nghiệm - chúng tôi định hình lối sống giải trí VIP cho giới thượng lưu.",
+    "whatIsLetswin": "Có gì là Letswin?",
+    "letswinIntroMobile": "Hãy để một nền tảng cung cấp các dịch vụ giải trí bao gồm tất cả cho khách du lịch quốc tế và các con lăn cao.",
+    "letswinIntroDesktop": "Hãy để là một nền tảng cung cấp các dịch vụ giải trí toàn diện cho khách du lịch quốc tế và những người chơi cấp cao đến thăm Việt Nam. ",
+    "letswinServices": {
+      "pokerClub": "• Câu lạc bộ poker riêng và chuyên nghiệp",
+      "vipCasino": "• Trải nghiệm sòng bạc VIP với các ưu đãi độc quyền",
+      "transportSupport": "• Giao thông vận tải, hỗ trợ trò chơi và dịch vụ dịch thuật",
+      "customTours": "• Lịch trình du lịch tùy chỉnh để thư giãn và giải trí",
+      "support247": "• Hệ thống chăm sóc khách hàng 24/7",
+      "nightSupport": "• Hỗ trợ khẩn cấp ngay cả trong đêm"
+    },
+    "whoIsFor": "Ai là người để cho tôi?",
+    "whoIsForList": {
+      "internationalTourists": "• Khách du lịch quốc tế muốn trải nghiệm poker, sòng bạc và thư giãn sang trọng ở Việt Nam.",
+      "experiencedPlayers": "• Người chơi có kinh nghiệm tìm kiếm các dịch vụ chuyên nghiệp - đáng tin cậy - kín đáo.",
+      "partners": "• Các đối tác tìm cách hợp tác trong việc phát triển mạng khách hàng cao cấp: các công ty vận hành tour, khách sạn, tài xế, cộng tác viên."
+    },
+    "vipExperience": "Ngoài giảm giá độc quyền, bạn cũng có thể thưởng thức các phòng VIP riêng và sang trọng. ",
+    "contactNow": "Liên hệ ngay bây giờ"
+  },
+  "vipMembership": {
+    "title": "Ưu đãi thành viên VIP",
+    "contactNow": "Liên hệ ngay bây giờ",
+    "section1": {
+      "title": "Kiếm điểm và đổi quà",
+      "description": "Kiếm được điểm và đổi quà thông qua việc tham gia vào các trò chơi mang đến cho bạn những trải nghiệm thú vị và phần thưởng hấp dẫn. "
+    },
+    "section2": {
+      "title": "Giảm giá cho các dịch vụ ăn uống, khách sạn và spa",
+      "description": "Thưởng thức bữa ăn ngon tại các nhà hàng cao cấp, thư giãn tại spa, hoặc thưởng thức bầu không khí khách sạn sang trọng, tất cả đều dễ tiếp cận hơn với chương trình giảm giá điểm thưởng của chúng tôi. "
+    },
+    "section3": {
+      "title": "Phòng VIP riêng với các dịch vụ cao cấp",
+      "description": "Ngoài giảm giá thường xuyên, bạn có thể thưởng thức các không gian độc quyền và sang trọng thông qua các phòng VIP cao cấp của chúng tôi. "
+    }
+  },
+  "pokerClub": {
+    "heading": "Trải nghiệm câu lạc bộ poker ở da nang",
+    "contactConsultant": "Liên hệ với tư vấn",
+    "privateRoomTitle": "Phòng poker riêng",
+    "privateRoomDescription": "Là thành viên VIP, bạn sẽ có quyền truy cập vào các giải đấu poker độc quyền, nơi bạn có thể thể hiện các kỹ năng, chiến lược và tài năng của mình trong một khung cảnh sang trọng. ",
+    "clubTitle": "Chào mừng đến với Câu lạc bộ Poker",
+    "clubDescription": "Poker không chỉ là một trò chơi - nó là một trải nghiệm uy tín, nơi các quyết định thông minh và các chiến lược tinh tế dẫn đến những phần thưởng xứng đáng. "
   },
   "contact": {
-    "title": "Đặt chỗ & Liên hệ nhanh",
+    "title": "Đặt chỗ nhanh và liên hệ",
     "stage1": {
-      "title": "TRẢI NGHIỆM ĐẲNG CẤP",
-      "description": "Hãy là người đầu tiên khám phá những ưu đãi độc quyền, sự kiện sắp tới và những trải nghiệm tuyệt vời nhất tại Let's Win Club.",
-      "fullName": "Họ và tên",
+      "title": "Nhập ở trên Beyond",
+      "description": "Hãy là người đầu tiên khám phá một cuộc điều hành các ưu đãi độc quyền, các sự kiện sắp tới và sự nuông chiều tốt nhất tại Let's Win Club.",
+      "fullName": "Tên đầy đủ",
       "phoneNumber": "Số điện thoại",
-      "submit": "Gửi"
+      "submit": "Nộp"
     },
     "stage2": {
-      "title": "Cảm ơn bạn đã đăng ký nhận bản tin.",
-      "description": "Hãy chờ đón những nội dung được tuyển chọn kỹ lưỡng, thể hiện tình yêu của chúng tôi dành cho những điều phi thường.",
+      "title": "Cảm ơn bạn đã đăng ký nhận bản tin của chúng tôi.",
+      "description": "Nhìn về phía trước một sự quản lý chu đáo về nội dung thể hiện tình yêu của chúng tôi đối với mọi thứ phi thường.",
       "backToHome": "Quay lại trang chủ"
     }
   },
   "fineDining": {
-    "title": "Nhà Hàng Cao Cấp",
-    "description": "Khám phá nghệ thuật ẩm thực tại các nhà hàng cao cấp ở Singapore, Let's Win Club. Trải nghiệm những hương vị tinh tế từ những nguyên liệu thượng hạng, được chế biến bởi các đầu bếp tài năng.",
+    "title": "Nhà hàng ăn uống ngon",
+    "description": "Khám phá nghệ thuật ẩm thực tại các nhà hàng ăn uống ngon ở Singapore, hãy giành chiến thắng. ",
     "romanticRestaurants": {
-      "title": "Nhà Hàng Lãng Mạn",
-      "description": "Biến mọi buổi tối thành kỷ niệm đáng nhớ với không gian lãng mạn tại các nhà hàng. Hoàn hảo cho việc kỷ niệm ngày cưới, đính hôn hoặc đơn giản là tận hưởng một buổi hẹn hò đặc biệt."
+      "title": "Nhà hàng lãng mạn",
+      "description": "Biến bất kỳ buổi tối nào thành một dịp đáng nhớ với bầu không khí thân mật tại các nhà hàng lãng mạn này. "
     },
     "specialOccasions": {
-      "title": "Dịp Đặc Biệt",
-      "description": "Tôn vinh những khoảnh khắc quý giá của cuộc sống và thêm phần sang trọng cho mọi dịp tại những nhà hàng tinh tế này. Nâng tầm bữa tiệc sinh nhật của bạn với những món ăn độc đáo và tinh tế."
+      "title": "Những dịp đặc biệt",
+      "description": "Kỷ niệm cuộc sống hầu hết các khoảnh khắc quý giá và thêm một chút thanh lịch cho bất kỳ dịp nào tại các nhà hàng vô nhiễm này. "
     },
     "shoppes": {
-      "title": "Khám Phá Khu Mua Sắm",
-      "description": "Với bộ sưu tập ấn tượng từ hơn 170 thương hiệu thiết kế và cửa hàng sang trọng, hành trình tìm kiếm những món đồ cao cấp của bạn sẽ kết thúc tại đây. Hãy tự thưởng cho mình một phụ kiện quyến rũ để làm đẹp thêm ngày của bạn, hoặc tìm món quà hoàn hảo cho người đặc biệt."
+      "title": "Khám phá các cửa hàng",
+      "description": "Với sự lựa chọn ấn tượng của hơn 170 nhãn hiệu thiết kế và các cửa hàng sang trọng, việc tìm kiếm những điều tốt đẹp của bạn kết thúc ở đây. "
     },
     "viewRestaurants": "Xem nhà hàng",
-    "viewShops": "Xem cửa hàng",
+    "viewShops": "Xem các cửa hàng",
     "viewDetails": "Xem chi tiết"
   },
+  "signupSuccessful": {
+    "welcome": "Chào mừng, Asdasd",
+    "digitalAccount": {
+      "title": "Tài khoản kỹ thuật số",
+      "description": "Truy cập tài khoản Let's VIP Lifestyle với tên người dùng và mật khẩu mới được tạo của bạn."
+    },
+    "membershipCard": {
+      "title": "Thẻ thành viên",
+      "description": "ID thành viên và mã PIN của bạn sẽ được yêu cầu cho các giao dịch của Vipreards tại Marina Bay Sands."
+    },
+    "username": "Tên người dùng",
+    "membershipId": "ID thành viên",
+    "loginNow": "Đăng nhập ngay bây giờ"
+  },
+  "otpVerification": {
+    "title": "Xác minh OTP",
+    "stage1": {
+      "description": "Vui lòng chọn một kênh để nhận mật khẩu một lần (OTP) làm một phần của quy trình xác minh."
+    },
+    "stage2": {
+      "description": "Một email chứa mật khẩu một lần (OTP) đã được gửi đến địa chỉ email của bạn TILL"
+    },
+    "emailOtp": "Email OTP",
+    "enterOtp": "Nhập OTP",
+    "resendOtp": "Resend một OTP mới trong 01:16",
+    "proceed": "Tiếp tục",
+    "verify": "Xác minh",
+    "back": "Mặt sau"
+  },
   "signup": {
-    "title": "Đăng ký thành viên Let's Vip LifeStyle miễn phí",
-    "banner": "Banner Đặt phòng",
-    "already_have_account": "Bạn đã có tài khoản?",
-    "login_here": "Đăng nhập tại đây.",
-    "particulars": "Thông tin cá nhân",
-    "digital_account": "Tài khoản số",
+    "title": "Đăng ký thành viên Let's VIP miễn phí của bạn",
+    "banner": "Đặt banner",
+    "already_have_account": "Đã có một tài khoản?",
+    "login_here": "Đăng nhập ở đây.",
+    "particulars": "Chi tiết",
+    "digital_account": "Tài khoản kỹ thuật số",
     "complete": "Hoàn thành",
     "last_name": "Họ",
     "first_name": "Tên",
-    "passport_note": "(Như in trên hộ chiếu)",
+    "passport_note": "(Như được in trên hộ chiếu của bạn)",
     "date_of_birth": "Ngày sinh",
-    "age_requirement": "(Bạn cần từ 18 tuổi trở lên để tham gia.)",
-    "mobile_number": "Số điện thoại",
-    "mobile_note": "Số điện thoại phải có 8 chữ số",
+    "age_requirement": "(Bạn cần ít nhất 18 tuổi để tham gia.)",
+    "mobile_number": "Số điện thoại di động",
+    "mobile_note": "Số phải là 8 chữ số",
     "email": "Địa chỉ email",
     "email_note": "Vui lòng nhập địa chỉ email hợp lệ",
     "referral_code": "Mã giới thiệu",
-    "optional": "(Tùy chọn)",
-    "next": "TIẾP TỤC",
-    "create_pin": "TẠO MÃ PIN THÀNH VIÊN",
-    "create_4digit_pin": "Tạo mã PIN 4 chữ số",
-    "pin_description": "Mã PIN 4 chữ số của bạn sẽ được sử dụng cho các giao dịch Let's VipRewards tại Marina Bay Sands.",
-    "create_pin_label": "Tạo PIN",
-    "confirm_pin": "Xác nhận PIN",
-    "create_digital_account": "TẠO TÀI KHOẢN SỐ",
-    "digital_accounts": "Tài khoản số",
-    "digital_account_description": "Tài khoản số này (tên đăng nhập và mật khẩu) sẽ được sử dụng để đăng nhập vào các nền tảng số của chúng tôi. ID thành viên và PIN hiện tại của bạn vẫn sẽ được yêu cầu cho các giao dịch Let's VipRewards tại Marina Bay Sands.",
-    "username": "Tên đăng nhập",
+    "optional": "(Không bắt buộc)",
+    "next": "KẾ TIẾP",
+    "create_pin": "Tạo pin thành viên",
+    "create_4digit_pin": "Tạo pin thẻ 4 chữ số của bạn",
+    "pin_description": "Pin 4 chữ số của bạn sẽ được sử dụng cho các giao dịch Let Vipreards tại Marina Bay Sands.",
+    "create_pin_label": "Tạo pin",
+    "confirm_pin": "Xác nhận pin",
+    "create_digital_account": "Tạo tài khoản kỹ thuật số",
+    "digital_accounts": "(Các) tài khoản kỹ thuật số",
+    "digital_account_description": "Tài khoản kỹ thuật số này (tên người dùng và mật khẩu) sẽ được sử dụng để đăng nhập vào các nền tảng kỹ thuật số của chúng tôi. ",
+    "username": "Tên người dùng",
     "password": "Mật khẩu",
     "confirm_password": "Xác nhận mật khẩu",
-    "create": "Tạo",
+    "create": "Tạo nên",
     "steps": {
-      "particulars": "Thông tin",
-      "digitalAccount": "Tài khoản số",
-      "complete": "Hoàn tất"
+      "particulars": "Chi tiết",
+      "digitalAccount": "Tài khoản kỹ thuật số",
+      "complete": "Hoàn thành"
     },
     "form": {
       "lastName": "Họ",
       "firstName": "Tên",
-      "asPassport": "(Như in trên hộ chiếu)",
+      "asPassport": "(Như được in trên hộ chiếu của bạn)",
       "dob": "Ngày sinh",
-      "dobNote": "(Bạn phải từ 18 tuổi trở lên để đăng ký.)",
-      "dd": "Ngày",
-      "mmm": "Tháng",
-      "yyyy": "Năm",
+      "dobNote": "(Bạn cần ít nhất 18 tuổi để tham gia.)",
+      "dd": "DD",
+      "mmm": "Mmm",
+      "yyyy": "Yyyy",
       "months": {
-        "jan": "Tháng 1",
-        "feb": "Tháng 2",
-        "mar": "Tháng 3",
-        "apr": "Tháng 4",
-        "may": "Tháng 5",
-        "jun": "Tháng 6",
+        "jan": "Tháng một",
+        "feb": "Tháng Hai",
+        "mar": "MAR",
+        "apr": "APR",
+        "may": "Có thể",
+        "jun": "Jun",
         "jul": "Tháng 7",
-        "aug": "Tháng 8",
+        "aug": "Aug",
         "sep": "Tháng 9",
-        "oct": "Tháng 10",
-        "nov": "Tháng 11",
-        "dec": "Tháng 12"
+        "oct": "OCT",
+        "nov": "Nov",
+        "dec": "Tháng mười hai"
       },
-      "mobileNumber": "Số điện thoại",
-      "mobileNote": "Số điện thoại phải có 8 chữ số",
-      "email": "Địa chỉ Email",
+      "mobileNumber": "Số điện thoại di động",
+      "mobileNote": "Số phải là 8 chữ số",
+      "email": "Địa chỉ email",
       "emailNote": "Vui lòng nhập địa chỉ email hợp lệ",
       "referralCode": "Mã giới thiệu",
       "optional": "(Không bắt buộc)"
     }
   },
-  "signupSuccessful": {
-    "welcome": "CHÀO MỪNG, ASDASD",
-    "digitalAccount": {
-      "title": "Tài Khoản Số",
-      "description": "Truy cập tài khoản Let's Vip LifeStyle của bạn với Tên đăng nhập và Mật khẩu mới tạo."
-    },
-    "membershipCard": {
-      "title": "Thẻ Thành Viên",
-      "description": "ID thành viên và mã PIN của bạn sẽ được yêu cầu cho các giao dịch Let's VipRewards tại Marina Bay Sands."
-    },
-    "username": "Tên đăng nhập",
-    "membershipId": "ID Thành viên",
-    "loginNow": "Đăng nhập ngay"
-  },
-  "otpVerification": {
-    "title": "Xác Thực OTP",
-    "stage1": {
-      "description": "Vui lòng chọn phương thức ưa thích để nhận mã xác thực OTP."
-    },
-    "stage2": {
-      "description": "Vui lòng nhập mã xác thực OTP đã được gửi đến địa chỉ email của bạn."
-    },
-    "emailOtp": "Email OTP",
-    "enterOtp": "Nhập OTP",
-    "resendOtp": "Không nhận được mã? Gửi lại OTP",
-    "proceed": "Tiếp tục",
-    "verify": "Xác thực",
-    "back": "Quay lại"
-  },
   "notFound": {
     "title": "Trang này không tồn tại",
-    "description": "Trang bạn đang tìm kiếm không thể được tìm thấy."
+    "description": "Trang bạn đang tìm kiếm không thể tìm thấy."
   },
   "more": {
-    "title": "TRẢI NGHIỆM THÊM",
+    "title": "Nhiều kinh nghiệm hơn",
     "viewDetails": "Xem chi tiết",
     "casinoLevy": {
-      "title": "Phí Vào Casino",
-      "description": "Tìm hiểu thông tin về quy định chung và điều kiện vào casino."
+      "title": "Thuế nhập sòng bạc",
+      "description": "Nhận thông tin về các quy tắc sòng bạc chung và điều kiện nhập cảnh."
     },
     "rewardsClub": {
-      "title": "Đặc Quyền Độc Quyền Với Câu Lạc Bộ Let's Vip",
-      "subtitle": "Đăng ký để tích điểm khi chơi",
-      "description": "Là thành viên Let's VipRewards Club, bạn tích lũy Điểm Let's Vipvà Đô-la Let's Vipkhi chơi tại Casino. Bạn có thể đăng ký tại bất kỳ quầy Let's VipRewards Club nào đặt tại:",
+      "title": "Lợi ích độc quyền với Câu lạc bộ Phần thưởng VIP",
+      "subtitle": "Đăng ký để kiếm khi bạn chơi",
+      "description": "Là thành viên Let's Vipreards Club, bạn kiếm được Vippoints và hãy để VipDollars chơi sòng bạc của bạn. ",
       "locations": [
         "B2M",
-        "Tầng 1",
-        "Tầng 2 Lối vào Ruby Table Games",
-        "Tầng 2 Lối vào Ruby Slots",
-        "Tầng 2 Lối vào Apex Grand"
+        "Cấp 1",
+        "Lối vào trò chơi bảng Ruby cấp 2",
+        "Lối vào các khe Ruby cấp 2",
+        "Cấp 2 APEX Lối vào lớn"
       ]
     },
     "responsibleGambling": {
-      "title": "CHƠI CÓ TRÁCH NHIỆM",
-      "subtitle": "Cam Kết Với Khách Hàng",
-      "description": "Cam kết tạo nên những trải nghiệm đáng nhớ của chúng tôi mở rộng đến mọi khía cạnh của khu nghỉ dưỡng – từ sàn casino."
+      "title": "Cờ bạc có trách nhiệm",
+      "subtitle": "Một cam kết với những người bảo trợ của chúng tôi",
+      "description": "Cam kết của chúng tôi để tạo ra những trải nghiệm khó quên mở rộng đến mọi khía cạnh của khu nghỉ mát của chúng tôi - ngay xuống sàn sòng bạc."
     }
   },
   "login": {
-    "title": "Đăng Nhập",
-    "username": "Tên đăng nhập",
-    "emailPlaceholder": "Email",
+    "title": "Đăng nhập",
+    "username": "Tên người dùng",
+    "emailPlaceholder": "E-mail",
     "password": "Mật khẩu",
     "passwordPlaceholder": "Mật khẩu",
     "loginButton": "Đăng nhập",
-    "noAccount": "Chưa có tài khoản?",
-    "registerNow": "Đăng ký ngay"
+    "noAccount": "Không có tài khoản?",
+    "registerNow": "Đăng ký ngay bây giờ"
   },
   "paiza": {
-    "title": "BỘ SƯU TẬP PAIZA",
-    "bannerAlt": "Banner Đài Quan Sát Skypark",
-    "bannerMobileAlt": "Banner Di Động Đài Quan Sát Skypark",
-    "intro": "Dành cho những vị khách sành điệu nhất, Bộ sưu tập Paiza là hiện thân của ngôi nhà thứ hai tuyệt vời, với sự sang trọng vô song, chi tiết tinh tế và nghệ thuật vô tận ở mọi góc cạnh.",
-    "description1": "Từ lối vào kín đáo đến các tiện nghi phòng suite sang trọng, mọi khía cạnh của bộ sưu tập suite cao cấp nhất của chúng tôi đều được thiết kế để đảm bảo sự riêng tư và thoải mái. Tổ chức những bữa tiệc sang trọng trong phòng ăn lộng lẫy, tùy chỉnh suite của bạn với các lựa chọn giải trí đa dạng và đắm mình trong tầm nhìn ngoạn mục ra thành phố Singapore và biển lấp lánh. Gỗ bạch đàn êm dịu, đá cẩm thạch Palisandro Blue của Ý, đồ sứ thủ công và các điểm nhấn bạc cùng với những chiếc giường Savoir cao cấp làm bằng tay mời gọi sự chạm vào và đảm bảo sự thoải mái vô song.",
-    "description2": "Tận hưởng quyền truy cập đặc biệt vào Paiza Sky Residence, phòng khách câu lạc bộ riêng nằm trên đỉnh khách sạn biểu tượng của chúng tôi. Khám phá thế giới của những trải nghiệm độc đáo như golf, thưởng thức rượu vang và du thuyền.",
-    "description3": "Trong suốt thời gian lưu trú, đội ngũ quản gia phục vụ 24/7 luôn sẵn sàng đáp ứng mọi mong muốn của bạn, với quyết tâm biến mọi điều thành có thể.",
-    "description4": "Chào mừng đến với Bộ sưu tập Paiza, một kỳ nghỉ thực sự đặc biệt.",
-    "experienceTitle": "TRẢI NGHIỆM PHI THƯỜNG",
-    "experienceImageAlt": "Hình Ảnh Trải Nghiệm",
+    "title": "Bộ sưu tập Paiza",
+    "bannerAlt": "Biểu ngữ bộ sưu tập Paiza",
+    "bannerMobileAlt": "Bộ sưu tập Paiza Banner di động",
+    "intro": "Dành riêng cho những người sành điệu nhất, Bộ sưu tập Paiza thể hiện ngôi nhà cuối cùng xa nhà, với sự sang trọng chưa từng có, chi tiết chu đáo và nghệ thuật vô biên ở mỗi lượt.",
+    "description1": "Từ các lối vào kín đáo đến các cơ sở phòng riêng xa hoa, mọi khía cạnh của bộ sưu tập bộ tốt nhất của chúng tôi được thiết kế để riêng tư và thoải mái. ",
+    "description2": "Tận hưởng quyền truy cập đặc quyền đến Paiza Sky Residence, một phòng khách câu lạc bộ tư nhân nép mình trên một khách sạn mang tính bước ngoặt của chúng tôi. ",
+    "description3": "Trong suốt thời gian lưu trú của bạn, nhóm quản gia 24 giờ của chúng tôi có mặt để dự đoán mọi mong muốn của bạn, với một quyết tâm để thực hiện bất cứ điều gì có thể.",
+    "description4": "Chào mừng bạn về nhà của Bộ sưu tập Paiza, một kỳ nghỉ thực sự đặc biệt.",
+    "experienceTitle": "Trải nghiệm những điều phi thường",
+    "experienceImageAlt": "Hình ảnh kinh nghiệm",
     "experiences": {
       "0": {
-        "title": "Đón Tiếp VIP Paiza",
-        "description": "Được chào đón nồng nhiệt bởi đội ngũ nhân viên tận tâm của chúng tôi. Đến phòng chờ VIP mới thông qua lối đi riêng và sảnh chỉ dành cho khách Paiza."
+        "title": "Paiza VIP đến",
+        "description": "Chạm xuống một sự chào đón nồng nhiệt với những người chào đón tận tâm của chúng tôi. "
       },
       "1": {
-        "title": "Dịch Vụ Quản Gia Độc Quyền",
-        "description": "Trải nghiệm dịch vụ quản gia cá nhân 24/7, đảm bảo mọi nhu cầu của bạn được đáp ứng với sự chăm sóc tận tình nhất."
+        "title": "Dịch vụ quản gia độc quyền",
+        "description": "Kinh nghiệm dịch vụ quản gia 24 giờ được cá nhân hóa, đảm bảo mọi nhu cầu của bạn được đáp ứng với sự chú ý và chăm sóc tối đa."
       },
       "2": {
-        "title": "Phòng Khách Sky Lounge Riêng",
-        "description": "Truy cập Paiza Sky Residence độc quyền, mang đến tầm nhìn toàn cảnh và dịch vụ cao cấp."
+        "title": "Phòng chờ bầu trời riêng",
+        "description": "Truy cập nơi cư trú Paiza Sky độc quyền, cung cấp tầm nhìn toàn cảnh và dịch vụ cao cấp."
       },
       "3": {
-        "title": "Trải Nghiệm Được Tuyển Chọn",
-        "description": "Tận hưởng những trải nghiệm độc đáo từ ẩm thực riêng tư đến phiêu lưu trên du thuyền, được điều chỉnh theo sở thích của bạn."
+        "title": "Kinh nghiệm quản lý",
+        "description": "Thưởng thức những trải nghiệm riêng biệt từ ăn uống riêng đến những cuộc phiêu lưu của du thuyền, phù hợp với sở thích của bạn."
       }
     },
-
+    "tour": {
+      "title": "Khóa tu xa xỉ - Giải trí - Chuyến tham quan Golf",
+      "intro": "Let'swin tổ chức các tour du lịch toàn diện kết hợp thư giãn, giải trí và golf-phù hợp với những khách hàng thích lối sống cao cấp.",
+      "scheduleTitle": "Hành trình được đề xuất (3 ngày 2 đêm):",
+      "day1": {
+        "title": "Ngày 1:",
+        "item1": "Đón tại sân bay / khách sạn",
+        "item2": "Nhận phòng tại một khu nghỉ dưỡng 4 sao5",
+        "item3": "Ăn uống - Massage - Thư giãn ánh sáng"
+      },
+      "day2": {
+        "title": "Ngày 2:",
+        "item1": "Buổi sáng: Golf tại một khóa học sang trọng",
+        "item2": "Chiều: Poker hoặc thời gian rảnh",
+        "item3": "Buổi tối: Trải nghiệm sòng bạc VIP với chủ nhà cá nhân"
+      },
+      "day3": {
+        "title": "Ngày 3:",
+        "item1": "Bữa sáng - SPA hoặc Mua sắm nhẹ",
+        "item2": "Vận chuyển trở lại sân bay hoặc khách sạn"
+      },
+      "servicesTitle": "Các dịch vụ bao gồm:",
+      "services": {
+        "golf": "Đặt phòng và cho thuê thiết bị sân golf",
+        "transport": "Vận chuyển tư nhân",
+        "guide": "Hướng dẫn du lịch cá nhân",
+        "support": "Hỗ trợ khách hàng 24/7",
+        "group": "Nhóm (2 người10) hoặc các tour du lịch cá nhân có sẵn"
+      },
+      "cta": "Đặt tour của bạn ngay bây giờ"
+    },
     "aboveExpectation": {
-      "title": "VƯỢT TRÊN MỌI KỲ VỌNG",
-      "imageAlt": "Hình ảnh Ốc đảo Riêng tư",
-      "description1": "Tọa lạc trên những tầng cao nhất của tòa nhà biểu tượng, Bộ sưu tập Paiza khoe trọn vẻ đẹp nội thất hoành tráng yet thanh bình với trần nhà cao, nội thất sang trọng và các vật liệu cao cấp nhất, tác phẩm nghệ thuật quyến rũ và tầm nhìn tuyệt đẹp.",
-      "description2": "Một loạt các tác phẩm nghệ thuật tuyệt đẹp được đồng sáng tạo với các nghệ nhân quốc tế hàng đầu — như giấy dán tường lụa vẽ tay của Fromental, bình đồng như đồ trang sức của Zanetto và đồ sứ hoa sen của Legle Asia — mê hoặc ánh nhìn ở mọi góc cạnh, bao quanh bạn bằng vẻ đẹp.",
-      "description3": "Từ những buổi tiệc tối thanh lịch đến nghỉ ngơi sâu lắng, ngay cả những chi tiết nhỏ nhất cũng được chăm chút tỉ mỉ để mang đến sự thoải mái và niềm vui cho bạn."
+      "title": "Trên hết là kỳ vọng",
+      "description1": "Nằm trên các tầng cao nhất của tòa nhà mang tính biểu tượng của chúng tôi, Bộ sưu tập Paiza trưng bày nội thất lớn nhưng thanh thản tuyệt vời với trần nhà cao cả, đồ nội thất sang trọng và các vật liệu tốt nhất, tác phẩm nghệ thuật quyến rũ và tầm nhìn tuyệt vời.",
+      "description2": "Một loạt các objet tuyệt đẹp đồng sáng tạo với các nghệ nhân quốc tế hàng đầu-chẳng hạn như các bức tường lụa được vẽ bằng tay tuyệt đẹp của Fromental, những chiếc đồng thau giống như viên ngọc của Zanetto và Legle Asia được trang trí của Lotle Asia.",
+      "description3": "Từ những người đi bộ thanh lịch đến nghỉ ngơi sâu, ngay cả những chi tiết nhỏ nhất đã được cẩn thận vì sự thoải mái và niềm vui của bạn."
     },
     "rooms": {
       "premierRoom": {
-        "imageAlt": "Hình ảnh Phòng Premier Sands",
-        "title": "Phòng Premier Sands",
-        "gardenView": "Hướng nhìn Gardens by the Bay",
-        "cityView": "Hướng nhìn Thành phố",
-        "description": "Thư giãn trong căn phòng sang trọng của bạn và thưởng thức bộ sưu tập kho báu phong phú trong tủ Armoire độc đáo. Trải nghiệm tiện nghi trong phòng được bố trí đẹp mắt và bồn tắm đôi, cùng với khu vực phòng tắm riêng biệt.",
+        "imageAlt": "Hình ảnh phòng Vippremier",
+        "title": "Phòng Vippremier",
+        "gardenView": "Gardens by the Bay View",
+        "cityView": "Quan điểm thành phố",
+        "description": "Thư giãn trong căn phòng thanh lịch của bạn và thưởng thức sự quản lý hào phóng của kho báu trong Armoire bespoke. ",
         "features": {
-          "size": "Trung bình 45 mét vuông",
-          "guests": "Tối đa 3 khách",
-          "beds": "1 giường king hoặc 2 giường queen"
+          "size": "Trung bình 45 m2",
+          "guests": "Lên đến 3 khách",
+          "beds": "1 King hoặc 2 Nữ hoàng"
         }
       }
     },
     "paizaExperience": {
-      "imageAlt": "Hình ảnh Phong cách sống Sands",
+      "imageAlt": "Hình ảnh lối sống VIP",
       "title": "Trải nghiệm Paiza",
-      "description": "Đắm mình trong đỉnh cao của cuộc sống tinh tế tại Bộ sưu tập Paiza mới. Khám phá thế giới phi thường của Paiza và tận hưởng những đặc quyền bên trong."
-    },
-    "discover": {
-      "title": "KHÁM PHÁ PAIZA",
-      "slides": {
-        "imageAlt": "Hình ảnh Infinity Masthead Mobile",
-        "title": "Kỳ Nghỉ Ngày Thường",
-        "description": "Trải nghiệm phòng Premier Let's Vipmới được phục hồi, được trang bị phong cách với bồn tắm ngâm sâu và tủ quần áo walk-in. Bắt đầu mỗi ngày với bữa sáng buffet thịnh soạn và đắm mình trong hồ bơi vô cực SkyPark nổi tiếng thế giới của chúng tôi."
-      }
+      "description": "Revel trong đỉnh cao của cuộc sống tinh vi tại Bộ sưu tập Paiza mới. "
     }
   },
   "packages": {
     "banner": {
-      "desktopAlt": "Banner Gói Dịch Vụ Desktop",
-      "mobileAlt": "Banner Gói Dịch Vụ Mobile"
+      "desktopAlt": "Gói Banner Desktop",
+      "mobileAlt": "Gói biểu ngữ di động"
     },
-    "title": "Thiên Đường Được Tạo Riêng Cho Bạn",
-    "description": "Khám phá các gói lưu trú được thiết kế dành cho gia đình, cặp đôi và những cá nhân có gu thẩm mỹ tinh tế, tâm hồn tò mò và khao khát khám phá",
+    "title": "Một thiên đường phù hợp với bạn",
+    "description": "Khám phá các gói lưu trú được quản lý cho các gia đình, các cặp vợ chồng và cá nhân với hương vị sành điệu, tâm trí tò mò và sự thèm ăn cho cuộc phiêu lưu",
     "room": {
-      "title": "Phòng Premier Sands",
+      "title": "Phòng Vippremier",
       "view": {
-        "gardens": "Hướng Nhìn Vườn Gardens by the Bay",
-        "city": "Hướng Nhìn Thành Phố"
+        "gardens": "Gardens by the Bay View",
+        "city": "Quan điểm thành phố"
       },
-      "description": "Thư giãn trong căn phòng sang trọng và tận hưởng bộ sưu tập đồ dùng cao cấp trong tủ Armoire thiết kế riêng. Phòng được trang bị nội thất tinh tế cùng bồn tắm đôi và khu vực phòng tắm riêng biệt.",
+      "description": "Thư giãn trong căn phòng thanh lịch của bạn và thưởng thức sự quản lý hào phóng của kho báu trong Armoire bespoke. ",
       "details": {
-        "area": "Diện tích trung bình 45m²",
-        "guests": "Tối đa 3 khách",
-        "beds": "1 giường king hoặc 2 giường queen"
+        "area": "Trung bình 45 m2",
+        "guests": "Lên đến 3 khách",
+        "beds": "1 King hoặc 2 Nữ hoàng"
       },
       "viewDetails": "Xem chi tiết"
     }
   },
   "skypark": {
-    "banner_alt": "Banner Đài Quan Sát Skypark",
-    "banner_mobile_alt": "Banner Di Động Đài Quan Sát Skypark",
-    "paradise_title": "Thiên Đường Được Tạo Riêng Cho Bạn",
-    "discover_text": "Từ ngày 17/1, khám phá quá khứ, hiện tại và tương lai của Let's Win Club tại Skyline Singapore: Câu chuyện Từ Trên Cao, một triển lãm mới tại Đài Quan Sát SkyPark.",
-    "explore_text": "Khám phá thành phố từ góc nhìn mới ở độ cao 56 tầng, nơi có tầm nhìn độc đáo ra khung cảnh đô thị đẳng cấp thế giới của Singapore. Chiêm ngưỡng khu vườn Gardens by the Bay xanh tươi và các công trình biểu tượng của thành phố, như mái vòm hình sầu riêng của Esplanade.",
-    "evening_view": "Vào buổi tối, đài quan sát còn mang đến tầm nhìn ngoạn mục ra màn trình diễn Spectra.",
-    "sunset_experience": "Để có trải nghiệm ngắm cảnh riêng tư hơn, hãy lựa chọn Sunset in the Sky, một chương trình độc quyền với quyền ưu tiên ra vào qua lối vào riêng, khu vực ghế ngồi dành riêng và thực đơn ẩm thực cao cấp.",
-    "book_tickets": "Đặt Vé",
-
-    "notice_title": "Thông Báo",
-    "notice_text": "Đài Quan Sát SkyPark sẽ đóng cửa vào các ngày sau lúc 21:00 cho Tiệc Silent Disco Full Moon (Vào cửa cuối cùng lúc 20:00)",
-
-    "details_title": "Chi Tiết",
-    "location_title": "Vị Trí",
-    "location_text1": "Tháp Khách sạn 3, Tầng 56",
-    "location_text2": "Lối vào Đài Quan Sát SkyPark được tiếp cận qua đường dẫn Tháp Khách sạn 3.",
-    "hours_title": "Giờ Mở Cửa",
-    "hours_nonpeak": "Giờ thấp điểm: 10:00 –16:30 (Vào cửa cuối cùng lúc 16:00)",
-    "hours_peak": "Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30)",
-
-    "prices_title": "Giá Vé",
-
-    "whats_on": "SỰ KIỆN",
-    "you_may_like": "BẠN CÓ THỂ THÍCH",
-
-    "faq_title": "CÂU HỎI THƯỜNG GẶP",
+    "banner_alt": "Biểu ngữ boong quan sát Skypark",
+    "banner_mobile_alt": "Biểu ngữ di động của Skypark Quan sát",
+    "paradise_title": "Một thiên đường phù hợp với bạn",
+    "discover_text": "Từ ngày 17 tháng 1, khám phá quá khứ, hiện tại và tương lai của Let's Win Club tại Skyline Singapore: Những câu chuyện từ trên cao, một buổi giới thiệu mới tại Skypark Quan sát Boong.",
+    "explore_text": "Khám phá thành phố từ một điểm thuận lợi mới ở mức cao 56 tầng, nơi cảnh quan phong cảnh của cảnh quan thành phố đẳng cấp thế giới của Singapore là tuyệt vời. ",
+    "evening_view": "Vào buổi tối, sàn quan sát cũng cung cấp một cái nhìn ngoạn mục về quang phổ.",
+    "sunset_experience": "Để có trải nghiệm xem thân mật hơn, hãy chọn Sunset in the Sky, một chương trình độc quyền hoàn chỉnh với quyền truy cập ưu tiên thông qua điểm vào riêng, khu vực chỗ ngồi chuyên dụng và thực đơn ăn uống cao cấp.",
+    "book_tickets": "Vé sách",
+    "notice_title": "Để ý",
+    "notice_text": "Boong quan sát Skypark sẽ đóng cửa vào các ngày sau vào lúc 9 giờ tối cho các bữa tiệc trăng tròn im lặng (mục cuối cùng lúc 8 giờ tối)",
+    "details_title": "Chi tiết",
+    "location_title": "Vị trí",
+    "location_text1": "Tháp khách sạn 3, cấp 56",
+    "location_text2": "Lối vào sàn quan sát Skypark có thể truy cập thông qua đường lái xe của Hotver Tower 3.",
+    "hours_title": "Giờ mở cửa",
+    "hours_nonpeak": "Không đỉnh: 10 giờ sáng-4.30pm (mục cuối cùng lúc 4 giờ chiều)",
+    "hours_peak": "Đỉnh: 5 giờ chiều - 10 giờ tối (mục cuối cùng lúc 9h30 tối)",
+    "prices_title": "Giá vé",
+    "whats_on": "Có gì",
+    "you_may_like": "Chúng tôi nghĩ rằng bạn cũng thích",
+    "faq_title": "Câu hỏi thường gặp",
     "faq": {
+      "opening_hours": {
+        "question": "Giờ mở cửa cho Vipskypark là bao nhiêu?",
+        "answer1": "Hãy để VIP Skypark - bao gồm sàn quan sát - mở cửa từ 10 giờ sáng đến 10 giờ tối. ",
+        "answer2": "Sàn quan sát có thể được đóng cho các sự kiện riêng tư hoặc các cam kết thương mại tại một số thời điểm nhất định. "
+      },
       "rain": {
         "question": "Điều gì xảy ra nếu trời mưa?",
-        "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
-        "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+        "answer1": "Hãy để VIP Skypark - bao gồm sàn quan sát - mở cửa từ 10 giờ sáng đến 10 giờ tối. ",
+        "answer2": "Sàn quan sát có thể được đóng cho các sự kiện riêng tư hoặc các cam kết thương mại tại một số thời điểm nhất định. "
       },
       "souvenir": {
-        "question": "Có cửa hàng quà lưu niệm không?",
-        "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
-        "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+        "question": "Có một cửa hàng lưu niệm?",
+        "answer1": "Hãy để VIP Skypark - bao gồm sàn quan sát - mở cửa từ 10 giờ sáng đến 10 giờ tối. ",
+        "answer2": "Sàn quan sát có thể được đóng cho các sự kiện riêng tư hoặc các cam kết thương mại tại một số thời điểm nhất định. "
       },
       "prohibited": {
-        "question": "Có vật phẩm nào bị cấm trên Đài Quan Sát SkyPark không?",
-        "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
-        "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+        "question": "Có mặt hàng nào bị cấm trên sàn quan sát Skypark không?",
+        "answer1": "Hãy để VIP Skypark - bao gồm sàn quan sát - mở cửa từ 10 giờ sáng đến 10 giờ tối. ",
+        "answer2": "Sàn quan sát có thể được đóng cho các sự kiện riêng tư hoặc các cam kết thương mại tại một số thời điểm nhất định. "
       },
       "other_areas": {
-        "question": "Tôi có thể thăm các khu vực khác của Let's VipSkyPark với vé Đài Quan Sát SkyPark không?",
-        "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
-        "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+        "question": "Tôi có thể ghé thăm các khu vực khác của Let Vipskypark với vé sàn quan sát Skypark của tôi không?",
+        "answer1": "Hãy để VIP Skypark - bao gồm sàn quan sát - mở cửa từ 10 giờ sáng đến 10 giờ tối. ",
+        "answer2": "Sàn quan sát có thể được đóng cho các sự kiện riêng tư hoặc các cam kết thương mại tại một số thời điểm nhất định. "
       },
       "conditions": {
-        "question": "Có điều kiện vào cửa nào khác cho Đài Quan Sát SkyPark không?",
-        "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
-        "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
-      },
-      "opening_hours": {
-        "question": "Giờ mở cửa của Let's VipSkyPark là gì?",
-        "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
-        "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+        "question": "Có điều kiện khác của việc vào sàn quan sát Skypark?",
+        "answer1": "Hãy để VIP Skypark - bao gồm sàn quan sát - mở cửa từ 10 giờ sáng đến 10 giờ tối. ",
+        "answer2": "Sàn quan sát có thể được đóng cho các sự kiện riêng tư hoặc các cam kết thương mại tại một số thời điểm nhất định. "
       }
     },
     "slider": {
       "weekday_escapade": {
-        "image_alt": "Hình ảnh Kỳ Nghỉ Ngày Thường",
-        "title": "Kỳ Nghỉ Ngày Thường",
-        "tag": "Ngày Thường | Kỳ Nghỉ",
-        "description": "Trải nghiệm phòng Let's VipPremier mới được phục hồi, được trang bị phong cách với bồn tắm ngâm sâu và tủ quần áo walk-in. Bắt đầu mỗi ngày với bữa sáng buffet thịnh soạn và đắm mình trong hồ bơi vô cực SkyPark nổi tiếng thế giới của chúng tôi."
+        "image_alt": "Hình ảnh kỳ nghỉ trong tuần",
+        "title": "Ngày trốn thoát trong tuần",
+        "tag": "Ngày trong tuần | ",
+        "description": "Trải nghiệm phòng Vippremier mới được khôi phục, được trang bị một bồn tắm ngâm sâu và tủ quần áo đi bộ. "
       }
     }
   },
   "infinityPool": {
     "banner": {
-      "desktopAlt": "Banner Hồ Bơi Vô Cực Desktop",
-      "mobileAlt": "Banner Hồ Bơi Vô Cực Mobile"
+      "desktopAlt": "Máy tính để bàn Banner Infinity Pool",
+      "mobileAlt": "Biểu ngữ Pool Infinity"
     },
-    "title": "HỒ BƠI VÔ CỰC SKYPARK",
-    "renowned": "Nổi tiếng vì một lý do.",
-    "description": "Có được góc nhìn hoàn toàn mới tại hồ bơi vô cực trên sân thượng lớn nhất thế giới. Thả mình giữa những đám mây, tắm nắng hoặc thư giãn dưới những tán cọ đung đưa tại điểm đến biểu tượng của chúng tôi, 57 tầng trên thành phố lấp lánh.",
+    "title": "Skypark Infinity Pool",
+    "renowned": "Nổi tiếng là một lý do.",
+    "description": "Có được một viễn cảnh hoàn toàn mới tại hồ bơi vô cực trên sân thượng lớn nhất thế giới. ",
     "details": {
-      "title": "Chi Tiết",
+      "title": "Chi tiết",
       "location": {
-        "title": "Vị Trí",
-        "text1": "Tháp Khách sạn 3, Tầng 56",
-        "text2": "Lối vào Đài Quan Sát SkyPark được tiếp cận qua đường dẫn Tháp Khách sạn 3."
+        "title": "Vị trí",
+        "text1": "Tháp khách sạn 3, cấp 56",
+        "text2": "Lối vào sàn quan sát Skypark có thể truy cập thông qua đường lái xe của Hotver Tower 3."
       },
       "hours": {
-        "title": "Giờ Mở Cửa",
-        "nonPeak": "Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00)",
-        "peak": "Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30)"
+        "title": "Giờ mở cửa",
+        "nonPeak": "Không đỉnh: 10 giờ sáng-4.30pm (mục cuối cùng lúc 4 giờ chiều)",
+        "peak": "Đỉnh: 5 giờ chiều - 10 giờ tối (mục cuối cùng lúc 9h30 tối)"
       }
     },
     "operatingHours": {
-      "title": "Giờ Hoạt Động",
+      "title": "Giờ hoạt động",
       "location": {
-        "title": "Vị Trí",
-        "text1": "Tháp Khách sạn 3, Tầng 56",
-        "text2": "Lối vào Đài Quan Sát SkyPark được tiếp cận qua đường dẫn Tháp Khách sạn 3."
+        "title": "Vị trí",
+        "text1": "Tháp khách sạn 3, cấp 56",
+        "text2": "Lối vào sàn quan sát Skypark có thể truy cập thông qua đường lái xe của Hotver Tower 3."
       },
       "hours": {
-        "title": "Giờ Mở Cửa",
-        "nonPeak": "Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00)",
-        "peak": "Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30)"
+        "title": "Giờ mở cửa",
+        "nonPeak": "Không đỉnh: 10 giờ sáng-4.30pm (mục cuối cùng lúc 4 giờ chiều)",
+        "peak": "Đỉnh: 5 giờ chiều - 10 giờ tối (mục cuối cùng lúc 9h30 tối)"
       }
     },
     "faq": {
-      "title": "CÂU HỎI THƯỜNG GẶP",
+      "title": "Câu hỏi thường gặp",
       "openingHours": {
-        "question": "Giờ mở cửa của Let's VipSkyPark là gì?",
-        "answer1": "Let's Vip SkyPark — bao gồm cả Đài Quan Sát — mở cửa từ 10:00 đến 22:00. Giờ thấp điểm: 10:00–16:30 (Vào cửa cuối cùng lúc 16:00), Giờ cao điểm: 17:00–22:00 (Vào cửa cuối cùng lúc 21:30).",
-        "answer2": "Đài Quan Sát có thể đóng cửa cho các sự kiện riêng tư hoặc cam kết thương mại vào một số thời điểm. Vui lòng gọi trước theo số +65 6688 8826 để kiểm tra xem Đài Quan Sát có mở cửa vào ngày bạn muốn đến thăm hay không."
+        "question": "Giờ mở cửa cho Vipskypark là bao nhiêu?",
+        "answer1": "Hãy để VIP Skypark - bao gồm sàn quan sát - mở cửa từ 10 giờ sáng đến 10 giờ tối. ",
+        "answer2": "Sàn quan sát có thể được đóng cho các sự kiện riêng tư hoặc các cam kết thương mại tại một số thời điểm nhất định. "
       }
     },
     "recommendations": {
-      "title": "CHÚNG TÔI NGHĨ BẠN CŨNG SẼ THÍCH"
+      "title": "Chúng tôi nghĩ rằng bạn cũng thích"
     }
   },
   "lifestyle": {
     "banner": {
-      "desktopAlt": "Banner Bộ Sưu Tập Let's Vip",
-      "mobileAlt": "Banner Di Động Bộ Sưu Tập Let's Vip"
+      "desktopAlt": "Biểu ngữ thu thập VIP",
+      "mobileAlt": "Let's VIP Collection Biểu ngữ di động"
     },
-    "title": "Đặc Quyền Let's Vip",
+    "title": "Hãy sống VIP",
+    "description": "Mở khóa một thế giới của phần thưởng và đặc quyền độc quyền với tư cách thành viên LET LIFESTYLE miễn phí của bạn, chương trình phần thưởng hào phóng nhất của Singapore.",
     "alreadyMember": "Đã là thành viên?",
-    "membershipTiers": "CÁC HẠNG THÀNH VIÊN",
-    "description": "Dành cho người chơi trung thành, với nhiều đặc quyền và phần thưởng. Hệ thống VIP của chúng tôi bao gồm bốn cấp độ: Xanh, Đỏ, Vàng và Vô hạn, mỗi cấp có những yêu cầu và lợi ích riêng.",
+    "tourist": "Bạn có phải là khách du lịch? ",
+    "membershipTiers": "Các tầng thành viên",
     "membership": {
-      "description": "Dành cho người chơi trung thành, với nhiều đặc quyền và phần thưởng. Hệ thống VIP của chúng tôi bao gồm bốn cấp: Xanh, Đỏ, Vàng và Vô hạn, mỗi cấp có những yêu cầu và quyền lợi riêng.",
-
-      "imageAlt": "Hình Ảnh Hạng Thành Viên",
+      "description": "Đối với những người chơi trung thành, có các đặc quyền và phần thưởng khác nhau. ",
+      "imageAlt": "Hình ảnh cấp thành viên",
       "lifestyle": {
-        "title": "Lifestyle",
+        "title": "Lối sống",
         "content": [
-          "Được cấp tự động khi đăng ký, không yêu cầu điểm.",
-          "Nhận 1 điểm cho mỗi $10 cược. 1.000 điểm = $25.",
-          "Giảm 5% tại nhà hàng và quầy bar."
+          "Tự động cấp khi đăng ký, không cần điểm.",
+          "Kiếm 1 điểm trên 10 đô la đặt cược. ",
+          "Giảm giá 5% tại nhà hàng và quán bar."
         ]
       },
       "prestige": {
-        "title": "Prestige",
+        "title": "Uy tín",
         "content": [
-          "Yêu cầu 5.000 – 19.999 điểm hoặc tổng cược tối thiểu $50.000 trong 6 tháng. Thành viên phải duy trì ít nhất 5.000 điểm mỗi năm để giữ hạng.",
-          "Nhận 1 điểm cho mỗi $7,5 cược. 1.000 điểm = $37,5.",
-          "Giảm 10% tại nhà hàng và quầy bar, ưu tiên đặt chỗ tại sòng bạc."
+          "Yêu cầu 5.000 - 19.999 điểm hoặc tổng số cược tối thiểu là 50.000 đô la trong vòng 6 tháng. ",
+          "Kiếm 1 điểm cho mỗi $ 7,5 đặt cược. ",
+          "Giảm giá 10% tại các nhà hàng và quán bar, đặt phòng ưu tiên tại sòng bạc."
         ]
       },
       "elite": {
-        "title": "Elite",
+        "title": "Ưu tú",
         "content": [
-          "Yêu cầu 20.000 – 49.999 điểm hoặc tổng cược tối thiểu $100.000 trong 6 tháng. Thành viên phải duy trì ít nhất 20.000 điểm mỗi năm để giữ hạng.",
-          "Nhận 1 điểm cho mỗi $5 cược. 1.000 điểm = $50.",
-          "Giảm 15% tại nhà hàng và quầy bar, quyền truy cập phòng chờ VIP, dịch vụ đưa đón miễn phí trong khu vực chỉ định."
+          "Yêu cầu 20.000 - 49.999 điểm hoặc tổng số cược tối thiểu là 100.000 đô la trong vòng 6 tháng. ",
+          "Kiếm 1 điểm mỗi $ 5 đặt cược. ",
+          "Giảm giá 15% tại các nhà hàng và quán bar, truy cập phòng chờ VIP, dịch vụ đưa đón miễn phí trong một khu vực được chỉ định."
         ]
       },
       "paiza": {
-        "title": "PAIZA",
+        "title": "Paiza",
         "content": [
-          "Yêu cầu 50.000+ điểm hoặc tổng cược tối thiểu $250.000 trong 6 tháng. Hạng này chỉ dành cho thành viên VIP được mời. Để duy trì trạng thái này, thành viên phải cược ít nhất 500.000$ mỗi năm.",
-          "Nhận 1 điểm cho mỗi $2,5 cược. 1.000 điểm = $100.",
-          "Giảm 20% tại nhà hàng và quầy bar, quyền truy cập phòng chờ VIP cao cấp nhất, hỗ trợ VIP cá nhân 24/7, dịch vụ vận chuyển hạng sang miễn phí (bao gồm xe hơi cao cấp hoặc máy bay riêng), các giải đấu poker độc quyền và sự kiện elite."
+          "Yêu cầu hơn 50.000 điểm hoặc tổng số cược tối thiểu là 250.000 đô la trong vòng 6 tháng. ",
+          "Kiếm 1 điểm cho mỗi $ 2,5 đặt cược. ",
+          "Giảm giá 20% tại các nhà hàng và quán bar, truy cập vào phòng chờ VIP cấp cao nhất, hỗ trợ VIP cá nhân 24/7, vận chuyển sang trọng miễn phí (bao gồm xe cao cấp hoặc máy bay riêng), các giải đấu poker độc quyền và các sự kiện ưu tú."
         ]
       }
     }

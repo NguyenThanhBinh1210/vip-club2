@@ -1,0 +1,821 @@
+{
+    "support": {
+      "title": "Sokongan 24/7",
+      "description": "Pasukan penjagaan pelanggan kami boleh didapati sepanjang masa - bersedia untuk membantu anda pada bila -bila masa.",
+      "items": {
+        "transport": "Bantuan dengan tempahan kereta, tempahan bilik, dan arahan permainan",
+        "tours": "Pertanyaan mengenai lawatan, kasino, dan poker",
+        "night": "Isu resolusi walaupun pada waktu malam"
+      }
+    },
+    "service": {
+      "pageTitle": "Perkhidmatan",
+      "hero": "Mengalami Perkhidmatan Mewah di Let's Win - Kelab VIP Perdana Da Nang",
+      "cta": {
+        "book": "Buku VIP Tour",
+        "contact": "Hubungi untuk konsultasi"
+      },
+      "freeTransport": {
+        "title": "Pengangkutan percuma",
+        "description": "Perkhidmatan pemindahan VIP peribadi - sepenuhnya percuma untuk tetamu let'swin."
+      },
+      "support": {
+        "title": "Sokongan 24/7",
+        "description": "Pasukan Penjagaan Pelanggan kami tersedia 24/7 - bersedia membantu anda bila -bila masa"
+      },
+      "tour": {
+        "title": "Lawatan Mewah",
+        "description": "Lawatan pakej yang menggabungkan pengalaman bersantai, hiburan, dan VIP kasino.\n"
+      },
+      "commission": {
+        "title": "Komisen yang menarik",
+        "description": "Dasar Suruhanjaya Telus dan Jelas - Sesuai untuk lawatan, pemandu, dan kolaborator"
+      }
+    },
+    "common": {
+      "menu": "Menu",
+      "close": "Tutup",
+      "back": "Kembali",
+      "backToMenu": "Kembali ke menu",
+      "viewAll": "Lihat semua",
+      "bookNow": "Tempah sekarang",
+      "reserveNow": "Simpanan sekarang",
+      "viewDetails": "Lihat butiran",
+      "discoverMore": "Ketahui lebih lanjut",
+      "signUp": "Daftar",
+      "signIn": "Log masuk",
+      "alreadyMember": "Sudah menjadi ahli?",
+      "tourist": "Adakah anda pelancong? "
+    },
+    "languages": {
+      "english": "Bahasa Inggeris",
+      "vietnamese": "vietnamese",
+
+      "malay": "Bahasa Melayu",
+      "khmer": "ភាសាខ្មែរ",
+      "indonesian": "Indonesia",
+      "japanese": "日本語",
+      "korean": "한국어",
+      "thai": "ภาษาไทย",
+      "chineseSimplified": "简体中文",
+      "chineseTraditional": "繁體中文",
+      "burmese": "!!!>>> Unexpected token '<', \"<html lang\"... is not valid JSON <<<!!!",
+      "bengali": "বাংলা",
+      "spanish": "Español",
+      "portuguese": "Português",
+      "turkish": "Türkçe",
+      "german": "Deutsch",
+      "russian": "Р зы зы зы зы",
+      "haitianCreole": "Kreyòl Ayisyen",
+      "swahili": "Kiswahili"
+    },
+    "header": {
+      "navigation": {
+        "stay": "Tinggal",
+        "rewards": "Ganjaran",
+        "aboutUs": "Mengenai kita",
+        "about": "Mengenai kita",
+        "services": "Perkhidmatan",
+        "pokerClub": "Poker Club",
+        "casinoVip": "VIP kasino",
+        "offers": "Tawaran",
+        "contact": "Hubungi"
+      },
+      "stay": {
+        "title": "Bilik & Suite",
+        "letsVipCollection": "Mari koleksi VIP",
+        "paizaCollection": "Koleksi Paiza",
+        "onlineExclusive": {
+          "title": "Eksklusif dalam talian",
+          "stayPackages": "Pakej hotel"
+        },
+        "experiences": {
+          "title": "Pengalaman",
+          "skypark": "Dek pemerhatian Skypark",
+          "infinityPool": "Kolam Infinity Skypark",
+          "guestPrivileges": "Keistimewaan tetamu"
+        }
+      },
+      "rewards": {
+        "sandsLifestyle": "Mari gaya hidup VIP",
+        "membershipTiers": "Tingkat Keahlian",
+        "memberPerks": "Perks ahli",
+        "alliancePrivileges": "Mari kita keistimewaan vipalliance",
+        "viewAllOutlets": "Lihat semua mari vipoutlets",
+        "vipMembership": "Tawaran Keahlian VIP",
+        "premiumPerks": "Faedah premium",
+        "eventPromotions": "Promosi Acara & Kejohanan"
+      }
+    },
+    "home": {
+      "hero": {
+        "title": "Mengalami Malam Premium di Let's Win - Kelab VIP terkemuka di Da Nang"
+      },
+      "casinoVip": {
+        "heading": "Mengalami VIP kasino di Let's Win - VIP Club"
+      },
+      "hoTram": {
+        "title": "VIP Lounge di Ho Tram Casino",
+        "description": "Terletak di salah satu kasino terbesar dan paling terkenal di Vietnam, Let's Win VIP Lounge di Ho Tram menyampaikan pengalaman eksklusif, hanya dikhaskan untuk ahli -ahli kami yang terkenal.",
+        "features": {
+          "environment": "Persekitaran swasta dan elit, yang direka dengan dalaman mewah dan kemudahan peringkat atas.",
+          "services": "Perkhidmatan yang diperibadikan, termasuk butlers khusus, menu makan eksklusif, dan bantuan 24/7.",
+          "privacy": "Privasi dan keselamatan muktamad, memastikan keselesaan maksimum dan ketenangan fikiran untuk tetamu VIP."
+        }
+      },
+      "daNang": {
+        "title": "Kelab Poker di Da Nang",
+        "description": "Destinasi yang sempurna untuk peminat poker, Let's Win Club di Da Nang menjadi tuan rumah pertandingan poker profesional dalam suasana yang berprestij dan kelas tinggi.",
+        "features": {
+          "rooms": {
+            "title": "Bilik poker peribadi",
+            "description": ", yang menampilkan permainan bertaraf dunia dengan pertaruhan tinggi."
+          },
+          "services": {
+            "title": "Perkhidmatan VIP",
+            "description": " Disesuaikan untuk tetamu yang dihormati, memastikan pengalaman yang optimum."
+          },
+          "lounge": {
+            "title": "Kawasan lounge mewah",
+            "description": ", melayani koktel premium dan minuman keras yang baik, mewujudkan persekitaran yang halus dan santai untuk pemain."
+          }
+        }
+      },
+      "hoiana": {
+        "title": "VIP Lounge di Hoiana Casino",
+        "description": "Terletak di resort terkenal di peringkat antarabangsa, mari kita menang VIP di Hoiana menawarkan suasana yang luar biasa, menggabungkan hiburan mewah dengan kecanggihan kelas elit.",
+        "features": {
+          "rooms": {
+            "title": "Bilik VIP eksklusif",
+            "description": ", direka dengan sentuhan mewah dan mewah."
+          },
+          "services": {
+            "title": "Perkhidmatan VIP Premium",
+            "description": ", termasuk pemindahan limosin, bantuan peribadi, dan penginapan lima bintang."
+          },
+          "rewards": {
+            "title": "Ganjaran eksklusif",
+            "description": " Untuk ahli -ahli Let's Win, yang menampilkan hadiah mewah dan program kesetiaan yang menarik."
+          }
+        }
+      },
+      "rewardsClub": {
+        "title": "Faedah eksklusif dengan kelab gilasan vip",
+        "subtitle": "Daftar untuk mendapatkan semasa anda bermain",
+        "description": "Sebagai ahli Kelab Viprewards Let, anda memperoleh Let's Vippoints dan mari Vipdollars pada permainan kasino anda. ",
+        "locations": {
+          "b2m": "B2M",
+          "level1": "Tahap 1",
+          "level2Ruby": "Tahap 2 pintu masuk permainan meja ruby",
+          "level2RubySlots": "Tahap 2 pintu masuk slot ruby",
+          "level2Apex": "Tahap 2 Pintu Masuk Grand Apex"
+        }
+      },
+      "vipClub": {
+        "title": "Memperkenalkan Let's Win VIP Club",
+        "description": "Let's Win VIP Club adalah sistem eksklusif bilik VIP, yang menawarkan pengalaman permainan mewah yang disesuaikan untuk golongan elit. ",
+        "packageTitle": "Pakej Pengalaman VIP",
+        "packageDescription": "Nikmati ruang swasta, kelas tinggi dengan perkhidmatan 24/7 yang diperibadikan.",
+        "golfCasinoPackage": "Pakej Golf & Kasino",
+        "golfCasinoDescription": "Menggabungkan golf elit dan kasino premium untuk pengalaman VIP yang luar biasa.",
+        "pokerPackage": "Pakej Poker Profesional",
+        "pokerDescription": "Pakej perkhidmatan khas untuk peminat kejohanan poker - di mana kemahiran penting.",
+        "spaNightlifePackage": "Pakej Resort + Spa + Malam",
+        "spaNightlifeDescription": "Menggabungkan kelonggaran, penjagaan kesihatan dan pengalaman hidup malam yang menarik.",
+        "experienceHeader": "Pengalaman VIP - 'Mewah pada Terbaik'",
+        "experienceDescription": "Nikmati ruang peribadi dan elegan dengan perkhidmatan 24/7 yang diperibadikan. ",
+        "servicesInclude": "Perkhidmatan termasuk:",
+        "beverage": "Minuman di tempat dan minuman ringan",
+        "privateRoom": "Bilik permainan peribadi, tenang, dan mewah",
+        "personalSupport": "Peribadi 1: 1 Sokongan (Terjemahan, Tempahan Perkhidmatan, Pengangkutan ...)",
+        "vipAccess": "Akses keutamaan ke kawasan VIP di seluruh sistem",
+        "gifts": "Hadiah & Tawaran Istimewa Eksklusif untuk Ahli Premium",
+        "suitableFor": "Sesuai untuk:",
+        "highRollers": "Penggelek tinggi, ahli perniagaan, dan mereka yang menghargai perkhidmatan privasi dan premium.",
+        "golfCasinoHeader": "Golf & Casino - 'Twopassions, OneJourney'",
+        "golfCasinoDescriptionLong": "Menggabungkan golf elit dan hiburan kasino premium, ini adalah pilihan yang sempurna untuk tetamu yang ingin berehat dengan golf pada siang hari dan menikmati suasana kasino yang bersemangat pada waktu malam.",
+        "golfCasinoTeeTime": "Tee Times di Kelab Golf Premium di Da Nang - Hoi An",
+        "golfCasinoVipTransfer": "Perkhidmatan pick -up dan drop -off VIP",
+        "golfCasinoLuxuryStay": "Penginapan mewah berhampiran padang golf atau pantai",
+        "golfCasinoGuide": "Bantuan panduan khusus di kasino",
+        "golfCasinoGroupOffer": "Tawaran Kombo Khas untuk Kumpulan",
+        "golfCasinoSuitableFor": "Sesuai untuk:",
+        "golfCasinoTarget": "Kumpulan golf, tetamu lama, dan pelanggan menghiburkan pelanggan dengan campuran relaksasi dan hiburan.",
+        "bulletPrivateRoom": "Bilik permainan peribadi, tenang, dan mewah",
+        "bulletPersonalSupport": "1: 1 Bantuan Peribadi (Tafsiran, Tempahan, Pengangkutan ...)",
+        "bulletVipAccess": "Akses keutamaan ke kawasan VIP di seluruh sistem",
+        "bulletGifts": "Hadiah dan tawaran eksklusif untuk ahli premium",
+        "highRollersVn": "Sesuai untuk: penggelek tinggi, ahli perniagaan, dan mereka yang menghargai perkhidmatan privasi dan premium.",
+        "mobileExperienceDescription": "Nikmati ruang peribadi dan berkelas dengan perkhidmatan 24/7 yang diperibadikan. ",
+        "privateRoomVn": "Bilik permainan peribadi, tenang, dan mewah",
+        "personalSupportVn": "Sokongan Peribadi 1: 1 (Tafsiran, Tempahan Perkhidmatan, Pengangkutan ...)",
+        "vipAccessVn": "Akses keutamaan ke kawasan VIP di seluruh sistem",
+        "giftsVn": "Hadiah & Tawaran Istimewa Eksklusif untuk Ahli Premium",
+        "suitableForVnTitle": "Sesuai untuk:",
+        "suitableForVnDesc": "Penggelek tinggi, ahli perniagaan, dan mereka yang menghargai perkhidmatan privasi dan premium.",
+        "spaNightlifeTitle": "Spa & Nightlife - \"Bersantai dan Ignite\"",
+        "spaNightlifeDescription2": "Selepas saat -saat yang sengit di meja permainan, sudah tiba masanya untuk melepaskan badan anda - dan meningkatkan semangat anda dengan kehidupan malam Beach City yang bersemangat.",
+        "spaNightlifeServicesInclude": "Perkhidmatan termasuk:",
+        "spaLuxuryPackage": "Rawatan spa premium (urut badan, muka, sauna, stim herba ...)",
+        "spaVipClubBooking": "Tempahan meja VIP di bar dan kelab teratas",
+        "spaNightTransfer": "Pengangkutan malam peribadi dan selamat",
+        "spaInRoomService": "Perkhidmatan makanan dan koktel dalam bilik",
+        "spaNightlifeSuitableFor": "Sesuai untuk:",
+        "spaNightlifeTarget": "Pasangan, kawan rapat, dan tetamu yang menikmati kelonggaran yang elegan dan hiburan mewah.",
+        "pokerPackageTitle": "Pakej Poker - \"Di mana kemahiran memenuhi prestij\"",
+        "pokerDescription2": "Pakej perkhidmatan khas untuk peminat kejohanan poker - di mana kemahiran, strategi, dan kesukanan disambut.",
+        "pokerServicesInclude": "Perkhidmatan termasuk:",
+        "pokerProTournaments": "Penyertaan dalam Pertandingan Poker Profesional di Let's Win Poker Club",
+        "pokerPrivateEvents": "Hosting kejohanan peribadi untuk kumpulan atau pelanggan korporat",
+        "pokerProfessionalDealer": "Peniaga profesional dan meja poker standard kejohanan",
+        "pokerInterpreterSupport": "Sokongan dan penjagaan jurubahasa untuk tetamu antarabangsa",
+        "pokerCustomAccommodation": "Tempahan hotel/pangsapuri atas permintaan",
+        "pokerSuitableFor": "Sesuai untuk:",
+        "pokerTarget": "Pemain profesional, komuniti poker, tetamu Korea/Cina yang menikmati sukan minda."
+      },
+      "buttons": {
+        "contact": "Hubungi kami",
+        "book": "Tempah sekarang",
+        "viewDetails": "Lihat butiran",
+        "bookVipTour": "Buku VIP Tour",
+        "contactConsultant": "Perunding kenalan",
+        "contactNow": "Hubungi sekarang"
+      }
+    },
+    "footer": {
+      "getToKnow": {
+        "title": "Kenali Kami",
+        "companyInfo": "Maklumat syarikat",
+        "careers": "Kerjaya",
+        "faq": "Soalan Lazim",
+        "contactUs": "Hubungi kami",
+        "awards": "Anugerah & Pengiktirafan"
+      },
+      "usefulInfo": {
+        "title": "Maklumat berguna",
+        "travelGuide": "Panduan Perjalanan",
+        "planVisit": "Rancang lawatan anda",
+        "gettingHere": "Sampai di sini",
+        "services": "Perkhidmatan & Kemudahan",
+        "packages": "Pakej Hotel & Penerbangan"
+      },
+      "downloadApp": {
+        "title": "Muat turun aplikasi kami"
+      },
+      "social": {
+        "title": "Berhubung dengan kami"
+      },
+      "getInspired": {
+        "title": "Dapatkan inspirasi",
+        "subtitle": "Tempahan & Kenalan Cepat",
+        "bookNow": "Tempah sekarang"
+      },
+      "copyright": "© 2025 Let's VIP Lifestyle. "
+    },
+    "about": {
+      "title": "Pengenalan",
+      "subtitle": "Tentang Let's Win VIP Club",
+      "introduction": "Selamat datang ke Let's Win VIP Club - destinasi eksklusif bagi mereka yang mencari hiburan premium dan perkhidmatan mewah. ",
+      "experience": {
+        "title": "Di Let's Win VIP Club, anda akan menikmati:",
+        "hoTram": {
+          "title": "• Lounge VIP di Ho Tram Casino: ",
+          "description": "Ruang persendirian dengan permainan eksklusif untuk tetamu VIP, menyediakan keselesaan dan kelas."
+        },
+        "hoiana": {
+          "title": "• Kawasan VIP di Hoiana: ",
+          "description": "Reka bentuk yang canggih dengan perkhidmatan peribadi, memberikan pengalaman yang unik dan mewah."
+        },
+        "danang": {
+          "title": "• Poker Club di Danaciti Hotel: ",
+          "description": "Destinasi yang ideal untuk peminat poker, yang menampilkan kejohanan profesional dan jadual premium."
+        }
+      },
+      "service": "Terutama, kami menyediakan perkhidmatan pelanggan 24/7 melalui Hotline Langsung, bersedia untuk menyokong dan memenuhi semua keperluan anda.",
+      "invitation": "Sertai komuniti elit di Let's Win VIP Club - di mana pengalaman premium dan saat -saat menang bersatu!",
+      "whyChoose": {
+        "title": "Mengapa Memilih Let's Win VIP Club?",
+        "features": {
+          "spaces": "✔ Ruang VIP eksklusif dengan dalaman mewah, memastikan keselesaan mutlak.",
+          "services": "✔ Perkhidmatan yang diperibadikan, dengan pasukan profesional yang berdedikasi menyediakan sokongan 24/7.",
+          "rewards": "✔ Hadiah Eksklusif & Hadiah Mewah, dikhaskan untuk Let's Win VIP Murles.",
+          "privacy": "✔ Privasi dan keselamatan peringkat atas, menjamin pengalaman hiburan yang selamat dan mewah."
+        }
+      },
+      "join": "Sertai Let's Win VIP Club hari ini dan menikmati pengalaman mewah yang tidak dapat ditandingi!",
+      "contact": "📞 Hotline Perkhidmatan Pelanggan VIP (24/7): [Nombor Telefon]"
+    },
+    "premiumPerks": {
+      "pageTitle": "Keistimewaan Premium di Hoiana & Ho Tram",
+      "freeHotelTitle": "Bilik hotel percuma untuk ahli VIP",
+      "freeHotelDesc": "Sebagai ahli VIP, anda akan menikmati keistimewaan eksklusif, termasuk bilik hotel percuma. ",
+      "privateShuttleTitle": "Perkhidmatan ulang-alik peribadi untuk VIP peringkat atas",
+      "privateShuttleDesc": "Sebagai VIP peringkat atas, anda akan menerima perkhidmatan ulang-alik peribadi percuma, memastikan perjalanan yang paling mudah dan selesa. ",
+      "exclusiveGiftsTitle": "Hadiah eksklusif pada majlis -majlis khas",
+      "exclusiveGiftsDesc": "Sebagai tambahan kepada faedah premium, ahli VIP akan berpeluang menerima hadiah eksklusif semasa majlis -majlis khas sepanjang tahun. ",
+      "contactNow": "Hubungi sekarang"
+    },
+    "freeTransport": {
+      "title": "Perkhidmatan ulang -alik percuma",
+      "description": "Perkhidmatan Pengangkutan VIP Swasta - sepenuhnya percuma untuk tetamu let'swin.",
+      "items": {
+        "pickup": "Pengambilan dari lapangan terbang, hotel, atau pusat bandar",
+        "driver": "Pemandu yang sopan dan bijak",
+        "logo": "Pilihan untuk memilih kenderaan dengan atau tanpa logo let'swin",
+        "group": "Tersedia untuk kumpulan atau individu"
+      },
+      "cta": "Tempah perjalanan anda sekarang"
+    },
+    "eventPromotions": {
+      "pageTitle": "Keistimewaan Acara & Kejohanan",
+      "tournamentTitle": "Sertai kejohanan eksklusif VIP",
+      "tournamentDesc": "Sebagai ahli VIP, anda akan berpeluang untuk mengambil bahagian dalam kejohanan eksklusif di mana anda boleh mempamerkan kemahiran, strategi, dan bakat anda dalam suasana bertaraf dunia. ",
+      "vipPartiesTitle": "Pesta & Acara VIP percuma",
+      "vipPartiesDesc": "Sebagai VIP, anda akan dijemput ke pihak percuma dan acara eksklusif yang diadakan di tempat mewah. ",
+      "specialRewardsTitle": "Peluang hadiah besar dari program khas",
+      "specialRewardsDesc": "Program eksklusif yang direka untuk VIP menawarkan peluang yang luar biasa untuk menang besar. ",
+      "contactNow": "Hubungi sekarang"
+    },
+    "aboutSection": {
+      "missionTitle": "Misi Let'swin",
+      "missionDescription": "Untuk menjadi rakan kongsi kanan yang dipercayai untuk setiap tetamu antarabangsa yang datang ke Vietnam untuk mencari hiburan premium, selamat, profesional, dan boleh dipercayai.",
+      "missionStatement": "Let'swin tidak hanya menganjurkan pengalaman - kami membentuk gaya hidup hiburan VIP untuk golongan elit.",
+      "whatIsLetswin": "Apa itu Let'swin?",
+      "letswinIntroMobile": "Let'swin adalah platform yang menawarkan perkhidmatan hiburan semua-termasuk untuk pelancong antarabangsa dan penggelek tinggi.",
+      "letswinIntroDesktop": "Let'swin adalah platform yang menyediakan perkhidmatan hiburan yang komprehensif untuk pelancong antarabangsa dan pemain peringkat tinggi yang melawat Vietnam. ",
+      "letswinServices": {
+        "pokerClub": "• Kelab poker swasta dan profesional",
+        "vipCasino": "• Pengalaman kasino VIP dengan tawaran eksklusif",
+        "transportSupport": "• Pengangkutan, bantuan permainan, dan perkhidmatan terjemahan",
+        "customTours": "• Jadual pelancongan yang disesuaikan untuk bersantai dan hiburan",
+        "support247": "• Sistem penjagaan pelanggan 24/7",
+        "nightSupport": "• Sokongan kecemasan walaupun pada waktu malam"
+      },
+      "whoIsFor": "Siapa Let'swin untuk?",
+      "whoIsForList": {
+        "internationalTourists": "• Pelancong antarabangsa yang ingin mengalami poker, kasino, dan kelonggaran mewah di Vietnam.",
+        "experiencedPlayers": "• Pemain berpengalaman yang mencari profesional - dipercayai - perkhidmatan bijak.",
+        "partners": "• Rakan kongsi yang ingin bekerjasama dalam membangunkan rangkaian klien tinggi: pengendali pelancongan, hotel, pemandu, kolaborator."
+      },
+      "vipExperience": "Di luar diskaun eksklusif, anda juga boleh menikmati bilik VIP peribadi dan mewah. ",
+      "contactNow": "Hubungi sekarang"
+    },
+    "vipMembership": {
+      "title": "Tawaran Keahlian VIP",
+      "contactNow": "Hubungi sekarang",
+      "section1": {
+        "title": "Dapatkan Hadiah Mata & Tebus",
+        "description": "Mata pendapatan dan menebus hadiah melalui penyertaan dalam permainan membawa anda pengalaman yang menarik dan ganjaran yang menarik. "
+      },
+      "section2": {
+        "title": "Diskaun untuk makan, hotel, dan perkhidmatan spa",
+        "description": "Nikmati makan malam di restoran premium, berehat di spa, atau menikmati suasana hotel mewah -semuanya lebih mudah diakses dengan program diskaun ganjaran kami. "
+      },
+      "section3": {
+        "title": "Bilik VIP peribadi dengan perkhidmatan premium",
+        "description": "Di luar diskaun biasa, anda boleh menikmati ruang eksklusif dan mewah melalui bilik VIP premium kami. "
+      }
+    },
+    "pokerClub": {
+      "heading": "Mengalami Kelab Poker di Da Nang",
+      "contactConsultant": "Perunding kenalan",
+      "privateRoomTitle": "Bilik poker peribadi",
+      "privateRoomDescription": "Sebagai ahli VIP, anda akan mempunyai akses kepada kejohanan poker eksklusif di mana anda boleh mempamerkan kemahiran, strategi, dan bakat anda dalam suasana mewah. ",
+      "clubTitle": "Selamat datang ke Poker Club",
+      "clubDescription": "Poker adalah lebih daripada sekadar permainan - ia adalah pengalaman berprestij di mana keputusan pintar dan strategi halus membawa kepada ganjaran yang layak. "
+    },
+    "contact": {
+      "title": "Tempahan & Kenalan Cepat",
+      "stage1": {
+        "title": "Masukkan di atas",
+        "description": "Jadilah yang pertama untuk menemui tawaran tawaran eksklusif, acara dan indulgensi yang akan datang yang terbaik di Let's Win Club.",
+        "fullName": "Nama penuh",
+        "phoneNumber": "Nombor telefon",
+        "submit": "Hantar"
+      },
+      "stage2": {
+        "title": "Terima kasih kerana melanggan surat berita kami.",
+        "description": "Menantikan kandungan kandungan yang bijak yang mempamerkan cinta kita untuk segala -galanya yang luar biasa.",
+        "backToHome": "Kembali ke Halaman Laman Utama"
+      }
+    },
+    "fineDining": {
+      "title": "Restoran makan yang baik",
+      "description": "Temui seni masakan di restoran makan malam ini di Singapura, mari kita Win Club. ",
+      "romanticRestaurants": {
+        "title": "Restoran romantis",
+        "description": "Mengubah mana -mana petang menjadi majlis yang tidak dapat dilupakan dengan suasana intim di restoran -restoran romantis ini. "
+      },
+      "specialOccasions": {
+        "title": "Majlis -majlis khas",
+        "description": "Memperingati kehidupan yang paling berharga dan menambah keanggunan ke mana -mana kesempatan di restoran -restoran yang tidak rapi ini. "
+      },
+      "shoppes": {
+        "title": "Cari Shoppes",
+        "description": "Dengan pemilihan lebih daripada 170 label pereka dan butik mewah, carian anda untuk perkara yang lebih baik berakhir di sini. "
+      },
+      "viewRestaurants": "Lihat restoran",
+      "viewShops": "Lihat kedai",
+      "viewDetails": "Lihat butiran"
+    },
+    "signupSuccessful": {
+      "welcome": "Selamat Datang, Asdasd",
+      "digitalAccount": {
+        "title": "Akaun digital",
+        "description": "Akses akaun gaya hidup VIP anda dengan nama pengguna dan kata laluan yang baru dibuat."
+      },
+      "membershipCard": {
+        "title": "Kad keahlian",
+        "description": "ID dan PIN keahlian anda akan diperlukan untuk transaksi Viprewards Let di Marina Bay Sands."
+      },
+      "username": "Nama pengguna",
+      "membershipId": "ID Keahlian",
+      "loginNow": "Log masuk sekarang"
+    },
+    "otpVerification": {
+      "title": "Pengesahan OTP",
+      "stage1": {
+        "description": "Sila pilih saluran untuk menerima kata laluan satu kali (OTP) sebagai sebahagian daripada proses pengesahan."
+      },
+      "stage2": {
+        "description": "E-mel yang mengandungi kata laluan satu kali (OTP) telah dihantar ke alamat e-mel anda t********************************."
+      },
+      "emailOtp": "E -mel OTP",
+      "enterOtp": "Masukkan OTP",
+      "resendOtp": "Hantarkan OTP baru pada 01:16",
+      "proceed": "Meneruskan",
+      "verify": "Sahkan",
+      "back": "Kembali"
+    },
+    "signup": {
+      "title": "Daftar untuk Keahlian Gaya Hidup Let VIP Percuma Anda",
+      "banner": "Banner tempahan",
+      "already_have_account": "Sudah mempunyai akaun?",
+      "login_here": "Log masuk di sini.",
+      "particulars": "Butir -butir",
+      "digital_account": "Akaun digital",
+      "complete": "Lengkap",
+      "last_name": "Nama belakang",
+      "first_name": "Nama pertama",
+      "passport_note": "(Seperti yang dicetak pada pasport anda)",
+      "date_of_birth": "Tarikh lahir",
+      "age_requirement": "(Anda perlu berumur sekurang -kurangnya 18 tahun untuk menyertai.)",
+      "mobile_number": "Nombor mudah alih",
+      "mobile_note": "Nombor mestilah 8 digit",
+      "email": "Alamat e -mel",
+      "email_note": "Sila masukkan alamat e -mel yang sah",
+      "referral_code": "Kod rujukan",
+      "optional": "(Pilihan)",
+      "next": "Seterusnya",
+      "create_pin": "Buat PIN Keahlian",
+      "create_4digit_pin": "Buat pin kad 4 digit anda",
+      "pin_description": "Pin 4 digit anda akan digunakan untuk transaksi Let's Viprewards di Marina Bay Sands.",
+      "create_pin_label": "Buat PIN",
+      "confirm_pin": "Sahkan pin",
+      "create_digital_account": "Buat akaun digital",
+      "digital_accounts": "Akaun Digital (s)",
+      "digital_account_description": "Akaun digital (nama pengguna dan kata laluan) ini akan digunakan untuk log masuk ke platform digital kami. ",
+      "username": "Nama pengguna",
+      "password": "Kata laluan",
+      "confirm_password": "Sahkan kata laluan",
+      "create": "Buat",
+      "steps": {
+        "particulars": "Butir -butir",
+        "digitalAccount": "Akaun digital",
+        "complete": "Lengkap"
+      },
+      "form": {
+        "lastName": "Nama belakang",
+        "firstName": "Nama pertama",
+        "asPassport": "(Seperti yang dicetak pada pasport anda)",
+        "dob": "Tarikh lahir",
+        "dobNote": "(Anda perlu berumur sekurang -kurangnya 18 tahun untuk menyertai.)",
+        "dd": "DD",
+        "mmm": "Mmm",
+        "yyyy": "Yyyy",
+        "months": {
+          "jan": "Jan",
+          "feb": "Feb",
+          "mar": "Mar",
+          "apr": "Apr",
+          "may": "Mei",
+          "jun": "Jun",
+          "jul": "Jul",
+          "aug": "Aug",
+          "sep": "Sep",
+          "oct": "Okt",
+          "nov": "Nov",
+          "dec": "Dec"
+        },
+        "mobileNumber": "Nombor mudah alih",
+        "mobileNote": "Nombor mestilah 8 digit",
+        "email": "Alamat e -mel",
+        "emailNote": "Sila masukkan alamat e -mel yang sah",
+        "referralCode": "Kod rujukan",
+        "optional": "(Pilihan)"
+      }
+    },
+    "notFound": {
+      "title": "Halaman ini tidak wujud",
+      "description": "Halaman yang anda cari tidak dapat dijumpai."
+    },
+    "more": {
+      "title": "Lebih banyak pengalaman",
+      "viewDetails": "Lihat butiran",
+      "casinoLevy": {
+        "title": "Levi kemasukan kasino",
+        "description": "Dapatkan maklumat mengenai peraturan kasino umum dan syarat kemasukan."
+      },
+      "rewardsClub": {
+        "title": "Faedah eksklusif dengan kelab gilasan vip",
+        "subtitle": "Daftar untuk mendapatkan semasa anda bermain",
+        "description": "Sebagai ahli Kelab Viprewards Let, anda memperoleh Let's Vippoints dan mari Vipdollars pada permainan kasino anda. ",
+        "locations": [
+          "B2M",
+          "Tahap 1",
+          "Tahap 2 pintu masuk permainan meja ruby",
+          "Tahap 2 pintu masuk slot ruby",
+          "Tahap 2 Pintu Masuk Grand Apex"
+        ]
+      },
+      "responsibleGambling": {
+        "title": "Perjudian yang bertanggungjawab",
+        "subtitle": "Komitmen kepada pelanggan kami",
+        "description": "Komitmen kami untuk mewujudkan pengalaman yang tidak dapat dilupakan meluas ke setiap aspek resort kami - ke lantai kasino."
+      }
+    },
+    "login": {
+      "title": "Log masuk",
+      "username": "Nama pengguna",
+      "emailPlaceholder": "E -mel",
+      "password": "Kata laluan",
+      "passwordPlaceholder": "Kata laluan",
+      "loginButton": "Log masuk",
+      "noAccount": "Tidak mempunyai akaun?",
+      "registerNow": "Daftar sekarang"
+    },
+    "paiza": {
+      "title": "Koleksi Paiza",
+      "bannerAlt": "Banner Koleksi Paiza",
+      "bannerMobileAlt": "Banner Mudah Alih Koleksi Paiza",
+      "intro": "Dibawa untuk yang paling bijak, koleksi Paiza merangkumi rumah utama dari rumah, dengan kemewahan yang tidak dapat ditandingi, terperinci yang bijak dan kesenian tanpa batas pada setiap masa.",
+      "description1": "Dari pintu masuk yang bijak ke kemudahan perkhidmatan mewah, setiap aspek koleksi suite terbaik kami direka untuk privasi dan keselesaan. ",
+      "description2": "Nikmati akses istimewa ke Paiza Sky Residence, sebuah lounge kelab swasta yang terletak di atas hotel mercu tanda kami. ",
+      "description3": "Sepanjang penginapan anda, pasukan Butler 24-jam kami berada di tangan untuk menjangkakan setiap keinginan anda, dengan tekad untuk membuat apa-apa yang mungkin.",
+      "description4": "Selamat datang ke koleksi Paiza, penginapan yang luar biasa.",
+      "experienceTitle": "Mengalami yang luar biasa",
+      "experienceImageAlt": "Pengalaman imej",
+      "experiences": {
+        "0": {
+          "title": "Kedatangan Paiza VIP",
+          "description": "Sentuh ke sambutan hangat dengan salam kami yang berdedikasi. "
+        },
+        "1": {
+          "title": "Perkhidmatan Butler eksklusif",
+          "description": "Mengalami perkhidmatan butler 24 jam yang diperibadikan, memastikan setiap keperluan anda dipenuhi dengan perhatian dan penjagaan yang paling banyak."
+        },
+        "2": {
+          "title": "Lounge Sky Private",
+          "description": "Akses kediaman Paiza Sky eksklusif, menawarkan pemandangan panorama dan perkhidmatan premium."
+        },
+        "3": {
+          "title": "Pengalaman yang dikendalikan",
+          "description": "Nikmati pengalaman yang lebih baik dari makan peribadi ke pengembaraan kapal layar, disesuaikan dengan keutamaan anda."
+        }
+      },
+      "tour": {
+        "title": "Retreat Mewah - Hiburan - Lawatan Golf",
+        "intro": "Let'swin menganjurkan lawatan menyeluruh yang menggabungkan relaksasi, hiburan, dan golf-disesuaikan untuk pelanggan yang menikmati gaya hidup premium.",
+        "scheduleTitle": "Jadual Perjalanan yang dicadangkan (3 hari 2 malam):",
+        "day1": {
+          "title": "Hari 1:",
+          "item1": "Pengambilan di lapangan terbang / hotel",
+          "item2": "Daftar masuk di resort bintang 4-5",
+          "item3": "Makan - Urut - Relaksasi Cahaya"
+        },
+        "day2": {
+          "title": "Hari 2:",
+          "item1": "Pagi: Golf di kursus mewah",
+          "item2": "Petang: poker atau waktu lapang",
+          "item3": "Petang: Pengalaman kasino VIP dengan tuan rumah peribadi"
+        },
+        "day3": {
+          "title": "Hari 3:",
+          "item1": "Sarapan pagi - spa atau membeli -belah ringan",
+          "item2": "Pengangkutan kembali ke lapangan terbang atau hotel"
+        },
+        "servicesTitle": "Perkhidmatan termasuk:",
+        "services": {
+          "golf": "Tempahan & Peralatan Tempahan Padang Golf",
+          "transport": "Pengangkutan peribadi",
+          "guide": "Panduan Pelancong Peribadi",
+          "support": "24/7 Sokongan Pelanggan",
+          "group": "Kumpulan (2-10 orang) atau lawatan individu yang ada"
+        },
+        "cta": "Tempah lawatan anda sekarang"
+      },
+      "aboveExpectation": {
+        "title": "Di atas semua jangkaan",
+        "description1": "Terletak di lantai tertinggi bangunan ikonik kami, koleksi Paiza mempamerkan dalaman yang sangat menarik namun tenang yang memaparkan siling -siling yang tinggi, perabot mewah yang mewah dan bahan -bahan terbaik, karya seni yang menawan dan pemandangan yang luar biasa.",
+        "description2": "Pelbagai objet yang menakjubkan yang dicipta bersama dengan pengrajin antarabangsa yang teratas-seperti dinding sutera yang dicat tangan dari Fromental, kapal-kapal tembaga seperti permata Zanetto dan porselin yang diarahkan oleh Legle Asia-memancarkan mata pada setiap masa, mengelilingi anda dengan kecantikan.",
+        "description3": "Dari soirees elegan hingga rehat yang mendalam, walaupun butiran terkecil telah berhati -hati untuk keselesaan dan kesenangan anda."
+      },
+      "rooms": {
+        "premierRoom": {
+          "imageAlt": "Mari gambar bilik vippremier",
+          "title": "Mari kita bilik vippremier",
+          "gardenView": "Taman oleh Bay View",
+          "cityView": "Pemandangan Bandar",
+          "description": "Bersantai di dalam bilik yang elegan anda dan nikmati pengkhianat khazanah yang murah hati di Armoire yang dipesan. ",
+          "features": {
+            "size": "Rata -rata 45 meter persegi",
+            "guests": "Sehingga 3 tetamu",
+            "beds": "1 raja atau 2 katil ratu"
+          }
+        }
+      },
+      "paizaExperience": {
+        "imageAlt": "Mari Gambar Gaya Hidup VIP",
+        "title": "Pengalaman Paiza",
+        "description": "Bersenang -senang dalam puncak hidup yang canggih di koleksi Paiza baru. "
+      }
+    },
+    "packages": {
+      "banner": {
+        "desktopAlt": "Pakej Banner Desktop",
+        "mobileAlt": "Pakej Banner Mobile"
+      },
+      "title": "Syurga yang disesuaikan dengan anda",
+      "description": "Terokai Pakej Tetap yang Dilengkapi untuk Keluarga, Pasangan dan Individu dengan Rasa Ceramah, Pikiran Curiga dan Selera untuk Pengembaraan",
+      "room": {
+        "title": "Mari kita bilik vippremier",
+        "view": {
+          "gardens": "Taman oleh Bay View",
+          "city": "Pemandangan Bandar"
+        },
+        "description": "Bersantai di dalam bilik yang elegan anda dan nikmati pengkhianat khazanah yang murah hati di Armoire yang dipesan. ",
+        "details": {
+          "area": "Rata -rata 45 meter persegi",
+          "guests": "Sehingga 3 tetamu",
+          "beds": "1 raja atau 2 katil ratu"
+        },
+        "viewDetails": "Lihat butiran"
+      }
+    },
+    "skypark": {
+      "banner_alt": "Spanduk Dek Pemerhatian Skypark",
+      "banner_mobile_alt": "Skypark Observation Deck Mobile Banner",
+      "paradise_title": "Syurga yang disesuaikan dengan anda",
+      "discover_text": "Dari 17 Jan, temui kelab masa lalu, masa kini dan masa depan Let's Win di Skyline Singapura: Cerita dari Atas, pameran baru di Deck Observation Skypark.",
+      "explore_text": "Terokai bandar dari sudut pandang baru di 56 Storeys High, di mana pemandangan indah bandar-bandar bertaraf dunia Singapura adalah unik. ",
+      "evening_view": "Pada waktu petang, dek pemerhatian juga menawarkan pandangan spektrum yang menakjubkan.",
+      "sunset_experience": "Untuk pengalaman tontonan yang lebih intim, pilih Sunset In The Sky, program eksklusif lengkap dengan akses keutamaan melalui titik masuk swasta, kawasan tempat duduk khusus dan menu makan premium.",
+      "book_tickets": "Tiket buku",
+      "notice_title": "Notis",
+      "notice_text": "Dek Pemerhatian Skypark akan ditutup pada tarikh berikut pada pukul 9 malam untuk Pesta Bulan Penuh Disco Silent (entri terakhir pada pukul 8 malam)",
+      "details_title": "Perincian",
+      "location_title": "Lokasi",
+      "location_text1": "Menara Hotel 3, Tahap 56",
+      "location_text2": "Masuk ke dek pemerhatian Skypark boleh diakses melalui jalan masuk Hotel Tower 3.",
+      "hours_title": "Jam pembukaan",
+      "hours_nonpeak": "Bukan puncak: 10 pagi-4.30 petang (entri terakhir pada 4 petang)",
+      "hours_peak": "Puncak: 5 petang - 10 malam (entri terakhir pada pukul 9.30 malam)",
+      "prices_title": "Harga tiket",
+      "whats_on": "Apa yang ada",
+      "you_may_like": "Kami fikir anda juga suka",
+      "faq_title": "Soalan yang sering ditanya",
+      "faq": {
+        "opening_hours": {
+          "question": "Apakah jam pembukaan untuk Let's Vipskypark?",
+          "answer1": "Mari VIP Skypark - termasuk dek pemerhatian - dibuka dari 10 pagi hingga 10 malam. ",
+          "answer2": "Dek pemerhatian boleh ditutup untuk acara swasta atau komitmen komersial pada masa -masa tertentu. "
+        },
+        "rain": {
+          "question": "Apa yang berlaku jika hujan?",
+          "answer1": "Mari VIP Skypark - termasuk dek pemerhatian - dibuka dari 10 pagi hingga 10 malam. ",
+          "answer2": "Dek pemerhatian boleh ditutup untuk acara swasta atau komitmen komersial pada masa -masa tertentu. "
+        },
+        "souvenir": {
+          "question": "Adakah terdapat kedai cenderahati?",
+          "answer1": "Mari VIP Skypark - termasuk dek pemerhatian - dibuka dari 10 pagi hingga 10 malam. ",
+          "answer2": "Dek pemerhatian boleh ditutup untuk acara swasta atau komitmen komersial pada masa -masa tertentu. "
+        },
+        "prohibited": {
+          "question": "Adakah barang dilarang di dek pemerhatian Skypark?",
+          "answer1": "Mari VIP Skypark - termasuk dek pemerhatian - dibuka dari 10 pagi hingga 10 malam. ",
+          "answer2": "Dek pemerhatian boleh ditutup untuk acara swasta atau komitmen komersial pada masa -masa tertentu. "
+        },
+        "other_areas": {
+          "question": "Bolehkah saya melawat kawasan lain Let's Vipskypark dengan tiket dek pemerhatian Skypark saya?",
+          "answer1": "Mari VIP Skypark - termasuk dek pemerhatian - dibuka dari 10 pagi hingga 10 malam. ",
+          "answer2": "Dek pemerhatian boleh ditutup untuk acara swasta atau komitmen komersial pada masa -masa tertentu. "
+        },
+        "conditions": {
+          "question": "Adakah terdapat syarat kemasukan ke dek pemerhatian Skypark?",
+          "answer1": "Mari VIP Skypark - termasuk dek pemerhatian - dibuka dari 10 pagi hingga 10 malam. ",
+          "answer2": "Dek pemerhatian boleh ditutup untuk acara swasta atau komitmen komersial pada masa -masa tertentu. "
+        }
+      },
+      "slider": {
+        "weekday_escapade": {
+          "image_alt": "Imej percutian hari minggu",
+          "title": "Escapade hari minggu",
+          "tag": "Hari minggu | ",
+          "description": "Mengalami bilik Vippremier yang baru dipulihkan, bergaya dilengkapi dengan tab mandi yang mendalam dan almari pakaian. "
+        }
+      }
+    },
+    "infinityPool": {
+      "banner": {
+        "desktopAlt": "Desktop Banner Infinity Pool",
+        "mobileAlt": "Infinity Pool Banner Mobile"
+      },
+      "title": "Kolam Infinity Skypark",
+      "renowned": "Terkenal dengan alasan.",
+      "description": "Dapatkan perspektif baru di kolam infiniti di atas bumbung terbesar di dunia. ",
+      "details": {
+        "title": "Perincian",
+        "location": {
+          "title": "Lokasi",
+          "text1": "Menara Hotel 3, Tahap 56",
+          "text2": "Masuk ke dek pemerhatian Skypark boleh diakses melalui jalan masuk Hotel Tower 3."
+        },
+        "hours": {
+          "title": "Jam pembukaan",
+          "nonPeak": "Bukan puncak: 10 pagi-4.30 petang (entri terakhir pada 4 petang)",
+          "peak": "Puncak: 5 petang - 10 malam (entri terakhir pada pukul 9.30 malam)"
+        }
+      },
+      "operatingHours": {
+        "title": "Jam operasi",
+        "location": {
+          "title": "Lokasi",
+          "text1": "Menara Hotel 3, Tahap 56",
+          "text2": "Masuk ke dek pemerhatian Skypark boleh diakses melalui jalan masuk Hotel Tower 3."
+        },
+        "hours": {
+          "title": "Jam pembukaan",
+          "nonPeak": "Bukan puncak: 10 pagi-4.30 petang (entri terakhir pada 4 petang)",
+          "peak": "Puncak: 5 petang - 10 malam (entri terakhir pada pukul 9.30 malam)"
+        }
+      },
+      "faq": {
+        "title": "Soalan yang sering ditanya",
+        "openingHours": {
+          "question": "Apakah jam pembukaan untuk Let's Vipskypark?",
+          "answer1": "Mari VIP Skypark - termasuk dek pemerhatian - dibuka dari 10 pagi hingga 10 malam. ",
+          "answer2": "Dek pemerhatian boleh ditutup untuk acara swasta atau komitmen komersial pada masa -masa tertentu. "
+        }
+      },
+      "recommendations": {
+        "title": "Kami fikir anda juga suka"
+      }
+    },
+    "lifestyle": {
+      "banner": {
+        "desktopAlt": "Mari Banner Koleksi VIP",
+        "mobileAlt": "Mari Banner Mudah Alih Koleksi VIP"
+      },
+      "title": "Mari gaya hidup VIP",
+      "description": "Buka Dunia Ganjaran Eksklusif dan faedah dengan keahlian gaya hidup anda secara percuma, program ganjaran Singapura yang paling murah hati.",
+      "alreadyMember": "Sudah menjadi ahli?",
+      "tourist": "Adakah anda pelancong? ",
+      "membershipTiers": "Tingkat Keahlian",
+      "membership": {
+        "description": "Bagi pemain setia, yang menampilkan pelbagai keistimewaan dan ganjaran. ",
+        "imageAlt": "Imej peringkat keahlian",
+        "lifestyle": {
+          "title": "Gaya hidup",
+          "content": [
+            "Secara automatik diberikan semasa pendaftaran, tiada mata diperlukan.",
+            "Dapatkan 1 mata setiap $ 10. ",
+            "Diskaun 5% di restoran dan bar."
+          ]
+        },
+        "prestige": {
+          "title": "Prestij",
+          "content": [
+            "Memerlukan 5,000 - 19,999 mata atau jumlah total minimum sebanyak $ 50,000 dalam tempoh 6 bulan. ",
+            "Dapatkan 1 mata setiap $ 7.5. ",
+            "Diskaun 10% di restoran dan bar, tempahan keutamaan di kasino."
+          ]
+        },
+        "elite": {
+          "title": "Elit",
+          "content": [
+            "Memerlukan 20,000 - 49,999 mata atau jumlah total minimum sebanyak $ 100,000 dalam tempoh 6 bulan. ",
+            "Dapatkan 1 mata setiap $ 5. ",
+            "Diskaun 15% di restoran dan bar, akses VIP Lounge, perkhidmatan ulang -alik percuma di kawasan yang ditetapkan."
+          ]
+        },
+        "paiza": {
+          "title": "PAIZA",
+          "content": [
+            "Memerlukan 50,000+ mata atau jumlah total minimum sebanyak $ 250,000 dalam tempoh 6 bulan. ",
+            "Dapatkan 1 mata setiap $ 2.5. ",
+            "Diskaun 20% di restoran dan bar, akses ke lounge VIP tertinggi, 24/7 bantuan VIP peribadi, pengangkutan mewah percuma (termasuk kenderaan mewah atau jet swasta), kejohanan poker eksklusif, dan acara elit."
+          ]
+        }
+      }
+    }
+  }

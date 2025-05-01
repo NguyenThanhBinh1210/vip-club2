@@ -48,18 +48,18 @@ const Home = () => {
         <div className='absolute top-0 left-0 w-full h-full bg-[#935e1848] pl-10 flex flex-col justify-center'>
           <div className=''>
             <h1 className='text-4xl leading-snug font-semibold mb-4 text-white pr-20 max-w-[1000px]'>
-              Trải nghiệm đêm thưởng lưu tại Let's Win - VIP Club hàng đầu Đà Nẵng
+              {t('home.hero.title')}
             </h1>
           </div>
           <div className='flex space-x-4 mb-6'>
             <a href='tel:+84766798268'>
               <button className='bg-[#cfaa26] text-white py-2 px-4 rounded shadow shadow-black/50 hover:shadow-none transition-all hover:translate-y-0.5'>
-                Đặt tour VIP
+                {t('home.buttons.bookVipTour')}
               </button>
             </a>
             <a href='tel:+84766798268'>
               <button className='bg-[#cfaa26] text-white py-2 px-4 rounded shadow shadow-black/50 hover:shadow-none transition-all hover:translate-y-0.5'>
-                Liên hệ tư vấn
+                {t('home.buttons.contactConsultant')}
               </button>
             </a>
           </div>
@@ -86,7 +86,7 @@ const Home = () => {
               alt='bannerLandingModule3'
             />
             <div className='block lg:hidden'>
-              <p className='uppercase text-[15px] my-4 font-medium text-[#333333]'>{t('about.subtitle')}</p>
+              <p className='uppercase text-[15px] my-4 font-medium text-[#333333]'>{t('home.vipClub.subtitle')}</p>
               <p className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>{t('home.vipClub.description')}</p>
               <a href='tel:+84766798268'>
                 <button className='uppercase text-[15px] pt-3 pb-2.5 px-4 absolute hover:opacity-60 group transition-all duration-300'>
@@ -121,8 +121,8 @@ const Home = () => {
             </svg>
           </div> */}
           <img src={vip1} className='object-cover object-center aspect-[9/8] rounded-lg' alt="" />
-          <div className='font-semibold text-lg my-2 text-center'>Gói trải nghiệm Vip</div>
-          <div className='text-center'>Tận hưởng không gian riêng tư, đẳng cấp với dịch vụ cá nhân hóa 24/7.
+          <div className='font-semibold text-lg my-2 text-center'>{t('home.vipClub.packageTitle')}</div>
+          <div className='text-center'>{t('home.vipClub.packageDescription')}
 
           </div>
         </div>
@@ -178,12 +178,8 @@ const Home = () => {
           </div> */}
           <img src={vip2} className='object-cover object-top aspect-[9/8] rounded-lg' alt="" />
 
-          <div className='font-semibold text-lg my-2 text-center'>Gói Golf & Casino</div>
-          <div className='text-center'>Kết hợp golf đẳng cấp và Casino cao cấp, mang đến trải nghiệm VIP tuyệt vời.
-
-
-
-          </div>
+          <div className='font-semibold text-lg my-2 text-center'>{t('home.vipClub.golfCasinoPackage')}</div>
+          <div className='text-center'>{t('home.vipClub.golfCasinoDescription')}</div>
         </div>
         <div onClick={() => setShowPakage('3')} className='min-w-[300px] md:min-w-auto flex items-center flex-col shadow-md rounded p-4 cursor-pointer hover:-translate-y-1 transition-all duration-300'>
           {/* <div className='h-14 flex items-center justify-center'>
@@ -218,18 +214,11 @@ const Home = () => {
                   <path d='M327.576,326.389l-54.857-173.714c-1.201-3.804-4.73-6.389-8.719-6.389h-18.286c-3.989,0-7.518,2.586-8.719,6.39    L182.138,326.39c-1.52,4.815,1.151,9.951,5.965,11.472c4.819,1.52,9.952-1.151,11.472-5.965l18.193-57.611h72.517v-1.637    l19.281,59.248c1.232,3.899,5.12,6.392,9.002,6.392c0.912,0,1.982-0.137,2.898-0.426    C326.282,336.34,329.096,331.204,327.576,326.389z M223.544,256l28.872-91.429h4.884L286.171,256H223.544z' />
                 </g>
               </g>
-            </svg>
-          </div> */}
-          <img src={vip4} className='object-cover object-bottom aspect-[9/8] rounded-lg' alt="" />
-
-          <div className='font-semibold text-lg my-2 text-center'>Gói Poker chuyên nghiệp</div>
-          <div className='text-center'>Gói dịch vụ đặc biệt dành cho người yêu thích poker thi đấu – nơi kỹ năng.
-          </div>
+          <div className='font-semibold text-lg my-2 text-center'>{t('home.vipClub.pokerPackage')}</div>
+          <div className='text-center'>{t('home.vipClub.pokerDescription')}</div>
         </div>
         <div onClick={() => setShowPakage('4')} className='min-w-[300px] md:min-w-auto flex items-center flex-col shadow-md rounded p-4 cursor-pointer hover:-translate-y-1 transition-all duration-300'>
-          {/* <div className='h-14 flex items-center justify-center'>
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
+          <img src={vip3} className='object-cover object-bottom aspect-[9/8] rounded-lg' alt=""/>
               xmlnsXlink='http://www.w3.org/1999/xlink'
               version='1.1'
               x='0px'
@@ -243,38 +232,42 @@ const Home = () => {
           </div> */}
           <img src={vip3} className='object-cover object-bottom aspect-[9/8] rounded-lg' alt="" />
 
-          <div className='font-semibold text-lg my-2 text-center'>Gói nghỉ dưỡng + Spa + Nightlife</div>
-          <div className='text-center'>Kết hợp thư giãn, chăm sóc sức khỏe và trải nghiệm cuộc sống về đêm sôi động.
-
-
-
-          </div>
+          <div className='font-semibold text-lg my-2 text-center'>{t('home.vipClub.spaNightlifePackage')}</div>
+          <div className='text-center'>{t('home.vipClub.spaNightlifeDescription')}</div>
         </div>
       </div>
 
       <div className={` ${showPakage === '1' ? "max-h-[2000px] py-20" : "max-h-0 py-0"} transition-all duration-500 overflow-hidden`}>
         <div className='pl-4  lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
           <div className='lg:col-span-4'>
-            <h2 className='text-[25px] uppercase lg:text-[32px]'>TRẢI NGHIỆM VIP – “ĐỈNH CAO GIỚI THƯỢNG LƯU”
-            </h2>
+
             <div className='hidden lg:block'>
-              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>Tận hưởng không gian riêng tư, đẳng cấp với dịch vụ cá nhân hóa 24/7. Gói trải nghiệm VIP mang đến sự khác biệt từ cách bạn bước vào – cho đến khoảnh khắc chiến thắng cuối cùng.
+
+              <h2 className='text-[25px] uppercase lg:text-[32px]'>{t('home.vipClub.experienceHeader')}</h2>
+
+              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>{t('home.vipClub.experienceDescription')}</p>
+
+              <p className='text-[15px] mb-2 text-[#333333]'>{t('home.vipClub.servicesInclude')}</p>
+
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.beverage')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.privateRoom')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.personalSupport')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.vipAccess')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.gifts')}</p>
+              <p className='text-[15px] mt-6 text-[#333333]'>
+                {t('home.vipClub.suitableFor')}
+                {t('home.vipClub.highRollers')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>Dịch vụ bao gồm:
+
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.bulletPrivateRoom')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.bulletPersonalSupport')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.bulletVipAccess')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.bulletGifts')}</p>
+
+              <p className='text-[15px] mt-6 text-[#333333]'>
+                {t('home.vipClub.highRollersVn')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>• Phục vụ đồ uống và tiệc nhẹ tại chỗ
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Phòng chơi riêng biệt, yên tĩnh, sang trọng
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Hỗ trợ cá nhân 1:1 (phiên dịch, đặt dịch vụ, đưa đón…)
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Ưu tiên sử dụng các khu vực VIP trong hệ thống
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>  • Quà tặng & ưu đãi dành riêng cho hội viên cao cấp
-              </p>
-              <p className='text-[15px] mt-6 text-[#333333]'>  Phù hợp cho:
-                Khách chơi lớn, doanh nhân, người yêu thích sự riêng tư và dịch vụ cao cấp.
-              </p>
+
 
             </div>
           </div>
@@ -309,30 +302,32 @@ const Home = () => {
       <div className={` ${showPakage === '2' ? "max-h-[2000px] py-20" : "max-h-0 py-0"} transition-all duration-500 overflow-hidden`}>
         <div className='pl-4  lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
           <div className='lg:col-span-4'>
-            <h2 className='text-[25px] uppercase lg:text-[32px]'>GOLF & CASINO – “HAI ĐAM MÊ, MỘT HÀNH TRÌNH”
-
+            {/* Header */}
+            <h2 className='text-[25px] uppercase lg:text-[32px]'>
+              {t('home.vipClub.golfCasinoHeader')}
             </h2>
-            <div className='hidden lg:block'>
-              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>Kết hợp giữa thể thao quý tộc và giải trí đỉnh cao, đây là lựa chọn hoàn hảo cho những ai muốn vừa chơi golf thư giãn, vừa tận hưởng không khí sôi động tại casino vào ban đêm.
 
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>Dịch vụ bao gồm:
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>• Đặt sân tại các CLB Golf cao cấp tại Đà Nẵng – Hội An
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Xe VIP đưa đón tận nơi
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>  • Phòng nghỉ dưỡng hạng sang gần sân golf hoặc biển
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Hướng dẫn viên hỗ trợ tại casino
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>  • Ưu đãi combo đặc biệt cho nhóm khách
-              </p>
-              <p className='text-[15px] mt-6 text-[#333333]'>  Phù hợp cho:
-                Hội nhóm chơi golf, khách dài ngày, doanh nhân cần tiếp khách kết hợp thư giãn & giải trí.
-              </p>
+            {/* Mô tả */}
+            <p className='text-[15px] mt-4 mb-4 text-[#333333]'>
+              {t('home.vipClub.golfCasinoDescriptionLong')}
+            </p>
 
-            </div>
+            {/* Dịch vụ bao gồm */}
+            <p className='text-[15px] mb-2 text-[#333333]'>
+              {t('home.vipClub.servicesInclude')}
+            </p>
+            <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.golfCasinoTeeTime')}</p>
+            <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.golfCasinoVipTransfer')}</p>
+            <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.golfCasinoLuxuryStay')}</p>
+            <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.golfCasinoGuide')}</p>
+            <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.golfCasinoGroupOffer')}</p>
+
+            {/* Phù hợp cho */}
+            <p className='text-[15px] mt-6 text-[#333333]'>
+              {t('home.vipClub.golfCasinoSuitableFor')}
+              {t('home.vipClub.golfCasinoTarget')}
+            </p>
+
           </div>
           <div className='lg:col-span-3'>
             <img
@@ -341,54 +336,49 @@ const Home = () => {
               alt='bannerLandingModule3'
             />
             <div className='block lg:hidden'>
-              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>Kết hợp giữa thể thao quý tộc và giải trí đỉnh cao, đây là lựa chọn hoàn hảo cho những ai muốn vừa chơi golf thư giãn, vừa tận hưởng không khí sôi động tại casino vào ban đêm.
-
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>Dịch vụ bao gồm:
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>• Đặt sân tại các CLB Golf cao cấp tại Đà Nẵng – Hội An
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Xe VIP đưa đón tận nơi
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>  • Phòng nghỉ dưỡng hạng sang gần sân golf hoặc biển
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Hướng dẫn viên hỗ trợ tại casino
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>  • Ưu đãi combo đặc biệt cho nhóm khách
-              </p>
-              <p className='text-[15px] mt-6 text-[#333333]'>  Phù hợp cho:
-                Hội nhóm chơi golf, khách dài ngày, doanh nhân cần tiếp khách kết hợp thư giãn & giải trí.
+              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>
+                {t('home.vipClub.mobileExperienceDescription')}
               </p>
 
+              <p className='text-[15px] mb-2 text-[#333333]'>
+                {t('home.vipClub.servicesInclude')}
+              </p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.beverage')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.privateRoomVn')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.personalSupportVn')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.vipAccessVn')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.giftsVn')}</p>
+
+              <p className='text-[15px] mt-6 text-[#333333]'>
+                {t('home.vipClub.suitableForVnTitle')}<br />
+                {t('home.vipClub.suitableForVnDesc')}
+              </p>
             </div>
+
           </div>
         </div>
       </div>
       <div className={` ${showPakage === '3' ? "max-h-[2000px] py-20" : "max-h-0 py-0"} transition-all duration-500 overflow-hidden`}>
-        <div className='pl-4  lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+        <div className='pl-4 lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
           <div className='lg:col-span-4'>
-            <h2 className='text-[25px] uppercase lg:text-[32px]'>POKER CHUYÊN NGHIỆP – “SÂN CHƠI CỦA BẢN LĨNH”
-
+            <h2 className='text-[25px] uppercase lg:text-[32px]'>
+              {t('home.vipClub.pokerPackageTitle')}
             </h2>
             <div className='hidden lg:block'>
-              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>Gói dịch vụ đặc biệt dành cho người yêu thích poker thi đấu – nơi kỹ năng, chiến lược và tinh thần thể thao trí tuệ được tôn vinh.
+              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>
+                {t('home.vipClub.pokerDescription')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>Dịch vụ bao gồm:
+              <p className='text-[15px] mb-2 text-[#333333]'>
+                {t('home.vipClub.pokerServicesInclude')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Tham gia các giải đấu Poker chuyên nghiệp tại Let’s Win Poker Club
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.pokerProTournaments')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.pokerPrivateEvents')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.pokerProfessionalDealer')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.pokerInterpreterSupport')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.pokerCustomAccommodation')}</p>
+              <p className='text-[15px] mt-6 text-[#333333]'>
+                {t('home.vipClub.pokerSuitableFor')} {t('home.vipClub.pokerTarget')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Tổ chức giải đấu riêng cho nhóm khách hoặc doanh nghiệp
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>  • Dealer bài bản, bàn chơi chuyên nghiệp
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Hỗ trợ phiên dịch & chăm sóc khách quốc tế
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>   • Đặt khách sạn/căn hộ riêng theo yêu cầu
-              </p>
-              <p className='text-[15px] mt-6 text-[#333333]'>  Phù hợp cho:
-                Người chơi chuyên nghiệp, hội nhóm đam mê poker, khách Hàn/Trung yêu thích thể thao trí tuệ.
-              </p>
-
             </div>
           </div>
           <div className='lg:col-span-3'>
@@ -398,55 +388,45 @@ const Home = () => {
               alt='bannerLandingModule3'
             />
             <div className='block lg:hidden'>
-              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>Gói dịch vụ đặc biệt dành cho người yêu thích poker thi đấu – nơi kỹ năng, chiến lược và tinh thần thể thao trí tuệ được tôn vinh.
+              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>
+                {t('home.vipClub.pokerDescription2')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>Dịch vụ bao gồm:
+              <p className='text-[15px] mb-2 text-[#333333]'>
+                {t('home.vipClub.pokerServicesInclude')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Tham gia các giải đấu Poker chuyên nghiệp tại Let’s Win Poker Club
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.pokerProTournaments')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.pokerPrivateEvents')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.pokerProfessionalDealer')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.pokerInterpreterSupport')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.pokerCustomAccommodation')}</p>
+              <p className='text-[15px] mt-6 text-[#333333]'>
+                {t('home.vipClub.pokerSuitableFor')} {t('home.vipClub.pokerTarget')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Tổ chức giải đấu riêng cho nhóm khách hoặc doanh nghiệp
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>  • Dealer bài bản, bàn chơi chuyên nghiệp
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Hỗ trợ phiên dịch & chăm sóc khách quốc tế
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>   • Đặt khách sạn/căn hộ riêng theo yêu cầu
-              </p>
-              <p className='text-[15px] mt-6 text-[#333333]'>  Phù hợp cho:
-                Người chơi chuyên nghiệp, hội nhóm đam mê poker, khách Hàn/Trung yêu thích thể thao trí tuệ.
-              </p>
-
-
             </div>
           </div>
         </div>
       </div>
+
       <div className={` ${showPakage === '4' ? "max-h-[2000px] py-20" : "max-h-0 py-0"} transition-all duration-500 overflow-hidden`}>
-        <div className='pl-4  lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+        <div className='pl-4 lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
           <div className='lg:col-span-4'>
-            <h2 className='text-[25px] uppercase lg:text-[32px]'>SPA & NIGHTLIFE – “THƯ GIÃN VÀ BÙNG CHÁY”
-
-
+            <h2 className='text-[25px] uppercase lg:text-[32px]'>
+              {t('home.vipClub.spaNightlifeTitle')}
             </h2>
             <div className='hidden lg:block'>
-              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>Sau những giây phút căng thẳng tại bàn chơi, đây là lúc cơ thể được phục hồi – và tâm trạng được thăng hoa cùng đêm tiệc sống động tại thành phố biển.
+              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>
+                {t('home.vipClub.spaNightlifeDescription')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>Dịch vụ bao gồm:
+              <p className='text-[15px] mb-2 text-[#333333]'>
+                {t('home.vipClub.spaNightlifeServicesInclude')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Trọn gói spa cao cấp (massage body, facial, sauna, xông thảo dược…)
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.spaLuxuryPackage')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.spaVipClubBooking')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.spaNightTransfer')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.spaInRoomService')}</p>
+              <p className='text-[15px] mt-6 text-[#333333]'>
+                {t('home.vipClub.spaNightlifeSuitableFor')} {t('home.vipClub.spaNightlifeTarget')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Hướng dẫn book bàn VIP tại các bar – club nổi tiếng
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>  • Xe đưa đón ban đêm an toàn, riêng tư
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>  • Dịch vụ đồ ăn & cocktail tận phòng
-              </p>
-
-              <p className='text-[15px] mt-6 text-[#333333]'>  Phù hợp cho:
-                Cặp đôi, nhóm bạn thân, khách yêu thích phong cách thư giãn – giải trí sang trọng.
-
-              </p>
-
             </div>
           </div>
           <div className='lg:col-span-3'>
@@ -456,28 +436,24 @@ const Home = () => {
               alt='bannerLandingModule3'
             />
             <div className='block lg:hidden'>
-              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>Sau những giây phút căng thẳng tại bàn chơi, đây là lúc cơ thể được phục hồi – và tâm trạng được thăng hoa cùng đêm tiệc sống động tại thành phố biển.
+              <p className='text-[15px] mt-4 mb-4 text-[#333333]'>
+                {t('home.vipClub.spaNightlifeDescription2')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>Dịch vụ bao gồm:
+              <p className='text-[15px] mb-2 text-[#333333]'>
+                {t('home.vipClub.spaNightlifeServicesInclude')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Trọn gói spa cao cấp (massage body, facial, sauna, xông thảo dược…)
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.spaLuxuryPackage')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.spaVipClubBooking')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.spaNightTransfer')}</p>
+              <p className='text-[15px] mb-2 text-[#333333]'>• {t('home.vipClub.spaInRoomService')}</p>
+              <p className='text-[15px] mt-6 text-[#333333]'>
+                {t('home.vipClub.spaNightlifeSuitableFor')} {t('home.vipClub.spaNightlifeTarget')}
               </p>
-              <p className='text-[15px] mb-2 text-[#333333]'> • Hướng dẫn book bàn VIP tại các bar – club nổi tiếng
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>  • Xe đưa đón ban đêm an toàn, riêng tư
-              </p>
-              <p className='text-[15px] mb-2 text-[#333333]'>  • Dịch vụ đồ ăn & cocktail tận phòng
-              </p>
-
-              <p className='text-[15px] mt-6 text-[#333333]'>  Phù hợp cho:
-                Cặp đôi, nhóm bạn thân, khách yêu thích phong cách thư giãn – giải trí sang trọng.
-
-              </p>
-
             </div>
           </div>
         </div>
       </div>
+
 
       <div>
         {/*

@@ -4,8 +4,11 @@ import hotrambanner3 from '~/assets/poket1.jpg'
 import hotrambanner4 from '~/assets/poker2.jpg'
 import { useQuery } from 'react-query'
 import { imageApi } from '~/apis/image.api'
+import { useTranslation } from 'react-i18next'
 
 const PokerClub = () => {
+    const { t } = useTranslation()
+  
   const { data: imageData } = useQuery({
     queryKey: ['images', 'event-tournament-promotions'],
     queryFn: () => imageApi.getImages({ pageSlug: 'event-tournament-promotions' })
@@ -40,13 +43,14 @@ const PokerClub = () => {
         <div className='absolute top-0 left-0 w-full h-full bg-[#48b0d930] pl-10 flex flex-col justify-center lg:items-center'>
           <div className=''>
             <h1 className='text-4xl leading-snug font-semibold mb-4 text-white pr-20 max-w-[1000px]'>
-              Trải nghiệm Poker Club tại Đà Nẵng
+            {t('pokerClub.heading')}
             </h1>
           </div>
           <div className='flex space-x-4 mb-6'>
             <a href='tel:+84766798268'>
 
-              <button className='bg-[#cfaa26] text-white py-2 px-4 rounded shadow shadow-black/50 hover:shadow-none transition-all hover:translate-y-0.5'>Liên hệ tư vấn</button>
+              <button className='bg-[#cfaa26] text-white py-2 px-4 rounded shadow shadow-black/50 hover:shadow-none transition-all hover:translate-y-0.5'>      {t('pokerClub.contactConsultant')}
+              </button>
 
             </a>
 
@@ -55,17 +59,15 @@ const PokerClub = () => {
       </div>
 
       <div className='py-20'>
-        <div className='pl-4 2xl:pl-[180px]  lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
+        <div className='pl-4 2xl:pl-[180px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
           <div className='lg:col-span-2'>
-            <h2 className='text-[25px] uppercase lg:text-[32px]'>Phòng Poker riêng tư</h2>
+            <h2 className='text-[25px] uppercase lg:text-[32px]'>
+              {t('pokerClub.privateRoomTitle')}
+            </h2>
             <div className='hidden lg:block'>
               <div className='text-[15px] mt-4 mb-8 text-[#333333]'>
-                Là thành viên VIP, bạn sẽ có cơ hội tham gia các giải đấu độc quyền, nơi bạn có thể thể hiện kỹ năng,
-                chiến lược và tài năng trong một không gian đẳng cấp. Những giải đấu này không chỉ mang lại thử thách mà
-                còn là cơ hội để bạn giành những giải thưởng hấp dẫn và chứng minh bản lĩnh của mình trước cộng đồng
-                VIP.
+                {t('pokerClub.privateRoomDescription')}
               </div>
-
             </div>
           </div>
           <div className='lg:col-span-5'>
@@ -76,22 +78,19 @@ const PokerClub = () => {
             />
             <div className='block lg:hidden'>
               <div className='text-[15px] lg:text-[16px] my-4 text-[#333333]'>
-                Là thành viên VIP, bạn sẽ có cơ hội tham gia các giải đấu độc quyền, nơi bạn có thể thể hiện kỹ năng,
-                chiến lược và tài năng trong một không gian đẳng cấp. Những giải đấu này không chỉ mang lại thử thách mà
-                còn là cơ hội để bạn giành những giải thưởng hấp dẫn và chứng minh bản lĩnh của mình trước cộng đồng
-                VIP.
+                {t('pokerClub.privateRoomDescription')}
               </div>
-
-
             </div>
           </div>
         </div>
       </div>
+
       <div className='py-20'>
         <div className='pr-4 2xl:pr-[180px] lg:grid grid-cols-7 lg:gap-10 lg:w-[59pc] mx-auto xl:w-[79pc] 2xl:w-[82pc]'>
           <div className='lg:col-span-5'>
-            <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>Đến với Poker Club</h2>
-
+            <h2 className='text-[25px] uppercase lg:text-[32px] lg:hidden px-4'>
+              {t('pokerClub.clubTitle')}
+            </h2>
             <img
               className='mt-5 lg:mt-0 aspect-[9/6]'
               src={getImageUrl('MICE-Hero-Slider-2', hotrambanner4)}
@@ -99,24 +98,23 @@ const PokerClub = () => {
             />
             <div className='block lg:hidden pl-4 lg:pl-0'>
               <div className='text-[15px] mt-4 mb-8 text-[#333333]'>
-                Poker không chỉ là một trò chơi, mà là một trải nghiệm đẳng cấp, nơi những quyết định thông minh và chiến lược tinh tế dẫn đến những phần thưởng xứng đáng. Chơi Poker là bước vào một thế giới của sự sang trọng và quyền lực, nơi những giải thưởng hấp dẫn không chỉ là tiền bạc, mà còn là biểu tượng của sự thành công và danh vọng. Mỗi ván bài là một cuộc thử thách đầy kích thích, nơi chỉ những người thật sự xuất sắc mới có thể chinh phục và sở hữu những giải thưởng giá trị, khẳng định vị thế của mình trong cộng đồng người chơi.
+                {t('pokerClub.clubDescription')}
               </div>
-
             </div>
           </div>
           <div className='lg:col-span-2'>
             <h2 className='text-[25px] uppercase lg:text-[32px] hidden lg:block'>
-              Đến với Poker Club
+              {t('pokerClub.clubTitle')}
             </h2>
             <div className='hidden lg:block'>
               <div className='text-[15px] mt-4 mb-4 text-[#333333]'>
-                Poker không chỉ là một trò chơi, mà là một trải nghiệm đẳng cấp, nơi những quyết định thông minh và chiến lược tinh tế dẫn đến những phần thưởng xứng đáng. Chơi Poker là bước vào một thế giới của sự sang trọng và quyền lực, nơi những giải thưởng hấp dẫn không chỉ là tiền bạc, mà còn là biểu tượng của sự thành công và danh vọng. Mỗi ván bài là một cuộc thử thách đầy kích thích, nơi chỉ những người thật sự xuất sắc mới có thể chinh phục và sở hữu những giải thưởng giá trị, khẳng định vị thế của mình trong cộng đồng người chơi.
+                {t('pokerClub.clubDescription')}
               </div>
-
             </div>
           </div>
         </div>
       </div>
+
 
     </div>
   )

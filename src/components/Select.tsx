@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { useTranslation } from 'react-i18next'
+// import { useTranslation } from 'react-i18next'
+import Flag from 'react-world-flags'
 
 export const Select = ({
   initialView,
@@ -7,7 +8,11 @@ export const Select = ({
   setSelected,
   classNames
 }: {
-  initialView: { name: string; value: string }[]
+  initialView: {
+    name: string
+    value: string
+    countryCode?: string
+  }[]
   selected: string
   setSelected: (value: string) => void
   classNames?: {
@@ -17,25 +22,24 @@ export const Select = ({
   }
 }) => {
   const [isOpen, setIsOpen] = useState(false)
-  const { t } = useTranslation()
+  // const { t } = useTranslation()
+
+  const selectedLangData = initialView.find((item) => item.value === selected)
 
   return (
     <div className='relative w-max ml-auto flex-shrink-0'>
+
+      {/* Header (Desktop) */}
       <div
-        className={`  py-1.5  uppercase w-[100px] lg:w-[140px]  text-sm hidden lg:flex justify-between items-center cursor-pointer ${classNames?.header}`}
+        className={`py-1.5 uppercase w-[100px] lg:w-[140px] text-sm hidden lg:flex justify-between items-center cursor-pointer ${classNames?.header}`}
         onClick={() => setIsOpen(!isOpen)}
       >
-        {selected === 'en'
-          ? t('languages.english')
-          : selected === 'vi'
-            ? t('languages.vietnamese')
-            : selected === 'ko'
-              ? t('languages.korean')
-              : selected === 'zh'
-                ? t('languages.chinese')
-                : selected === 'ja'
-                  ? t('languages.japanese')
-                  : t('languages.vietnamese')}
+        <div className='flex items-center gap-2'>
+          {selectedLangData?.countryCode && (
+            <Flag code={selectedLangData.countryCode} style={{ width: 24, height: 16 }} />
+          )}
+          {selectedLangData?.name}
+        </div>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           fill='none'
@@ -47,21 +51,18 @@ export const Select = ({
           <path strokeLinecap='round' strokeLinejoin='round' d='m19.5 8.25-7.5 7.5-7.5-7.5' />
         </svg>
       </div>
+
+      {/* Header (Mobile) */}
       <div
-        className={`  py-1.5  uppercase w-max lg:w-[140px] gap-1  text-sm flex lg:hidden justify-between items-center cursor-pointer ${classNames?.header}`}
+        className={`py-1.5 uppercase w-max lg:w-[140px] gap-1 text-sm flex lg:hidden justify-between items-center cursor-pointer ${classNames?.header}`}
         onClick={() => setIsOpen(!isOpen)}
       >
-        {selected === 'en'
-          ? 'en'
-          : selected === 'vi'
-            ? 'vi'
-            : selected === 'ko'
-              ? 'ko'
-              : selected === 'zh'
-                ? 'zh'
-                : selected === 'ja'
-                  ? 'ja'
-                  : 'vi'}
+        <div className='flex items-center gap-2'>
+          {selectedLangData?.countryCode && (
+            <Flag code={selectedLangData.countryCode} style={{ width: 24, height: 16 }} />
+          )}
+          {selectedLangData?.value}
+        </div>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           fill='none'
@@ -73,19 +74,24 @@ export const Select = ({
           <path strokeLinecap='round' strokeLinejoin='round' d='m19.5 8.25-7.5 7.5-7.5-7.5' />
         </svg>
       </div>
+
+      {/* Dropdown */}
       <div
-        className={`bg-[#f8f8f5] z-[51] text-sm transition-all duration-300 absolute top-full right-0 w-max overflow-hidden ${isOpen ? 'max-h-[1000px] py-4' : 'max-h-0 '
-          } ${classNames?.ul}`}
+        className={`bg-[#f8f8f5] z-[51] text-sm transition-all duration-300 absolute top-full right-0 w-max overflow-hidden ${isOpen ? 'max-h-[1000px] py-4' : 'max-h-0'} ${classNames?.ul}`}
       >
         {initialView.map((item) => (
           <div
-            className={` w-full cursor-pointer uppercase hover:bg-[#dcddd7] px-5 py-1 ${classNames?.li}`}
+            key={item.value}
+            className={`w-full cursor-pointer uppercase hover:bg-[#dcddd7] px-5 py-1 ${classNames?.li} flex items-center gap-2`}
             onClick={() => {
               setSelected(item.value)
               setIsOpen(false)
             }}
           >
-            {item.name}
+            {item.countryCode && (
+              <Flag code={item.countryCode} style={{ width: 24, height: 16 }} />
+            )}
+            <span>{item.name}</span>
           </div>
         ))}
       </div>
