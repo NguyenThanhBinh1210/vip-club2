@@ -109,16 +109,16 @@ const Footer = () => {
             <p className='mb-4 mt-6'>{t('footer.social.title')}</p>
             <div className='flex gap-[15px]'>
               <Link to={'/'}>
-                <img src={mbsInstagram} alt='mbsInstagram' className='h-[17px] w-[17px]' />
+                <img src={mbsInstagram} alt='mbsInstagram' title='Instagram' className='h-[17px] w-[17px] hover:scale-[1.2]  hover:text-black transition-all' />
               </Link>
               <Link to={'/'}>
-                <img src={mbsFacebook} alt='mbsFacebook' className='h-[17px] w-[17px]' />
+                <img src={mbsFacebook} alt='mbsFacebook' title='Facebook' className='h-[17px] w-[17px] hover:scale-[1.2] hover:text-black transition-all' />
               </Link>
               <Link to={'/'}>
-                <img src={mbsTwitter} alt='mbsTwitter' className='h-[17px] w-[17px]' />
+                <img src={mbsTwitter} alt='mbsTwitter' title='Twitter' className='h-[17px] w-[17px] hover:scale-[1.2] over:text-black transition-all' />
               </Link>
               <Link to={'/'}>
-                <img src={mbsYoutube} alt='mbsYoutube' className='h-[17px] w-[17px]' />
+                <img src={mbsYoutube} alt='mbsYoutube' title='Youtube' className='h-[17px] w-[17px] hover:scale-[1.2] over:text-black transition-all' />
               </Link>
             </div>
           </div>

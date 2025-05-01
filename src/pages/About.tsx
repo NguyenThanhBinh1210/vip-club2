@@ -38,7 +38,7 @@ const About = () => {
           className='object-cover block md:hidden w-full'
           style={{ aspectRatio: '3/4' }}
         />
-        <div className='absolute top-0 left-0 w-full h-full bg-[#27869c48] pl-10 flex flex-col justify-center items-center'>
+        <div className='absolute top-0 left-0 w-full h-full bg-[#0c373f8d] pl-10 flex flex-col justify-center items-center'>
           <div className=''>
             <h1 className='uppercase text-[40px] text-center mb-10 text-white'>{t('about.title')}</h1>
 
