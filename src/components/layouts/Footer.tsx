@@ -30,7 +30,7 @@ const Accordion = ({ title, children }: { title: string; children: React.ReactNo
   return (
     <div>
       <div className='flex justify-between cursor-pointer' onClick={() => !isMdScreen && setIsOpen(!isOpen)}>
-        <p className='mb-4 text-[#333333]'>{title}</p>
+        <p className='mb-4 text-[#333333] text-lg font-medium'>{title}</p>
         <button className='text-[#333333] md:hidden'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
@@ -47,7 +47,7 @@ const Accordion = ({ title, children }: { title: string; children: React.ReactNo
         </button>
       </div>
       <div
-        className={`flex flex-col gap-y-2 md:gap-y-1 text-xs md:text-sm uppercase transition-all duration-500 overflow-hidden ${isMdScreen ? 'max-h-[400px]' : (isOpen ? 'max-h-[400px]' : 'max-h-[0px]')}`}
+        className={`flex flex-col gap-y-2 md:gap-y-1 text-xs md:text-sm transition-all duration-500 overflow-hidden ${isMdScreen ? 'max-h-[400px]' : (isOpen ? 'max-h-[400px]' : 'max-h-[0px]')}`}
       >
         {children}
       </div>
@@ -96,7 +96,7 @@ const Footer = () => {
               <Link to={'/'}>{t('footer.usefulInfo.packages')}</Link>
             </Accordion>
           </div>
-          <div className='text-[#333333]'>
+          <div className='text-[#333333] text-lg font-medium'>
             <p className='mb-4'>{t('footer.downloadApp.title')}</p>
             <div className='flex md:flex-col 2xl:flex-row gap-x-2'>
               <Link to={'/'}>
@@ -106,7 +106,7 @@ const Footer = () => {
                 <img src={mbsGooglePlay} alt='mbsGooglePlay' className='h-[2pc] w-[78pt]' />
               </Link>
             </div>
-            <p className='mb-4 mt-6'>{t('footer.social.title')}</p>
+            <p className='mb-4 mt-6 '>{t('footer.social.title')}</p>
             <div className='flex gap-[15px]'>
               <Link to={'/'}>
                 <img src={mbsInstagram} alt='mbsInstagram' title='Instagram' className='h-[17px] w-[17px] hover:scale-[1.2]  hover:text-black transition-all' />
@@ -122,7 +122,7 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className='text-[#333333]'>
+          <div className='text-[#333333] text-lg font-medium'>
             <p className='mb-4'>{t('footer.getInspired.title')}</p>
             <p className='text-sm'>{t('footer.getInspired.subtitle')}</p>
             <Link to={'/contact-now'}>
