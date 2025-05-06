@@ -30,7 +30,7 @@ const Accordion = ({ title, children }: { title: string; children: React.ReactNo
   return (
     <div>
       <div className='flex justify-between cursor-pointer' onClick={() => !isMdScreen && setIsOpen(!isOpen)}>
-        <p className='mb-4 text-[#333333] text-lg font-medium'>{title}</p>
+        <p className='md:mb-4 text-[#333333] text-lg font-medium'>{title}</p>
         <button className='text-[#333333] md:hidden'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
